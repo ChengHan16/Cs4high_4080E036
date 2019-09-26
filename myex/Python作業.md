@@ -64,7 +64,6 @@ print(list(list4))
 ```
 for n in range(3):
   print(n,end=",")
-
 ```
 答案:0,1,2,
 ```
