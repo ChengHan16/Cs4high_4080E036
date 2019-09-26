@@ -62,7 +62,9 @@ print(list(list4))
 # for 迴圈技術
 
 ```
-
+for n in range(3):
+  print(n,end=",")
+答案:0,1,2,
 ```
 ##### 程式閱讀題:下列程式執行後會印出什麼？
 ```
