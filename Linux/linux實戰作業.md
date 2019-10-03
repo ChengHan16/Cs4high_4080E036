@@ -1,7 +1,17 @@
 # 完成底下linux指令的測試報告
 ```
-cd
-pwd
+cd: Change Directory 變更目錄 變換工作目錄的指令 
+目錄的表示方式可以使用絕對路徑與相對路徑。
+語法：cd [options] [dir]
+例如:cd Desktop
+
+pwd:print name of current/working directory 
+pwd用於顯示目前所在目錄的指令
+想要知道目前所在的目錄，可以輸入pwd：
+1. 列出目前的工作目錄:
+#pwd 
+例如:root@kali:~/Desktop# pwd
+
 cat 
 ls
 top
