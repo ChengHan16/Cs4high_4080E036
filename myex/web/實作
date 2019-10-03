@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<title>吳承翰HTML.HTM</title>
+  </head>	
+  <body>
+	<h1 style="background-color:Tomato;">Hello! 吳承翰! </h1>
+    <h2>Hello! 吳承翰!</h2>
+    <h3>Hello! Teacher!</h3>
+	
+	<p><a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+	
+	<p><a href="https://www.google.com.tw//">造訪Google</a>
+	<h2>風景照</h2>
+	<img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+  </body>
+</html>
