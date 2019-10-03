@@ -33,7 +33,59 @@ cat / dev / fd0>輸出文件
 相反的，如果想把圖像文件寫到軟盤，輸入：
 貓的IMG_FILE> / dev / fd0
 
-ls
+ls :列出目錄檔案
+不加任何參數
+直接執行 ls 帶任何參數的話，會列出目前目錄中的檔案與目錄列表。
+檔案詳細資訊
+-l 參數可以顯示檔案與目錄的詳細資訊。
+顯示隱藏檔案
+-a 參數可以顯示隱藏的檔案與目錄。
+使用易讀的格式輸出
+-h 參數可以讓輸出的資訊以比較容易閱讀的格式呈現。
+顯示檔案類型
+-F 參數可以讓檔案名稱的後面加上檔案類型的標示字元。
+反向排序檔案
+-r 參數可以讓檔案的列表以反向的排序列出。
+遞迴列出所有子目錄的檔案
+-R 參數可以靠遞迴的方式列出所有子目錄的檔案。
+依照時間排序檔案
+若要讓檔案依照時間排序，讓最新的檔案排在最後，可以使用 -ltr：
+依照檔案大小排序
+-S 可以讓檔案依照檔案的大小來排序：
+每個檔案都有一個 inode 屬性，若要列出每個檔案的 inode，可以使用 -i 參數：-i
+版本資訊
+--version 參數可以輸出 ls 版本資訊。
+列出目錄
+-d 參數可以讓 ls 只列出目錄：
+
+root@kali:~/Desktop# ls -l
+total 20
+-rw-r--r-- 1 root root    4 Oct  3 10:29 111
+drwxr-xr-x 2 root root 4096 Oct  3 10:25 123
+-rw-r--r-- 1 root root   11 Oct  3 10:29 222
+-rw-r--r-- 1 root root   33 Oct  3 10:30 333
+-rw-r--r-- 1 root root   16 Oct  3 10:24 abc.bk
+root@kali:~/Desktop# ls -ld
+drwxr-xr-x 3 root root 4096 Oct  3 10:29 .
+root@kali:~/Desktop# 
+
+
+顯示 UID 與 GID
+-n 參數可以讓 ls 顯示使用者的 UID 與群組的 GID 值：
+
+root@kali:~/Desktop# ls -l
+total 20
+-rw-r--r-- 1 root root    4 Oct  3 10:29 111
+drwxr-xr-x 2 root root 4096 Oct  3 10:25 123
+-rw-r--r-- 1 root root   11 Oct  3 10:29 222
+-rw-r--r-- 1 root root   33 Oct  3 10:30 333
+-rw-r--r-- 1 root root   16 Oct  3 10:24 abc.bk
+root@kali:~/Desktop# ls -ld
+drwxr-xr-x 3 root root 4096 Oct  3 10:29 .
+root@kali:~/Desktop# 
+
+ -a 包含隱藏檔 -l 包含屬性與權限
+
 top
 ps
 ping
