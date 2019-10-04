@@ -2,6 +2,15 @@
 ```
 底下指令有何差異?
 ls
+ls 指令基本用法
+不加任何參數
+直接執行 ls 帶任何參數的話，會列出目前目錄中的檔案與目錄列表。
+
+root@kali:~# ls 
+123      Documents  file  Music       Pictures  Templates  yersinia.log
+Desktop  Downloads  logo  myfirstdir  Public    Videos
+root@kali:~# 
+
 ls -l
 ls -Al
 ls -al
