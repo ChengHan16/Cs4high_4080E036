@@ -136,6 +136,12 @@ ping [參數] [主機名稱或IP地址]
 命令：
 ping 192.168.120.205
 輸出：
+root@kali:~# ping 192.168.120.205
+PING 192.168.120.205 (192.168.120.205) 56(84) bytes of data.
+^C
+--- 192.168.120.205 ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 63ms
+
 
 ```
 
