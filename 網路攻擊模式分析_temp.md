@@ -18,6 +18,7 @@ D. Key logger
 鍵盤紀錄器
 答案:B
 ```
+```
 #2
 
 2. Ahmed is a sales manager with a major insurance(保險) company. 
@@ -33,4 +34,5 @@ D. Trojan horse(特洛伊"木馬")
 
 Which of the following 下列何者
 答案:C
+```
 ```
