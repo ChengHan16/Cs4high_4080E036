@@ -8,6 +8,7 @@ The symptoms include strange behavior that persists, even if heboots the machine
 這些症狀包括奇怪的行為，即使將其引導至
 
 What is the most likely cause?
+```
 A. Ransomware
 勒索病毒
 B. Boot sector virusd
@@ -17,6 +18,7 @@ C. Rootkit
 D. Key logger
 鍵盤紀錄器
 答案:B
+```
 ```
 #2
 ```
