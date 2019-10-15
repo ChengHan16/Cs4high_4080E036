@@ -1,4 +1,4 @@
-#1
+# 1
 ```
 1. John is analyzing(分析) strange(奇怪) behavior(行為) on computers in his network. 
  約翰正在分析他網絡中計算機上的奇怪行為。
@@ -20,7 +20,7 @@ D. Key logger
 鍵盤紀錄器
 答案:B
 ```
-#2
+# 2
 ```
 2. Ahmed is a sales manager with a major insurance(保險) company. 
 He has received an email thatis encouraging(鼓勵) him to click on a link and fill out a survey. 
@@ -37,7 +37,7 @@ D. Trojan horse(特洛伊"木馬")
 Which of the following 下列何者
 答案:C
 ```
-#5
+# 5
 ```
 5. Juanita is a network administrator for a small accounting firm. 
 The users on her networkare complaining(抱怨) of slow connectivity(很慢的連線). 
@@ -52,7 +52,7 @@ alarge number of half-open connections半開放連線
 答案:B
 ```
 
-#10
+# 10
 ```
 10. Your company outsourced(外包) development of an accounting application 
 to a local programmingfirm. After three months of using the product, one of your 
