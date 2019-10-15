@@ -1,3 +1,5 @@
+#
+```
 #1
 ```
 1. John is analyzing(分析) strange(奇怪) behavior(行為) on computers in his network. 
@@ -35,6 +37,7 @@ D. Trojan horse(特洛伊"木馬")
 Which of the following 下列何者
 答案:C
 ```
+#5
 ```
 5. Juanita is a network administrator for a small accounting firm. 
 The users on her networkare complaining(抱怨) of slow connectivity(很慢的連線). 
