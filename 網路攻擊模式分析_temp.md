@@ -117,6 +117,26 @@ C. Man-in-the-middle(中間人攻擊)
 D. Backdoor(後門攻擊)
 答案:C
 ```
+# 103
+```
+103. You are investigating(調查) incidents(事件) at Acme Corporation and
+have discovered(發現) malware(惡意軟體) on several machines(幾台機器). 
+It appears that this malware infects(感染) system files in(系統中的文件) the 
+Windows/System32/directory(目錄) and also affects(影響) the boot sector. 
+
+What type of malware is this?(這是什麼類型的惡意軟件？)
+
+A. Multipartite
+B. Boot sector
+C. Macro virus(宏病毒)
+D. Polymorphic virus(千面人病毒)
+答案:C
+```
+Macro virus
+是一種使得應用軟件的相關應用文檔內含有被稱為宏的可執行代碼的病毒。
+```
+```
+# 104
 ```
 
 ```
