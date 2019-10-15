@@ -1,6 +1,3 @@
-#
-```
-```
 #1
 ```
 1. John is analyzing(分析) strange(奇怪) behavior(行為) on computers in his network. 
@@ -52,3 +49,18 @@ D. ARP poisoning
 alarge number of half-open connections半開放連線
 答案:B
 ```
+
+#10
+```
+10. Your company outsourced(外包) development of an accounting application 
+to a local programmingfirm. After three months of using the product, one of your 
+accountants(會計師) accidentlydiscovers a way to log in and bypass(繞過) all 
+security and authentication(認證). 
+What best describes
+this?
+A. Logic bomb(邏輯炸彈)
+B. Trojan horse
+C. Backdoor(後門程式)
+D. Rootkit
+
+log in(登入)
