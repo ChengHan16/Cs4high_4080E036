@@ -9,6 +9,7 @@ The symptoms include strange behavior that persists, even if heboots the machine
 
 What is the most likely cause?
 ```
+```
 A. Ransomware
 勒索病毒
 B. Boot sector virusd
@@ -18,7 +19,6 @@ C. Rootkit
 D. Key logger
 鍵盤紀錄器
 答案:B
-```
 ```
 #2
 ```
