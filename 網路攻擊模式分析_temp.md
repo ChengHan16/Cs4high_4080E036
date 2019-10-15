@@ -19,6 +19,7 @@ D. Key logger
 答案:B
 ```
 #2
+
 2. Ahmed is a sales manager with a major insurance(保險) company. 
 He has received an email thatis encouraging(鼓勵) him to click on a link and fill out a survey. 
 He is suspicious(懷疑) of the email,but it does mention a major insurance association(協會), and that makes him think it might be
@@ -32,3 +33,4 @@ D. Trojan horse(特洛伊"木馬")
 
 Which of the following 下列何者
 答案:C
+```
