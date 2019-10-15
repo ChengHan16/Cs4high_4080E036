@@ -138,5 +138,17 @@ Macro virus
 ```
 # 104
 ```
+104. What type of attack uses Bluetooth to access the data from a cell phone when in range?
+(處於範圍內時，哪種類型的攻擊使用藍牙從手機訪問數據？)
+A. Phonejacking(電話劫持)
+B. Bluejacking(藍芽劫持)
+C. Bluesnarfing(藍芽盜竊)
+D. Evil twin
+答案:B
+```
+# 105
+```
 
+
+```
 ```
