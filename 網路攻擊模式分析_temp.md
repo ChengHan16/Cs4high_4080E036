@@ -87,3 +87,23 @@ D. Pass the hash(傳遞散列)
 Evil twin
 駭客使用兩張網卡，一張連接HotSpot的無線基地台，另一張則將SSID設成與HotSpot相同，假扮成HotSpot無線基地台。
 ```
+# 101
+```
+101. A user in your company reports(報告) that she received(接到) a call 
+from someone claiming(自稱) to be from the company technical(技術) support(支援) team. 
+The caller stated that there was a virus(病毒) spreading(傳播) through(通過) the company 
+and he needed immediate access to the employee’s computer to stop
+it from being infected. 
+
+What social-engineering principles(原則) did the caller use to try to trick
+the employee?
+
+A. Urgency and intimidation(緊急和恐嚇)
+B. Urgency and authority(緊急和權威)
+C. Authority and trust(權威和信任)
+D. Intimidation and authority(威嚇和權威)
+答案:B
+```
+```
+
+```
