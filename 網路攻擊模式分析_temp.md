@@ -74,12 +74,14 @@ log in(登入)
 You have discovered thatsomeone has been able to(能夠) circumvent(繞過) the Windows 
 authentication(認證方式) process for a specificnetwork(特定網路) application. 
 It appears that the attacker took the stored(儲存的) hash of the password and
-sent it directly(直接) to the backend(後端) authentication(認證方式) service, bypassing(通過傳遞) the application. 
+sent it directly(直接) to the backend(後端) authentication(認證方式) service,
+bypassing(通過傳遞) the application. 
 What type of attack is this?
 A. Hash spoofing(欺騙攻擊)
 B. Evil twin
 C. Shimming
 D. Pass the hash(傳遞散列)
+答案:D
 ```
 ```
 Evil twin
