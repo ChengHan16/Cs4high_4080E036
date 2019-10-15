@@ -97,12 +97,25 @@ it from being infected.
 
 What social-engineering principles(原則) did the caller use to try to trick
 the employee?
-
 A. Urgency and intimidation(緊急和恐嚇)
 B. Urgency and authority(緊急和權威)
 C. Authority and trust(權威和信任)
 D. Intimidation and authority(威嚇和權威)
 答案:B
+```
+# 102
+```
+102. Ahmed has discovered(發現) that someone has manipulated(操作) tables 
+in one of the company’s switches(開關). 
+The manipulation has changed the tables so that data destined(註定) 
+for one specific(特定的) MAC address(地址) will now be routed elsewhere(別處).
+
+What type of attack is this?
+A. ARP poisoning
+B. DNS poisoning
+C. Man-in-the-middle(中間人攻擊)
+D. Backdoor(後門攻擊)
+答案:C
 ```
 ```
 
