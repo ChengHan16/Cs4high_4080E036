@@ -18,12 +18,12 @@ D. Key logger
 鍵盤紀錄器
 答案:B
 ```
-```
 #2
-
+```
 2. Ahmed is a sales manager with a major insurance(保險) company. 
 He has received an email thatis encouraging(鼓勵) him to click on a link and fill out a survey. 
-He is suspicious(懷疑) of the email,but it does mention a major insurance association(協會), and that makes him think it might be
+He is suspicious(懷疑) of the email,but it does mention a major insurance association(協會)
+,and that makes him think it might be
 legitimate. 
 
 Which of the following best describes this attack?
@@ -35,4 +35,16 @@ D. Trojan horse(特洛伊"木馬")
 Which of the following 下列何者
 答案:C
 ```
+```
+5. Juanita is a network administrator for a small accounting firm. 
+The users on her networkare complaining(抱怨) of slow connectivity(很慢的連線). 
+When she examines the firewall logs(日誌), she observes a large number of half-open connections. 
+What best describes this attack?
+A. DDoS
+B. SYN flood
+C. Buffer overflow
+D. ARP poisoning
+
+alarge number of half-open connections半開放連線
+答案:B
 ```
