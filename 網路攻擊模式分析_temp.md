@@ -148,7 +148,18 @@ D. Evil twin
 ```
 # 105
 ```
+105. An attacker is using(使用) a table of precomputed(預計算) hashes(散列函数) in order to try to get(嘗試獲取) a Windows password.
 
+What type of technique is being used?
+(正在使用哪種類型的技術？)
 
+A. Dictionary(字典攻擊)
+B. Brute force(暴力攻擊法)
+C. Pass the hash(傳遞雜湊及傳遞票證攻擊)
+D. Rainbow table
 ```
+```
+Rainbow table
+Rainbow Hash Tables來攻擊密碼的雜湊表：透過龐大的、針對各種可能的字母組合，預先計算好其雜湊值。雖然攻擊者也可以即時計算雜湊值，但是利用這個預先算好的龐 大雜湊表，顯然能夠使攻擊的速度快上無數倍
+
 ```
