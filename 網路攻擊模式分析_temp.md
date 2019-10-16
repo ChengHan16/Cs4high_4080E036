@@ -132,9 +132,9 @@ C. Macro virus(宏病毒)
 D. Polymorphic virus(千面人病毒)
 答案:C
 ```
+```
 Macro virus
 是一種使得應用軟件的相關應用文檔內含有被稱為宏的可執行代碼的病毒。
-```
 ```
 # 104
 ```
