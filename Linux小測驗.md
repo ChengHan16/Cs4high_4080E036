@@ -1,4 +1,5 @@
 # 
+```
 184. Which option to the wget command logs output?
 A. -r
 B. -o
@@ -58,4 +59,4 @@ B. /etc/profile
 C. /etc/bash.defs
 D. /etc/profile.d
 答案:D
-#
+```
