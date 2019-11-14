@@ -20,10 +20,24 @@
 ```
 ● 儲存裝置（storage device）是用來將資料記錄到儲存媒體，或從儲存媒體擷取出資料的一種硬體
 
-●寫入（writing）是將資料、指令與資訊從記憶體轉移到儲存媒體的過程。
+● 寫入（writing）是將資料、指令與資訊從記憶體轉移到儲存媒體的過程。
 
-●讀取（reading）則是從儲存媒體將這些項目傳輸到記憶體的過程
+● 讀取（reading）則是從儲存媒體將這些項目傳輸到記憶體的過程
 ```
+```
+容量（capacity）是指儲存媒體能存放的位元組數（字元數）。
+ 
+儲存容量術語       大約的為元組個數            精確的位元組個數
+kibibyte(KB)      1千(1 thousand)            2**10 or 1024
+mebibyte(MB)      1百萬(1 million)           2**20 or 1048576
+gibibyte(GB)      10億(1 billion)            2**30 or 1073741824
+tebibyte(TB)      1兆(1 trillion)            2**40 or 1099511627776
+pebibyte(PB)      1千兆(1 quadrillion)       2**50 or 1125899906842624
+exbibyte(EB)      1百萬兆(1 quintillion)     2**60 or 1152921504606846976
+zebibyte(ZB)      10億兆(1 sextillion)       2**70 or 80591620717411303424
+yobibyte(YB)      1兆兆(1 septillion)        2**80 or 1208925819614629174706176
+```
+
 
 
 
