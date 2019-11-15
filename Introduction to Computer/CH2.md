@@ -300,7 +300,16 @@
   其設計目的是快速溝通、簡化複雜的概念或用來表達模式或趨勢。
 ```
 ```
-59#######################################################
+格式縮寫            格式全名                                 用途
+BMP                Bitmap（點陣圖）                         桌面背景、掃描影像
+
+GIF                Graphics Interchange Format             色彩數少的影像、簡單圖表、形狀
+
+JPEG               Joint Photographic Experts Group        數位相機的相片、遊戲螢幕截圖、電影靜態截圖
+
+PNG                Portable Network Graphics               卡通風格的繪圖、線條圖案、web圖像
+
+TIFF               Tagged Image File Format                供印刷業使用的相片
 ```
 ```
 ● 許多網頁有使用動畫（animation），它是將一連串靜止的影像依序顯示，形成動態的效果。
