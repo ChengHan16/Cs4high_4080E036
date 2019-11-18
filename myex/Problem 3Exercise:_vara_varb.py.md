@@ -1,3 +1,4 @@
+```
 # Exercise: vara varb
 
 # (5/5 points)
@@ -20,3 +21,4 @@ elif varA == varB:
     print('equal')
 elif varA < varB:
     print('smaller')
+```
