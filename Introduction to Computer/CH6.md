@@ -168,7 +168,7 @@
 ● iOS 是 Apple 公司專為自己公司的行動裝置設計的專屬式行動裝置作業系統。
 ```
 ```
-● Windows 行動裝置版（ Windows (Mobile Edition)）由 Microsoft 公司開發，是一種在智慧型手機上執行的專屬式行動裝置作業系統
+● Windows行動裝置版（ Windows (Mobile Edition)）由 Microsoft 公司開發，是一種在智慧型手機上執行的專屬式行動裝置作業系統
 ```
 # 本章摘要
 ```
