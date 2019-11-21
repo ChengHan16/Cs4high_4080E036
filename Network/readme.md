@@ -111,19 +111,31 @@ Internet Control Message Protocol
 ● 在 ICMP 使用中﹐不同的類別會以不同的代碼來描述具體的狀況。以 Type 3 ( Distination Unreachable ) 為例，其下的代碼如下所列﹕
 
 代碼	代表意思
-0	Network Unreachable
-1	Host Unreachable
-2	Protocol Unreachable
-3	Port Unreachable
-4	Fragmentation Needed and DF set
-5	Source Route Failed
-6	Destination network unknown
-7	Destination host unknown
-8	Source host isolated
-9	Communication with destination network administraively prohibited
-10	Communication with destination host administraively prohibited
-11	Network unreachable for type of service
-12	host unreachable for type of service
+0: Network Unreachable（無法到達目的網路）
+
+1: Host Unreachable（無法到達目的主機）
+
+2: Protocol Unreachable（通訊協定不存在）
+
+3: Port Unreachable（無法到達連接埠）
+
+4: Fragmentation Needed and DF set（資料需分割並設定不可分割位元）
+
+5: Source Route Failed（來源路徑選擇失敗）
+
+6: Destination Network Unknown（無法識別目的地網路）
+
+7: Destination Host Unknown（無法識別目的地主機）
+
+8: Source Host Isolated（來源主機被隔離）
+
+9: Communication with Destination Network Administratively Prohibited（管理上禁止和目的地網路通訊）
+
+10: Communication with Destination Host Administratively Prohibited（管理上禁止和目的地主機通訊）
+
+11: Network Unreachable for Type of Service（無法到達此型態的網路服務）
+
+12: Host Unreachable for Type of Service（無法到達此型態的主機服務）
 ICMP 是個非常有用的協定﹐尤其是當我們要對網路連接狀況進行判斷的時候。下面讓我們看看常用的 ICMP 實例，以更好了解 ICMP 的功能與作用。
 
 ```
