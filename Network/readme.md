@@ -210,8 +210,7 @@ tracert www.pchome.com.tw
 ```
 # tracert ksu 
 ```
-![tracert ksu].(tracert ksu.PNG)
-
+![tracert ksu](https://github.com/ChengHan16/Cs4high_4080E036/tree/master/Network)
 ```
 ### TCP vs UDP 
 ```
