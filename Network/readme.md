@@ -208,8 +208,9 @@ tracert www.pchome.com.tw
 
 追蹤完成。
 ```
+# tracert ksu 
 ```
-![tracert崑山].(tracert ksu.PNG)
+![ICMP 封包格式](tracert ksu.PNG)
 
 ```
 ### TCP vs UDP 
