@@ -28,8 +28,6 @@ Layer-7 : L7 switch, proxy
 ```
 OSI Model Explained | OSI Animation | Open System Interconnection Model | OSI 7 layers | TechTerms
 https://www.youtube.com/watch?v=vv4y_uOneC0
-
-
 ```
 ### ARP
 ```
@@ -54,7 +52,7 @@ ICMP 封包格式，其各欄位功能如下：
 ```
 #### Message Type
 ```
-    ICMP 訊息功能
+ICMP 訊息功能
 
 [重要]0  Echo Reply（回應答覆）
 [重要]3  Destination Unreachable（目的地無法到達）
