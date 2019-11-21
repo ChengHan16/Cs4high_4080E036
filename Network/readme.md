@@ -177,6 +177,7 @@ ICMP 訊息功能
 ```
 ping 
 tracert| Traceroute
+(Windows tracert / Linux run)
 如何使用 TRACERT 疑難排解 Windows 中的 TCP/IP 問題
 https://support.microsoft.com/zh-tw/help/314868/how-to-use-tracert-to-troubleshoot-tcp-ip-problems-in-windows
 ```
