@@ -207,8 +207,9 @@ tracert www.pchome.com.tw
   3    <1 ms    <1 ms    <1 ms  chs.www.ksu.edu.tw [120.114.100.65]
 
 追蹤完成。
-
-![tracert ksu](tracert ksu.PNG)
+```
+```
+![tracert崑山].(tracert ksu.PNG)
 
 ```
 ### TCP vs UDP 
