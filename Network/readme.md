@@ -90,6 +90,42 @@ MAC Address
 ### ICMP
 ```
 Internet Control Message Protocol
+
+● ICMP 在溝通之中，主要是透過不同的類別( Type )與代碼( Code ) 讓機器來識別不同的連線狀況。常用的類別如下表所列﹕
+
+類別	名稱	代表意思
+0	Echo Reply	是一個回應信息。
+3	Distination Unreachable	表示目的地不可到達。
+4	Source Quench	當 router 負載過時﹐用來竭止來源繼續發送訊息。
+5	Redirect	用來重新導向路由路徑。
+8	Echo Request	請求回應訊息。
+11	Time Exeeded for a Datagram	當資料封包在某些路由現象中逾時﹐告知來源該封包已被忽略忽略。
+12	Parameter Problem on a Datagram	當一個 ICMP 封包重複著之前的錯誤時﹐會回覆來源主機關於參數錯誤的訊息。
+13	Timestamp Request	要求對方送出時間訊息﹐用以計算路由時間的差異﹐以滿足同步性協定的要求。
+14	Timestamp Replay	此訊息純粹是回應 Timestamp Request 用的。
+15	Information Request	在 RARP 協定應用之前﹐此訊息是用來在開機時取得網路信息。
+16	Information Reply	用以回應 Infromation Request 訊息。
+17	Address Mask Request	這訊息是用來查詢子網路 mask 設定信息。
+18	Address Mask Reply	回應子網路 mask 查詢訊息的。
+
+● 在 ICMP 使用中﹐不同的類別會以不同的代碼來描述具體的狀況。以 Type 3 ( Distination Unreachable ) 為例，其下的代碼如下所列﹕
+
+代碼	代表意思
+0	Network Unreachable
+1	Host Unreachable
+2	Protocol Unreachable
+3	Port Unreachable
+4	Fragmentation Needed and DF set
+5	Source Route Failed
+6	Destination network unknown
+7	Destination host unknown
+8	Source host isolated
+9	Communication with destination network administraively prohibited
+10	Communication with destination host administraively prohibited
+11	Network unreachable for type of service
+12	host unreachable for type of service
+ICMP 是個非常有用的協定﹐尤其是當我們要對網路連接狀況進行判斷的時候。下面讓我們看看常用的 ICMP 實例，以更好了解 ICMP 的功能與作用。
+
 ```
 #### ICMP Message Format封包格式:
 
