@@ -236,7 +236,19 @@ https://www.youtube.com/watch?v=5cPIukqXe5w
 FTP (File Transfer Protocol), SFTP, TFTP Explained.
 https://www.youtube.com/watch?v=tOj8MSEIbfA
 ```
-
+# RFID
+```
+無線射頻辨識（英語：Radio Frequency IDentification，縮寫：RFID）是一種無線通訊技術，可以通過無線電訊號識別特定目標並讀寫相關數據，而無需識別系統與特定目標之間建立機械或者光學接觸。
+```
+# TCP
+```
+● 可靠性 : 能夠確保資料完整的傳輸，確認是否有接收到，封包格式確認，回傳確認(三項交握)
+● 不可靠性 : 傳輸過去的資料不管有沒有正確都不會再次確認、回傳(很小的影響或可接性)
+```
+# TCP Format
+```
+![TCP Format](TCP Format.png)
+```
 ### DNS
 ```
 
