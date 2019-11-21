@@ -210,7 +210,7 @@ tracert www.pchome.com.tw
 ```
 # tracert ksu 
 ```
-![tracert ksu](tracert ksu.PNG)
+![tracert ksu].(tracert ksu.PNG)
 
 ```
 ### TCP vs UDP 
