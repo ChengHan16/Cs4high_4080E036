@@ -208,7 +208,7 @@ tracert www.pchome.com.tw
 
 追蹤完成。
 ```
-# tracert ksu 
+#### tracert ksu 
 ```
 ![tracert ksu](https://github.com/ChengHan16/Cs4high_4080E036/tree/master/Network)
 ```
@@ -245,7 +245,7 @@ https://www.youtube.com/watch?v=tOj8MSEIbfA
 ● 可靠性 : 能夠確保資料完整的傳輸，確認是否有接收到，封包格式確認，回傳確認(三項交握)
 ● 不可靠性 : 傳輸過去的資料不管有沒有正確都不會再次確認、回傳(很小的影響或可接性)
 ```
-# TCP Format
+#### TCP Format
 ```
 ![TCP Format](TCP Format.png)
 ```
