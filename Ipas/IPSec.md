@@ -12,9 +12,9 @@
 ```
 # 封裝安全載荷（ESP）
 ```
-封裝安全載荷（ESP）
-封裝安全載荷（Encapsulating Security Payload，ESP）協定對封包提供了源可靠性、完整性和保密性的支援。
-與AH頭不同的是，IP封包頭部不被包括在內。
+  封裝安全載荷（ESP）
+● 封裝安全載荷（Encapsulating Security Payload，ESP）協定對封包提供了源可靠性、完整性和保密性的支援。
+  與AH頭不同的是，IP封包頭部不被包括在內。
 ```
 
 
