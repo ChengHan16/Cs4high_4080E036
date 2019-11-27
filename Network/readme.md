@@ -1,13 +1,13 @@
 #
 | OSI Model   |        |TCP/IP協定|
-| ------------| ------ |
-| Application | 應用層 |
+| ------------| ------ ||
+| Application | 應用層 ||
 | Presentation| 表達層 | Application|
-| Session     | 會議層 |
+| Session     | 會議層 ||
 | Transport   | 傳輸層 | Transport |
 | Network     | 網路層 | Network |
-| Data Link   | 連結層 |
-| Physcial    | 實體層 |
+| Data Link   | 連結層 ||
+| Physcial    | 實體層 ||
 
 
 
