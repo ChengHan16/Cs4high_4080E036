@@ -1,4 +1,5 @@
 #
+|             |        |
 | ------------| ------ |
 | Application | 應用層 |
 | Presentation| 表達層 |
