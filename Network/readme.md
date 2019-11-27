@@ -352,7 +352,20 @@ Layer-7 : L7 switch, proxy
   網路存取(連結)層
   Network Access(link) layer   例如乙太網路、Wi-Fi、MPLS等。
 
+● SNMP  SNMP為代理使用UDP埠161，為管理站使用UDP埠162。
+  簡單網路管理協定（SNMP，Simple Network Management Protocol）
+  構成了網際網路工程工作小組（IETF，Internet Engineering Task Force）定義的Internet協定族的一部分。
+  該協定能夠支援網路管理系統，用以監測連接到網路上的裝置是否有任何引起管理上關注的情況。
 
+  SNMP協定工作在OSI模型的應用層（第七層）。
+  
+● Telnet(23)
+  Telnet是一種應用層協定，使用於網際網路及區域網中，使用虛擬終端機的形式，提供雙向、以文字字串為主的命令列介面互動功能。  
+  
+● 應用
+  ─ 圖書館利用Telnet及全球資訊網供讀者進行續借、預約及查詢記錄的服務。
+  ─ 多數的純文字式BBS仍使用Telnet，部分甚至提供SSH服務，以提升安全性。
+  ─ 路由器、交換器及大部份的電信裝置仍提供Telnet及SSH介面，以讓管理者連入進行設定及維護。
   
 ```
 ```
