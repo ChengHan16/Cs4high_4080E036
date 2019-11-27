@@ -1,5 +1,28 @@
 #
 ```
+| Application | 應用層 |
+| Presentation | 表達層 |
+| Session | 會議層 |
+| Transport | 傳輸層 |
+| Netword | 網路層 |
+| Data Link | 連結層 |
+| Physcial | 實體層 |
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
 Network Types: LAN, WAN, PAN, CAN, MAN, SAN, WLAN
 https://www.youtube.com/watch?v=4_zSIXb7tLQ
 ```
