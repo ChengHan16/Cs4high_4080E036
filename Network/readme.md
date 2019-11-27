@@ -1,5 +1,5 @@
 #
-|| OSI Model   |        |Network Devices|
+| | OSI Model   |        |Network Devices|
 |-| ------------| ------ | ------ | 
 |7| Application | 應用層 |proxy/Layer-7 Switch| 
 |6| Presentation| 表達層 | |
@@ -9,10 +9,11 @@
 |2| Data Link   | 連結層 |Bridge(1-1)/Switch(1-N)| 
 |1| Physcial    | 實體層 |Repeater(1-1)/Hub(1-N)|
 
-
-
-
-
+|TCP/IP協定|
+| ----------| ------ |-----| ------ |
+|Application|→       |Application/Presentation/Session|
+|Transport  |→       |Transport|
+|InterNet   |→       |Network|
 ```
 Network Types: LAN, WAN, PAN, CAN, MAN, SAN, WLAN
 https://www.youtube.com/watch?v=4_zSIXb7tLQ
