@@ -15,6 +15,16 @@
 |Transport  |→       |Transport|
 |InterNet   |→       |Network|
 ```
+```
+# 網路硬體
+```
+Layer-1 : repeater(1-1), hub(1-N)
+Layer-2 : bridgr, switch
+Layer-3 : router,L3-Switch
+Layer-4 : L4 switch
+Layer-7 : L7 switch, proxy
+```
+```
 Network Types: LAN, WAN, PAN, CAN, MAN, SAN, WLAN
 https://www.youtube.com/watch?v=4_zSIXb7tLQ
 ```
@@ -31,14 +41,7 @@ https://www.youtube.com/watch?v=dqlzQXo1wqo
 NAT Explained - Network Address Translation
 https://www.youtube.com/watch?v=FTUV0t6JaDA
 ```
-# 網路硬體
-```
-Layer-1 : repeater(1-1), hub(1-N)
-Layer-2 : bridgr, switch
-Layer-3 : router,L3-Switch
-Layer-4 : L4 switch
-Layer-7 : L7 switch, proxy
-```
+
 # IEEE 802
 ```
 ● IEEE 802 指IEEE標準中關於區域網路和都會網路的一系列標準。更確切的說，IEEE 802標準僅限定在傳輸可變大小封包的網路。
