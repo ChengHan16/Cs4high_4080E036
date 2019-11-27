@@ -668,18 +668,8 @@ Layer-7 : L7 switch, proxy
 # ICMP 封裝
 ![ICMP 封裝](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/Network/image/icmp_encap%E5%B0%81%E8%A3%9D.gif)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
+ICMP 常用指令
+```
 
 
 
