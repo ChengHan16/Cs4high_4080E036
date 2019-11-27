@@ -10,7 +10,7 @@
 |1| Physcial    | 實體層 |Repeater(1-1)/Hub(1-N)|
 
 |TCP/IP協定|
-| ----------| ------ |-----| ------ |
+| ----------| ------ |-----|
 |Application|→       |Application/Presentation/Session|
 |Transport  |→       |Transport|
 |InterNet   |→       |Network|
