@@ -1,13 +1,13 @@
 #
 ```
-| ------------| ------------------------------------------ |
+| ------------| ------ |
 | Application | 應用層 |
-| Presentation | 表達層 |
-| Session | 會議層 |
-| Transport | 傳輸層 |
-| Netword | 網路層 |
-| Data Link | 連結層 |
-| Physcial | 實體層 |
+| Presentation| 表達層 |
+| Session     | 會議層 |
+| Transport   | 傳輸層 |
+| Netword     | 網路層 |
+| Data Link   | 連結層 |
+| Physcial    | 實體層 |
 ```
 
 
