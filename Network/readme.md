@@ -153,31 +153,206 @@ Layer-7 : L7 switch, proxy
   選用協定層（PPP、TCP、IP、UDP、OBEX、IrMC、WAP、WAE）
 
   ─ 干擾
-  Bluetooth在2.4GHz的電波干擾問題一直為大家所詬病，特別和無線區域網路間的互相干擾問題。有干擾發生時，就以重新傳送封包的方法來解決干擾。
+  Bluetooth在2.4GHz的電波干擾問題一直為大家所詬病，特別和無線區域網路間的互相干擾問題。
+  有干擾發生時，就以重新傳送封包的方法來解決干擾。
 
   ─ 安全性
   在JAVA和Symbian60平台上，使用「藍牙駭客」或「藍牙間諜」軟體，無需配對就可以控制開啟藍牙的手機。
   此種軟體可以實現的功能有：檢視對方手機中的電話簿、簡   訊、電量、序列號；更改對方手機的音訊設定檔和介面語言、
   開啟對方手機內建的JAVA軟體、控制手機多媒體播放器、遙控對方手機打電話、傳簡訊等。
 
+● DHCP
+  動態主機設定協定（英語：Dynamic Host Configuration Protocol，縮寫：DHCP）
+  是一個用於區域網路的網路協定，位於OSI模型的應用層，使用UDP協定工作，主要有兩個用途：
+
+  ─ 用於內部網路或網路服務供應商自動分配IP位址給用戶
+  ─ 用於內部網路管理員對所有電腦作中央管理
+  
+● DNS
+  網域名稱系統（英語：Domain Name System，縮寫：DNS）
+  是網際網路的一項服務。它作為將域名和IP位址相互對映的一個分散式資料庫，能夠使人更方便地存取網際網路。
+  
+  ─ DNS使用TCP和UDP埠53[1]。目前，對於每一級域名長度的限制是63個字元，域名總長度則不能超過253個字元。
+
+● FTP(21)
+  檔案傳輸協定（英語：File Transfer Protocol，縮寫：FTP）
+  是一個用於在電腦網路上在客戶端和伺服器之間進行檔案傳輸的應用層協定。
+  檔案傳送（file transfer）和檔案存取（file access）之間的區別在於：前者由FTP提供，後者由如NFS等應用系統提供。
+
+  ─ FTP服務一般執行在20和21兩個埠。埠20用於在客戶端和伺服器之間傳輸資料流，而埠21用於傳輸控制流，
+    並且是命令通向ftp伺服器的進口。
+
+● FTP不是一項安全的協定，並且具有許多安全漏洞[2]。1999年5月發布的RFC 2577中列出了以下幾個主要的漏洞：
+  ─ 蠻力攻擊
+  ─ FTP反彈攻擊
+  ─ 封包擷取
+  ─ 埠竊取（猜測下一個開放埠並篡奪合法連接）
+  ─ 欺騙攻擊
+  ─ 用戶名稱列舉
+● 通過FTP傳輸的流量不會被加密，所有傳輸通過明文進行的。
+  任何能夠在網路上執行封包擷取（ 嗅探 ）的人都可以讀取用戶名稱、密碼、命令內容和資料。
+  此問題在加密機制（如TLS或SSL）產生之前的許多Internet協定規範（如SMTP 、Telnet 、POP和IMAP）中較為普遍。
+
+  此問題的常見解決方案包括：
+  ─ 使用協定的安全版本，例如FTPS而不是FTP，TelnetS而不是Telnet。
+  ─ 使用可以處理作業的不同的，更安全的協定，例如 SSH檔案傳輸協定或安全複製協定 。
+  ─ 使用安全隧道（如Secure Shell或虛擬私人網路 ）。
+
+● FTPS(21)
+  FTPS是一種對常用的檔案傳輸協定（FTP）添加傳輸層安全（TLS）和安全通訊協定（SSL）加密協定支援的擴充協定。
+
+● HTTP(80)
+  超文本傳輸協定（英語：HyperText Transfer Protocol，縮寫：HTTP）
+  是一種用於分佈式、協作式和超媒體訊息系統的應用層協定。HTTP是全球資訊網的資料通信的基礎。
+
+  HTTP是一個客戶端（用戶）和伺服器端（網站）之間請求和應答的標準，通常使用TCP協定。
+  透過使用網頁瀏覽器、網路爬蟲或者其它的工具，客戶端發起一個HTTP請求到伺服器上指定埠（預設埠為80）。
+
+● HTTPS(443)
+  超文本傳輸安全協定（英語：HyperText Transfer Protocol Secure，
+  縮寫：HTTPS；常稱為HTTP over TLS、HTTP over SSL或HTTP Secure）
+  是一種透過計算機網路進行安全通訊的傳輸協定。HTTPS經由HTTP進行通訊，但利用SSL/TLS來加密封包。
+  
+  ─ HTTPS開發的主要目的，是提供對網站伺服器的身分認證，保護交換資料的隱私與完整性。
+  
+● 主要作用
+  HTTPS的主要作用是在不安全的網路上建立一個安全信道，並可在使用適當的加密套件和伺服器憑證可被驗證且
+  可被信任時，對竊聽和中間人攻擊提供合理的防護。
+  
+  ─ 此協定的加密層（SSL/TLS）能夠有效地提供認證和高強度的加密。
+  
+● ICMP
+  網際網路控制訊息協定（英語：Internet Control Message Protocol，縮寫：ICMP）
+  是網際網路協定套組的核心協定之一。
+  
+  它用於網際網路協定（IP）中傳送控制訊息，提供可能發生在通訊環境中的各種問題回饋。
+  通過這些資訊，使管理者可以對所發生的問題作出診斷，然後採取適當的措施解決。
+  
+  ─ ICMP [1]依靠IP來完成它的任務，它是IP的主要部分。它與傳輸協定（如TCP和UDP）顯著不同：它一般不用於在兩點間傳輸資料。
+  
+● IEEE 802
+  IEEE 802 指IEEE標準中關於區域網路和都會網路的一系列標準。
+  更確切的說，IEEE 802標準僅限定在傳輸可變大小封包的網路。其中最廣泛使用的有乙太網路、權杖環、無線區域網路等。
+  
+● IEEE 802中定義的服務和協定限定在OSI模型的最低兩層（即實體層和資料鏈路層）。
+  事實上，IEEE 802將OSI的資料鏈路層分為兩個子層，分別是
+  邏輯鏈路控制（LLC, Logical Link Control）和
+  媒介存取控制（MAC, Media Access Control）
+  如下所示：
+
+● 資料鏈路層
+  ─ 邏輯鏈路控制子層
+  ─ 媒介存取控制子層
+● 實體層  
+   
+● LLC
+  邏輯鏈路控制（英語：Logical Link Control，簡稱LLC）
+  是區域網中數據鏈路層的上層部分，IEEE 802.2中定義了邏輯鏈路控制協議。用戶的數據鏈路服務透過LLC子層為網絡層提供統一的接口。
+  在LLC子層下面是MAC（介質訪問控制）子層。
+  
+  LLC提供了兩種無連接和一種面向連接的三種操作方式：
+
+  方式一：無回復的非連接導向方式，它允許發送幀時：
+
+  ─ 給單一的目的地址（點到點協議或單點傳輸）；
+  ─ 給相同網絡中的多個目的地址（多點傳輸）；
+  ─ 給網絡中的所有地址（廣播傳輸）。
+    多點和廣播傳輸在同一信息需要發送到整個網絡的情況下可以減少網絡流量。
+    單點傳輸不能保證接收端收到幀的次序和發送時的次序相同。發送端甚至無法確定接收端是否收到了幀。
+
+  方式二：面向連接的操作方式。給每個幀進行編號，接收端就能保證它們按發送的次序接收，並且沒有幀丟失。
+  利用滑動窗口流控制協議可以讓快的發送端也能流到慢的接收端。
+
+  方式三：有回覆的無連接方式。它僅限於點到點通信。
+  
+● MAC
+  媒體存取控制（英語：Media Access Control，縮寫：MAC）
+  子層，是區域網路中資料鏈路層的下層部分，提供定址及媒體存取的控制方式，使得不同裝置或網路上的節點可以在
+  多點的網路上通訊，而不會互相衝突。
+  
+  ─ MAC子層作為邏輯鏈路控制子層及物理層之間溝通的媒介，提供了一種定址的方法，稱為實體位址或MAC位址。
+  ─ MAC常用作多路存取（multiple access）協定的同義詞。因為MAC提供配合特定通道存取（channel access method）
+    需要的協定及控制機制。
+  
+● IEEE 802 現有標準
+  ─ IEEE 802.1：高層區域網路協定（Bridging (networking) and Network Management）
+  ─ IEEE 802.2：邏輯鏈路控制（Logical link control）
+  ─ IEEE 802.3：乙太網路（Ethernet）
+  ─ IEEE 802.4：權杖匯流排（Token bus）
+  ─ IEEE 802.5：權杖環（Token-Ring）
+  ─ IEEE 802.6：城域網（MAN, Metropolitan Area Network）
+  ─ IEEE 802.7：寬頻TAG（Broadband LAN using Coaxial Cable）
+  ─ IEEE 802.8：光纖分散式資料介面（FDDI）
+  ─ IEEE 802.9：綜合業務區域網路（Integrated Services LAN）
+  ─ IEEE 802.10：區域網路網路安全（Interoperable LAN Security）
+  ─ IEEE 802.11：無線區域網路（Wireless LAN & Mesh）
+  ─ IEEE 802.12：需求優先級（Demand priority）
+  ─ IEEE 802.13：（未使用）
+  ─ IEEE 802.14：電纜數據機（Cable modems）
+  ─ IEEE 802.15：無線個人區域網路（Wireless PAN）
+  ─ IEEE 802.15.1：無線個人區域網路絡（WPAN, Wireless Personal Area Network）
+  ─ IEEE 802.15.4：低速無線個人區域網路絡（LR-WPAN, Low Rate Wireless Personal Area Network）
+  ─ IEEE 802.16：寬頻無線接入（Broadband Wireless Access）
+  ─ IEEE 802.17：彈性封包環傳輸技術（Resilient packet ring）
+  ─ IEEE 802.18：無線電管制技術（Radio Regulatory TAG）
+  ─ IEEE 802.19：共存標籤（Coexistence TAG）
+  ─ IEEE 802.20：移動寬頻無線接入（Mobile Broadband Wireless Access）
+  ─ IEEE 802.21：媒介獨立換手（Media Independent Handover）
+  ─ IEEE 802.22：無線區域網（Wireless Regional Area Network）
+  ─ IEEE 802.23：緊急服務工作群組（Emergency Services Working Group），2010年3月新發布
+  
+● IP 
+  網際網路協議（英語：Internet Protocol Suite，縮寫IPS）
+  是一個網路通訊模型，以及一整個網路傳輸協定家族，為網際網路的基礎通訊架構。
+  
+  它常被通稱為TCP/IP協定套組（英語：TCP/IP Protocol Suite，或TCP/IP Protocols），簡稱TCP/IP。
+  因為該協定家族的兩個核心協定：TCP（傳輸控制協定）和IP（網際網路協定），為該家族中最早通過的標準。
+  由於在網路通訊協定普遍採用分層的結構，當多個層次的協定共同工作時，類似電腦科學中的堆疊，因此又被稱為
+  TCP/IP協定疊（英語：TCP/IP Protocol Stack）。
+  
+● 下面的圖表試圖顯示不同的TCP/IP和其他的協定在最初OSI模型中的位置：
+  應用層
+  application layer  例如HTTP、SMTP、SNMP、FTP、Telnet、SIP、SSH、NFS、RTSP、XMPP、Whois、ENRP、TLS
+  
+  表現層
+  presentation layer 例如XDR、ASN.1、SMB、AFP、NCP
+  
+  會議層
+  session layer      例如ASAP、ISO 8327 / CCITT X.225、RPC、NetBIOS、ASP、IGMP、Winsock、BSD sockets 
+  
+  傳輸層
+  transport layer    例如TCP、UDP、RTP、SCTP、SPX、ATP、IL
+  
+  網路層
+  network layer      例如IP、ICMP、IPX、BGP、OSPF、RIP、IGRP、EIGRP、ARP、RARP、X.25
+  
+  資料連結層
+  data link layer    例如乙太網路、權杖環、HDLC、影格中繼、ISDN、ATM、IEEE 802.11、FDDI、PPP 
+  
+  實體層
+  physical layer     例如線路、無線電、光纖
+  
+  ─ 通常人們認為OSI模型的最上面三層（應用層、表現層和會議層）在TCP/IP組中是一個應用層。
+    由於TCP/IP有一個相對較弱的會議層，由TCP和RTP下的開啟和關閉連接組成，並且在TCP和UDP下的各種應用提供不同的埠號
+    ，這些功能能夠被單個的應用程式（或者那些應用程式所使用的庫）增加。
+  ─ IP是按照將它下面的網路當作一個黑盒子的思想設計的，這樣在討論TCP/IP的時候就可以把它當作一個獨立的層。
+  
+  應用層
+  application layer            例如HTTP、FTP、DNS
+  
+  傳輸層
+  transport layer              例如TCP、UDP、RTP、SCTP
+  
+  網路互連層     
+  internet layer               對於TCP/IP來說這是網際網路協定（IP）
+                       （如ICMP和IGMP這樣的必須協定儘管執行在IP上，也仍然可以看作是網路互連層的一部分；ARP不執行在IP上）
+
+  網路存取(連結)層
+  Network Access(link) layer   例如乙太網路、Wi-Fi、MPLS等。
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
+```
 ```
 Network Types: LAN, WAN, PAN, CAN, MAN, SAN, WLAN
 https://www.youtube.com/watch?v=4_zSIXb7tLQ
