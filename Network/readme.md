@@ -122,6 +122,9 @@ Layer-7 : L7 switch, proxy
   位址解析協定（英語：Address Resolution Protocol，縮寫：ARP）
   是一個通過解析網路層位址來找尋資料鏈路層位址的網路傳輸協定，它在IPv4中極其重要。
   
+  來查問欲傳送之目的主機的MAC位址==已知的 IP 位址查問其相對應的網路實體位
+  反向位址解析協定（Reverse Address Resolution Protocol, RARP）。由已知的網路實體位址查詢其相對應的 IP 位址
+  
   ARP是通過網路位址來定位MAC位址。
   
 ● MAC  
@@ -277,8 +280,8 @@ Layer-7 : L7 switch, proxy
     
  ● 區域網路用的協定:
    ***IEEE 802.3：乙太網路（Ethernet）***
-   IEEE 802.4：權杖匯流排（Token bus）
-   IEEE 802.5：權杖環（Token-Ring） 
+      IEEE 802.4：權杖匯流排（Token bus）
+      IEEE 802.5：權杖環（Token-Ring） 
     
   
   
@@ -568,23 +571,103 @@ Layer-7 : L7 switch, proxy
   某些應用程式（如TFTP）可能會根據需要在應用程式層中添加基本的可靠性機制。
   
   
-─ 一些應用程式不太需要可靠性機制，甚至可能因為引入可靠性機制而降低效能，所以它們使用UDP這種缺乏可靠性的協定。
-  串流媒體，即時多人遊戲和IP語音（VoIP）是經常使用UDP的應用程式。 在這些特定應用中，丟包通常不是重大問題。
-  如果應用程式需要高度可靠性，則可以使用諸如TCP之類的協定。
+  ─ 一些應用程式不太需要可靠性機制，甚至可能因為引入可靠性機制而降低效能，所以它們使用UDP這種缺乏可靠性的協定。
+    串流媒體，即時多人遊戲和IP語音（VoIP）是經常使用UDP的應用程式。 在這些特定應用中，丟包通常不是重大問題。
+    如果應用程式需要高度可靠性，則可以使用諸如TCP之類的協定。
   
 ● 語音和影片流量通常使用UDP傳輸。 即時影片和音訊流應用程式旨在處理偶爾遺失、錯誤的封包，因此只會發生品質輕微下降，
   而避免了重傳封包帶來的高延遲。 由於TCP和UDP都在同一網路上執行，因此一些企業發現來自這些即時應用程式的UDP流量影響了使用TCP
   的應用程式的效能，例如銷售、會計和資料庫系統。 當TCP檢測到封包遺失時，它將限制其資料速率使用率。
-  
-  
-  
-  
-  
-  
-  
 ```
+```
+● RARP
+  逆位址解析協定（Reverse Address Resolution Protocol，RARP）
+  是一種網路協定，網際網路工程任務組（IETF）在RFC903中描述了RARP。RARP使用與ARP相同的報頭結構，作用與ARP相反。
+  
+  ─ RARP用於將MAC位址轉換為IP位址。其因為較限於IP位址的運用以及其他的一些缺點，因此漸為更新的BOOTP或DHCP所取代。
+
+● 工作原理
+  ─ 傳送主機傳送一個原生的RARP廣播，在此廣播包中，聲明自己的MAC位址並且請求任何收到此請求的RARP伺服器分配一個IP位址；
+  ─ 本地網段上的RARP伺服器收到此請求後，檢查其RARP列表，尋找該MAC位址對應的IP位址；
+  ─ 如果存在，RARP伺服器就給源主機傳送一個回應封包並將此IP位址提供給對方主機使用；
+  ─ 如果不存在，RARP伺服器對此不做任何的回應；
+  ─ 源主機收到從RARP伺服器的回應資訊，就利用得到的IP位址進行通訊；如果一直沒有收到RARP伺服器的回應資訊，表示初始化失敗。
+```
+# ICMP
+```
+● ICMP
+  網際網路控制訊息協定（英語：Internet Control Message Protocol，縮寫：ICMP）
+  是網際網路協定套組的核心協定之一。
+  
+  它用於網際網路協定（IP）中傳送控制訊息，提供可能發生在通訊環境中的各種問題回饋。
+  通過這些資訊，使管理者可以對所發生的問題作出診斷，然後採取適當的措施解決。
+  
+  ─ ICMP 依靠IP來完成它的任務，它是IP的主要部分。它與傳輸協定（如TCP和UDP）顯著不同：它一般不用於在兩點間傳輸資料。
+  
+  ─ 在 IP 網路上，任何一部主機或路由器皆設置有 ICMP 協定，它們就可以利用 ICMP 來互相交換網路目前的狀況訊息。
+    例如，主機不存在、網路斷線等等狀況。
+```
+# ICMP Message Format封包格式:
+![ICMP封包格式](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/Network/icmp_header.gif)
+```
+● (1) 訊息型態（Message Type）：表示該 ICMP 所欲控制之訊息型態，共有 13 種型態，訊息型態之型態代表值如表 13-2 所示。
+
+● (2) 編碼（Code）：對各種訊息型態進一步說明工作內容。
+
+● (3) 檢查集檢查碼（Checksum）：對該封包檢查集錯誤偵測。
+
+● (4) 訊息說明（Message description）：依照不同的控制訊息，而有不同的說明方式。
+
+● (5) 訊息資料（Message Data）：依照不同的控制訊息，而有不同的資料表示。
+
+● ICMP 在溝通之中，主要是透過不同的類別( Type )與代碼( Code ) 讓機器來識別不同的連線狀況。
+  常用的類別如下表所列﹕
+  
+ 類別	名稱	代表意思
+  
+● ***0	Echo Reply	是一個回應信息。***（回應答覆）
+
+● ***3	Distination Unreachable	表示目的地不可到達。***（目的地無法到達）
+
+● 4	Source Quench	當 router 負載過時﹐用來竭止來源繼續發送訊息。（來源抑制）
+
+● ***5	Redirect	用來重新導向路由路徑。***（改變傳輸路徑）
+
+● ***8	Echo Request	請求回應訊息。***（回應要求）
+
+● 9 Router Advertisement（路由器宣傳）
+● 10 Router Solicitation（路由器懇請）
+● 11	Time Exeeded for a Datagram	當資料封包在某些路由現象中逾時﹐告知來源該封包已被忽略忽略。（路由器宣傳）
+● 12	Parameter Problem on a Datagram	當一個 ICMP 封包重複著之前的錯誤時﹐會回覆來源主機關於參數錯誤的訊息。（參數問題）
+● 13	Timestamp Request	要求對方送出時間訊息﹐用以計算路由時間的差異﹐以滿足同步性協定的要求。（時間標籤要求）
+● 14	Timestamp Replay	此訊息純粹是回應 Timestamp Request 用的。（時間標籤回覆）
+● 15	Information Request	在 RARP 協定應用之前﹐此訊息是用來在開機時取得網路信息。（資訊要求）（停用）
+● 16	Information Reply	用以回應 Infromation Request 訊息。（資訊回覆）（停用）
+● 17	Address Mask Request	這訊息是用來查詢子網路 mask 設定信息。（位址遮罩要求）
+● 18	Address Mask Reply	回應子網路 mask 查詢訊息的。（位址遮罩回覆）
 
 
+● 在 ICMP 使用中﹐不同的類別會以不同的代碼來描述具體的狀況。以 Type 3 ( Distination Unreachable ) 
+  為例，其下的代碼如下所列﹕
+  
+  代碼	代表意思
+  0  	 Network Unreachable（無法到達目的網路）
+  1	   Host Unreachable（無法到達目的主機）
+  2	   Protocol Unreachable（通訊協定不存在）
+  3	   Port Unreachable（無法到達連接埠）
+  4	   Fragmentation Needed and DF set（資料需分割並設定不可分割位元）
+  5    Source Route Failed（來源路徑選擇失敗）
+  6	   Destination network unknown（無法識別目的地網路）
+  7	   Destination host unknown（無法識別目的地主機）
+  8	   Source host isolated（來源主機被隔離）
+  9	   Communication with destination network administraively prohibited（管理上禁止和目的地網路通訊）
+  10	 Communication with destination host administraively prohibited（管理上禁止和目的地主機通訊）
+  11	 Network unreachable for type of service（無法到達此型態的網路服務）
+  12	 host unreachable for type of service（無法到達此型態的主機服務）
+```
+# ICMP 封裝
+![ICMP 封裝](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/Network/image/icmp_encap%E5%B0%81%E8%A3%9D.gif)
+```
 
 
 
