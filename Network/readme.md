@@ -669,22 +669,55 @@ Layer-7 : L7 switch, proxy
 ![ICMP 封裝](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/Network/image/icmp_encap%E5%B0%81%E8%A3%9D.gif)
 ```
 ICMP 常用指令
+ping 
+tracert| Traceroute
+(Windows tracert / Linux run)
 ```
+```
+tracert www.pchome.com.tw
 
+在上限 30 個躍點上
+追蹤 www.pchome.com.tw [210.59.230.39] 的路由:
 
+  1     3 ms    <1 ms     4 ms  172.20.155.254
+  2    <1 ms    <1 ms    <1 ms  172.16.190.253
+  3    13 ms    <1 ms    <1 ms  120-114-151-14.ksu.edu.tw [120.114.151.14]
+  4     *        *        *     要求等候逾時。
+  5     *        *        *     要求等候逾時。
+  6     *        *        *     要求等候逾時。
+  7     *        *        *     要求等候逾時。
+  8     *        *        *     要求等候逾時。
+  9     *        *        *     要求等候逾時。
+ 10     *        *        *     要求等候逾時。
+```
+```
+在上限 30 個躍點上
+追蹤 www.ksu.edu.tw [120.114.100.65] 的路由:
 
-
-
-
-
-
-
-
-
-
-
-
-
+  1    <1 ms    <1 ms    <1 ms  172.20.155.254
+  2    <1 ms    <1 ms    <1 ms  120-114-50-230.ksu.edu.tw [120.114.50.230]
+  3    <1 ms    <1 ms    <1 ms  chs.www.ksu.edu.tw [120.114.100.65]
+  
+追蹤完成。
+```
+# tracert ksu
+![tracert ksu](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/Network/tracert%20ksu.PNG)
+```
+```
+# RFID
+```
+  無線射頻辨識（英語：Radio Frequency IDentification，縮寫：RFID）
+  是一種無線通訊技術，可以通過無線電訊號識別特定目標並讀寫相關數據，而無需識別系統與特定目標之間建立機械或者光學接觸。
+```
+# TCP
+```
+● 可靠性 : 能夠確保資料完整的傳輸，確認是否有接收到，封包格式確認，回傳確認(三項交握)
+● 不可靠性 : 傳輸過去的資料不管有沒有正確都不會再次確認、回傳(很小的影響或可接性)
+```
+# TCP Format
+![TCP Format](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/Network/TCP%20Format.png)
+```
+```
 ```
 Network Types: LAN, WAN, PAN, CAN, MAN, SAN, WLAN
 https://www.youtube.com/watch?v=4_zSIXb7tLQ
