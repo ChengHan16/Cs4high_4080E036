@@ -81,6 +81,46 @@ Layer-7 : L7 switch, proxy
 
   ─ 應用層能與應用程式作溝通，使用者介面，使User可以使用網路資源。
 ```
+# Protocol (通訊協定)
+```
+● 所謂的『Protocol』是指在網路上一種可以彼此溝通的模式，雙方都要依照某些規則進行溝通。
+
+● 電信中是指在任何物理媒介中允許兩個或多個在傳輸系統中的終端之間傳播資訊的系統標準，也是指電腦通信或網路裝置的共同語言。
+  [1]通信協定定義了通信中的語法學, 語意學和同步規則以及可能存在的錯誤檢測與糾正。
+     通信協定在硬體，軟體或兩者之間皆可實現
+  [2]為了交換大量資訊，通信系統使用通用格式（協定）。每條資訊都有明確的意義使得預定位置給予回應，並獨立實施回應指定的行為
+     ，通信協定須參與實體都同意才能生效。
+
+● 在Internet 上也有彼此共同的語言，概稱為Protocol，但依照不同的需求，也有不同的通訊協定，例如要瀏覽網站的話，
+  要遵守網站的通訊協定，叫http(HyperText  Transfer Protocol)；而要傳輸檔案，則要遵循ftp(File Transfer Protocol)，
+  這個就是傳輸檔案專用的，也因為有了Protocol，Internet 的世界大同理想才得 以實現……
+```
+# 協定列表
+|                 |        |      |        |    |     |  |   |       |
+| -------------   | ------ |------|--------|    |     |  |   |       |
+|ARP              |        |      |        |    |     |  |   |       |
+|BGP|Bluetooth    |BOOTP   |Bonjour        |    |     |  |   |       |
+|CAN|             |        |      |        |    |     |  |   |       |
+|DHCP             |DNS     | DVMRP|DDNS    |    |     |  |   |       |
+|EGP|             |        |      |        |    |     |  |   |       |
+|FTP| FTPS        |        |      |        |    |     |  |   |       |
+|Gopher           |        |      |        |    |     |  |   |       |
+|HDLC             |HELLO   |HTTP  |HTTPS   |    |     |  |   |       |
+|ICMP             |IDRP    |IEEE 802 |IGMP |IGP |IMAP |IP| IPX| IS-IS|
+|LCP              |LLC     |      |   |    |    |     |  |    |      |
+|MLD              |        |      |   |    |    |     |  |    |      |
+|NCP              |NNTP    |NTP   |   |    |    |     |  |    |      |
+|PPP              |POP     |      |   |    |    |     |  |    |      |
+|RARP             |RIP     |RTP   |RTSP|    |    |     |  |    |      |
+|SLIP             |SNMP    |SMTP  |SOCKS|SPDY|    |     |  |    |      |
+|TCP              |TFTP    |Telnet|     |    |    |     |  |    |      |
+|UDP              |        |      |   |    |    |     |  |    |      |
+|X.25             |        |      |   |    |    |     |  |    |      |
+|Yahoo!奇摩即時通 通訊協定|        |      |   |    |    |     |  |    |      |
+
+
+
+
 ```
 Network Types: LAN, WAN, PAN, CAN, MAN, SAN, WLAN
 https://www.youtube.com/watch?v=4_zSIXb7tLQ
