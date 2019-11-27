@@ -15,7 +15,6 @@
 |Transport  |→       |Transport|
 |InterNet   |→       |Network|
 ```
-```
 # 網路硬體
 ```
 Layer-1 : repeater(1-1), hub(1-N)
