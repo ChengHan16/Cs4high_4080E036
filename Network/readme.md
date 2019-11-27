@@ -7,16 +7,6 @@
 | Netword     | 網路層 |
 | Data Link   | 連結層 |
 | Physcial    | 實體層 |
-```
-
-
-
-
-
-
-
-
-
 
 
 
