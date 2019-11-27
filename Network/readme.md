@@ -240,10 +240,10 @@ Layer-7 : L7 switch, proxy
   媒介存取控制（MAC, Media Access Control）
   如下所示：
 
-● 資料鏈路層
+● 資料鏈路層(Layer-2)
   ─ 邏輯鏈路控制子層
   ─ 媒介存取控制子層
-● 實體層  
+● 實體層(Layer-1)  
    
 ● LLC
   邏輯鏈路控制（英語：Logical Link Control，簡稱LLC）
@@ -274,6 +274,13 @@ Layer-7 : L7 switch, proxy
   ─ MAC子層作為邏輯鏈路控制子層及物理層之間溝通的媒介，提供了一種定址的方法，稱為實體位址或MAC位址。
   ─ MAC常用作多路存取（multiple access）協定的同義詞。因為MAC提供配合特定通道存取（channel access method）
     需要的協定及控制機制。
+    
+ ● 區域網路用的協定:
+   ***IEEE 802.3：乙太網路（Ethernet）***
+   IEEE 802.4：權杖匯流排（Token bus）
+   IEEE 802.5：權杖環（Token-Ring） 
+    
+  
   
 ● IEEE 802 現有標準
   ─ IEEE 802.1：高層區域網路協定（Bridging (networking) and Network Management）
