@@ -9,7 +9,7 @@
 |2| Data Link   | 連結層 |Bridge(1-1)/Switch(1-N)| 
 |1| Physcial    | 實體層 |Repeater(1-1)/Hub(1-N)|
 
-|TCP/IP協定|
+|TCP/IP協定  |       |      |
 | ----------| ------ |-----|
 |Application|→       |Application/Presentation/Session|
 |Transport  |→       |Transport|
