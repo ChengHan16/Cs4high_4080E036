@@ -1,7 +1,7 @@
 # 資工一A Github
 |學號姓名        |網址                                        |
 | ------------  | ------------------------------------------ |
-|4060E027 蔡昱輝 ||
+|4060E027 蔡昱輝 |https://github.com/4060E027|
 |4050E069 徐御展 ||
 |4070E001 李建輝 |https://github.com/4070E001?tab=repositories|
 |4080E002 鄭晉評 |https://github.com/pat0912?tab=repositories|
