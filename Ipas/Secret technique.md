@@ -216,9 +216,22 @@ Data Owner(資料擁有者) 可歸責性(Accountability)
 ● 信賴路徑(Trusted Path)
 ─ 確保主體可以存取到其所預期存取到知物件的路徑
 ```
-
-
-
+# 存取控制的類型
+```
+● 實體類控制(Physcial Controls)
+─ 門、窗及圍牆
+─ 鎖
+─ 警衛
+● 技術類控制(Technical Controls)          (攝影機)
+─ 通行碼鑑別
+─ 加解密技術
+─ 生物特徵識別技術
+─ 防火牆系統、入侵偵測及防禦系統
+● 管理類控制(Administrative Controls)
+─ 政策與程序
+─ 安全認知訓練
+─ 風險管理
+```
 
 
 
