@@ -37,12 +37,12 @@
 ```
 # 安全(Securtiy)
 │                        │                  │                      │                     │                            │ 
-│ ---------------------- │ ---------------- │ -------------------- │ ------------------- │ -------------------------- │
-│ 鑑別性(Authenticity)    │                  │                      │                     │ 不可否認性(Non-repudiation) │
-│                        │                  │機密性(Confidentiality)│                     │                            │
-│                        │完整性(Integrity)  │                      │可用性(Availability) │                             │
-│ 可歸責性(Accountability)│                  │                      │                     │   可靠度(Reliability)       │
-││││││
+ ---------------------- │ ---------------- │ -------------------- │ ------------------- │ -------------------------- 
+ 鑑別性(Authenticity)    │                  │                      │                     │ 不可否認性(Non-repudiation) 
+                        │                  │機密性(Confidentiality)│                     │                            
+                        │完整性(Integrity)  │                      │可用性(Availability) │                             
+ 可歸責性(Accountability)│                  │                      │                     │   可靠度(Reliability)       
+
 
 
 
