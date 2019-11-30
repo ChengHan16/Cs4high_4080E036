@@ -76,9 +76,23 @@
 ─ ISO/IEC 27018《公有雲個人資料(PII)處理者知個資保護作業規範》
 ─ ISO/IEC 27010《雲端運算服務的資訊安全控制措施實務守則》
 ```
+# 資訊安全管理系統
+```
+***界定範圍：最重要的第一步***
 
+                   ISO27001:2013 
+        ISO27001   -Information Security Management System(ISMS)      
+                   -驗證標準(可以驗證)
+ISO標準
+                   ISO27002:2013
+        ISO27002   -Code of practice for information security management
+                   -工具書，明確地建議應有哪些資訊安全措施(不能驗證)
+```
+# ISO 27001架構
 
-
+規劃(Plan)→執行(Do)
+執行(Do)→檢查(Check)
+檢查(Check)→行動(Act)
 
 
 
