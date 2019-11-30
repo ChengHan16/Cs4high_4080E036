@@ -222,7 +222,7 @@ Data Owner(資料擁有者) 可歸責性(Accountability)
 ─ 門、窗及圍牆
 ─ 鎖
 ─ 警衛
-● 技術類控制(Technical Controls)          (攝影機)
+● 技術類控制(Technical Controls)          
 ─ 通行碼鑑別
 ─ 加解密技術
 ─ 生物特徵識別技術
@@ -232,9 +232,21 @@ Data Owner(資料擁有者) 可歸責性(Accountability)
 ─ 安全認知訓練
 ─ 風險管理
 ```
-
-
-
+# 存取控制的功能
+```
+● 防禦性(Preventive)
+─ 讓不當的損害事件不會發生(消除威脅或弱點)
+● 偵測性(Detective)
+─ 當發生不當的損害事件時可被識別，以立即時處理(入侵偵測與煙霧偵測)
+● 矯正性(Corrective)
+─ 發生不當的損害事件時可立即防制(滅火設備)
+● 嚇阻性(Deterrent)
+─ 降低威脅發生的意圖，但無法阻擋(CCTV)
+● 復原性(Recovery)
+─ 發生不當損害後可回復原來正常運作
+● 補償性(Compensation)
+─ 對其他控制措施提供選項的控制措施
+```
 
 
 
