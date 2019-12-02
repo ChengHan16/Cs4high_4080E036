@@ -30,7 +30,7 @@ public class Student {
 		return name;		//retuen回傳 兩者衝突，產生錯誤
 	}
 	
-	public String getid() {	//void 無回傳
+	public String getid() {		//void 無回傳
 		return id;		//retuen回傳 兩者衝突，產生錯誤
 	}
 	
