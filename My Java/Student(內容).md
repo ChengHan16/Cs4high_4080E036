@@ -245,8 +245,5 @@ public class KSU {
 	}
 }
 ```
-# 作業 用Student做一個School的資料
+# 作業：用Student做一個School的資料
 ```
-
-
-
