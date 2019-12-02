@@ -93,6 +93,7 @@ public class Student {
 		//新增一個名稱obj_s1的Student資料
 		obj_s2.pirntStudentinfo();				      
 		//呼叫副函式
+	}
 ```
 ```
 執行結果： 學生姓名:吳承翰   學號:4080E036    科系:資訊工程
