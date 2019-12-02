@@ -99,3 +99,7 @@ public class Student {
 執行結果： 學生姓名:吳承翰   學號:4080E036    科系:資訊工程
 	  學生姓名:李正德   學號:4080I017    科系:資訊工程	
 ```
+# getname 回傳用意
+```
+	System.out.println(obj_s1.getName());//快速尋找的函式
+```
