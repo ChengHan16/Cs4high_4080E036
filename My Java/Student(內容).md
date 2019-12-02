@@ -148,13 +148,13 @@ public class Student {
 	}	
 	
 	public static void main(String[]args) {
-		Student obj_s1 = new Student("吳承翰","4080E036","資訊工程");	  //新增一個名稱obj_s1的Student資料
-		obj_s1.pirntStudentinfo();					//呼叫副函式
-		System.out.println(obj_s1.getName());				//快速尋找的函式
+		Student obj_s1 = new Student("吳承翰","4080E036","資訊工程");//新增一個名稱obj_s1的Student資料
+		obj_s1.pirntStudentinfo();//呼叫副函式
+		System.out.println(obj_s1.getName());//快速尋找的函式
 		
 		Student obj_s2 = new Student("李正德","4080I000","資訊工程");
-		obj_s2.Setid("4080I017");					//用obj_s2去set id 變更為4080I017
-		obj_s2.pirntStudentinfo();					//呼叫副函式
+		obj_s2.Setid("4080I017");//用obj_s2去set id 變更為4080I017
+		obj_s2.pirntStudentinfo();//呼叫副函式
 		
 	}	
 }
