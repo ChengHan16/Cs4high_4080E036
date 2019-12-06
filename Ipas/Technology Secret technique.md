@@ -410,19 +410,31 @@
   ─ 應用層能與應用程式作溝通，使用者介面，使User可以使用網路資源。    
 ```  
 # 網路各層的攻擊手法
+
+### [*]實體層
 ```
-[*]實體層
    線路塔接與線路私接
-
-
-[*]資料連結層
+```
+### [*]資料連結層
+```
    封包監聽與ARP Spoofing
   
 [*]ARP欺騙（ARP spoofing），（ARP poisoning，ARP病毒）或ARP攻擊，是針對乙太網路位址解析協定（ARP）的一種攻擊技術。  
    此種攻擊可讓攻擊者取得區域網路上的資料封包甚至可篡改封包，且可讓網路上特定電腦或所有電腦無法正常連線。  
   
+   [*]Bridge/Switch 隔絕廣播封包，Broadcats Domain 廣播封包，Hub放大訊號
+   [*]竊聽工具 
+      Sniffer,MailSnarf
+      URLSnarf,WebSpy
+      Tcpdump,Windump
+    ─ Wireshark(Ethereal)
+      Ettercap
+      NetIntercept
   
-[*]傳輸層
+      防護建議：採用加密連線，改用Switch(Hub全都聽)，網路線路的實體存取控制，避免搭接或私接問題
+ ```
+### [*]傳輸層
+```
    SYN Flood、DDoS及Session Hijacking 
   
 [*]Session Hijacking (竊取 Session ID)
@@ -439,9 +451,9 @@
    用戶端答應ACK，連線隨之建立。
 [*]這即是所謂TCP三向交握，並且這是每個使用TCP傳輸協定建立連線的基礎。
    [SYN;SYN-ACK;ACK]
-  
-  
-[*]應用層
+```  
+### [*]應用層
+```
    DNS Poisoning、Brute Force Login、SQL Iniection、Cross-Site Scription  
    
 [*]DNS Poisoning，也稱為DNS緩存中毒，是一種計算機安全黑客手段，其中，損壞的域名系統數據被引入DNS解析器的緩存中，
