@@ -317,10 +317,31 @@
  洛實既有之規劃，將使用者介面、功能運作及安全性等完整的實現。
  [*]部署、運作與維護 (Miantenance)
  落實軟體之穩定運作，應定期修補漏洞(Patch)、按部升級更新版本(Upgrade)及即時監控(Monitor)
+ 
+ SIR系統委外
 ``` 
+# OWASP
+```
+ [*]開放式Web應用程式安全項目（OWASP）是一個在線社區，在Web應用安全領域提供免費的文章，方法，文檔，工具和技術。
+ [*]OWASP基金會是一家成立於2004年的501(c)(3)非營利組織（美國），支持OWASP基礎設施和項目。
+    自2011年以來，OWASP還以OWASP Europe VZW的名義在比利時註冊為 [非營利組織] 。
+```
+```
+請問針對作業系統訂定的資訊安全策略中,下列何種安全模式是統一由管理者進行檔案存取授權後,使用者才可以進行檔案存取?
+ [*] 自由存取控制(Discretionary Access Control,DAC)
+     (資料傭有者指定誰可以存取)
+ [*] 強制存取控制(Mandatory Access Control,MAC)
+     (先訂好誰可以存取，嚴格的執行，較強)
+  ●  角色存取控制(Role-based Access Control,RBAC)
+  ●  屬性存取控制(Attribute-based Access Control,ABAC)
+
+● 以角色為基礎的存取控制（Role-based access control，RBAC）
+  是資訊安全領域中，一種較新且廣為使用的存取控制機制，其不同於強制存取控制以及自由選定存取控制直接賦予使用者權限，
+  而是將權限賦予角色。
   
-  
-  
+● 強制存取控制（mandatory access control，MAC）
+  在電腦安全領域指一種由作業系統約束的存取控制，目標是限制主體或發起者存取或對物件或目標執行某種操作的能力。
+```
   
   
   
