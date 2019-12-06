@@ -253,6 +253,12 @@
 |213/TCP,UDP|IPX，網際網路封包交換協定|官方|
 |[*]443/TCP|HTTPS超文字傳輸安全協定 - HTTP超文字傳輸協定 over TLS/SSL（加密傳輸）|官方|
 ```
+[*]網路芳鄰 使用SMB(Simple Message Block)，用NetBIOS來尋找設備(Linux的Samba即為SMB軟體) 
+   Port UDP 137,138
+        TCP 139,445
+        
+[*]Syslog常被稱為系統日誌或系統記錄，是一種用來在網際網路協定（TCP/IP）的網路中傳遞記錄檔訊息的標準。
+   Port UDP 514
 ```
   
   
