@@ -470,20 +470,77 @@
   
 [*]駭客級測試工具--HPING-ICMP
 ```
+### 資料連結層 ARP Spoofing
+```
+[*]ARP欺騙（ARP spoofing），（ARP poisoning，ARP病毒）
+[*]Broadcats Domain 下無法被動監聽其他電腦連線封包
+[*]ARP spoofing攻擊強迫偽造其他IP
+```
+### 網路層 Smurf Attack
+```
+藉由Ping封包塞爆受害者網路頻寬的阻斷服務攻擊
+
+攻擊手法
+發送大量(Echo Request給B網段的Broadcast IP位址(B.255或B.0)
+
+[*]Vegust Respourse 使用ICMP協定 
+```
+### 網路層 Ping od Death
+```
+Ping封包大小為56位元(含IP標頭為84位元) [*]封包長度檢查
+```
+### 傳輸層 SYN Flood
+```
+[*]正常的TCP 3向交握協定
+   SYN,SYN-ACK,ACK
+[*]SYN Flood攻擊(Dos)  
+   SYN,SYN-ACK
+```
+### 傳輸層 分散式阻斷服務攻擊
+```
+[*]分散式阻斷服務攻擊（distributed denial-of-service attack，DDoS）
+[*]當駭客使用網路上兩個或以上被攻陷的電腦作為「殭屍」向特定的目標發動「阻斷服務」式攻擊
+
+[*]攻擊者控制多部阻斷服務攻擊主機(DoS Agent),對受害者發動大規模的阻斷服務攻擊
+
+[*]防護建議
+   防火牆限制同一來源IP的連線數量
+   請求ISP協助(網路服務提拱者)
+   C n C 
+```  
+### 傳輸層 Session Hijacking
+```
+[*]防護建議(安全加密)
+[*]採用IPSec或SSL雙向認證的加密連線
+
+[*]網際網路安全協定（Internet Protocol Security，IPsec）
+   是一個協定套件，透過對IP協定的封包進行加密和認證來保護IP協定的網路傳輸協定族（一些相互關聯的協定的集合）。
+   
+[*]傳輸層安全性協定（Transport Layer Security，TLS）及其前身安全通訊協定（Secure Sockets Layer，SSL）
+   是一種安全協定，目的是為網際網路通訊提供安全及資料完整性保障。
+```
+### 應用層 DNS Poisoning
+```
+[*]看得懂的網址轉數字
+```
+### 應用層 Brute Force Login
+```
+● 暴力破解(Brute Force)
+  使用所有可能的密碼組合，嘗試登入系統。
+
+● 字典攻擊(Dictionary Attack)
+  收集常見的密碼納入猜測字典，然後用來嘗試登入系統。
+
+[*]密碼潑灑(Password Spraying)
+   指使用單一弱密碼，對所有帳號進行測試
+   SpiderLabs
+
+[*]帳號填充(Credential Stuffing)
+   利用外洩帳號資料庫的密碼組合嘗試登入系統。 
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+[*]帳號+密碼的組合 Sentry MBA 
+```
+
   
   
   
