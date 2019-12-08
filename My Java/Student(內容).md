@@ -304,7 +304,8 @@ public class School1 {
 	}
 	
 	public void printfSchool(){
-		System.out.println("辦公室名稱："+OfficeName+"\t"+"辦公室編號："+Numbering+"\t"+"分機號碼："+Extension+"\t");
+		System.out.println("辦公室名稱："+OfficeName+"\t"+"辦公室編號："+Numbering+"\t"+"分機號碼：
+		"+Extension+"\t");
 	}
 	
 	public static void main(String[]args) {
@@ -344,7 +345,8 @@ public class School3 {
 	}
 	
 	public void printfSchool(){
-		System.out.println("辦公室名稱："+OfficeName+"\t"+"辦公室編號："+Numbering+"\t"+"分機號碼："+Extension+"\t");
+		System.out.println("辦公室名稱："+OfficeName+"\t"+"辦公室編號："+Numbering+"\t"+"分機號碼：
+		"+Extension+"\t");
 	}
 	
 	public static void main(String[]args) {
