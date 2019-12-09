@@ -32,6 +32,10 @@ public class School1 {
 	}	
 }
 ```
+```
+輸出結果：學校校名：崑山科技大學   學生人數：6666   校長：李天祥   學校所在地城市：台南市	
+         學校校名：台灣科技大學   學生人數：5555   校長：王錫福   學校所在地城市：台北市
+```
 # obj_s1 / KSU (自定義)
 ```
 
@@ -67,6 +71,50 @@ public class School1 {
 	}	
 }
 ```
+# KSU
+```
+
+public class KSU {
+	
+	private static School1 info;//學校基本資訊
+	
+	//private static int numberOfStudents;//學生人數(類別限定static,大家看到都是同一個)類別變數
+	
+	//private static School[]student_basic_info_array;//[]陣列
+	//需要甚麼類別就建立甚麼類別，Student類別剛剛已建立
+
+	public KSU() {}
+	
+	public KSU(School1 sch) {
+		this.info = sch;
+	}
+	
+	public void printlnfo() {
+		info.pirntdSchoolnfo();
+	}
+	
+	
+	public static void main(String[]args) {
+		School1 obj_ksu = new School1("崑山科技大學",6666,"李天祥","台南市");
+		obj_ksu.pirntdSchoolnfo();
+		
+
+	}
+	
+	
+}
+```
+```
+輸出結果：學校校名：崑山科技大學   學生人數：6666   校長：李天祥   學校所在地城市：台南市
+```
+
+
+
+
+
+
+
+
 
 
 
