@@ -16,7 +16,8 @@ public class School1 {
 	}
 	
 	public  void pirntdSchoolfo() {
-		System.out.println("學校校名："+name+"\t"+"學生人數："+numberOfStudent+"\t"+"校長："+principal+"\t"+"學校所在地城市："+location_city+"\t");
+		System.out.println("學校校名："+name+"\t"+"學生人數："+numberOfStudent+"\t"+"校長：
+		"+principal+"\t"+"學校所在地城市："+location_city+"\t");
 		//println自動換行
 	}	
 	
