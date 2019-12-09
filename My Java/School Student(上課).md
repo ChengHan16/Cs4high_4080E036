@@ -97,11 +97,7 @@ public class KSU {
 	public static void main(String[]args) {
 		School1 obj_ksu = new School1("崑山科技大學",6666,"李天祥","台南市");
 		obj_ksu.pirntdSchoolnfo();
-		
-
 	}
-	
-	
 }
 ```
 ```
