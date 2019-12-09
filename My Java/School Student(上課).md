@@ -1,4 +1,4 @@
-# 12-09
+# 12/9
 ```
 public class School1 {
 	private String name;         //校名
