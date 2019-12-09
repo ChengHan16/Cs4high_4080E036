@@ -51,12 +51,14 @@ public class School1 {
 	}
 	
 	public  void pirntdSchoolfo() {
-		System.out.println("學校校名："+name+"\t"+"學生人數："+numberOfStudent+"\t"+"校長："+principal+"\t"+"學校所在地城市："+location_city+"\t");
+		System.out.println("學校校名："+name+"\t"+"學生人數："+numberOfStudent+"\t"+"
+		校長："+principal+"\t"+"學校所在地城市："+location_city+"\t");
 		//println自動換行
 	}	
 	
 	public static void main(String[]args) {
-		School1 ksu = new School1("崑山科技大學",6666,"李天祥","台南市");//新增一個名稱obj_s1的Student資料
+		School1 ksu = new School1("崑山科技大學",6666,"李天祥","台南市");
+		//新增一個名稱obj_s1的Student資料
 		ksu.pirntdSchoolfo();//呼叫副函式
 		
 		School1 NTUST = new School1("台灣科技大學",5555,"王錫福","台北市");
