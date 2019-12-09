@@ -103,7 +103,50 @@ public class KSU {
 ```
 輸出結果：學校校名：崑山科技大學   學生人數：6666   校長：李天祥   學校所在地城市：台南市
 ```
+```
 
+public class KSU {
+	
+	private static School1 info;//學校基本資訊
+	
+	//private static int numberOfStudents;//學生人數(類別限定static,大家看到都是同一個)類別變數
+	
+	//private static School[]student_basic_info_array;//[]陣列
+	//需要甚麼類別就建立甚麼類別，Student類別剛剛已建立
+
+	public KSU() {}
+	
+	public KSU(School1 sch) {
+		this.info = sch;
+	}
+	
+	public void printlnfo() {
+		info.pirntdSchoolnfo();
+	}
+	
+	
+	public static void main(String[]args) {
+
+		School1 obj_School_info1 = new School1("崑山科技大學",6666,"李天祥","台南市永康區");
+		obj_School_info1.pirntdSchoolnfo();
+		
+		School1 obj_School_info2 = new School1("國立成功大學",6666,"蘇慧貞","台南市東區");
+		obj_School_info2.pirntdSchoolnfo();
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+```
 
 
 
