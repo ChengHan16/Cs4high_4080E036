@@ -168,9 +168,9 @@ public class School1 {
 			System.out.println("學生大於或等於三千人");
 		}
 		
-		else {				  //當( numberOfStudent > 20000 )不成立執行else,else不能單獨存在
+		else {			     //當( numberOfStudent > 20000 )不成立執行else,else不能單獨存在
 			System.out.println("學生小於或等於兩萬人");
-		}                                 //數字小的不能放前面
+		}                            //數字小的不能放前面
 	}
 	
 	public  void pirntdSchoolnfo() {
@@ -180,7 +180,8 @@ public class School1 {
 	}	
 	
 	public static void main(String[]args) {
-		School1 ksu = new School1("崑山科技大學",12345,"李天祥","台南市");//新增一個名稱obj_s1的Student資料
+		School1 ksu = new School1("崑山科技大學",12345,"李天祥","台南市");
+		//新增一個名稱obj_s1的Student資料
 		ksu.pirntdSchoolnfo();//呼叫副函式
 		ksu.printStudentStatus();
 		
@@ -199,7 +200,8 @@ public class School1 {
 # 加選項
 ```
 	public static void main(String[]args) {
-		School1 ksu = new School1("崑山科技大學",12345,"李天祥","台南市");//新增一個名稱obj_s1的Student資料
+		School1 ksu = new School1("崑山科技大學",12345,"李天祥","台南市");
+		//新增一個名稱obj_s1的Student資料
 		ksu.pirntdSchoolnfo();//呼叫副函式
 		ksu.printStudentStatus();
 		
@@ -207,7 +209,8 @@ public class School1 {
 		NTUST.pirntdSchoolnfo();//呼叫副函式
 		NTUST.printStudentStatus();
 		
-		School1 abc = new School1("abc",3001,"ggg","cde");//新增一個名稱obj_s1的Student資料
+		School1 abc = new School1("abc",3001,"ggg","cde");
+		//新增一個名稱obj_s1的Student資料
 		abc.pirntdSchoolnfo();//呼叫副函式
 		abc.printStudentStatus();
 	}
@@ -215,9 +218,11 @@ public class School1 {
 # 也可以下方式呈現
 ```
 	public static void main(String[]args) {
-		School1 ksu = new School1("崑山科技大學",12345,"李天祥","台南市");//新增一個名稱obj_s1的Student資料
+		School1 ksu = new School1("崑山科技大學",12345,"李天祥","台南市");
+		//新增一個名稱obj_s1的Student資料
 		School1 NTUST = new School1("台灣科技大學",23456,"王錫福","台北市");
-		School1 abc = new School1("台南大學",3001,"李正德","台南市");//新增一個名稱obj_s1的Student資料
+		School1 abc = new School1("台南大學",3001,"李正德","台南市");
+		//新增一個名稱obj_s1的Student資料
 		
 		ksu.pirntdSchoolnfo();//呼叫副函式
 		ksu.printStudentStatus();
