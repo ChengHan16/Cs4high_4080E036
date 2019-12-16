@@ -1,5 +1,19 @@
 # 12/16
 # ForLoopPractice
+# 無限迴圈
+```
+
+public class forLoopPractice {
+
+	public static void main(String[] args) {
+		
+		int i;
+		for( ; ; ){
+			System.out.println(i+"--->What's up,java");
+		}
+	}
+}
+```
 ```
 public class forLoopPractice {
 
