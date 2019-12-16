@@ -64,7 +64,7 @@ public class forLoopPractice {
           2--->What's up,java
           1--->What's up,java
 ```
-# While
+### While
 ```
 
 public class forLoopPractice {
