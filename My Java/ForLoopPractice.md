@@ -64,3 +64,25 @@ public class forLoopPractice {
           2--->What's up,java
           1--->What's up,java
 ```
+# While
+```
+
+public class forLoopPractice {
+
+	public static void main(String[] args) {
+		
+		int i;
+		//for(i=1;i<=10;i++) {	//i++ ---> i=i+1
+		for(i=10;i>=1;i--){
+			System.out.println(i+"--->What's up,java");
+		}
+		
+		while(i<999) {
+			System.out.println(i+"--->What's up,java1");
+			i++;
+		}
+	}
+}//數值確定就用for，條件發生就跳出(不是有固定開始則開始使用的)
+ //例：while(ture)
+```
+
