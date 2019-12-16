@@ -54,9 +54,9 @@ public class forLoopPractice {
 ```
 ```
 輸出結果：10--->What's up,java
-         9--->What's up,java
-         8--->What's up,java
-         7--->What's up,java
+          9--->What's up,java
+          8--->What's up,java
+          7--->What's up,java
          6--->What's up,java
          5--->What's up,java
          4--->What's up,java
