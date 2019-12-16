@@ -27,7 +27,7 @@ public class forLoopPractice {
 }
 ```
 ```
-輸出結果： 1--->What's up,java
+輸出結果：1--->What's up,java
           2--->What's up,java
           3--->What's up,java
           4--->What's up,java
