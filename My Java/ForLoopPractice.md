@@ -1,6 +1,6 @@
 # 12/16
-# ForLoopPractice
-# 無限迴圈
+### ForLoopPractice
+### 無限迴圈
 ```
 
 public class forLoopPractice {
@@ -38,7 +38,7 @@ public class forLoopPractice {
          9--->What's up,java
          10--->What's up,java
 ```
-# 顯示大到小
+### 顯示大到小
 ```
 
 public class forLoopPractice {
