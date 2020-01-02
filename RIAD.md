@@ -13,7 +13,7 @@ RAID 0亦稱為帶區集。
 
 但是RAID 0既沒有冗餘功能，也不具備容錯能力，如果一個磁碟（物理）損壞，所有資料都會遺失，危險程度與#JBOD相當。
 ```
-# RAID 0
+# RAID 1
 ![Alt text](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/130px-RAID_1.svg.png)
 ```
 兩組以上的N個磁碟相互作鏡像，在一些多執行緒作業系統中能有很好的讀取速度，理論上讀取速度等於硬碟數量的倍數，
