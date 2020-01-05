@@ -1,5 +1,6 @@
 # Java For Loop
 ```
+//小到大
 public class Other {
 
 	public static void main(String[] args) {
@@ -23,3 +24,40 @@ public class Other {
 9
 10
 ```
+```
+//大到小
+public class Other {
+
+	public static void main(String[] args) {
+		int i ;
+		for(i=0 ; i>=1 ;i--) {
+			System.out.println(i);
+		}
+	}
+}
+```
+```
+執行結果：
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+```
+
+
+
+
+
+
+
+
+
+
+
+
