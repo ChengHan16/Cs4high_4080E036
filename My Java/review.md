@@ -7,14 +7,14 @@
 ##### • 問題 2: 為 Robot 機器人 ) 定義三個全域變數。分別表示機器人的X座標、Y座標、前進方向。
 #####   public class Robot
 #####     private int x 機器人的 X 座標
-#####     private int y 機器人的 X 座標
+#####     private int y 機器人的 y 座標
 #####     private char direction 機器人 的 前進 方向 N,S,E,W
 #####   }
 ##### • 問題3 為 Robot 機器人) 針對全域變數，完成建構子的定義。
 #####   public class Robot
 #####   private int x 機器人的 X 座標
-#####   private int y 機器人的 X 座標
-#####   private char direction 機器人的前進 方向
+#####   private int y 機器人的 y 座標
+#####   private char direction 機器人的前進方向
 #####    public Robot(int x, int y, int direction){ // 類別建構子
 #####     this.x = x; 透過建構子，將參數 x 的值傳給 全域變數 x
 #####     this.y = y; 透過建構子，將 參數 y 的 值傳給 全域 變數 y
