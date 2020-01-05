@@ -10,6 +10,7 @@ public class Other {
 	}
 }
 ```
+```
 執行結果：
 1
 2
