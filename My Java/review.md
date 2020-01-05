@@ -9,7 +9,7 @@
  ##### private int x 機器人的 X 座標
  ##### private int y 機器人的 X 座標
  ##### private char direction 機器人 的 前進 方向 N,S,E,W
-#####}
+##### }
 ##### • 問題3 為 Robot 機器人) 針對全域變數，完成建構子的定義。
 ##### public class Robot
 ##### private int x 機器人的 X 座標
