@@ -49,7 +49,55 @@ public class Other {
 2
 1
 ```
+# Java While Loop
+```
+public class WhileLoop {
 
+	public static void main(String[] args) {
+	while (i<=10) {
+			System.out.println(i+"--->Java");
+			i++;
+			}
+		}
+	}
+```
+```
+執行結果：
+1--->Java
+2--->Java
+3--->Java
+4--->Java
+5--->Java
+6--->Java
+7--->Java
+8--->Java
+9--->Java
+10--->Java
+```
+# if else
+```
+
+public class WhileLoop {
+
+	public static void main(String[] args) {
+		int i = 10;
+		while (true) {
+			if ( i > 100) {
+				System.out.println (i+100);
+				break;
+			}
+			else if (i < -10 ) {
+				System.out.println (i);
+				break;
+			}
+			else {
+				System.out.println (i);
+				break;
+			}				
+		}
+	}
+}		
+```
 
 
 
