@@ -246,7 +246,7 @@ public class Nnumber {
 執行結果：
 6
 ```
-# 
+# ArrayPractice
 ```
 
 public class ArrayPractice {
