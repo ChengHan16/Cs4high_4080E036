@@ -228,10 +228,24 @@ public class WhileLoop {
 	}
 }		
 ```
+# Number 計算
+```
+public class Nnumber {
 
-
-
-
+	public static void main(String[] args) {
+		int i = f(0);
+		System.out.printf("%d\n",f(1));
+	}
+	public static int f(int x) {
+		int i =1*x*x+2*x+3;
+		return i;
+	}
+}
+```
+```
+執行結果：
+6
+```
 
 
 
