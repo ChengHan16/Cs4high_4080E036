@@ -1,10 +1,10 @@
 
 # review
 ##### 模擬考題
-#####•問題 1: 寫出一個 Java 類別，名稱 Robot 機器人
+##### •問題 1: 寫出一個 Java 類別，名稱 Robot 機器人
   ##### public class Robot
 
-#####•問題 2: 為 Robot 機器人 ) 定義三個全域變數。
+##### •問題 2: 為 Robot 機器人 ) 定義三個全域變數。
 ##### 分別表示機器人的 X 座標、 Y 座標、前進方向。
 ##### public class Robot
  ##### private int x 機器人的 X 座標
