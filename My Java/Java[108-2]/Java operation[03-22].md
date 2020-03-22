@@ -1,3 +1,3 @@
-# custome
+# Custome
 ```
 ```
