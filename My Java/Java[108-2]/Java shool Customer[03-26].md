@@ -99,16 +99,40 @@ public class Customer {
 ```
 package online;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Test {
 
-    public static void main(String[] args) {
-        Customer.setNumofCustomers(0); 
-        //Customer[] customer_array = new Customer[6];
+    public static void main(String[] args) throws IOException {
+        Customer.setNumofCustomers(0);
+        //準備寫入檔案的Writer物a件 out
+        PrintWriter out
+           = new PrintWriter(
+                   new BufferedWriter(
+                        new FileWriter("./data/customer_out.txt")));
+        
+        
+        BufferedReader br
+           = new BufferedReader(new FileReader("./data/customer.txt"));
+        
+        String temp = null;
+        while( (temp=br.readLine()) != null) {
+            System.out.println(temp);
+        }
+        
+        
+        
+        
+        //建立Customer類別的ArrayList
         ArrayList<Customer> customer_List = new ArrayList<Customer>(); 
-        //ArrayList<Order> order_List = new ArrayList<Order>(); 
+        
         Scanner in = new Scanner(System.in);
         int create = 1;
         String name;
@@ -137,7 +161,16 @@ public class Test {
         
         for(int i = 0; i < customer_List.size() ;  i++) {
             customer_List.get(i).printCustomerInfo();
+            
+            out.write(customer_List.get(i).getName()
+                    + "\t" + customer_List.get(i).getAddress()
+                    + "\t" + customer_List.get(i).getPhone_number()
+                    + "\t" + customer_List.get(i).getEmail_address()
+                    + "\n");
         }
+        
+        //close Writer
+        out.close();
         
         for(int i = 0; i < customer_List.size()  ;  i++) {
             System.out.println(customer_List.get(i).getName());
@@ -145,7 +178,7 @@ public class Test {
         
         for(int i = 0; i < customer_List.size() ;  i++) {
             System.out.println(customer_List.get(i).getEmail_address());
-        }     
+        }                                
     }
 }
 ```
