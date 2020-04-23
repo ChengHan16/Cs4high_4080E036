@@ -185,3 +185,22 @@ public class ReadAndParseTxtFile {
 
 }//class結束
 ```
+
+```
+package fileProcessTest;
+
+import java.io.IOException;
+
+import fileProcess.ReadAndParseTxtFile;
+
+public class FileTest {
+
+	public static void main(String[] args) throws IOException {
+		ReadAndParseTxtFile obj = new ReadAndParseTxtFile();
+		//obj.readTextFile("./data/customer.text");
+		
+		ReadAndParseTxtFile.readTxtFile_static("./data/customer.txt");
+	}
+}
+
+```
