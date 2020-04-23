@@ -1,4 +1,4 @@
-# (2020-04-23)(階段一)
+# 考前複習(階段一)
 ```
 package fileProcess;//套件名稱
 
@@ -41,6 +41,7 @@ public class ReadAndParseTxtFile {
     }
 }
 ```
+#
 ```
 package fileProcessTest;
 
@@ -56,5 +57,25 @@ public class FileTest {
 		
 		ReadAndParseTxtFile.readTextFile_static("./data/customer.text");
 	}
+}
+```
+```
+package fileProcessTest;
+
+import java.io.IOException;
+
+import fileProcess.ReadAndParseTxtFile;
+
+public class FileTest {
+
+    public static void main(String[] args) throws IOException {
+        
+        ReadAndParseTxtFile obj = new ReadAndParseTxtFile();
+        obj.readTxtFile("./data/customer.txt");
+        
+        ReadAndParseTxtFile.readTxtFile_static("./data/customer.txt");
+
+    }
+
 }
 ```
