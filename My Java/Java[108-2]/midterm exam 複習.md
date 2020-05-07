@@ -292,3 +292,55 @@ public class MyMath中階2 {
 }
 
 ```
+```
+//-------------------------------中階考題 3----------------------------------
+package myPackage;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class MyFileReader {
+
+	public static void main(String[] args) throws IOException {
+		//readAndParseTxtFile();
+		readAndTxtFile ();
+	}
+	public static void readAndParseTxtFile () throws IOException {
+
+        FileReader fr 
+            = new FileReader("./data/customer.txt");
+        
+        BufferedReader br
+              = new BufferedReader(fr); 
+        
+        String temp = null; //準備一個字串變數temp
+        while( (temp=br.readLine()) != null) {//從檔案中，一次讀取一行，每一行就是一筆顧客資料
+            //System.out.println(temp);
+        	}
+		}
+        
+    	public static void readAndTxtFile () throws IOException {
+
+            FileReader fr 
+                = new FileReader("./data/customer.txt");
+            
+            BufferedReader br
+                  = new BufferedReader(fr); 
+            
+            String temp = null;
+            String[] token = null;
+            while( (temp = br.readLine()) != null) {
+            //System.out.println(temp);
+            token = temp.split("\t");
+
+            for(int i = 0; i < token.length; i++) {
+            System.out.println(token[i]);
+            }
+         }
+            
+    }
+}
+
+
+```
