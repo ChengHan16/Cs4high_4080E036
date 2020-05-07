@@ -235,3 +235,36 @@ c0002020-2	黃偉哲	台南縣七股鄉	06-6326303	mayor@mail.tainan.gov.tw
 c0002020-3	柯文哲	臺北市信義區市府路1號	02-27208889	kowj@mail.taipei.gov.tw
 c0002020-4	賴清德	臺北縣萬里鄉	02-2358-6931	semicontaiwan@semi.org
 ```
+# 中階考題 2(更新)
+```
+package myPackage;
+import java.util.Scanner;
+
+public class MyMath中階2 {
+
+	public static void main(String[] args) {
+		System.out.println("呼叫副函式");
+		Scanner in =new Scanner(System.in);
+		System.out.print("請輸入一個整數");
+		int N = in.nextInt();
+		sum1toN(N);
+	}
+		public static void sum1toN(int N) {
+		int sum = 0;
+		for(int i =1 ; i<=N ; i++) {
+			sum= sum+i;
+		}
+		
+		System.out.println("1+2+3+..."+N+" = "+ sum);
+	}
+	/*
+		public static void sum1toN() {
+		int N;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("請輸入一個數字：");
+		N = scanner.nextInt();
+		System.out.println(1+2+3+4+5+N);
+	}
+	*/
+}
+```
