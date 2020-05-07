@@ -268,3 +268,27 @@ public class MyMath中階2 {
 	*/
 }
 ```
+# 中階考題 2(更新)
+```
+package myPackage;
+import java.util.Scanner;
+
+public class MyMath中階2 {
+
+	public static void main(String[] args) {
+		Scanner in =new Scanner(System.in);
+		System.out.print("請輸入一個整數");
+		int N = in.nextInt();
+		sum1toN(N);
+	}
+		public static void sum1toN(int N) {
+		int sum = 0;
+		for(int i =1 ; i<=N ; i++) {
+			sum= sum+i;
+		}
+		
+		System.out.println("1+2+3+..."+N+" = "+ sum);
+	}
+}
+
+```
