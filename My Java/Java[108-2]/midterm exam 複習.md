@@ -3,13 +3,21 @@
 ```
 package myPackage;
 
-public class MyMath2 {
+public class MyMath {
 
-public static void main(String[] args) {
-int x = 10;
-System.out.println(x*x*x);
+	public static void main(String[] args) {
+		int x = 10;
+		//int result = x*x*x;
+		System.out.println(x*x*x);
+		//System.out.println(result);
+		
+	}
+
 }
-}
+
+//長整數 long x =10;
+//		 long result = x*x*x*x*x*x*x*x*x*x;
+
 ```
 # 初階考題 3
 ```
@@ -29,17 +37,21 @@ System.out.println(x+y+z);
 ```
 package myPackage;
 
-public class MyMath4 {
+public class MyMath2 {
 
-public static void main(String[] args) {
- int i,sum = 0;
- for (i = 1 ; i <= 100 ; i++)
- {
- sum += i;
- }
- System.out.println(sum); //輸出結果
+	public static void main(String[] args) {
+		int i ;
+		for(i=0;i<101;i++) {
+			System.out.println(i);
+		}
+
+	}
+
 }
-}
+//int sum =0;
+//for (int i=1; i<=100 ;i++) {
+//	sum=sum+1;
+//}
 ```
 # 初階考題 5
 ```
