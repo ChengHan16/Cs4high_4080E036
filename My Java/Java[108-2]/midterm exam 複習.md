@@ -1,4 +1,5 @@
 # Midterm exam 複習
+# 初階考題 2
 ```
 package myPackage;
 
@@ -10,6 +11,7 @@ System.out.println(x*x*x);
 }
 }
 ```
+# 初階考題 3
 ```
 package myPackage;
 
@@ -23,6 +25,7 @@ System.out.println(x+y+z);
 }
 }
 ```
+# 初階考題 4
 ```
 package myPackage;
 
@@ -38,6 +41,7 @@ public static void main(String[] args) {
 }
 }
 ```
+# 初階考題 5
 ```
 package myPackage;
 
