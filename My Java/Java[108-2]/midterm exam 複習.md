@@ -139,6 +139,7 @@ public class MyMath2 {
 
 }
 ```
+# 中階考題 1
 ```
 package myPackage;
 
@@ -156,6 +157,7 @@ public class MyMath3 {
 
 }
 ```
+# 中階考題 2
 ```
 package myPackage;
 import java.util.Scanner;
