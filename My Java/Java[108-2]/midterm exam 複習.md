@@ -212,3 +212,10 @@ public class MyFileReader {
 }
 
 ```
+# 中階考題 3 輸出結果
+```
+c0002020-1	李麥克	崑大路195號	0919-058823	t097000085@g.ksu.edu.tw
+c0002020-2	黃偉哲	台南縣七股鄉	06-6326303	mayor@mail.tainan.gov.tw
+c0002020-3	柯文哲	臺北市信義區市府路1號	02-27208889	kowj@mail.taipei.gov.tw
+c0002020-4	賴清德	臺北縣萬里鄉	02-2358-6931	semicontaiwan@semi.org
+```
