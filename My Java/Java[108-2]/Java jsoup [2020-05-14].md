@@ -29,3 +29,6 @@ import java.io.IOException;
 }
 ```
 ![image](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/My%20Java/Java%5B108-2%5D/image/jsoup.png)
+![image](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/My%20Java/Java%5B108-2%5D/image/jsoup1.png)
+![image](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/My%20Java/Java%5B108-2%5D/image/jsoup2.png)
+![image](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/My%20Java/Java%5B108-2%5D/image/jsoup3.png)
