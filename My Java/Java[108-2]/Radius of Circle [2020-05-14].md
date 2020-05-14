@@ -1,6 +1,4 @@
 # [2020-05-14]
-```
-```
 # Radius of Circle 方法一
 ```
 import java.util.Scanner;
