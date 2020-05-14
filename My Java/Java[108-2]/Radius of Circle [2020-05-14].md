@@ -141,7 +141,7 @@ public class Radius_of_Circle_DecimalFormat {
  圓面積= 78.54
  圓周長= 31.42
 ```
-# 浮點數 DecimalFormat 應用 [限制浮點數顯示位數]------------------------註解版------------------------
+# 浮點數 DecimalFormat 應用 [限制浮點數顯示位數]------------------------------------註解版------------------------------------
 ```
 import java.text.DecimalFormat;//匯入DecimalFormat
 import java.util.Scanner;//匯入Scanner
