@@ -149,8 +149,12 @@ import java.util.Scanner;//匯入Scanner
 public class Radius_of_Circle_DecimalFormat {//Radius_of_Circle_DecimalFormat類別
 
 	static final private  double PI =3.1415;//Final 修飾 是不能更改
-	static Scanner in =new Scanner(System.in);//Scanner建立物新物件 in，因為放在主函式外所以要加static，但全程式可使用Sanner
-	private static DecimalFormat df = new DecimalFormat("#.##");//"#.##"次內容控制顯示位數，例如："#.###"顯示位數小點後3位
+	
+	static Scanner in =new Scanner(System.in);
+	//Scanner建立物新物件 in，因為放在主函式外所以要加static，但全程式可使用Sanner
+	
+	private static DecimalFormat df = new DecimalFormat("#.##");
+	//"#.##"次內容控制顯示位數，例如："#.###"顯示位數小點後3位
 	
 	public static void main(String[] args) {//主函式
 		System.out.print("請輸入一個數字");//列印字串
