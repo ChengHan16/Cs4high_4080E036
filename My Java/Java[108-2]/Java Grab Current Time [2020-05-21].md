@@ -286,7 +286,7 @@ public class MyHTMLParser_using_jsoup{ //類別名稱
 
 幣別國旗	https://rate.bot.com.tw/Content/images/sprite_lateral.png
 ```
-# Grab html data
+# 抓html網頁中的 img標籤內的attr 如 title, src、Grab html data 
 ```
 package org.jsoup.examples; //套件package名稱
 
