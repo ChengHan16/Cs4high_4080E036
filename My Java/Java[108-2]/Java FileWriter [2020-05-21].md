@@ -48,7 +48,7 @@ public class MyHTMLParser_using_jsoup{ //類別名稱
 
 }
 ```
-# FileWriter Test
+# 將jsoup抓到的網頁，寫入檔案 [UTF-8]編碼 新增新類別BufferedFileWriter_FileWriter Test
 ```
 package org.jsoup.examples; //套件package名稱
 
