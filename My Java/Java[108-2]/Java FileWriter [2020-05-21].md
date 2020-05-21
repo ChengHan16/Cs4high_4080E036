@@ -6,6 +6,48 @@
                    new BufferedWriter(
                         new FileWriter("./data/customer_out.txt")));//寫入檔案路徑
 ```
+# 將jsoup抓到的網頁，寫入檔案 [UTF-8]編碼 不新增新類別
+```
+package org.jsoup.examples; //套件package名稱
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+import java.io.BufferedWriter;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+
+
+/**
+ * A simple example, used on the jsoup website.
+ */
+public class MyHTMLParser_using_jsoup{ //類別名稱
+    
+    public static String charset = "UTF-8";
+
+    //主函式
+    public static void main(String[] args) throws IOException {
+        
+        //準備寫入檔案的Writer物件 out       
+        //BufferedFileWriter out = new BufferedFileWriter("./data/BOTrate.html");
+        
+        BufferedWriter out = new BufferedWriter(
+                new OutputStreamWriter(
+                        new FileOutputStream("./data/BOTrate.html"), "UTF-8"));
+        
+        String url = "https://rate.bot.com.tw/xrt?Lang=zh-TW";
+        Document doc = Jsoup.connect(url).get();
+        
+        System.out.println(doc.toString());
+        out.write(doc.toString()); 
+        out.close();
+    }
+
+}
+```
 # FileWriter Test
 ```
 package org.jsoup.examples; //套件package名稱
