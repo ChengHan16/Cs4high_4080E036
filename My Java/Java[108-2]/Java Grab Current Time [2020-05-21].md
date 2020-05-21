@@ -286,3 +286,113 @@ public class MyHTMLParser_using_jsoup{ //類別名稱
 
 幣別國旗	https://rate.bot.com.tw/Content/images/sprite_lateral.png
 ```
+# Grab html data
+```
+package org.jsoup.examples; //套件package名稱
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+import java.io.IOException;
+
+/**
+ * A simple example, used on the jsoup website.
+ */
+public class MyHTMLParser_using_jsoup{ //類別名稱
+    
+    //主函式
+    public static void main(String[] args) throws IOException {
+        Document doc = Jsoup.connect("https://www.tna.gov.tw/tw/index.php?option=com_tnn_departures").get();
+        System.out.println("網頁標題:" + doc.title());//網頁標題
+        System.out.println("網頁網址:"+ doc.baseUri());//網頁網址
+
+        Elements tags = doc.select(".content_padding table tr td");
+        //利用select函式，選擇Document(doc)中html的所有 <tr> 標籤  Elements類別(是ArrayList的子類別)
+          
+        for(Element tag : tags){  
+            System.out.println(tag.text());
+        }
+    }
+
+}
+```
+# 顯示結果：
+```
+網頁標題:臺南航空站 - 離站班機資訊
+網頁網址:https://www.tna.gov.tw/tw/index.php?option=com_tnn_departures
+
+臺南航空站班機離站時刻表（今日）
+
+臺灣時間 (GMT+8hrs)：109-05-21 下午 03:55:03 　　　　各航空公司櫃檯資訊｜本月到站｜本月離站 臺南航空站班機離站時刻表（今日） 航空公司 班次 飛往 預計起飛 預計抵達 登機門 班機狀態（實際起飛） 立榮 B7 8675 澎湖MZG 07:20 07:50 1 離站Departed 立榮 B7 8981 金門KNH 09:40 10:30 1 離站Departed 立榮 B7 8679 澎湖MZG 12:00 12:30 1 離站Departed 越捷 VJ 859 胡志明SGN 14:00 16:15 1 取消Cancelled 立榮 B7 8991 金門KNH 14:30 15:20 1 離站Departed 中華 CI 7863 香港HKG 16:45 18:25 1 取消Cancelled 立榮 B7 8681 澎湖MZG 17:40 18:10 1 準時ON TIME 航空公司資訊 航空公司 客服專線 機場櫃檯 網址 立榮航空公司 (02) 2508-6999 (06) 260-3683 立榮航空公司網站（另開新視窗） 中華航空公司 (02) 412-9000 (06) 260-1020 中華航空公司網站（另開新視窗） 越捷航空公司 （立榮航空代理） 0800-661-886 (06) 260-3683 越捷航空公司網站（另開新視窗） RSS 臺南航空站旅客時刻表（即時）
+臺灣時間 (GMT+8hrs)：109-05-21 下午 03:55:03 　　　　各航空公司櫃檯資訊｜本月到站｜本月離站 臺南航空站班機離站時刻表（今日） 航空公司 班次 飛往 預計起飛 預計抵達 登機門 班機狀態（實際起飛） 立榮 B7 8675 澎湖MZG 07:20 07:50 1 離站Departed 立榮 B7 8981 金門KNH 09:40 10:30 1 離站Departed 立榮 B7 8679 澎湖MZG 12:00 12:30 1 離站Departed 越捷 VJ 859 胡志明SGN 14:00 16:15 1 取消Cancelled 立榮 B7 8991 金門KNH 14:30 15:20 1 離站Departed 中華 CI 7863 香港HKG 16:45 18:25 1 取消Cancelled 立榮 B7 8681 澎湖MZG 17:40 18:10 1 準時ON TIME
+臺灣時間 (GMT+8hrs)：109-05-21 下午 03:55:03 　　　　各航空公司櫃檯資訊｜本月到站｜本月離站
+立榮 B7
+8675
+澎湖MZG
+07:20
+07:50
+1
+離站Departed
+立榮 B7
+8981
+金門KNH
+09:40
+10:30
+1
+離站Departed
+立榮 B7
+8679
+澎湖MZG
+12:00
+12:30
+1
+離站Departed
+越捷 VJ
+859
+胡志明SGN
+14:00
+16:15
+1
+取消Cancelled
+立榮 B7
+8991
+金門KNH
+14:30
+15:20
+1
+離站Departed
+中華 CI
+7863
+香港HKG
+16:45
+18:25
+1
+取消Cancelled
+立榮 B7
+8681
+澎湖MZG
+17:40
+18:10
+1
+準時ON TIME
+
+
+航空公司資訊 航空公司 客服專線 機場櫃檯 網址 立榮航空公司 (02) 2508-6999 (06) 260-3683 立榮航空公司網站（另開新視窗） 中華航空公司 (02) 412-9000 (06) 260-1020 中華航空公司網站（另開新視窗） 越捷航空公司 （立榮航空代理） 0800-661-886 (06) 260-3683 越捷航空公司網站（另開新視窗） RSS 臺南航空站旅客時刻表（即時）
+立榮航空公司
+(02) 2508-6999
+(06) 260-3683
+立榮航空公司網站（另開新視窗）
+中華航空公司
+(02) 412-9000
+(06) 260-1020
+中華航空公司網站（另開新視窗）
+越捷航空公司 （立榮航空代理）
+0800-661-886
+(06) 260-3683
+越捷航空公司網站（另開新視窗）
+
+TOP
+TOP
+```
