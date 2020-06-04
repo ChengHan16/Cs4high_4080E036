@@ -13,3 +13,6 @@
 ```
 * Item 1 ---> 列表
 ```
+- [x] This is a complete item
+- [ ] This is an incomplete item
+```
