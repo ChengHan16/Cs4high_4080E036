@@ -25,10 +25,12 @@
 ```
 # 高亮程式碼顯示語法 （前後三個反引號 *``` *+ 語言)
 ```
-	```public class MyJsoupHtmlParser {
+	```js
+    	public class MyJsoupHtmlParser {
 		public static void main (String[] args) {
 			}
-	```}
+		}
+    ```
 ```
 
 
