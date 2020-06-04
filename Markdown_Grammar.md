@@ -19,7 +19,7 @@
 - [x] This is a complete item
 - [ ] This is an incomplete item
 ```
-`小區塊語法：Format one word or one line //字句前後加上引號ˋ
+`小區塊語法：Format one word or one line //字句前後加上引號`
 ```
     大區塊語法： code (4 spaces indent) //前面加上4個空白
 ```
