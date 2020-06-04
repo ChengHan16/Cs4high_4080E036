@@ -24,13 +24,11 @@
     大區塊語法： code (4 spaces indent) //前面加上4個空白
 ```
 # 高亮程式碼顯示語法 （前後三個反引號 *``` *+ 語言)
-```
 	```js
     	public class MyJsoupHtmlParser {
 		public static void main (String[] args) {
 			}
 		}
     	```
-```
 
 
