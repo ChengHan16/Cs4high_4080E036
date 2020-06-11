@@ -168,5 +168,5 @@ public class Multidimensional_Arrays {
 ```
 7
 ```
-# [Back to Top]img style="vertical-align:middle;(#readme)
+# [Back to Top](#readme)
 
