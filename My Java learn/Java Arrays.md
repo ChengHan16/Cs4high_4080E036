@@ -44,3 +44,29 @@ public class array_Length {
 ```
 4
 ```
+# change_an_Array_Element
+```
+public class change_an_Array_Element {
+	
+	  public static void main(String[] args) {
+		  
+		    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+		    
+		    cars[0] = "Opel";
+		    
+		    System.out.println(cars[0]+"\n");
+		    
+		    System.out.println(cars[2]+"\n");
+		    
+		    System.out.println(cars[3]+"\n");
+	}
+}
+```
+# 輸出結果：
+```
+Opel
+
+Ford
+
+Mazda
+```
