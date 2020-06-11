@@ -149,3 +149,22 @@ public class Multidimensional_Arrays_for_loop {
 6
 7
 ```
+# Multidimensional_Arrays
+```
+
+public class Multidimensional_Arrays {
+	
+	  public static void main(String[] args) {
+		  
+		    int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+		    
+		    int x = myNumbers[1][2];
+		    
+		    System.out.println(x);  
+	 }
+}
+```
+# 輸出結果：
+```
+7
+```
