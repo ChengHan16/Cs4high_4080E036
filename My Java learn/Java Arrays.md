@@ -94,3 +94,28 @@ BMW
 Ford
 Mazda
 ```
+# loop_Through_an_Array
+```
+
+public class loop_Through_an_Array {
+	
+	  public static void main(String[] args) {
+		  
+		    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+		    
+		    for (int i = 0; i < cars.length; i++) {
+		    	
+		    System.out.println(cars[i]);
+		   }
+	  }
+}
+
+```
+# 輸出結果：
+```
+Volvo
+BMW
+Ford
+Mazda
+
+```
