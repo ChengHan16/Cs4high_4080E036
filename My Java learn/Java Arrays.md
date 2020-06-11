@@ -18,7 +18,7 @@ public class access_the_Elements_of_an_Array {
   
 }
 ```
-# 輸出結果：
+### 輸出結果：
 ```
 Volvo
 
@@ -26,7 +26,7 @@ BMW
 
 Mazda
 ```
-# array_Length
+### array_Length
 ```
 
 public class array_Length {
@@ -40,7 +40,7 @@ public class array_Length {
 }
 
 ```
-# 輸出結果：
+### 輸出結果：
 ```
 4
 ```
