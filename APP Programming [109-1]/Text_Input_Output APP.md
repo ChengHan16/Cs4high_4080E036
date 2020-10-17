@@ -1,4 +1,5 @@
 ![Text_Input_Output APP](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/Text_Input_Output_Result.PNG)
+=================
 Activity_main.xml
 -----------------
 ```
