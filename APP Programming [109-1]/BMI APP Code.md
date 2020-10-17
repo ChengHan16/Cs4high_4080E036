@@ -1,6 +1,6 @@
 Elementary
 =============
-Axtivity_main.xml
+Activity_main.xml
 -----------------
 ![BMI UP](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/BMI%E5%88%9D%E7%B4%9A.PNG)
 ```
@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 BMI Advanced
 =============
-Axtivity_main.xml
+Activity_main.xml
 -----------------
 ![BMI UP](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/BMI%E9%80%B2%E9%9A%8E.PNG)
 ```
