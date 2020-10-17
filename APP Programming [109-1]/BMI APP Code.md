@@ -2,7 +2,7 @@ Elementary
 =============
 Activity_main.xml
 -----------------
-![BMI UP](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/BMI%E5%88%9D%E7%B4%9A.PNG)
+![BMI 1](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/BMI%E5%88%9D%E7%B4%9A.PNG)
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
