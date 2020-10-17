@@ -168,7 +168,9 @@ BMI Advanced
 =============
 Activity_main.xml
 -----------------
+
 ![BMI 2](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/BMI%E9%80%B2%E9%9A%8E.PNG)
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
