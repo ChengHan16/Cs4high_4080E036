@@ -105,14 +105,25 @@ Axtivity_main.xml
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/display"
+                android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="BMI = __________"
+                android:text="BMI ="
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/display"
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="__________"
                 android:textColor="@android:color/tertiary_text_dark"
                 android:textSize="30sp" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -146,6 +157,18 @@ Axtivity_main.xml
 MainActivity.java
 =================
 ```
+package com.example.myapplication;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -212,4 +235,3 @@ public class MainActivity extends AppCompatActivity {
 
 }
 ```
-![Alt](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/BMI%E9%80%B2%E9%9A%8E "A")
