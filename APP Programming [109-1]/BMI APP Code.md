@@ -1,4 +1,4 @@
-Elementary
+BMI Elementary
 =============
 Activity_main.xml
 -----------------
