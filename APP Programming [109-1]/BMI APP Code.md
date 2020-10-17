@@ -577,17 +577,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import java.text.DecimalFormat;
-import java.text.NumberFormat;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-import android.view.View;
-import android.widget.EditText;
-import android.widget.TextView;
-
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
 
 public class MainActivity extends AppCompatActivity {
     DecimalFormat df = new DecimalFormat("##.00");
@@ -610,32 +599,22 @@ public class MainActivity extends AppCompatActivity {
         double bmi_result = weight_d/((height_d/100)*(height_d/100)); // BMI值 計算結果
 
         TextView display = findViewById(R.id.display);
-        display.setText("BMI = " + df.format(bmi_result));
-        TextView result = (TextView)findViewById(R.id.display);// 取得 顯示結果 物件
-
-
-        TextView result1 = (TextView)findViewById(R.id.display);// 取得 顯示結果 物件
-        height_d = height_d/100; // 計算BMI
-        height_d = height_d*height_d;  // 計算BMI
-
-
-        bmi_result = weight_d/height_d;                                // 計算BMI
-        result1.setText(df.format(weight_d/height_d) +"");           // 顯示BMI計算結果
-        TextView dia = (TextView)findViewById(R.id.tv4);// 取得 顯示診斷 物件
-
+        display.setText(df.format(bmi_result));
+        
+        TextView display2 = (TextView)findViewById(R.id.display2);// 取得 顯示診斷 物件
         // 診斷結果 顯示
         if (bmi_result<18.5)
-            dia.setText("體重過輕");
+            display2.setText("體重過輕");
         else if (18.5 <= bmi_result && bmi_result< 24)
-            dia.setText("正常範圍");
+            display2.setText("正常範圍");
         else if (24 <=bmi_result && bmi_result < 27)
-            dia.setText("過    重");
+            display2.setText("過    重");
         else if (27 <=bmi_result && bmi_result < 30)
-            dia.setText("輕度肥胖");
+            display2.setText("輕度肥胖");
         else if (30 <= bmi_result && bmi_result < 35)
-            dia.setText("中度肥胖");
+            display2.setText("中度肥胖");
         else if (bmi_result >= 35)
-            dia.setText("重度肥胖");
+            display2.setText("重度肥胖");
     }
 }
 ```
