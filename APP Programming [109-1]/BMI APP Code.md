@@ -1,4 +1,3 @@
-# BMI APP Code.md
 Axtivity_main.xml
 =============
 ```
