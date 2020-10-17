@@ -164,7 +164,7 @@ public class MainActivity extends AppCompatActivity {
 
 }
 ```
-# BMI Advanced
+BMI Advanced
 =============
 Axtivity_main.xml
 -----------------
