@@ -212,4 +212,4 @@ public class MainActivity extends AppCompatActivity {
 
 }
 ```
-![Alt text](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/BMI%E9%80%B2%E9%9A%8E.PNG)
+![Alt text](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/BMI%E9%80%B2%E9%9A%8E)
