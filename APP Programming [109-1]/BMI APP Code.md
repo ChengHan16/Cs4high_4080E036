@@ -593,15 +593,15 @@ public class MainActivity extends AppCompatActivity {
         String height_s = height.getText().toString();
         String weight_s = weight.getText().toString();
 
-        double height_d = Double.parseDouble(height_s);// 取得 身高輸入值
-        double weight_d = Double.parseDouble(weight_s);// 取得 體重輸入值
+        double height_d = Double.parseDouble(height_s);// 取得身高輸入值
+        double weight_d = Double.parseDouble(weight_s);// 取得體重輸入值
 
-        double bmi_result = weight_d/((height_d/100)*(height_d/100)); // BMI值 計算結果
+        double bmi_result = weight_d/((height_d/100)*(height_d/100)); // BMI值計算結果
 
         TextView display = findViewById(R.id.display);
         display.setText(df.format(bmi_result));
         
-        TextView display2 = (TextView)findViewById(R.id.display2);// 取得 顯示診斷 物件
+        TextView display2 = (TextView)findViewById(R.id.display2);// 取得顯示診斷物件
         // 診斷結果 顯示
         if (bmi_result<18.5)
             display2.setText("體重過輕");
