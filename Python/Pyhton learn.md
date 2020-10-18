@@ -51,7 +51,10 @@ print(x)
 x = {7,8,9}
 print(x)
 ```
-# Lesson Three
+Lesson Three
+============
+Number_String.py
+----------------
 ```
 
 
