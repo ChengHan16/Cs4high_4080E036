@@ -56,6 +56,69 @@ Lesson Three
 Number_String.py
 ----------------
 ```
+# 數字運算
+#x = 3 + 6
+#print(x)
 
+#x = 3 * 6
+#print(x)
+
+#x = 3 / 6 # 小數除法
+#print(x)
+
+#x = 3 // 6 # 整數除法
+#print(x)
+
+#x = 2**0.5 
+#print(x)
+
+#x = 7%3 # 取餘數
+#print(x)
+
+#x = 2 + 3
+#print(x)
+#x=x+1   # 將變數中的數字 +1
+
+# x+=1
+# x-=1
+# x*=1
+#print(x)
+
+
+# 字串運算
+
+#s = "Hello"
+#print(s)
+
+#s = "Hello\"O" # \(斜線)跳脫與""，並可列印出來
+#print(s)
+
+#s = "Hello"+"Python"
+#print(s)
+
+#s = "Hello" "Python"
+#print(s)
+
+#s = "Hello\nWord" # \n 換行
+#print(s)
+
+# 3個多引號或單引可以換行
+#s = """Hello
+
+#World"""
+#print(s)
+
+#s = "Hello"*3 + "Pyhton"
+#print(s)
+
+# 字串內有對應字元編號，從0開始算起
+#s = "Hello"
+#print(s[0] ,s[4])
+
+#print(s[1:4]) # 取1~4之間
+
+#s = "Hello"
+#print(s[1:])
+#print(s[:4])
 
 ```
