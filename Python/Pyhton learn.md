@@ -120,5 +120,4 @@ Number_String.py
 #s = "Hello"
 #print(s[1:])
 #print(s[:4])
-
 ```
