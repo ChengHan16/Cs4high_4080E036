@@ -1,4 +1,4 @@
-BMI_APP(1)
+BMI_APP_(1)
 ==========
 Activity_main.xml
 -----------------
@@ -275,4 +275,17 @@ public class MainActivity extends AppCompatActivity {
             display2.setText("重度肥胖");
     }
 }
+```
+BMI_APP_(2)
+==========
+Activity_main.xml
+-----------------
+
+```
+
+```
+MainActivity.java
+-----------------
+```
+
 ```
