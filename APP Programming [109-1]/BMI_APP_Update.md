@@ -1,6 +1,6 @@
 BMI_APP
 =======
-Activity_main.xml
+activity_main.xml
 ----------------
 ![BMI(1)](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/BMI(2).PNG)
 ![換えてページ.PNG](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/%E6%8F%9B%E3%81%88%E3%81%A6%E3%83%9A%E3%83%BC%E3%82%B8.PNG)
@@ -232,7 +232,7 @@ Activity_main.xml
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-Activity_main2.xml
+activity_main2.xml
 ----------------
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -453,4 +453,31 @@ public class MainActivity2 extends AppCompatActivity {
         });
     }
 }
+```
+AndroidManifest.xml
+----------------
+```
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bmi_app_10_24">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bmi_app_10_24">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity2"
+            android:parentActivityName=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>
 ```
