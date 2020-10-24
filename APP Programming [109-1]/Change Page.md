@@ -185,3 +185,60 @@ public class MainActivity2 extends AppCompatActivity {
         }
     }
 ```
+# Focus(重要の所)
+
+MainActivity.java
+==================
+```
+ setTitle("Page 1");
+
+        Button btn_to_page2 = (Button) findViewById(R.id.button);
+
+        btn_to_page2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(MainActivity.this, MainActivity2.class);
+
+                // crating a bundle object
+                Bundle bundle = new Bundle();
+
+                EditText name = findViewById(R.id.inputName);
+                String name_s = name.getText().toString();
+
+                // storing the string value in the bundle which is mapped to key
+                bundle.putString("key1", name_s);
+
+                // passing the bundle into the intent
+                intent.putExtras(bundle);
+
+                startActivity(intent);
+            }
+        });
+```
+MainActivity2.java
+==================
+```
+ setTitle("Page 2");
+
+            // getting the bundle back from the android
+            Bundle bundle = getIntent().getExtras();
+
+            // getting the string back
+            String TextView = bundle.getString("key1", "Default");
+
+            TextView display = findViewById(R.id.display2);
+            display.setText(TextView);
+
+
+            Button btn_to_page1 = (Button) findViewById(R.id.button2);
+
+            btn_to_page1.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent();
+                    intent.setClass(MainActivity2.this, MainActivity.class);
+                    startActivity(intent);
+                }
+            });
+```
