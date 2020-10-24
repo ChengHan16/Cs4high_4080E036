@@ -1,6 +1,5 @@
 # APP Programming [109-1]
 ```
-
 Activity_main.xml
 ==================
 ```
@@ -21,6 +20,4 @@ MainActivity2.java
 ```
 
 ```
-
-
 ```
