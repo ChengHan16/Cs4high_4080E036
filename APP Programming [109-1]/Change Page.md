@@ -2,7 +2,7 @@
 Activity_main.xml
 ==================
 ![Change_Page_APP](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/%E3%83%9A%E3%83%BC%E3%82%B8%E6%8F%9B%E3%81%88%E3%82%8B.PNG)
-![Change_Page_APP](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/%E3%83%9A%E3%83%BC%E3%82%B8%E6%8F%9B%E3%81%88%E3%82%8B(1).PNG)
+![Change_Page_APP1](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/%E3%83%9A%E3%83%BC%E3%82%B8%E6%8F%9B%E3%81%88%E3%82%8B(1).PNG)
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
