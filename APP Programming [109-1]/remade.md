@@ -3,7 +3,7 @@
 Activity_main.xml
 ==================
 
-Activity_main1.xml
+Activity_main2.xml
 ==================
 
 MainActivity.java
