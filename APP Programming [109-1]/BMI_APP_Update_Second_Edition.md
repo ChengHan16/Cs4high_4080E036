@@ -1,5 +1,11 @@
 BMI_Exercise_[11-01]
 =================
+
+![BMI_Update(1).PNG](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/BMI_Update(1).PNG)
+![BMI_Update(2).PNG](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/BMI_Update(2).PNG)
+![BMI_Update(3).PNG](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/BMI_Update(3).PNG)
+![BMI_Update(4).PNG](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/BMI_Update(4).PNG)
+
 Activity_main.xml
 ------------------
 ```
