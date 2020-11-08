@@ -6,7 +6,7 @@ BMI_アプリ
 ========================
 [テストの前に練習する(上級_じょうきゅう)](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/APP%20Programming%20%5B109-1%5D/Home%20Practice/%E3%83%86%E3%82%B9%E3%83%88%E3%81%AE%E5%89%8D%E3%81%AB%E7%B7%B4%E7%BF%92%E3%81%99%E3%82%8B(%E4%B8%8A%E7%B4%9A).md)
 ========================
-![1](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/%E4%B8%8A%E7%B4%9A_1.PNG)
-![2](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/%E4%B8%8A%E7%B4%9A_2.PNG)
-![3](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/%E4%B8%8A%E7%B4%9A_3.PNG)
-![4](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/%E4%B8%8A%E7%B4%9A_4.PNG)
+![BMI_Update(1).PNG](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/%E6%97%A5%E6%9C%AC%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%B3%E3%82%B01.PNG)
+![BMI_Update(2).PNG](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/%E6%97%A5%E6%9C%AC%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%B3%E3%82%B02.PNG)
+![BMI_Update(3).PNG](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/%E6%97%A5%E6%9C%AC%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%B3%E3%82%B03.PNG)
+![BMI_Update(4).PNG](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/%E6%97%A5%E6%9C%AC%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%B3%E3%82%B04.PNG)
