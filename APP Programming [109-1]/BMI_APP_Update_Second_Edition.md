@@ -1,11 +1,5 @@
 BMI_Exercise_[11-01]
 =================
-
-![BMI_Update(1).PNG](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/%E6%97%A5%E6%9C%AC%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%B3%E3%82%B01.PNG)
-![BMI_Update(2).PNG](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/%E6%97%A5%E6%9C%AC%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%B3%E3%82%B02.PNG)
-![BMI_Update(3).PNG](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/%E6%97%A5%E6%9C%AC%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%B3%E3%82%B03.PNG)
-![BMI_Update(4).PNG](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/%E6%97%A5%E6%9C%AC%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%B3%E3%82%B04.PNG)
-
 Activity_main.xml
 ------------------
 ```
