@@ -106,3 +106,13 @@ soup.a.string
 ● 安裝方式如下：
     pip install requests
 ```
+### 開始步驟
+```
+首先引用 requests 套件，透過get()方法
+    存取網址。
+     測試使用網頁為：	https://travel.ettoday.net/category/%E6%A1%83%E5%9C%92/
+      (ETtoday旅遊雲的桃園景點)
+-------------------------------------------------------------------------------
+import requests
+respones = requests.get("https://travel.ettoday.net/category/%E6%A1%83%E5%9C%92/")
+```
