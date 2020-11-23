@@ -100,4 +100,9 @@ print("---")
 soup.a.string
 ```
 # [●] requests
+```
+● 解析網頁的HTML程式碼前，還需要安裝Python的requests套件(Package)，將要爬取的網頁HTML程式碼取回來
 
+● 安裝方式如下：
+    pip install requests
+```
