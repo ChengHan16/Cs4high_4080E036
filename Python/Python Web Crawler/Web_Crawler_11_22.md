@@ -251,8 +251,8 @@ print(result.select_one("a"))
 ```
 # [●] select()
 ### 如果某一節點下有多個子節點時，則使用select()方法(Method)，選取子節點
-### 由於<div>標籤下有多個<a>標籤的子節點，所以可以利用select()方法(Method)
-### 選取其下所有的<a>標籤，且為串列(List)的資料型態。
+### 由於'<div>'標籤下有多個'<a>'標籤的子節點，所以可以利用select()方法(Method)
+### 選取其下所有的'<a>'標籤，且為串列(List)的資料型態。
 ```
 import requests
 from bs4 import BeautifulSoup
