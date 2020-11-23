@@ -243,4 +243,28 @@ print(result.select_one("a"))
 ### 顯示結果_select_one()
 ```
 <a href="https://travel.ettoday.net/article/1859651.htm" itemprop="url">這個冬天必去！全台3處「會飄雪的耶誕村」..</a>
+
+-----------------------------------------
+注意(ちゅうい)：
+因為這裡使用 find 所以(だから)才顯示一個而已
+要多個查詢要使用find_all
+```
+# [●] select()
+### 如果某一節點下有多個子節點時，則使用select()方法(Method)，選取子節點
+### 由於<div>標籤下有多個<a>標籤的子節點，所以可以利用select()方法(Method)
+### 選取其下所有的<a>標籤，且為串列(List)的資料型態。
+```
+import requests
+from bs4 import BeautifulSoup
+response = requests.get(
+    "https://travel.ettoday.net/category/%E6%A1%83%E5%9C%92/")
+soup = BeautifulSoup(response.text, "html.parser")
+result = soup.find("div",itemprop="itemListElement") # 多個子節點時須改為(項目清單元素)itemListElement
+print(result.select("a"))
+```
+### 顯示結果_ select()
+```
+[<a class="pic" href="https://travel.ettoday.net/article/1859651.htm">
+<img data-original="https://cdn2.ettoday.net/images/5284/c5284491.jpg" itemprop="image" onerror="this.src='//cdn2.ettoday.net/style/travel/images/fb_ettoday_travel_logo.jpg'" src="https://cdn2.ettoday.net/style/misc/loading_200x150.gif"/>
+</a>, <a href="https://travel.ettoday.net/article/1859651.htm" itemprop="url">這個冬天必去！全台3處「會飄雪的耶誕村」..</a>]
 ```
