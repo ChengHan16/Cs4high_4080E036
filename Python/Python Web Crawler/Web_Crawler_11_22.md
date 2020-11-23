@@ -22,7 +22,6 @@ BeautifulSoup 應用
 ● soup = BeautifulSoup(response.text, “lxml”)   # 指定 lxml 作為解析器
 
 ● print(soup.prettify())      # 把排版後的 html 印出來
-
 ```
 BeautifulSoup 的屬性或方法
 -------------------------
@@ -38,5 +37,29 @@ BeautifulSoup 的屬性或方法
 • a 屬性
 
 • find_all() 方法
+```
+```
+import requests as rq
+from bs4 import BeautifulSoup
 
+url = "https://www.ptt.cc/bbs/NBA/index.html" 
+response = rq.get(url) 
+html_doc = response.text soup = BeautifulSoup(response.text, "lxml")
+
+print(soup.title) 	# 把 tag 抓出來
+print("---")
+
+print(soup.title.name) 	# 把 title 的 tag 名稱抓出來
+print("---")
+
+print(soup.title.string) 	# 把 title tag 的內容欻出來
+print("---")
+
+print(soup.title.parent.name) 	# title tag 的上一層 tag
+print("---")
+
+print(soup.a) 	# 把第一個 <a></a> 抓出來
+
+print("---")
+print(soup.find_all('a')) 	# 把所有的 <a></a> 抓出來
 ```
