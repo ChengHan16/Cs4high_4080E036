@@ -151,7 +151,7 @@ print(soup.prettify())  #輸出排版後的HTML內容
     </a>
 ```
 # [●] find() 
-# 尋第一個符合條件的HTML節點，傳入要搜尋的標籤名稱
+### 尋第一個符合條件的HTML節點，傳入要搜尋的標籤名稱
 ```
 # find()
 # 只搜尋第一個符合條件的HTML節點，傳入要搜尋的標籤名稱
@@ -172,8 +172,8 @@ print(result)
 </h3>
 ```
 # [●] find_all()
-# 搜尋網頁中所有符合條件的HTML節點，傳入要搜尋的HTML標籤名稱
-# 由於執行結果可能會搜出許多的HTML內容，所以最後也可以利用limit關鍵字參數，限制搜尋的節點數量
+### 搜尋網頁中所有符合條件的HTML節點，傳入要搜尋的HTML標籤名稱
+### 由於執行結果可能會搜出許多的HTML內容，所以最後也可以利用limit關鍵字參數，限制搜尋的節點數量
 ```
 import requests
 from bs4 import BeautifulSoup
@@ -209,7 +209,7 @@ print(result)
 # 反之在 find_add() 後不加 limit 來限制的話則全部顯示出來
 ```
 # [●] 同時搜尋多個HTML標籤
-# 將標籤名稱打包成串列(List)後，傳入find_all()方法
+### 將標籤名稱打包成串列(List)後，傳入find_all()方法
 ```
 import requests
 from bs4 import BeautifulSoup
@@ -230,7 +230,7 @@ print(result)
 </h3>]
 ```
 # [●] select_one()
-# 當某一節點下只有單個子節點時，可以利用BeautifulSoup套件(Package)的select_one()方法
+### 當某一節點下只有單個子節點時，可以利用BeautifulSoup套件(Package)的select_one()方法
 ```
 import requests
 from bs4 import BeautifulSoup
