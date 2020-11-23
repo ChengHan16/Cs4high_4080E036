@@ -127,9 +127,28 @@ soup = BeautifulSoup(response.text, "html.parser")
 
 print(soup.prettify())  #輸出排版後的HTML內容
 ```
-### 顯示結果
+### 顯示結果 (HTML 原始碼 此部分輸出資料多 只放部分)
 ```
-HTML 原始碼 此部分輸出資料多 故不放結果
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   看板 NBA 文章列表 - 批踢踢實業坊
+  </title>
+  <link href="//images.ptt.cc/bbs/v2.27/bbs-common.css" rel="stylesheet" type="text/css"/>
+  <link href="//images.ptt.cc/bbs/v2.27/bbs-base.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="//images.ptt.cc/bbs/v2.27/bbs-custom.css" rel="stylesheet" type="text/css"/>
+  <link href="//images.ptt.cc/bbs/v2.27/pushstream.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="//images.ptt.cc/bbs/v2.27/bbs-print.css" media="print" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <div id="topbar-container">
+   <div class="bbs-content" id="topbar">
+    <a href="/bbs/" id="logo">
+     批踢踢實業坊
+    </a>
 ```
 # [●] find() 
 # 尋第一個符合條件的HTML節點，傳入要搜尋的標籤名稱
@@ -147,3 +166,18 @@ result = soup.find("h3")
 print(result)
 ```
 # [●] find_all()
+# 搜尋網頁中所有符合條件的HTML節點，傳入要搜尋的HTML標籤名稱
+# 由於執行結果可能會搜出許多的HTML內容，所以最後也可以利用limit關鍵字參數，限制搜尋的節點數量
+```
+import requests
+from bs4 import BeautifulSoup
+
+response = requests.get(
+    “https://travel.ettoday.net/category/%E6%A1%83%E5%9C%92/”)
+
+soup = BeautifulSoup(response.text, "html.parser")
+result = soup.find_all("h3", itemprop="headline", limit=6)
+print(result)
+```
+# find_all()方法(Method)回傳了一個串列(List)
+# 包含了網頁中所有的<h3>標籤，且itemprop屬性值為headline的節點
