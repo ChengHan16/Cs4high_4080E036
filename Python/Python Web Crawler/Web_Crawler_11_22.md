@@ -165,6 +165,12 @@ soup = BeautifulSoup(response.text, "html.parser")
 result = soup.find("h3")
 print(result)
 ```
+### 顯示結果 find()
+```
+<h3 itemprop="headline">
+<a href="https://travel.ettoday.net/article/1859651.htm" itemprop="url">這個冬天必去！全台3處「會飄雪的耶誕村」..</a>
+</h3>
+```
 # [●] find_all()
 # 搜尋網頁中所有符合條件的HTML節點，傳入要搜尋的HTML標籤名稱
 # 由於執行結果可能會搜出許多的HTML內容，所以最後也可以利用limit關鍵字參數，限制搜尋的節點數量
@@ -178,6 +184,27 @@ response = requests.get(
 soup = BeautifulSoup(response.text, "html.parser")
 result = soup.find_all("h3", itemprop="headline", limit=6)
 print(result)
-```
+
 # find_all()方法(Method)回傳了一個串列(List)
 # 包含了網頁中所有的<h3>標籤，且itemprop屬性值為headline的節點
+```
+### 顯示結果 find_all
+```
+[<h3 itemprop="headline">
+<a href="https://travel.ettoday.net/article/1859651.htm" itemprop="url">這個冬天必去！全台3處「會飄雪的耶誕村」..</a>
+</h3>, <h3 itemprop="headline">
+<a href="https://travel.ettoday.net/article/1857950.htm" itemprop="url">定時飄雪、聖誕市集超浪漫！桃園「華泰名品..</a>
+</h3>, <h3 itemprop="headline">
+<a href="https://travel.ettoday.net/article/1857518.htm" itemprop="url">桃園「巧虎夢想樂園」12月開幕！300坪..</a>
+</h3>, <h3 itemprop="headline">
+<i class="icon_type_video"></i>
+<a href="https://travel.ettoday.net/article/1857034.htm" itemprop="url">桃園免費「聖誕市集」來了！熱紅酒、甜點都有...巨型薑餅城12/19點燈</a>
+</h3>, <h3 itemprop="headline">
+<i class="icon_type_video"></i>
+<a href="https://travel.ettoday.net/article/1856929.htm" itemprop="url">粉紫天堂「台版普羅旺斯」提前開花！花彩節大溪還有4公尺獨角獸</a>
+</h3>, <h3 itemprop="headline">
+<a href="https://travel.ettoday.net/article/1855527.htm" itemprop="url">融化少女心！桃園花彩節壓軸場大溪登場　4公尺夢幻獨角獸站在花海間</a>
+</h3>]
+
+# 反之在 find_add() 後不加 limit 來限制的話則全部顯示出來
+```
