@@ -108,11 +108,42 @@ soup.a.string
 ```
 ### 開始步驟
 ```
-首先引用 requests 套件，透過get()方法
-    存取網址。
-     測試使用網頁為：	https://travel.ettoday.net/category/%E6%A1%83%E5%9C%92/
-      (ETtoday旅遊雲的桃園景點)
+首先引用 requests 套件，透過get()方法存取網址。
+測試使用網頁為：	https://travel.ettoday.net/category/%E6%A1%83%E5%9C%92/(ETtoday旅遊雲的桃園景點)
 -------------------------------------------------------------------------------
 import requests
 respones = requests.get("https://travel.ettoday.net/category/%E6%A1%83%E5%9C%92/")
 ```
+### 抓取 HTML 內容
+```
+import requests
+
+from bs4 import BeautifulSoup
+
+response = requests.get(
+    "https://travel.ettoday.net/category/%E6%A1%83%E5%9C%92/")
+
+soup = BeautifulSoup(response.text, "html.parser")
+
+print(soup.prettify())  #輸出排版後的HTML內容
+```
+### 顯示結果
+```
+HTML 原始碼 此部分輸出資料多 故不放結果
+```
+# [●] find() 
+# 尋第一個符合條件的HTML節點，傳入要搜尋的標籤名稱
+```
+# find()
+# 只搜尋第一個符合條件的HTML節點，傳入要搜尋的標籤名稱
+
+import requests
+from bs4 import BeautifulSoup
+response = requests.get(
+    “https://travel.ettoday.net/category/%E6%A1%83%E5%9C%92/”)
+
+soup = BeautifulSoup(response.text, "html.parser")
+result = soup.find("h3")
+print(result)
+```
+# [●] find_all()
