@@ -127,7 +127,7 @@ soup = BeautifulSoup(response.text, "html.parser")
 
 print(soup.prettify())  #輸出排版後的HTML內容
 ```
-### 顯示結果 (HTML 原始碼 此部分輸出資料多 只放部分)
+### 顯示結果_(HTML 原始碼 此部分輸出資料多 只放部分)
 ```
 <!DOCTYPE html>
 <html>
@@ -165,7 +165,7 @@ soup = BeautifulSoup(response.text, "html.parser")
 result = soup.find("h3")
 print(result)
 ```
-### 顯示結果 find()
+### 顯示結果_find()
 ```
 <h3 itemprop="headline">
 <a href="https://travel.ettoday.net/article/1859651.htm" itemprop="url">這個冬天必去！全台3處「會飄雪的耶誕村」..</a>
@@ -188,7 +188,7 @@ print(result)
 # find_all()方法(Method)回傳了一個串列(List)
 # 包含了網頁中所有的<h3>標籤，且itemprop屬性值為headline的節點
 ```
-### 顯示結果 find_all
+### 顯示結果_find_all
 ```
 [<h3 itemprop="headline">
 <a href="https://travel.ettoday.net/article/1859651.htm" itemprop="url">這個冬天必去！全台3處「會飄雪的耶誕村」..</a>
@@ -207,4 +207,40 @@ print(result)
 </h3>]
 
 # 反之在 find_add() 後不加 limit 來限制的話則全部顯示出來
+```
+# [●] 同時搜尋多個HTML標籤
+# 將標籤名稱打包成串列(List)後，傳入find_all()方法
+```
+import requests
+from bs4 import BeautifulSoup
+response = requests.get(
+    "https://travel.ettoday.net/category/%E6%A1%83%E5%9C%92/")
+soup = BeautifulSoup(response.text, "html.parser")
+result = soup.find_all(["h3", "p"],limit=3)
+print(result)
+
+# 範例中同時搜尋了網頁中所有<h3>及<p>的HTML標籤內容，這邊限定只搜尋兩個節點。
+```
+### 顯示結果_同時搜尋多個HTML標籤
+```
+[<h3 itemprop="headline">
+<a href="https://travel.ettoday.net/article/1859651.htm" itemprop="url">這個冬天必去！全台3處「會飄雪的耶誕村」..</a>
+</h3>, <p class="summary" itemprop="description">聖誕節即將到來，全台各地今年聖誕活動也陸續開跑！全台就有3處會下雪的浪漫耶誕村，從即日起陸續登場，活動更一直持續到2021年，讓旅客可以享受濃濃耶誕氛圍，還能在冬日中享受走進浪漫燈海裡盡情拍照。</p>, <h3 itemprop="headline">
+<a href="https://travel.ettoday.net/article/1857950.htm" itemprop="url">定時飄雪、聖誕市集超浪漫！桃園「華泰名品..</a>
+</h3>]
+```
+# [●] select_one()
+# 當某一節點下只有單個子節點時，可以利用BeautifulSoup套件(Package)的select_one()方法
+```
+import requests
+from bs4 import BeautifulSoup
+response = requests.get(
+    "https://travel.ettoday.net/category/%E6%A1%83%E5%9C%92/")
+soup = BeautifulSoup(response.text, "html.parser")
+result = soup.find("h3", itemprop="headline") # (標題)headline
+print(result.select_one("a"))
+```
+### 顯示結果_select_one()
+```
+<a href="https://travel.ettoday.net/article/1859651.htm" itemprop="url">這個冬天必去！全台3處「會飄雪的耶誕村」..</a>
 ```
