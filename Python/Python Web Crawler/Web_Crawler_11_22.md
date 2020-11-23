@@ -85,3 +85,20 @@ print(soup.a.name) 	# 抓標籤名 a
 print("---")
 print(soup.a[‘id’]) 	# 抓<a></a>的 id 名稱
 ```
+標籤中的內容（NavigableString）
+-----------------------------
+```
+import requests as rq
+from bs4 import BeautifulSoup
+
+url = “https://www.ptt.cc/bbs/NBA/index.html” 
+response = rq.get(url) 
+html_doc = response.text 
+soup = BeautifulSoup(response.text, “lxml”)
+
+print(type(soup.a.string))
+print("---")
+soup.a.string
+```
+[●]requests
+-----------
