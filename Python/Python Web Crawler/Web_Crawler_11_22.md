@@ -268,3 +268,86 @@ print(result.select("a"))
 <img data-original="https://cdn2.ettoday.net/images/5284/c5284491.jpg" itemprop="image" onerror="this.src='//cdn2.ettoday.net/style/travel/images/fb_ettoday_travel_logo.jpg'" src="https://cdn2.ettoday.net/style/misc/loading_200x150.gif"/>
 </a>, <a href="https://travel.ettoday.net/article/1859651.htm" itemprop="url">這個冬天必去！全台3處「會飄雪的耶誕村」..</a>]
 ```
+# [●] 以CSS屬性搜尋節點
+### 搜尋符合指定的HTML標籤及css屬性值的節點
+```
+import requests
+from bs4 import BeautifulSoup
+response = requests.get(
+    "https://travel.ettoday.net/category/%E6%A1%83%E5%9C%92/")
+soup = BeautifulSoup(response.text, "html.parser")
+titles = soup.find("p", class_="summary")
+print(titles)
+```
+### 顯示結果_以CSS屬性搜尋節點
+```
+<p class="summary" itemprop="description">聖誕節即將到來，全台各地今年聖誕活動也陸續開跑！全台就有3處會下雪的浪漫耶誕村，從即日起陸續登場，活動更一直持續到2021年，讓旅客可以享受濃濃耶誕氛圍，還能在冬日中享受走進浪漫燈海裡盡情拍照。</p>
+
+-----------------------------------------
+注意(ちゅうい)：
+因為這裡使用 find 所以(だから)才顯示一個而已
+要多個查詢要使用find_all
+```
+# [●] find_all()屬性搜尋節點
+### 搜尋網頁中符合指定的HTML標籤及css屬性值的所有節點
+```
+import requests
+from bs4 import BeautifulSoup
+response = requests.get(
+    "https://travel.ettoday.net/category/%E6%A1%83%E5%9C%92/")
+soup = BeautifulSoup(response.text, "html.parser")
+titles = soup.find_all("p", class_="summary")
+print(titles)
+```
+### 顯示結果_find_all()屬性搜尋節點
+```
+[<p class="summary" itemprop="description">聖誕節即將到來，全台各地今年聖誕活動也陸續開跑！全台就有3處會下雪的浪漫耶誕村，從即日起陸續登場，活動更一直持續到2021年，讓旅客可以享受濃濃耶誕氛圍，還能在冬日中享受走進浪漫燈海裡盡情拍照。</p>, <p class="summary" itemprop="description">超有氣氛的「聖誕市集」來了！位於桃園中壢的大江購物中心首波公布耶誕造景，今年以自家門牌號碼501號為發想，規劃5大主題的「501號聖誕市集」，美美的歐洲小木屋中販賣烘焙甜點、巧克力及特調熱紅酒等市集美食。堪稱北台灣最大規模的手工薑餅城，也預計在12月19日正式點燈。                                                <em content="2020-11-18T11:45:00+08:00" itemprop="datePublished">(2020-11-18 11:45)</em>
+</p>, <p class="summary" itemprop="description">台版普羅旺斯提前到來！原訂11月28日才開始的「桃園仙草花節」，連日遇上好天氣，昨（17日）已盛開約7成，紫色花朵隨風擺動，洋溢幸福氣息；而每年吸引破百萬人朝聖的「2020桃園花彩節」大溪展區也壓軸登場，建議開車民眾可將車停在第二停車場，再步行進入會場。                                                <em content="2020-11-18T10:42:00+08:00" itemprop="datePublished">(2020-11-18 10:42)</em>
+</p>, <p class="summary" itemprop="description">桃園花彩節進入倒數計時，壓軸場大溪展區從即日起登場，大溪花海區今年以「動物派對」為主題，在花海間可看到許多可愛動物造景，活動至11月22日為止，想賞花可要把握最後倒數機會。                                                <em content="2020-11-16T15:09:00+08:00" itemprop="datePublished">(2020-11-16 15:09)</em>
+</p>, <p class="summary" itemprop="description">桃園每年夏秋必辦的綠色生活悠遊節，今年以花現好時光為主題，搭配小農市集、音樂、好食等元素，打造出浪漫無比的約會聖地，不論親子、情侶或網美都很愛；活動連續九天不間斷，像是巨大雙愛心花海、稻草卷、落羽松林、巨大泡泡屋等都超美，男友們只要負責拍就對了。
+
+                                                <em content="2020-11-15T14:51:00+08:00" itemprop="datePublished">(2020-11-15 14:51)</em>
+</p>, <p class="summary" itemprop="description">無車族前往東眼山更方便了！桃園觀旅局宣布再加開「台灣好行東眼山線」班次，明（14日）起假日固定增開4班次，在疫情仍籠罩的當下，可以節能減碳進入1212公尺高的山林中森呼吸，與大自然來場親密接觸。                                                <em content="2020-11-13T13:41:00+08:00" itemprop="datePublished">(2020-11-13 13:41)</em>
+</p>, <p class="summary" itemprop="description">今年的桃園可說是話題不斷！多處讓人眼睛一亮的新旅遊熱點讓人流連忘返，一甩大家對桃園總是無聊的刻板印象，桃園忠烈祠暨神社文化園區在11月底再度出招，集結20間特色攤商，打造全台首場神社市集，要挑戰最狂的偽出國！
+
+                                                <em content="2020-11-11T14:25:00+08:00" itemprop="datePublished">(2020-11-11 14:25)</em>
+</p>]
+```
+# [●] 搜尋父節點(find_parents)
+### 以上皆為向下的搜尋節點方式
+### 若想要從某一個節點向上搜尋，使用BeautifulSoup套件(Package)的find_parent()或find_parents()方法
+### 搜尋 `<a>` 標籤且itemprop屬性值為url的節點，透過find_parents()，向上搜尋 `<h3>`標籤的父節點。
+```
+import requests
+from bs4 import BeautifulSoup
+response = requests.get(
+    "https://travel.ettoday.net/category/%E6%A1%83%E5%9C%92/")
+soup = BeautifulSoup(response.text, "html.parser")
+result = soup.find("a", itemprop="url")
+parents = result.find_parents("h3")
+print(parents)
+```
+### 顯示結果_搜尋父節點(find_parents)
+```
+[<h3 itemprop="headline">
+<a href="https://travel.ettoday.net/article/1859651.htm" itemprop="url">這個冬天必去！全台3處「會飄雪的耶誕村」..</a>
+</h3>]
+```
+# [●] 搜尋前、後節點 (find_previous_siblings)
+### 在同一層級的節點，要搜尋前一個節點，使用BeautifulSoup套件(Package)の find_previous_siblings()
+```
+import requests
+from bs4 import BeautifulSoup
+response = requests.get(
+    "https://travel.ettoday.net/category/%E6%A1%83%E5%9C%92/")
+soup = BeautifulSoup(response.text, "html.parser")
+result = soup.find("h3", itemprop="headline")
+previous_node = result.find_previous_siblings("a") # previous_node(前のノード)
+print(previous_node)
+```
+### 顯示結果_搜尋前、後節點 (find_previous_siblings)
+```
+[<a class="pic" href="https://travel.ettoday.net/article/1859651.htm">
+<img data-original="https://cdn2.ettoday.net/images/5284/c5284491.jpg" itemprop="image" onerror="this.src='//cdn2.ettoday.net/style/travel/images/fb_ettoday_travel_logo.jpg'" src="https://cdn2.ettoday.net/style/misc/loading_200x150.gif"/>
+</a>]
+```
