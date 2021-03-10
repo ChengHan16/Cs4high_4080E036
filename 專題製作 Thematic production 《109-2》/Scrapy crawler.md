@@ -22,7 +22,7 @@ Scrapy crawler
 
 # 【●】範例1
 ## 抓取蘋果即時新聞
-### crawler.py!
+### [crawler.py](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E5%B0%88%E9%A1%8C%E8%A3%BD%E4%BD%9C%20Thematic%20production%20%E3%80%8A109-2%E3%80%8B/Scrapy%20Python%20Crawler%20%E3%82%B3%E3%83%BC%E3%83%89.md)
 ```
 import scrapy
 from bs4 import BeautifulSoup
@@ -65,7 +65,7 @@ class AppleCrawler(scrapy.Spider):
 ### 這段是能夠抓取頁面後抓取`標題、網址`
 ### yield 是個產生器，在調取後不會立即執行，只有for迴圈在執行呼叫到yield的時候才會繼續
 ### 透過self.parse_detail 解析內容
-### crawler.py
+### [crawler.py](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E5%B0%88%E9%A1%8C%E8%A3%BD%E4%BD%9C%20Thematic%20production%20%E3%80%8A109-2%E3%80%8B/Scrapy%20Python%20Crawler%20%E3%82%B3%E3%83%BC%E3%83%89.md)
 ```
 import scrapy
 from bs4 import BeautifulSoup
