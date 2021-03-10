@@ -41,5 +41,47 @@ class AppleCrawler(scrapy.Spider):
 >>> cd apple
 >>>> dir 看目前目錄裡的檔案
 >>>>> 輸入 scrapy crawl apple 執行
+
+# 【●】範例2
+## 清單連結抓取下一層的內容頁面
+### crawler.py!
+### 先抓取看使否能成功將連結抓取出來
 ```
+import scrapy
+from bs4 import BeautifulSoup
+class AppleCrawler(scrapy.Spider):
+    name = 'apple'
+    start_urls = ['https://tw.appledaily.com/home/']
+    def parse(self,response):
+        domain = 'https://tw.appledaily.com/'
+        res = BeautifulSoup(response.body)
+        for news in res.select('.flex-feature'):
+            #print (news.select('headline  truncate truncate--3')[0].text)
+            #print domain+(news.select('a')[0]['href'])
+![image](https://user-images.githubusercontent.com/55220866/110633042-3fa0e380-81e3-11eb-9f0f-f8489a5c8557.png)
+```
+### 可成功抓取後加上 ` domain = 'https://tw.appledaily.com/‘` 讓網址完整
+
+### `yield scrapy.Request(domain + news.select('a')[0]['href'],self.parse_detail)`
+### 這段是能夠抓取頁面後抓取`標題、網址`
+### yield 是個產生器，在調取後不會立即執行，只有for迴圈在執行呼叫到yield的時候才會繼續
+### 透過self.parse_detail 解析內容
+### crawler.py
+```
+import scrapy
+from bs4 import BeautifulSoup
+
+class AppleCrawler(scrapy.Spider):
+    name = 'apple'
+    start_urls = ['https://tw.appledaily.com/home/']
+    def parse(self,response):
+        domain = 'https://tw.appledaily.com/'
+        res = BeautifulSoup(response.body)
+        for news in res.select('.flex-feature'):
+            #print (news.select('headline  truncate truncate--3')[0].text)
+            #print domain+(news.select('a')[0]['href'])
+            yield scrapy.Request(domain + news.select('a')[0]['href'],self.parse_detail)
+    def parse_detail(self,response):
+        res = BeautifulSoup(response.body)
+        res.select('#h1')[0].text
 ```
