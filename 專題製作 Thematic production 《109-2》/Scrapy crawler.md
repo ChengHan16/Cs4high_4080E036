@@ -84,3 +84,5 @@ class AppleCrawler(scrapy.Spider):
         res = BeautifulSoup(response.body)
         res.select('#h1')[0].text
 ```
+![結果](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/2%E7%B5%90%E6%9E%9C1.PNG)
+### Debugger訊息從清單連結下去抓取成功抓取後會有顯示(200)的code
