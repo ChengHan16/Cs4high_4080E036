@@ -351,7 +351,7 @@ print(previous_node)
 <img data-original="https://cdn2.ettoday.net/images/5284/c5284491.jpg" itemprop="image" onerror="this.src='//cdn2.ettoday.net/style/travel/images/fb_ettoday_travel_logo.jpg'" src="https://cdn2.ettoday.net/style/misc/loading_200x150.gif"/>
 </a>]
 ```
-# ![虛擬環境架設](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E4%BC%BA%E6%9C%8D%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E3%80%8A109-2%E3%80%8B/%E8%99%9B%E6%93%AC%E7%92%B0%E5%A2%83%E6%9E%B6%E8%A8%AD.md "環境設置、指令操作")
+# ![虛擬環境架設](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E4%BC%BA%E6%9C%8D%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E3%80%8A109-2%E3%80%8B/%E8%99%9B%E6%93%AC%E7%92%B0%E5%A2%83%E6%9E%B6%E8%A8%AD.md "虛擬環境架設")
 # 參考資料
 ```
 https://medium.com/young-tsai/%E5%AD%B8%E7%BF%92-%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2-web-crawler-b4833ec7d7dd
