@@ -58,7 +58,6 @@ class AppleCrawler(scrapy.Spider):
         for news in res.select('.flex-feature'):
             #print (news.select('headline  truncate truncate--3')[0].text)
             #print domain+(news.select('a')[0]['href'])
-![image](https://user-images.githubusercontent.com/55220866/110633042-3fa0e380-81e3-11eb-9f0f-f8489a5c8557.png)
 ```
 ### 可成功抓取後加上 ` domain = 'https://tw.appledaily.com/‘` 讓網址完整
 
