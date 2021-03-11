@@ -12,6 +12,8 @@ Scrapy crawler
 安裝 scrapy
   ：pip install scrapy
 
+  ：pip install beautifulsoup4
+  
   ：scrapy startproject apple
 ```
 ## ★ 爬蟲模組在 apple 資料夾下
