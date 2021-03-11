@@ -7,7 +7,7 @@ Scrapy crawler
 >>>查看目前系統已有的虛擬環境： conda env list
 >>>>建立一個叫做 myenv 的虛擬環境，且安裝python 3.8的版本
   ：conda create --name myflash01 python=3.8
->>>>>啟動一個新的虛擬環境：conda activa安裝 scrapyte myflash01
+>>>>>啟動一個新的虛擬環境：conda activa 安裝 scrapyte myflash01
 ```
 安裝 scrapy
   ：pip install scrapy
