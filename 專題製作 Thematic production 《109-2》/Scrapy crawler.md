@@ -34,7 +34,6 @@ class AppleCrawler(scrapy.Spider):
         res = BeautifulSoup(response.body)
             for news in res.select('.flex-feature'):
                 print news.select('timestamp"')[0].text
-![image](https://user-images.githubusercontent.com/55220866/110632532-b25d8f00-81e2-11eb-8d11-4e4dcaad3f02.png)
 ```
 >完成後 
 >> ls 查看目前資料夾
