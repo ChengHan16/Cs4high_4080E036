@@ -12,7 +12,7 @@ Scrapy crawler
 安裝 scrapy
   ：pip install scrapy
 
-  ：scrapy startproject apple 
+  ：scrapy startproject apple
 ```
 ## ★ 爬蟲模組在 apple 資料夾下
 ### 【●】Items.py 定義資料該怎麼做儲存
