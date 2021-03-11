@@ -14,7 +14,7 @@ Scrapy crawler
 
   ：scrapy startproject apple 
 ```
-### 爬蟲模組在 apple 資料夾下
+### ★爬蟲模組在 apple 資料夾下
 ### 【●】Items.py 定義資料該怎麼做儲存
 ### 【●】pipelines.py 定義資料該怎麼做處理
 ### 【●】settings.py 包含所有設定檔
