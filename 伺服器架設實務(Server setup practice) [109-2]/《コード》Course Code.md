@@ -58,3 +58,32 @@
     </body>
 </html>
 ```
+> ### page 22
+> ### Comments in PHP
+>> •
+A comment in PHP code is a line that is not executed as a part of the program. <br> Its only purpose is to be read by someone who is looking at the code.
+```
+<!DOCTYPE html>
+<html>
+    <body>
+        <?php
+           //This is a single-line comment
+           
+           #This is  a also a single-line comment
+        ?>
+    </body>
+</html>
+```
+```
+<!DOCTYPE html>
+<html>
+    <body>
+        <?php
+           /*
+           This is a multiple-lins comment bock
+           that spans over multiple lines
+           */
+        ?>
+    </body>
+</html>
+```
