@@ -125,3 +125,9 @@
     echo "I love " . &txt . "!";
 ?>
 ```
+```php
+<?php
+    $txt = "W3cshools.com";
+    echo "I love "  &txt . "!";
+?>
+```
