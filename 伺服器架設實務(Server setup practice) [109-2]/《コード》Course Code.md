@@ -108,7 +108,7 @@
 > ### page 24
 > ### PHP Variables
 > ### • Variables are "containers" for storing information. <br> • In PHP, a variable starts with the $ sign, followed by the name of the variable:
-```
+```php
 <?php
     $txt = "Hello world";
     $x =  5;
