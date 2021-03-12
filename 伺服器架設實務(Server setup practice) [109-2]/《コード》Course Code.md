@@ -194,6 +194,7 @@
     </body>
 </html>
 ```
+> ### Global variable setting
 ```php
 <!DOCTYPE html>
 <html>
@@ -211,3 +212,4 @@
     </body>
 </html>
 ```
+> ### Local variable setting
