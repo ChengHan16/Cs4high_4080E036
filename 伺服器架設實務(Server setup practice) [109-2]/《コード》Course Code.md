@@ -1,6 +1,6 @@
 
 ## 2021-03-12
->### Ch62 - php 基本程式設計
+> ### Ch62 - php 基本程式設計
 > ### page 4  
 ```php
 <!DOCTYPE html>
@@ -14,8 +14,8 @@
 ```
 > ### page 15
 > ### What's new in PHP 7
->> 
->> ### •PHP 7 is much faster than the previous popular stable release (PHP 5.6) <br> •PHP 7 has improved Error Handling <br> •PHP 7 supports stricter Type Declarations for function arguments<br>•PHP 7 supports new operators (like the spaceship operator: <=> )
+> 
+> ### •PHP 7 is much faster than the previous popular stable release (PHP 5.6) <br> •PHP 7 has improved Error Handling <br> •PHP 7 supports stricter Type Declarations for function arguments<br>•PHP 7 supports new operators (like the spaceship operator: <=> )
 ```php
 <!DOCTYPE html>
 <html>
@@ -32,7 +32,7 @@
 # [●] PHP Syntax
 > ### page 19
 > ### PHP structure
->> ### • A PHP file (.php) normally contains HTML tags, and some PHP scripting code. <br> • Below, we have an example of a simple PHP file, with a PHP script that uses a built-in PHP function "echo" to output the text "Hello World!" on a web page:
+> ### • A PHP file (.php) normally contains HTML tags, and some PHP scripting code. <br> • Below, we have an example of a simple PHP file, with a PHP script that uses a built-in PHP function "echo" to output the text "Hello World!" on a web page:
 
 ```php
 <!DOCTYPE html>
@@ -47,7 +47,7 @@
 ```
 > ### page 20
 > ### PHP Case in-sensitivity
->>• In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and built-in functions are case-insensitive.<br>• In the example below, all three echo statements below are equal and legal:
+> • In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and built-in functions are case-insensitive.<br>• In the example below, all three echo statements below are equal and legal:
 ```php
 <!DOCTYPE html>
 <html>
@@ -62,7 +62,7 @@
 ```
 > ### page 21
 > ### Case-sensitive
->> • However; all variable names are case-sensitive! <br> • Look at the example below; only the first statement will display the value of the $color variable! <br> This is because $color, $COLOR, and $coLOR are treated as three different variables:
+> • However; all variable names are case-sensitive! <br> • Look at the example below; only the first statement will display the value of the $color variable! <br> This is because $color, $COLOR, and $coLOR are treated as three different variables:
 ```php
 <!DOCTYPE html>
 <html>
@@ -78,7 +78,7 @@
 ```
 > ### page 22
 > ### Comments in PHP
->> • A comment in PHP code is a line that is not executed as a part of the program. <br>  Its only purpose is to be read by someone who is looking at the code.
+> • A comment in PHP code is a line that is not executed as a part of the program. <br>  Its only purpose is to be read by someone who is looking at the code.
 ```php
 <!DOCTYPE html>
 <html>
