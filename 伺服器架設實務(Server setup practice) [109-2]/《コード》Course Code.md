@@ -14,8 +14,7 @@
 ```
 > ### page 15
 > ### What's new in PHP 7
-> 
-> ### •PHP 7 is much faster than the previous popular stable release (PHP 5.6) <br> •PHP 7 has improved Error Handling <br> •PHP 7 supports stricter Type Declarations for function arguments<br>•PHP 7 supports new operators (like the spaceship operator: <=> )
+> ### • PHP 7 is much faster than the previous popular stable release (PHP 5.6) <br> • PHP 7 has improved Error Handling <br> • PHP 7 supports stricter Type Declarations for function arguments<br>• PHP 7 supports new operators (like the spaceship operator: <=> )
 ```php
 <!DOCTYPE html>
 <html>
