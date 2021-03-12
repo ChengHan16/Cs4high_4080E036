@@ -175,7 +175,7 @@
     </body>
 </html>
 ```
-> ## [●]PHP Variables Scope
+> ## [●] PHP Variables Scope
 > ### • In PHP, variables can be assigned a value treated as a declaration anywhere in the script. <br> • The scope of a variable is the part of the script where the variable can be referenced/ used.  <br>  • PHP has three different variable scopes: <br>  &#xA0; >local <br>  &#xA0; >global <br>  &#xA0; >static
 
 > ### page 30
