@@ -12,6 +12,23 @@
     </body>
 </html>
 ```
+> ### page 15
+> ### What's new in PHP 7
+>> 
+>> ### •PHP 7 is much faster than the previous popular stable release (PHP 5.6) <br> •PHP 7 has improved Error Handling <br> •PHP 7 supports stricter Type Declarations for function arguments<br>•PHP 7 supports new operators (like the spaceship operator: <=> )
+```
+<!DOCTYPE html>
+<html>
+    <body>
+        <?php
+           $color = "red";
+           echo "My car is" . $color . "<br>";
+           echo "My house is" . $color . "<br>";
+           echo "My cboat is" . $color . "<br>";
+        ?>
+    </body>
+</html>
+```
 > ### page 19
 > ### PHP structure
 >> ### • A PHP file (.php) normally contains HTML tags, and some PHP scripting code. <br> • Below, we have an example of a simple PHP file, with a PHP script that uses a built-in PHP function "echo" to output the text "Hello World!" on a web page:
