@@ -116,3 +116,13 @@
 ?>
 ```
 > ### • After the execution of the statements above, the variable $txt will hold the value ”Hello world!”, the variable $x will hold the value 5, and the variable $y will hold the value 10.5. <br> • When you assign a text value to a variable, put quotes around the value. <br> • Unlike other programming languages, PHP has no command for declaring a variable. It is created the moment you first assign a value to it.
+
+> ### page 26
+> ### Output Variables
+> ### • The PHP echo statement is often used to output data to the screen. <br> • The following example will show how to output text and a variable:
+```php
+<?php
+    $txt = "W3cshools.com";
+    echo "I love " . &txt . "!";
+?>
+```
