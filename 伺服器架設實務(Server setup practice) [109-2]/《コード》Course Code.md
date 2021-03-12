@@ -5,8 +5,12 @@
 <html>
 	<body>
 		<?php
-			each "My first PHP script";
+			echo "My first PHP script!";
 		?>
 	</body>
 </html>
+```
+## 
+```
+
 ```
