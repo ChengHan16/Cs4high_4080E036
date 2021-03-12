@@ -47,7 +47,7 @@
 ```
 > ### page 20
 > ### PHP Case in-sensitivity
-> • In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and built-in functions are case-insensitive.<br>• In the example below, all three echo statements below are equal and legal:
+> ### • In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and built-in functions are case-insensitive.<br>• In the example below, all three echo statements below are equal and legal:
 ```php
 <!DOCTYPE html>
 <html>
@@ -62,7 +62,7 @@
 ```
 > ### page 21
 > ### Case-sensitive
-> • However; all variable names are case-sensitive! <br> • Look at the example below; only the first statement will display the value of the $color variable! <br> This is because $color, $COLOR, and $coLOR are treated as three different variables:
+> ### • However; all variable names are case-sensitive! <br> • Look at the example below; only the first statement will display the value of the $color variable! <br> This is because $color, $COLOR, and $coLOR are treated as three different variables:
 ```php
 <!DOCTYPE html>
 <html>
@@ -78,7 +78,7 @@
 ```
 > ### page 22
 > ### Comments in PHP
-> • A comment in PHP code is a line that is not executed as a part of the program. <br>  Its only purpose is to be read by someone who is looking at the code.
+> ### • A comment in PHP code is a line that is not executed as a part of the program. <br>  Its only purpose is to be read by someone who is looking at the code.
 ```php
 <!DOCTYPE html>
 <html>
@@ -107,7 +107,7 @@
 # [●] PHP Variables and Scopes
 > ### page 24
 > ### PHP Variables
-> • Variables are "containers" for storing information. <br> • In PHP, a variable starts with the $ sign, followed by the name of the variable:
+> ### • Variables are "containers" for storing information. <br> • In PHP, a variable starts with the $ sign, followed by the name of the variable:
 ```
 <?php
     $txt = "Hello world";
