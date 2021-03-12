@@ -132,3 +132,13 @@
     echo "I love "  &txt . "!";
 ?>
 ```
+> ### 27
+> ### Output Variables
+> ### • The following example will output the sum of two variables:
+```php
+<?php
+    $x = 5;
+    $y = 4;
+    echo $x + $y;
+?>
+```
