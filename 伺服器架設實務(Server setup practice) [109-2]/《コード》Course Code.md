@@ -2,7 +2,7 @@
 ## 2021-03-12
 >### Ch62 - php 基本程式設計
 > ### page 4  
-```
+```php
 <!DOCTYPE html>
 <html>
     <body>
