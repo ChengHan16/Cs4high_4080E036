@@ -12,8 +12,9 @@
     </body>
 </html>
 ```
->### • A PHP file (.php) normally contains HTML tags, and some PHP scripting code. <br> • Below, we have an example of a simple PHP file, with a PHP script that uses a built-in PHP function "echo" to output the text "Hello World!" on a web page:
 >> #### page 19
+>### • A PHP file (.php) normally contains HTML tags, and some PHP scripting code. <br> • Below, we have an example of a simple PHP file, with a PHP script that uses a built-in PHP function "echo" to output the text "Hello World!" on a web page:
+
 ```
 <!DOCTYPE html>
 <html>
@@ -25,6 +26,7 @@
     </body>
 </html>
 ```
+>> #### page 20
 >### PHP Case in-sensitivity
 >>• In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and built-in functions are case-insensitive.<br>• In the example below, all three echo statements below are equal and legal:
 ```
