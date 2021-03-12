@@ -150,10 +150,16 @@
 <html>
     <body>
         <?php
-           /*
-           This is a multiple-lins comment bock
-           that spans over multiple lines
-           */
+            $x = 5; //global scope
+            
+            function myTest() {
+              // using x inside this function will generate an error
+                echo "<p>Variable x inside function is: $x</p>";
+            }
+            
+            myTest();
+            
+            echo "<p>Variable x outside function IS: $x</p>";
         ?>
     </body>
 </html>
