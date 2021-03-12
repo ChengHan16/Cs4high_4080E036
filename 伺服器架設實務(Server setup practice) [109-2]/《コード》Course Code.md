@@ -120,17 +120,28 @@
 > ### Output Variables
 > ### • The PHP echo statement is often used to output data to the screen. <br> • The following example will show how to output text and a variable:
 ```php
-<?php
-    $txt = "W3cshools.com";
-    echo "I love " . &txt . "!";
-?>
+<!DOCTYPE html>
+<html>
+    <body>
+        <?php
+		$txt = "W3cshools.com";
+		echo "I love &txt!";
+		?>
+
+    </body>
+</html>
 ```
 > ### • The following example will produce the same output as the example above:
 ```php
-<?php
-    $txt = "W3cshools.com";
-    echo "I love "  &txt . "!";
-?>
+<!DOCTYPE html>
+<html>
+    <body>
+        <?php
+			$txt = "W3cshools.com";
+			echo "I love ".$txt ."!";
+		?>
+    </body>
+</html>
 ```
 > ### page 27
 > ### Output Variables
