@@ -69,8 +69,8 @@
         <?php
            $color = "red";
            echo "My car is" . $color . "<br>";
-           echo "My house is" . $color . "<br>";
-           echo "My cboat is" . $color . "<br>";
+           echo "My house is" . $COLOR . "<br>";
+           echo "My cboat is" . $coLOR . "<br>";
         ?>
     </body>
 </html>
@@ -132,7 +132,7 @@
     echo "I love "  &txt . "!";
 ?>
 ```
-> ### 27
+> ### page 27
 > ### Output Variables
 > ### • The following example will output the sum of two variables:
 ```php
@@ -141,4 +141,20 @@
     $y = 4;
     echo $x + $y;
 ?>
+```
+> ### page 29
+> ### Global and Local Scope
+> ### • A variable declared outside a function has a GLOBAL SCOPE and can only be accessed outside a function:
+```php
+<!DOCTYPE html>
+<html>
+    <body>
+        <?php
+           /*
+           This is a multiple-lins comment bock
+           that spans over multiple lines
+           */
+        ?>
+    </body>
+</html>
 ```
