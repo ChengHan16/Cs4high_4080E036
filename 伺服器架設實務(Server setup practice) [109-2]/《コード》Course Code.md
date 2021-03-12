@@ -25,3 +25,17 @@
     </body>
 </html>
 ```
+>### PHP Case in-sensitivity
+>>• In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and built-in functions are case-insensitive.<br>• In the example below, all three echo statements below are equal and legal:
+```
+<!DOCTYPE html>
+<html>
+    <body>
+        <?php
+            ECHO "Hello World!<br>";
+            echo "Hello World!<br>";
+            EcHo "Hello World!<br>";
+        ?>
+    </body>
+</html>
+```
