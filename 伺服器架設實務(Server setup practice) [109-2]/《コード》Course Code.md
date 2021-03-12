@@ -125,6 +125,7 @@
     echo "I love " . &txt . "!";
 ?>
 ```
+> ### • The following example will produce the same output as the example above:
 ```php
 <?php
     $txt = "W3cshools.com";
