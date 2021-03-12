@@ -16,7 +16,7 @@
 > ### What's new in PHP 7
 >> 
 >> ### •PHP 7 is much faster than the previous popular stable release (PHP 5.6) <br> •PHP 7 has improved Error Handling <br> •PHP 7 supports stricter Type Declarations for function arguments<br>•PHP 7 supports new operators (like the spaceship operator: <=> )
-```
+```php
 <!DOCTYPE html>
 <html>
     <body>
@@ -33,7 +33,7 @@
 > ### PHP structure
 >> ### • A PHP file (.php) normally contains HTML tags, and some PHP scripting code. <br> • Below, we have an example of a simple PHP file, with a PHP script that uses a built-in PHP function "echo" to output the text "Hello World!" on a web page:
 
-```
+```php
 <!DOCTYPE html>
 <html>
     <body>
@@ -47,7 +47,7 @@
 > ### page 20
 > ### PHP Case in-sensitivity
 >>• In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and built-in functions are case-insensitive.<br>• In the example below, all three echo statements below are equal and legal:
-```
+```php
 <!DOCTYPE html>
 <html>
     <body>
@@ -62,7 +62,7 @@
 > ### page 21
 > ### Case-sensitive
 >> • However; all variable names are case-sensitive! <br> • Look at the example below; only the first statement will display the value of the $color variable! <br> This is because $color, $COLOR, and $coLOR are treated as three different variables:
-```
+```php
 <!DOCTYPE html>
 <html>
     <body>
@@ -79,7 +79,7 @@
 > ### Comments in PHP
 >> •
 A comment in PHP code is a line that is not executed as a part of the program. <br> Its only purpose is to be read by someone who is looking at the code.
-```
+```php
 <!DOCTYPE html>
 <html>
     <body>
@@ -91,7 +91,7 @@ A comment in PHP code is a line that is not executed as a part of the program. <
     </body>
 </html>
 ```
-```
+```php
 <!DOCTYPE html>
 <html>
     <body>
