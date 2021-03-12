@@ -29,7 +29,7 @@
     </body>
 </html>
 ```
-# [●]PHP Syntax
+# [●] PHP Syntax
 > ### page 19
 > ### PHP structure
 >> ### • A PHP file (.php) normally contains HTML tags, and some PHP scripting code. <br> • Below, we have an example of a simple PHP file, with a PHP script that uses a built-in PHP function "echo" to output the text "Hello World!" on a web page:
@@ -78,8 +78,7 @@
 ```
 > ### page 22
 > ### Comments in PHP
->> •
-A comment in PHP code is a line that is not executed as a part of the program. <br> Its only purpose is to be read by someone who is looking at the code.
+>> • A comment in PHP code is a line that is not executed as a part of the program. <br>  Its only purpose is to be read by someone who is looking at the code.
 ```php
 <!DOCTYPE html>
 <html>
@@ -104,4 +103,11 @@ A comment in PHP code is a line that is not executed as a part of the program. <
         ?>
     </body>
 </html>
+```
+# [●] PHP Variables and Scopes
+> ### page 24
+> ### PHP Variables
+> • Variables are "containers" for storing information. <br> • In PHP, a variable starts with the $ sign, followed by the name of the variable:
+```
+
 ```
