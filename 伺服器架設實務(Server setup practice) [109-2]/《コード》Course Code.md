@@ -174,7 +174,7 @@
             
             myTest();
             
-            echo "<p>Variable x outside function IS: $x</p>";
+            echo "<p>Variable x outside function : $x</p>";
         ?>
     </body>
 </html>
