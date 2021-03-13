@@ -104,7 +104,7 @@ class AV:
         url = "https://airav.cc/"
         header = header = "Host: airav.cc###Connection: keep-alive###Upgrade-Insecure-Requests: 1###User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36###Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8###Accept-Encoding: gzip, deflate, br###Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7"
         rs = self.Net.Get(url=url,header_string=header)
-        data = rs.comtent.decode()
+        data = rs.content.decode()
         print(data)
 
         if __name__ == "__main__":
