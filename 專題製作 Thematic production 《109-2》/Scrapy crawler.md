@@ -1,4 +1,4 @@
-Scrapy crawler
+Scrapy crawler ☟
 =============
 [虛擬環境設定](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E5%B0%88%E9%A1%8C%E8%A3%BD%E4%BD%9C%20Thematic%20production%20%E3%80%8A109-2%E3%80%8B/%E8%99%9B%E6%93%AC%E7%92%B0%E5%A2%83%E6%9E%B6%E8%A8%AD.md)
 ----------
@@ -87,3 +87,29 @@ class AppleCrawler(scrapy.Spider):
 ```
 ![結果](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/2%E7%B5%90%E6%9E%9C1.PNG)
 ### Debugger訊息從清單連結下去抓取成功抓取後會有顯示(200)的code
+
+<br>
+
+# Website video download crawler ☟
+# AV.py
+```python
+from Module import  net_fn
+
+class AV:
+
+    def __init__(self):
+        self.Net = net_fn.Net()
+
+    def Read_Home(self):
+        url = "https://airav.cc/"
+        header = "Host: class.ruten.com.tw###Connection: keep-alive###Cache-Control: max-age=0###Upgrade-Insecure-Requests: 1###User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64;           x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36###Accept:                                                                                           text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8###Accept-Encoding: gzip, deflate###Accept-Language: zh-TW,zh;q=0.9,en-
+        US;q=0.8,en;q=0.7###If-Modified-Since: Mon, 30 Jul 2018 19:28:15 GMT###"
+        rs = self.Net.Get(url=url,header_string=header)
+        data = rs.comtent.decode()
+        print(data)
+
+        if __name__ == "__main__":
+            obj = AV()
+            obj.Read_Home()
+
+```
