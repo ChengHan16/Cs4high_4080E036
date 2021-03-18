@@ -1,7 +1,8 @@
 # ● Download Youtube videos
 > # 需安裝的套件
 >> ### 1.`pip install pytube3 --upgrade`<br>
->> ### 2. 然後輸入 `python`，再輸入 `from pytube import YouTube` 
+>> ### 2.pip install pytube==10.4.1
+>> ### 3.然後輸入 `python`，再輸入 `from pytube import YouTube` 
 >> ### 來測試套件是否正常，如果沒報錯就沒問題。<br>
 
 # ● tese01
@@ -14,6 +15,4 @@ YouTube(link).streams.get_highest_resolution().download() #下載影片
 
 # ● 問題解決 參考資料：
 ## `https://github.com/pytube/pytube/issues/614`
-```
-
-```
+## `pip install pytube==10.4.1`
