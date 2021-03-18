@@ -11,7 +11,14 @@
 >>>>### 拉取檔案進Import(command + I)
 ## スタート
 > ### Command Ｋ<br>
-> ### Ｍ 標記
+> ### Ｍ 標記 <br>
+> Shift + M <br>
+> Shift + Command + M <br>
+> ### 檔案拉進 New ltem （資料欄列第4個）
+>> ### Automate To Sequence  
+>> ### Find
+>> ### 
+> 
 
 ## 片段拉長
 > ### Selection Tool(V) <br>
@@ -32,3 +39,9 @@
 > ### Hand Tool(H) <br>
 > ### Type Tool(T) <br>
 > ### 在線上點取範圍（下拉），漸滅
+
+> ## 轉場 
+>> ### Video transitions(過場)
+>>> ### Dissolve -> Cross Dissolve
+>>> ## 
+>>> ##
