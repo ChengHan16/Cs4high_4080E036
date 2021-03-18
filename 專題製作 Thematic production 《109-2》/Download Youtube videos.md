@@ -34,4 +34,4 @@ YouTube(link).streams.get_highest_resolution().download() #下載影片
 # Error 待解決：
 ### `UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa8 in position 0: invalid start byte`<br>
 # 待吸收：
-### 1.`https://www.youtube.com/watch?v=1ozHz7R1wRo`
+### `https://www.youtube.com/watch?v=1ozHz7R1wRo`
