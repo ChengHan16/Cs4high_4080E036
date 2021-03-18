@@ -10,10 +10,9 @@
 >>>### Ｎew Project
 >>>>### 拉取檔案進Import(command + I)
 ## スタート
->
->>
->>>
->>>>
+> ### Command Ｋ<br>
+> ### Ｍ 標記
+
 ## 片段拉長
 > ### Selection Tool(V) <br>
 > ### Track Select Forward Tool(A) <br>
