@@ -17,13 +17,14 @@
 > ### 檔案拉進 New ltem （資料欄列第4個）
 >> ### Automate To Sequence  
 >> ### Find
->> ### 
-> 
+>> ### New Bin
+>> ### New ltem
+>> ### Clear(Delete)
 
 ## 片段拉長
 > ### Selection Tool(V) <br>
 > ### Track Select Forward Tool(A) <br>
-> # こちら Rate Stretch Tool(R) <br>
+> # こちら Rate Stretch Tool(R) (第三個) <br> 
 > ### Razor Tool(C) <br>
 > ### Slip Tool(Y) <br>
 > ### Pen Tool(P) <br>
