@@ -107,8 +107,11 @@ yt.streams.filter(subtype='mp4',resolution="1080p")[0].download()
 ```
 # 筆記
 > ## subprocess.py 更改資料路徑在：
-> ### `File "C:\***\***\AppData\Local\Programs\Python\Python39\lib\subprocess.py"`
-> ### 上 `***` 為個人電腦儲存路經
+>> ### `File "C:\***\***\AppData\Local\Programs\Python\Python39\lib\subprocess.py"`
+>> ### 上 `***` 為個人電腦儲存路經<br>
+>>> ## ● 在lib資料夾中找到subprocess.py
+>>> ### 搜尋class Popen(object):
+>>> ### 將__init__中的shell=False修改為shell=True
 
 # ● 問題解決/參考資料/安裝套件：
 ### `https://www.ffmpeg.org/`
@@ -116,6 +119,9 @@ yt.streams.filter(subtype='mp4',resolution="1080p")[0].download()
 ### `pip install pytube==10.4.1`
 ### `https://zh-tw.coderbridge.com/series/c471d97bb201460ab137c5e4955987df/posts/0baeb8bf25e543ed8462bd742cd1946f`
 ### `https://www.itread01.com/content/1545429986.html`<br>
+### `https://github.com/BtbN/FFmpeg-Builds/releases`
+### ``
+### ``
 # ● Error 待解決：
 ### `UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa8 in position 0: invalid start byte`<br>
 # ● 待吸收：
