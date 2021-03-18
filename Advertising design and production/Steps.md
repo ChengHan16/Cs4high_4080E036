@@ -5,7 +5,7 @@
 >> #### `パスワード：apple`
 
 ## Steps
-> ##  Pr開啟
+> ##  Pr 開啟
 >>### 網大檔案下載
 >>>### Ｎew Project
 >>>>### 拉取檔案進Import(command + I)
