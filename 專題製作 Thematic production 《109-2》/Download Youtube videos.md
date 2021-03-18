@@ -23,7 +23,7 @@ YouTube(link).streams.get_highest_resolution().download() #下載影片
 # 筆記
 ```
 更改資料路徑在 `File "C:\***\***\AppData\Local\Programs\Python\Python39\lib\subprocess.py"`
-上 `***` 為個人電腦儲存路經 
+上 `***` 為個人電腦儲存路經
 ```
 # ● 問題解決/參考資料/安裝套件：
 ## `https://www.ffmpeg.org/`
