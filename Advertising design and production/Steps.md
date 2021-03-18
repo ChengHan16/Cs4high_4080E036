@@ -1,4 +1,4 @@
->## Adobe Creative Cloud Cleaner Tool
+ >## Adobe Creative Cloud Cleaner Tool
 >> ## Adobe id Credentials
 
 >> #### `User：apple`
@@ -52,5 +52,7 @@
 >>> ### Boys * Finale.mpg
 >>> ### 最下 Gaussian Blur
 >>> ### Blurinss 選擇最後結尾點選時間調整  
+## 叫出 Effect
+> ### Windows -> Effect (打勾叫出) 
 ## New Project
 > ### Name: 
