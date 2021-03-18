@@ -12,7 +12,10 @@ from pytube import YouTube
 link = 'https://www.youtube.com/watch?v=efyS2QK_4ic'      #想下載的影片連結
 YouTube(link).streams.get_highest_resolution().download() #下載影片
 ```
+● tese01 Results(執行結果)
+```
 
+```
 # ● 問題解決 參考資料：
 ## `https://github.com/pytube/pytube/issues/614`
 ## `pip install pytube==10.4.1`
