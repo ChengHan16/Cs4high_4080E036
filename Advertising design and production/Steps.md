@@ -17,7 +17,7 @@
 ## 片段拉長
 > ### Selection Tool(V) <br>
 > ### Track Select Forward Tool(A) <br>
-> # Rate Stretch Tool(R) <br>
+> # こちら Rate Stretch Tool(R) <br>
 > ### Razor Tool(C) <br>
 > ### Slip Tool(Y) <br>
 > ### Pen Tool(P) <br>
