@@ -39,8 +39,8 @@
 > ### Hand Tool(H) <br>
 > ### Type Tool(T) <br>
 > ### 在線上點取範圍（下拉），漸滅 <br>
-> ## 轉場 
->> ### Video transitions(過場)
->>> ### Dissolve -> Cross Dissolve
->>> ## 
->>> ##
+## 轉場 
+> ### Video transitions(過場)
+>> ### Dissolve -> Cross Dissolve
+>> ## 
+>> ##
