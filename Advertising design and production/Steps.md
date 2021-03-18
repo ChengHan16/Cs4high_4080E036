@@ -23,3 +23,13 @@
 > ### Pen Tool(P) <br>
 > ### Hand Tool(H) <br>
 > ### Type Tool(T) <br>
+## 轉場
+> ### Selection Tool(V) <br>
+> ### Track Select Forward Tool(A) <br>
+> ### Rate Stretch Tool(R) <br>
+> ### Razor Tool(C) <br>
+> ### Slip Tool(Y) <br>
+> # こちら  Pen Tool(P) <br>
+> ### Hand Tool(H) <br>
+> ### Type Tool(T) <br>
+> ### 在線上點取範圍（下拉），漸滅
