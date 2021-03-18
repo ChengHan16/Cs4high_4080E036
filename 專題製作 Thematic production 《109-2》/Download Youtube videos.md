@@ -21,7 +21,7 @@ YouTube(link).streams.get_highest_resolution().download() #下載影片
 
 ```
 # 筆記
-> ## 更改資料路徑在：
+> ## subprocess.py 更改資料路徑在：
 > ### `File "C:\***\***\AppData\Local\Programs\Python\Python39\lib\subprocess.py"`
 > ### 上 `***` 為個人電腦儲存路經
 
