@@ -18,7 +18,8 @@ YouTube(link).streams.get_highest_resolution().download() #下載影片
 ```
 
 ```
-# ● 問題解決 參考資料：
+# ● 問題解決/參考資料/安裝套件：
+## `https://www.ffmpeg.org/`
 ## `https://github.com/pytube/pytube/issues/614`
 ## `pip install pytube==10.4.1`
 ## `https://zh-tw.coderbridge.com/series/c471d97bb201460ab137c5e4955987df/posts/0baeb8bf25e543ed8462bd742cd1946f`
