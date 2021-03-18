@@ -43,5 +43,12 @@
 ## 轉場 
 > ### Video transitions(過場)
 >> ### Dissolve -> Cross Dissolve
->> ## 
->> ##
+>> ### 以上技術用於慢動作那段
+## 最後片段處理
+>> ### Video Effects
+>> ### Blur & Sharpen
+>> ### Gaussian Blur
+>>> ### 左邊 Effect Controls
+>>> ### Boys * Finale.mpg
+>>> ### 最下 Gaussian Blur
+>>> ### Blurinss 選擇最後結尾點選時間調整  
