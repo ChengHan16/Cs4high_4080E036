@@ -15,11 +15,11 @@
 >>>
 >>>>
 ## 片段拉長
-> ## Selection Tool(V) <br>
-> ## Track Select Forward Tool(A) <br>
-> ### Rate Stretch Tool(R) <br>
-> ## Razor Tool(C) <br>
-> ## Slip Tool(Y) <br>
-> ## Pen Tool(P) <br>
-> ## Hand Tool(H) <br>
-> ## Type Tool(T) <br>
+> ### Selection Tool(V) <br>
+> ### Track Select Forward Tool(A) <br>
+> # Rate Stretch Tool(R) <br>
+> ### Razor Tool(C) <br>
+> ### Slip Tool(Y) <br>
+> ### Pen Tool(P) <br>
+> ### Hand Tool(H) <br>
+> ### Type Tool(T) <br>
