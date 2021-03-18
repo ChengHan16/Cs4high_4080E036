@@ -111,11 +111,12 @@ yt.streams.filter(subtype='mp4',resolution="1080p")[0].download()
 >> ### 上 `***` 為個人電腦儲存路經<br>
 >>> ## ● 在lib資料夾中找到subprocess.py
 >>> ### 搜尋class Popen(object):
->>> ### 將__init__中的shell=False修改為shell=True
+>>> ### 將__init__中的shell=False修改為shell=True <br>
+> ### pip install pytube==10.4.1 `https://github.com/pytube/pytube/issues/614` 
 
 # ● 問題解決/參考資料/安裝套件：
 ### `https://www.ffmpeg.org/`
-### `https://github.com/pytube/pytube/issues/614`
+### `https://github.com/pytube/pytube/issues/614` 
 ### `pip install pytube==10.4.1`
 ### `https://zh-tw.coderbridge.com/series/c471d97bb201460ab137c5e4955987df/posts/0baeb8bf25e543ed8462bd742cd1946f`
 ### `https://www.itread01.com/content/1545429986.html`<br>
@@ -124,3 +125,4 @@ yt.streams.filter(subtype='mp4',resolution="1080p")[0].download()
 ### `UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa8 in position 0: invalid start byte`<br>
 # ● 待吸收：
 ### `https://www.youtube.com/watch?v=1ozHz7R1wRo`
+### `https://www.youtube.com/watch?v=Uc0zriNCtiE`
