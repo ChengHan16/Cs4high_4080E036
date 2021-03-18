@@ -31,7 +31,7 @@ YouTube(link).streams.get_highest_resolution().download() #下載影片
 ### `pip install pytube==10.4.1`
 ### `https://zh-tw.coderbridge.com/series/c471d97bb201460ab137c5e4955987df/posts/0baeb8bf25e543ed8462bd742cd1946f`
 ### `https://www.itread01.com/content/1545429986.html`<br>
-# Error 待解決：
+# ● Error 待解決：
 ### `UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa8 in position 0: invalid start byte`<br>
-# 待吸收：
+# ● 待吸收：
 ### `https://www.youtube.com/watch?v=1ozHz7R1wRo`
