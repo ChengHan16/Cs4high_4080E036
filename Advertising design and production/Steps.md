@@ -14,3 +14,12 @@
 >>
 >>>
 >>>>
+## 片段拉長
+> Selection Tool(V)
+> Track Select Forward Tool(A)
+> ### Rate Stretch Tool(R)
+> Razor Tool(C)
+> Slip Tool(Y)
+> Pen Tool(P)
+> Hand Tool(H)
+> Type Tool(T)
