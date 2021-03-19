@@ -1,4 +1,4 @@
-## 2021-03-12
+## ● 2021-03-12
 > ### Ch62 - php 基本程式設計
 > ### page 4  
 ```php
@@ -239,7 +239,7 @@
     </body>
 </html>
 ```
-## 2021-03-19
+## ● 2021-03-19
 
 > ### page 34
 > ### Way 2: PHP The global Keyword: $GLOBALS[index]
@@ -269,4 +269,13 @@ variable $y is ?15
 variable $GLOBALS['y']is15
 
 另一方法,存取global scope 上的變數值
+```
+## ● ksu_select3-SELECT 
+> ### page 28 
+> ### ● In PHP, variables can be assigned a value treated as a declaration anywhere in the script. <br> ● The scope of a variable is the part of the script where the variable can be referenced/ used. <br> ● PHP has three different variable scopes: <br>
+>> local
+>> global
+>> static
+```
+
 ```
