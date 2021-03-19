@@ -344,3 +344,25 @@ ___
     </body>
 </html>
 ```
+# ● Way 1: PHP The global Keyword
+> ### page 33
+> • The global keyword is used to access a global variable from within a function for global variable sharing. <br> • To do this, use the global keyword before the variables (inside the function):
+```php
+<!DOCTYPE html>
+<html>
+    <body>
+        <?php
+            $x = 5; 
+            $y = 10;
+	    
+            function myTest() {
+		$GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
+            }
+            
+            myTest();
+            echo "variable" \$y is ?". $y;
+	    echo "<p>variable \GLOBALS['y'] is".  $GLOBALS['y'];
+        ?>
+    </body>
+</html>
+```
