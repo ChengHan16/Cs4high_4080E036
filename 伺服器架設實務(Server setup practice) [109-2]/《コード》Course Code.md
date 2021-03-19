@@ -397,8 +397,7 @@ ___
 variable $y is ?15
 variable \GLOBALS['y'] is15
 ```
-> ### 另一方法,存取global scope上的變數值
-<br>
+> ### 另一方法,存取global scope上的變數值<br>
 > ### page 35
 ```php
 <!DOCTYPE html>
