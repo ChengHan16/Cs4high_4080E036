@@ -263,3 +263,10 @@
     </body>
 </html>
 ```
+### 執行結果
+```
+variable $y is ?15
+variable $GLOBALS['y']is15
+
+另一方法,存取global scope 上的變數值
+```
