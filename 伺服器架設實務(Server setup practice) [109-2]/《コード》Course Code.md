@@ -398,3 +398,48 @@ variable $y is ?15
 variable \GLOBALS['y'] is15
 ```
 > ### 另一方法,存取global scope上的變數值
+<br>
+> ### page 35
+> 
+```
+<!DOCTYPE html>
+<html>
+    <body>
+        <?php
+            $GLOBALS['x'] = 5; 
+            $GLOBALS['y'] = 10;
+	    
+            function myTest() {
+		$GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
+            }
+            
+            myTest();
+ 	    echo $y;
+        ?>
+    </body>
+</html>
+```
+## こたえ
+```
+15
+```
+> ### page 35
+> 
+```
+<!DOCTYPE html>
+<html>
+    <body>
+        <?php
+            $GLOBALS['x'] = 5; 
+            $GLOBALS['y'] = 10;
+	    
+            function myTest() {
+		$x = $x + $y;
+            }
+            
+            myTest();
+ 	    echo $y;
+        ?>
+    </body>
+</html>
+```
