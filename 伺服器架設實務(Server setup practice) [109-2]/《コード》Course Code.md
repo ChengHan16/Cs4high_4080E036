@@ -281,17 +281,17 @@ variable $GLOBALS['y']is15
 <!DOCTYPE html>
 <html>
     <body>
-        <?php
-            $x = 5; //global scope
+        <?php 								/*1*/
+            $x = 5; //global scope					/*1*/
 	    
-            function myTest() {
+            function myTest() {						/*2*/
 		//using x inside this function will generate an error
 		echo "<p>Variable x inside function is: $x</p>"
-            }
+            }								/*2*/
             
-            myTest();
+            myTest();							/*3*/
             echo "<p>Variable x outside function IS: $x</p>"
-        ?>
+        ?>								/*3*/
     </body>
 </html>
 ```
