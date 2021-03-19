@@ -275,6 +275,9 @@ variable $GLOBALS['y']is15
 > ### ● In PHP, variables can be assigned a value treated as a declaration anywhere in the script. <br> ● The scope of a variable is the part of the script where the variable can be referenced/ used. <br> ● PHP has three different variable scopes: <br>
 > ### &#xA0; local<br>&#xA0; global<br>&#xA0; static
 
+### 
+
+
 > ### page 29 
 > ### ● A variable declared outside a function has a GLOBAL SCOPE and can only be accessed outside a function:Different
 ```php
@@ -286,7 +289,7 @@ variable $GLOBALS['y']is15
 	    
             function myTest() {						/*2*/
 		//using x inside this function will generate an error
-		echo "<p>Variable x inside function is: $x</p>"
+		echo "<p>Variable x inside function is: $x</p>";
             }								/*2*/
             
             myTest();							/*3*/
