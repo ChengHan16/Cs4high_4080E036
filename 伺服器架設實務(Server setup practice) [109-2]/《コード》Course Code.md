@@ -274,9 +274,9 @@ variable $GLOBALS['y']is15
 > ### page 28 
 > ### ● In PHP, variables can be assigned a value treated as a declaration anywhere in the script. <br> ● The scope of a variable is the part of the script where the variable can be referenced/ used. <br> ● PHP has three different variable scopes: <br>
 > ### &#xA0; local<br>&#xA0; global<br>&#xA0; static
-
+___
 > ### $x 泛用變數 1.2.3 都可使用 <br>echo:php內建指令(api) <br> $x -> 1+3 <br>執行程序 <br> 1 -> 3 -> 2 <br> 2 結束後回呼叫的地方
-
+___
 > ### page 29 
 > ### ● A variable declared outside a function has a GLOBAL SCOPE and can only be accessed outside a function:Different
 ```php
