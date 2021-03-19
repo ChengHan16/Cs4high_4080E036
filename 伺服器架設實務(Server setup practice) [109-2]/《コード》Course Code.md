@@ -440,3 +440,7 @@ variable \GLOBALS['y'] is15
     </body>
 </html>
 ```
+## こたえ
+```
+10
+```
