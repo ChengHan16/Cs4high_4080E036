@@ -290,8 +290,8 @@ variable $GLOBALS['y']is15
             }								/*2*/
             
             myTest();							/*3*/
-            echo "<p>Variable x outside function IS: $x</p>"
-        ?>								/*3*/
+            echo "<p>Variable x outside function IS: $x</p>"		/*3*/
+        ?>								
     </body>
 </html>
 ```
