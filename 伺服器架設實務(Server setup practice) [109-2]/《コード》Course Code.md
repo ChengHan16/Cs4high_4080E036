@@ -477,7 +477,7 @@ variable \GLOBALS['y'] is15
 # ● static
 
 |	|無static|有static|
-|---|---|
+|---|---|---
 |$x = 0|1.$x = 0 2."空白"|1.$x = 0|
 |myTest();|1.$x = 0 2."空白"|1.$x = 0|
 |myTest();|1.$x = 0 |1.$x = 1|
