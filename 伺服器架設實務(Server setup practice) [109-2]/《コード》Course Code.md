@@ -292,7 +292,45 @@ ___
             }								/*2*/
             
             myTest();							/*3*/
-            echo "<p>Variable x outside function IS: $x</p>"		/*3*/
+            echo "<p>Variable x outside function IS: $x</p>";		/*3*/
+        ?>								
+    </body>
+</html>
+```
+## ● 全域變數/區域變數區分
+> ### page 30
+> 
+```
+<!DOCTYPE html>
+<html>
+    <body>
+        <?php 								
+            $x = 5; //global scope					
+	    
+            function myTest() {						
+		//using x inside this function will generate an error
+		echo "<p>myTest()-Variable x inside function is: $x</p>";
+            }								
+            
+            myTest();							
+            echo "<p>Variable x outside function IS: $x</p>";		
+        ?>								
+    </body>
+</html>
+```
+```
+<!DOCTYPE html>
+<html>
+    <body>
+        <?php 												
+            function myTest() {		
+	    	$x = 5;
+		//using x inside this function will generate an error
+		echo "<p>myTest()-Variable x inside function is: $x</p>";
+            }								
+            
+            myTest();							
+            echo "<p>Variable x outside function IS: $x</p>";		
         ?>								
     </body>
 </html>
