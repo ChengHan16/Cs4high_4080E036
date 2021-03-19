@@ -472,4 +472,11 @@ variable \GLOBALS['y'] is15
 1
 2
 ```
-> ### • Then, each time the function is called,that variable will still have the informationit contained from the last time the function was called.<br> • Note: The variable is still local to the function.
+> ### • Then, each time the function is called,that variable will still have the informationit contained from the last time the function was called.<br> • Note: The variable is still local to the function.<br>
+
+# ● static
+||無static|有static|
+|$x = 0|1.$x = 0 2."空白"|1.$x = 0|
+|myTest();|1.$x = 0 2."空白"|1.$x = 0|
+|myTest();|1.$x = 0 |1.$x = 1|
+
