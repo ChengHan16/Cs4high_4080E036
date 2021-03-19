@@ -472,3 +472,6 @@ variable \GLOBALS['y'] is15
 1
 2
 ```
+> ### • Then, each time the function is called,that variable will still have the informationit contained from the last time the function
+was called.
+> ### • Note: The variable is still local to the function.
