@@ -444,3 +444,24 @@ variable \GLOBALS['y'] is15
 ```
 10
 ```
+# ● PHP The static Keyword
+> ### page 36
+> ### • Normally, when a function is completed/ executed, all of its variables are deleted. However, sometimes we want a local variable NOT to be deleted. We need it for a further job. <br> • To do this, use the static keyword when you first declare the variable:
+```php
+<!DOCTYPE html>
+<html>
+    <body>
+        <?php
+            function myTest(){
+	    	static $x = 0;
+		echo $x;
+		$x++;
+	    }
+
+            myTest();
+ 	    echo "<br>"; myTest();
+	    echo "<br>"; myTest();
+        ?>
+    </body>
+</html>
+```
