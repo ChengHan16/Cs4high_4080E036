@@ -346,6 +346,7 @@ ___
 ```
 # ● Way 1: PHP The global Keyword
 > ### page 33
+> ### 泛用/區域變數
 > ### • The global keyword is used to access a global variable from within a function for global variable sharing. <br> • To do this, use the global keyword before the variables (inside the function):
 ```php
 <!DOCTYPE html>
@@ -366,3 +367,4 @@ ___
     </body>
 </html>
 ```
+> ## • 沒有區域變數，全泛用變數 因為加了global，區域變泛用
