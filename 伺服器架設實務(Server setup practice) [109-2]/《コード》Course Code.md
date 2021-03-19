@@ -370,7 +370,30 @@ ___
 > # • 沒有區域變數，全泛用變數 因為加了global，區域變泛用
 ___
 > # • Way 2: PHP The global Keyword: $GLOBALS[index]
+> ### page 34
 > ### • PHP also stores all global variables in an array called $GLOBALS[index].<br> • The index holds the name of the variable. <br> • This array is also accessible from within functions and can be used to update global variables directly.
+```php
+<!DOCTYPE html>
+<html>
+    <body>
+        <?php
+            $x = 5; 
+            $y = 10;
+	    
+            function myTest() {
+		$GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
+            }
+            
+            myTest();
+            echo "variable \$y is ?". $y;
+	    echo "<p>variable \GLOBALS['y'] is".  $GLOBALS['y'];
+        ?>
+    </body>
+</html>
 ```
-
+### 執行結果
 ```
+variable $y is ?15
+variable \GLOBALS['y'] is15
+```
+> ### 另一方法,存取global scope上的變數值
