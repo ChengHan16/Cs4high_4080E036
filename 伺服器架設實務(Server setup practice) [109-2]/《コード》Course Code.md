@@ -444,6 +444,7 @@ variable \GLOBALS['y'] is15
 ```
 10
 ```
+![1資料庫伺服器0319](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/1%E8%B3%87%E6%96%99%E5%BA%AB%E4%BC%BA%E6%9C%8D%E5%99%A80319.PNG)<br>
 # ● PHP The static Keyword
 > ### page 36
 > ### • Normally, when a function is completed/ executed, all of its variables are deleted. However, sometimes we want a local variable NOT to be deleted. We need it for a further job. <br> • To do this, use the static keyword when you first declare the variable:
@@ -464,4 +465,10 @@ variable \GLOBALS['y'] is15
         ?>
     </body>
 </html>
+```
+## こたえ
+```
+0
+1
+2
 ```
