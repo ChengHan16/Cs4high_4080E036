@@ -257,7 +257,7 @@
             }
             
             myTest();
-            echo "variable" \$y is ?". $y;
+            echo "variable \$y is ?". $y;
 	    echo "<p>variable \GLOBALS['y'] is".  $GLOBALS['y'];
         ?>
     </body>
@@ -368,3 +368,8 @@ ___
 </html>
 ```
 > ## • 沒有區域變數，全泛用變數 因為加了global，區域變泛用
+> ## • Way 2: PHP The global Keyword: $GLOBALS[index]
+> ## • PHP also stores all global variables in an array called $GLOBALS[index].<br> The index holds the name of the variable. <br> This array is also accessible from within functions and can be used to update global variables directly.
+```
+
+```
