@@ -344,6 +344,7 @@ ___
     </body>
 </html>
 ```
+___
 # ● Way 1: PHP The global Keyword
 > ### page 33
 > ### 泛用/區域變數
