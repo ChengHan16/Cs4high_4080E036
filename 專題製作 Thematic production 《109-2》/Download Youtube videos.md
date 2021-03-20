@@ -25,16 +25,14 @@ print(YouTube(link).streams.filter(progressive=True))
 # ● .filter(progressive=True) Results(執行結果)
 ![3.video Download.png](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/3.video%20Download.png)<br>
 ___
-# ● tese02
+# ● tese01-2
 ```python
 from pytube import YouTube
 import os
 import subprocess
-import pandas as pd
 
 fileobj = {}
 download_count = 1
-
 
 # 檢查影片檔是否包含聲音
 def check_media(filename):
@@ -114,6 +112,9 @@ yt = YouTube('https://www.youtube.com/watch?v=efyS2QK_4ic', on_progress_callback
                      on_complete_callback=onComplete)
 yt.streams.filter(subtype='mp4',resolution="1080p")[0].download()
 ```
+# ● tese01-2 Results(執行結果)
+![4.video Download.png](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/4.video%20Download.png)
+___
 # 筆記
 > ## subprocess.py 更改資料路徑在：
 >> ### `File "C:\***\***\AppData\Local\Programs\Python\Python39\lib\subprocess.py"`
