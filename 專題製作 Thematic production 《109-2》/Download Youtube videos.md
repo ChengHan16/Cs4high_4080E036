@@ -15,7 +15,15 @@ YouTube(link).streams.get_highest_resolution().download() #下載影片
 # ● tese01 Results(執行結果)
 ![1.video Download](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/1.video%20Download.png)
 ![1.video Download](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/2.video%20Download.png.PNG)<br>
+# ● 用 .filter(progressive=True) 把 Progressive 的選項印出來
+```python
+from pytube import YouTube
 
+link = 'https://www.youtube.com/watch?v=efyS2QK_4ic'      #想下載的影片連結
+print(YouTube(link).streams.filter(progressive=True)) 
+```
+# ● .filter(progressive=True) Results(執行結果)
+![3.video Download.png](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/3.video%20Download.png)<br>
 # ● tese02
 ```python
 from pytube import YouTube
