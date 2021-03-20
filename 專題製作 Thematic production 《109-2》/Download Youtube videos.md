@@ -24,6 +24,7 @@ print(YouTube(link).streams.filter(progressive=True))
 ```
 # ● .filter(progressive=True) Results(執行結果)
 ![3.video Download.png](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/3.video%20Download.png)<br>
+___
 # ● tese02
 ```python
 from pytube import YouTube
