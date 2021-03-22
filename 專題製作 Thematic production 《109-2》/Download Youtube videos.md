@@ -25,6 +25,8 @@ print(YouTube(link).streams.filter(progressive=True))
 # ● .filter(progressive=True) Results(執行結果)
 ![3.video Download.png](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/3.video%20Download.png)<br>
 ___
+# [● 漸進式下載和自適應下載的差別](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E5%B0%88%E9%A1%8C%E8%A3%BD%E4%BD%9C%20Thematic%20production%20%E3%80%8A109-2%E3%80%8B/%E6%BC%B8%E9%80%B2%E5%BC%8F%E4%B8%8B%E8%BC%89%E5%92%8C%E8%87%AA%E9%81%A9%E6%87%89%E4%B8%8B%E8%BC%89%E7%9A%84%E5%B7%AE%E5%88%A5.md)
+___
 # ● tese01-2
 ```python
 from pytube import YouTube
