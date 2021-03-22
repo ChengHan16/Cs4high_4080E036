@@ -119,21 +119,20 @@ for url in p.video_urls[:3]:
 ___
 # ● Playlists
 ##  You can also download a complete Youtube playlist:
-```
-```
-## 
 ```python
 from pytube import Playlist
 p = Playlist('https://www.youtube.com/watch?v=XRPFWkMCFIY&list=PL0iQbgfCDqD64NhGHDC8N9r2NDRmb4K7O')
 for video in p.videos:
-    video.streams.first().download()
+    video.streams.get_highest_resolution().download()
 ```
-## Or, if we’re only interested in the URLs for the videos, we can look at those as well:
+# Results(執行結果)
+```
+
+```
+# This will download the highest progressive stream available (generally 720p) from the given playlist.
+## 
 ```python
-from pytube import Playlist
-p = Playlist('https://www.youtube.com/watch?v=XRPFWkMCFIY&list=PL0iQbgfCDqD64NhGHDC8N9r2NDRmb4K7O')
-for url in p.video_urls[:3]:
-    print(url)
+
 ```
 # 參考資料
 >  ## `https://pypi.org/project/pytube3/`
