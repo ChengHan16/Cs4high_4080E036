@@ -24,6 +24,7 @@ YouTube('https://www.youtube.com/watch?v=djXGRLm3UyU').streams.filter(progressiv
 from pytube import YouTube
 YouTube('https://www.youtube.com/watch?v=djXGRLm3UyU').streams[0].download()
 ```
+## This example will download the highest quality progressive download stream available.<br>Next, let's explore how we would view what video streams are available:
 # Results(執行結果)
 ```
 [<Stream: itag="18" mime_type="video/mp4" res="360p" fps="30fps" vcodec="avc1.42001E" acodec="mp4a.40.2" progressive="True" type="video">,
@@ -61,6 +62,6 @@ print(yt.streams.filter(progressive=True))
 [<Stream: itag="18" mime_type="video/mp4" res="360p" fps="30fps" vcodec="avc1.42001E" acodec="mp4a.40.2" progressive="True" type="video">,
 <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">]
 ```
-## This example will download the highest quality progressive download stream available.<br>Next, let's explore how we would view what video streams are available:
+
 # 參考資料
 >  ## `https://pypi.org/project/pytube3/`
