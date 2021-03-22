@@ -98,10 +98,25 @@ p = Playlist('https://www.youtube.com/playlist?list=PLvNp0Boas721Xb1rZMrxR_NHEKR
 ```
 p = Playlist('https://www.youtube.com/watch?v=efyS2QK_4ic&list=PL0iQbgfCDqD64NhGHDC8N9r2NDRmb4K7O&index=2')
 ```
-## Now, we have a Playlist object called p that we can do some work with.
-```
+## Now, we have a `Playlist` object called `p` that we can do some work with.
 
+# ● Interacting with a playlist
+## Fundamentally, a Playlist object is just a container for YouTube objects.
+## If, for example, we wanted to download all of the videos in a playlist, we would do the following:
+```python
+from pytube import Playlist
+p = Playlist('https://www.youtube.com/watch?v=XRPFWkMCFIY&list=PL0iQbgfCDqD64NhGHDC8N9r2NDRmb4K7O')
+for video in p.videos:
+    video.streams.first().download()
 ```
+## Or, if we’re only interested in the URLs for the videos, we can look at those as well:
+```python
+from pytube import Playlist
+p = Playlist('https://www.youtube.com/watch?v=XRPFWkMCFIY&list=PL0iQbgfCDqD64NhGHDC8N9r2NDRmb4K7O')
+for url in p.video_urls[:3]:
+    print(url)
+```
+___
 # ● Playlists
 ##  You can also download a complete Youtube playlist:
 ```
