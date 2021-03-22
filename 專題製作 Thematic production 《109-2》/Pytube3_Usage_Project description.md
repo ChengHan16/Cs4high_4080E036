@@ -87,11 +87,17 @@ print(yt.streams.filter(adaptive=True))
 ```
 # ● Creating a Playlist
 ## Using pytube to interact with playlists is very simple. Begin by importing the Playlist class:
-## `from pytube import Playlist`
+```
+from pytube import Playlist
+```
 ## Now let’s create a playlist object. You can do this by initializing the object with a playlist URL:
-## `p = Playlist('https://www.youtube.com/playlist?list=PLvNp0Boas721Xb1rZMrxR_NHEKRpO5VNf')`
+```
+p = Playlist('https://www.youtube.com/playlist?list=PLvNp0Boas721Xb1rZMrxR_NHEKRpO5VNf')
+```
 ## Or you can create one from a video link in a playlist:
-## `p = Playlist('https://www.youtube.com/watch?v=efyS2QK_4ic&list=PL0iQbgfCDqD64NhGHDC8N9r2NDRmb4K7O&index=2')`
+```
+p = Playlist('https://www.youtube.com/watch?v=efyS2QK_4ic&list=PL0iQbgfCDqD64NhGHDC8N9r2NDRmb4K7O&index=2')
+```
 ## Now, we have a Playlist object called p that we can do some work with.
 ```
 
