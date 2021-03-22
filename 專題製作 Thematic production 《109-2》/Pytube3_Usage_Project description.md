@@ -43,6 +43,24 @@ YouTube('https://www.youtube.com/watch?v=djXGRLm3UyU').streams[0].download()
 <Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">, 
 <Stream: itag="251" mime_type="audio/webm" abr="160kbps" acodec="opus" progressive="False" type="audio">]
 ```
+# ● Selecting an itag
+> ## You may notice that some streams listed have both a video codec and audio codec, while others have just video or just audio, this is a result of YouTube supporting a streaming technique called Dynamic Adaptive Streaming over HTTP (DASH).
+
+> ## In the context of pytube, the implications are for the highest quality streams; you now need to download both the audio and video tracks and then post-process them with software like FFmpeg to merge them.
+
+> ## The legacy streams that contain the audio and video in a single file (referred to as "progressive download") are still available, but only for resolutions 720p and below.
+
+## To only view these progressive download streams:
+```python
+from pytube import YouTube
+yt = YouTube('https://www.youtube.com/watch?v=djXGRLm3UyU')
+print(yt.streams.filter(progressive=True))
+```
+# Results(執行結果)
+```
+[<Stream: itag="18" mime_type="video/mp4" res="360p" fps="30fps" vcodec="avc1.42001E" acodec="mp4a.40.2" progressive="True" type="video">,
+<Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">]
+```
 ## This example will download the highest quality progressive download stream available.<br>Next, let's explore how we would view what video streams are available:
 # 參考資料
 >  ## `https://pypi.org/project/pytube3/`
