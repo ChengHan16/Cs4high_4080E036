@@ -136,3 +136,4 @@ ___
 # ● 待吸收：
 ### `https://www.youtube.com/watch?v=1ozHz7R1wRo`
 ### `https://www.youtube.com/watch?v=Uc0zriNCtiE`
+### `https://pypi.org/project/pytube3/`
