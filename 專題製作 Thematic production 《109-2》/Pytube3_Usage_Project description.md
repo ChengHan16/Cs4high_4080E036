@@ -133,8 +133,7 @@ for video in p.videos:
 # 次続けてところ
 # Filtering
 ## Pytube allows you to filter on every property available (see the documentation for the complete list), let's take a look at some of the most useful ones.
-
-To list the audio only streams:
+## To list the audio only streams:
 ```python
 
 ```
