@@ -85,10 +85,35 @@ print(yt.streams.filter(adaptive=True))
 <Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">, 
 <Stream: itag="251" mime_type="audio/webm" abr="160kbps" acodec="opus" progressive="False" type="audio">]
 ```
-# ● Playlists
-##  You can also download a complete Youtube playlist:
+# ● Creating a Playlist
+## Using pytube to interact with playlists is very simple. Begin by importing the Playlist class:
+## `from pytube import Playlist`
+## Now let’s create a playlist object. You can do this by initializing the object with a playlist URL:
+## `p = Playlist('https://www.youtube.com/playlist?list=PLvNp0Boas721Xb1rZMrxR_NHEKRpO5VNf')`
+## Or you can create one from a video link in a playlist:
+## `p = Playlist('https://www.youtube.com/watch?v=efyS2QK_4ic&list=PL0iQbgfCDqD64NhGHDC8N9r2NDRmb4K7O&index=2')`
+## Now, we have a Playlist object called p that we can do some work with.
 ```
 
 ```
+# ● Playlists
+##  You can also download a complete Youtube playlist:
+```
+```
+## 
+```python
+from pytube import Playlist
+p = Playlist('https://www.youtube.com/watch?v=XRPFWkMCFIY&list=PL0iQbgfCDqD64NhGHDC8N9r2NDRmb4K7O')
+for video in p.videos:
+    video.streams.first().download()
+```
+## Or, if we’re only interested in the URLs for the videos, we can look at those as well:
+```python
+from pytube import Playlist
+p = Playlist('https://www.youtube.com/watch?v=XRPFWkMCFIY&list=PL0iQbgfCDqD64NhGHDC8N9r2NDRmb4K7O')
+for url in p.video_urls[:3]:
+    print(url)
+```
 # 參考資料
 >  ## `https://pypi.org/project/pytube3/`
+>  ## `https://python-pytube.readthedocs.io/en/latest/user/playlist.html`
