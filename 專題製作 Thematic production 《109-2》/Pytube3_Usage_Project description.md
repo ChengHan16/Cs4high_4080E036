@@ -130,7 +130,11 @@ for video in p.videos:
 ![pytubetest3](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/pytubetest3.PNG)
 ![pytubetest](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/pytubetest4.PNG)
 # This will download the highest progressive stream available (generally 720p) from the given playlist.
-## 
+# 次続けてところ
+# Filtering
+## Pytube allows you to filter on every property available (see the documentation for the complete list), let's take a look at some of the most useful ones.
+
+To list the audio only streams:
 ```python
 
 ```
