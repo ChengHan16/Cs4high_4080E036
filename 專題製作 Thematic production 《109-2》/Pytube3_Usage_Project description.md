@@ -126,9 +126,8 @@ for video in p.videos:
     video.streams.get_highest_resolution().download()
 ```
 # Results(執行結果)
-```
-
-```
+![pytubetest3](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/pytubetest3.PNG)
+![pytubetest](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/pytubetest4.PNG)
 # This will download the highest progressive stream available (generally 720p) from the given playlist.
 ## 
 ```python
