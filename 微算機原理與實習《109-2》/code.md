@@ -69,6 +69,30 @@ void loop() {
 ```C
 void setup() {
   // put your main code here, to run once:
+  pinMode(LED1, OUTPUT);
+    for(int i=29; i>25; i--) // LED1 -> 26‧LED4 -> 29
+    {
+      pinMode(i, OUTPUT);
+      digitalWrite(i, LOW);
+    }
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  // put your main code here, to run repeatedily:
+  for(int i=29; i>25; i--)
+    for(int j=0; j<1; j++)
+    {
+      digitalWrite(i,HIGH);
+      delay(300);
+      digitalWrite(i,LOW);
+      delay(300);
+    }
+}
+```
+```C
+void setup() {
+  // put your main code here, to run once:
   pinMode(14,OUTPUT);//A0
   pinMode(15,OUTPUT);//A1
   pinMode(16,OUTPUT);//A2
