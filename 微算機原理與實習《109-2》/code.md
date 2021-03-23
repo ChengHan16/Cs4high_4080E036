@@ -57,7 +57,7 @@ void setup() {
 // the loop function runs over and over again forever
 void loop() {
   for(int i=26; i<30; i++)
-    for(int j=0; i<3; j++)
+    for(int j=0; j<3; j++)
     {
       digitalWrite(i,HIGH);
       delay(700);
