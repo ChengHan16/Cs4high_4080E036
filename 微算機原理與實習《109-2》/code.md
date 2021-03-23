@@ -66,6 +66,32 @@ void loop() {
     }
 }
 ```
+```C
+void setup() {
+  // put your main code here, to run once:
+  pinMode(14,OUTPUT);//A0
+  pinMode(15,OUTPUT);//A1
+  pinMode(16,OUTPUT);//A2
+  pinMode(17,OUTPUT);//A3
+  digitalWrite(14,HIGH);
+  digitalWrite(15,HIGH);
+  digitalWrite(16,HIGH);
+  digitalWrite(17,HIGH);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  // put your main code here, to run repeatedily:
+  for(int i=14; i<18; i++)
+    for(int j=0; j<3; j++)
+    {
+      digitalWrite(i,HIGH);
+      delay(700);
+      digitalWrite(i,LOW);
+      delay(300);
+    }
+}
+```
 > # 筆記
 ```
 **要設定整體變數把它放在函式外面
