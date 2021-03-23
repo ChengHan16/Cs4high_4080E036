@@ -41,6 +41,31 @@ void loop() {
   delay(1000);              // wait for a second
 }
 ```
+# 2021-03-23
+```C
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin 13 as an output.
+  pinMode(LED1, OUTPUT);
+    for(int i=26; i<30; i++)
+    {
+      pinMode(i, OUTPUT);
+      digitalWrite(i, LOW);
+    }
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  for(int i=26; i<30; i++)
+    for(int j=0; i<3; j++)
+    {
+      digitalWrite(i,HIGH);
+      delay(700);
+      digitalWrite(i,LOW);
+      delay(300);
+    }
+}
+```
 > # 筆記
 ```
 **要設定整體變數把它放在函式外面
