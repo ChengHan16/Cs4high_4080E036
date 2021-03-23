@@ -43,11 +43,10 @@ void loop() {
 ```
 # 2021-03-23
 ```C
-// the setup function runs once when you press reset or power the board
 void setup() {
-  // initialize digital pin 13 as an output.
+  // put your main code here, to run once:
   pinMode(LED1, OUTPUT);
-    for(int i=26; i<30; i++)
+    for(int i=26; i<30; i++) // LED1 -> 26‧LED4 -> 29
     {
       pinMode(i, OUTPUT);
       digitalWrite(i, LOW);
@@ -56,6 +55,7 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
+  // put your main code here, to run repeatedily:
   for(int i=26; i<30; i++)
     for(int j=0; j<3; j++)
     {
