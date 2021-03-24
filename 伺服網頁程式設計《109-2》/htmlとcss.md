@@ -106,6 +106,12 @@ body {
     font-family: verdana;
     font-size: 20px;
   }
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 ```
 ## index.html
 ```html
