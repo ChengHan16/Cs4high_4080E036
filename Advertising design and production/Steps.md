@@ -62,6 +62,8 @@
 > ### Frame Hold Options...
 > ### 選擇片段 control + 右鍵
 > ### 中段選 In , 結尾 Hold down 關閉（不打勾）
+# 去背 ps
+> ### cmmand + shift + i 
 ___
 # Ai
 > ### 拖移 option 上拉
