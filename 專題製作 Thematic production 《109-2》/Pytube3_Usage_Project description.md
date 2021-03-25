@@ -24,7 +24,7 @@ YouTube('https://www.youtube.com/watch?v=djXGRLm3UyU').streams.filter(progressiv
 from pytube import YouTube
 YouTube('https://www.youtube.com/watch?v=djXGRLm3UyU').streams[0].download()
 ```
-```
+```python
 from pytube import YouTube
 yt = YouTube('https://www.youtube.com/watch?v=djXGRLm3UyU')
     print(yt.streams)
