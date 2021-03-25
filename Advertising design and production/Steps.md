@@ -56,6 +56,12 @@
 > ### Windows -> Effect (打勾叫出) 
 ## New Project
 > ### Name: 
+# 暫停
+> ### command + k 裁切
+> ### 選擇片段 control + 右鍵
+> ### Frame Hold Options...
+> ### 選擇片段 control + 右鍵
+> ### 中段選 In , 結尾 Hold down 關閉（不打勾）
 ___
 # Ai
 > ### 拖移 option 上拉
