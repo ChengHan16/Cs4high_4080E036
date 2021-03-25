@@ -25,6 +25,11 @@ YouTube('https://www.youtube.com/watch?v=djXGRLm3UyU').streams.filter(progressiv
 from pytube import YouTube
 YouTube('https://www.youtube.com/watch?v=djXGRLm3UyU').streams[0].download()
 ```
+```python
+from pytube import YouTube
+yt = YouTube('https://www.youtube.com/watch?v=djXGRLm3UyU')
+    print(yt.streams)
+```
 ## 此示例將下載可用的最高質量的漸進式下載流。<br>接下來，讓我們探索如何查看可用的視頻流：
 # Results(執行結果)
 ```
