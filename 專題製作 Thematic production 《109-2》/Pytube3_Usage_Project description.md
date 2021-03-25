@@ -24,6 +24,11 @@ YouTube('https://www.youtube.com/watch?v=djXGRLm3UyU').streams.filter(progressiv
 from pytube import YouTube
 YouTube('https://www.youtube.com/watch?v=djXGRLm3UyU').streams[0].download()
 ```
+```
+from pytube import YouTube
+yt = YouTube('https://www.youtube.com/watch?v=djXGRLm3UyU')
+    print(yt.streams)
+```
 ## This example will download the highest quality progressive download stream available.<br>Next, let's explore how we would view what video streams are available:
 # Results(執行結果)
 ```
