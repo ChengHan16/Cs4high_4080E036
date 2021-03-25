@@ -56,3 +56,6 @@
 > ### Windows -> Effect (打勾叫出) 
 ## New Project
 > ### Name: 
+___
+# Ai
+拖移 option 上拉
