@@ -116,6 +116,32 @@ void loop() {
     }
 }
 ```
+# 2021-03-30
+```C
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(LED1, OUTPUT);
+    for(int i=26; i<30; i++) //LED1->26，LED4->29
+    {
+      pinMode(i,  OUTPUT);
+      digitalWrite(i, LOW);
+    }
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  for(int i=26; i<30; i++)
+    for(int j=0; j<3; j++)
+    {
+      digitalWrite(i, HIGH);
+      delay(700);
+      digitalWrite(i, LOW);
+      delay(300);
+    }
+
+}
+```
 > # 筆記
 ```
 **要設定整體變數把它放在函式外面
