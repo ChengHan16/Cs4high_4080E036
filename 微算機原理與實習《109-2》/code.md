@@ -171,7 +171,7 @@ void loop() {
 ```
 ## PILI.ino 霹靂燈
 ```C
- #define NUM 25 // 首先定義LED的數目
+  #define NUM 25 // 首先定義LED的數目
  
  int leds[NUM] = {
   0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, D14, D15, A0, A1, A2, A3, LED1, LED2, LED3,LED4
@@ -196,7 +196,7 @@ void setup() {
 // 第一個迴圈從IO0->IO15，
 // 第二個迴圈跑IO14->IO0。
 void loop() {
-  for(int i = 0; i < 16; i++){
+  for(int i = 0; i < 15; i++){
     digitalWrite(leds[i], LOW);
     delay(500);
     digitalWrite(leds[i], HIGH);
@@ -206,23 +206,6 @@ void loop() {
     delay(500);
     digitalWrite(leds[i], HIGH);
   }
-/*
-  for (int i=0; i<8; i++)
-  {
-    digitalWrite(leds[8+i], LOW);
-    digitalWrite(leds[7-i], LOW);
-    delay(500);
-    digitalWrite(leds[8+i], HIGH);
-    digitalWrite(leds[7-i], HIGH);
-  }
-  for (int i=i; i<8; i++)
-  {
-    digitalWrite(leds[i], LOW);
-    digitalWrite(leds[15-i], LOW);
-    delay(500);
-    digitalWrite(leds[i], HIGH);
-    digitalWrite(leds[15-i], HIGH);
-  }*/
 }
 ```
 > # 筆記
