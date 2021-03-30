@@ -209,7 +209,7 @@ void loop() {
   }
 }
 ```
-[霹靂燈 與 LED1~LED4 3下閃爍](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E5%BE%AE%E7%AE%97%E6%A9%9F%E5%8E%9F%E7%90%86%E8%88%87%E5%AF%A6%E7%BF%92%E3%80%8A109-2%E3%80%8B/%E5%B0%88%E6%A1%88_%E7%B7%B4%E7%BF%92_%E3%82%B3%E3%83%BC%E3%83%89/%E9%9C%B9%E9%9D%82%E7%87%88%20%E8%88%87%20LED1~LED4%203%E4%B8%8B%E9%96%83%E7%88%8D.md)
+# [霹靂燈 與 LED1~LED4 3下閃爍](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E5%BE%AE%E7%AE%97%E6%A9%9F%E5%8E%9F%E7%90%86%E8%88%87%E5%AF%A6%E7%BF%92%E3%80%8A109-2%E3%80%8B/%E5%B0%88%E6%A1%88_%E7%B7%B4%E7%BF%92_%E3%82%B3%E3%83%BC%E3%83%89/%E9%9C%B9%E9%9D%82%E7%87%88%20%E8%88%87%20LED1~LED4%203%E4%B8%8B%E9%96%83%E7%88%8D.md)
 # 七段顯示器 
 ## 共陰 --> 要亮送 1<br>共陽 --> 要亮送 0<br>範例：<br>顯示 " 0 "
 |b7|b6|b5|b4|b3|b2|b1|b0|
