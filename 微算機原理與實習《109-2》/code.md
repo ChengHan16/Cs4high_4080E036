@@ -117,6 +117,7 @@ void loop() {
 }
 ```
 # 2021-03-30
+## LEDD1_D4FLASH.ino
 ```C
 
 void setup() {
@@ -140,6 +141,32 @@ void loop() {
       delay(300);
     }
 
+}
+```
+## LEDAFLASH.ino
+```C
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(14, OUTPUT);//A0
+  pinMode(15, OUTPUT);//A1
+  pinMode(16, OUTPUT);//A2
+  pinMode(17, OUTPUT);//A3
+  digitalWrite(14, HIGH);
+  digitalWrite(15, HIGH);
+  digitalWrite(16, HIGH);
+  digitalWrite(17, HIGH);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  for(int i=14; i<18; i++)
+    for(int j=0; j<3; j++)
+    {
+      digitalWrite(i, LOW);
+      delay(700);
+      digitalWrite(i, HIGH);
+      delay(300);
+    }
 }
 ```
 > # 筆記
