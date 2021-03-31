@@ -38,9 +38,9 @@ ___
 /* Segment byte maps for numbers 0 to 9 , A, b , C*/
 //const byte SEGMENT_MAP[] = {0x3F,0x06,0x3C,0x4F,0x66,0x6D,0x7D,0x07,0X7F,0X6F,0X77,0X7C,0X39};
 /* Segment byte maps for numbers 0 to 9 , A, b , C, d, E, F*/
-const byte SEGMENT_MAP[] = {0x66,0x3f,0x7f,0x3f,0x79,0x3f,0x4f,0x7d};
+const byte SEGMENT_MAP[] = {0x66,0x3f,0x7f,0x3f,0x79,0x3f,0x4f,0x7d}; //更改顯示陣列字型
 /* Byte maps to select digit 1 to 4 */
-const byte SEGMENT_SELECT[] = {0xFE,0xFD,0xFB,0xF7};
+const byte SEGMENT_SELECT[] = {0xFE,0xFD,0xFB,0xF7}; //七段顯示器顯示位置
 byte displaybuf[4];
 void bufshift(byte dir, byte databyte)//dir=0:shift left, dir=1:shift right
 {
