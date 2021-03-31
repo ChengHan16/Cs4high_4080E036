@@ -65,8 +65,8 @@ void setup ()
 {
 /* Set DIO pins to outputs */
 Serial.begin(115200);
-pinMode(LATCH_DIO,OUTPUT);
-pinMode(CLK_DIO,OUTPUT);
+pinMode(LATCH_DIO,OUTPUT); //將移位暫存器的資料輸出控制
+pinMode(CLK_DIO,OUTPUT);  //移位時脈
 pinMode(DATA_DIO,OUTPUT);
 //clear data display buffer
 for(int i=0; i<4; i++)
@@ -113,9 +113,9 @@ digitalWrite(LATCH_DIO,HIGH);
 }*/
 void WriteNumberToSegment(byte Segment, byte Value)
 {
-digitalWrite(LATCH_DIO,LOW);
-shiftOut(DATA_DIO, CLK_DIO, MSBFIRST, Value);
-shiftOut(DATA_DIO, CLK_DIO, MSBFIRST, SEGMENT_SELECT[Segment] );
+digitalWrite(LATCH_DIO,LOW); //完成移位前，先將輸出失效，送出顯示字型碼到U2
+shiftOut(DATA_DIO, CLK_DIO, MSBFIRST, Value); //將送出指定的七段顯示器對應的數值2到U1
+shiftOut(DATA_DIO, CLK_DIO, MSBFIRST, SEGMENT_SELECT[Segment] ); //完成後將高電為寫入以利移位暫存器輸出
 digitalWrite(LATCH_DIO,HIGH);
 }
 void show7seg()
