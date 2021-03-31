@@ -207,7 +207,7 @@ const byte SEGMENT_SELECT[] = {0xFE,0xFD,0xFB,0xF7};
 byte displaybuf[4];
 void bufshift(byte dir, byte databyte)//dir=0:shift left, dir=1:shift right
 {
-  if(dir == 0)
+  if(dir == 0)  //0、1 更改顯示方向，1 左至右、0 右至左
   {
     for (int j=0; j<3; j++)
     {
@@ -316,7 +316,7 @@ const byte SEGMENT_SELECT[] = {0xFE,0xFD,0xFB,0xF7};
 byte displaybuf[4];
 void bufshift(byte dir, byte databyte)//dir=0:shift left, dir=1:shift right
 {
-  if(dir == 1)
+  if(dir == 1) // 0、1 更改顯示方向，1 左至右、0 右至左
   {
     for (int j=0; j<3; j++)
     {
