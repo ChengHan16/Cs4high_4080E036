@@ -4,9 +4,24 @@
 
 ### 請注意(2)(3)必須附上足以說明顯示移動方向的照片，請以PDF檔繳交。
 ___
-| | |
+|顯示字型|GPIO_E值|
 |-|-|
 |0|0x3F|
+|1|0x06|
+|2|0x5b|
+|3|0x4f|
+|4|0x66|
+|5|0x6d|
+|6|0x7d|
+|7|0x27|
+|8|0x7f|
+|9|0x67|
+|A|0x77|
+|B|0x7c|
+|C|0x39|
+|D|0x5e|
+|E|0x79|
+|F|0x71|
 ```C
 /* Define shift register pins used for seven segment display */
 /*https://swf.com.tw/?p=715*/
