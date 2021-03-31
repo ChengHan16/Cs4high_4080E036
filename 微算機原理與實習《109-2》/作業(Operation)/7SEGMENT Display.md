@@ -4,6 +4,26 @@
 
 ### 請注意(2)(3)必須附上足以說明顯示移動方向的照片，請以PDF檔繳交。
 ___
+| | |
+|-|-|
+|0|0x3F|
+|1|0x06|
+|2|0x5b|
+|3|0x4F|
+|4|0x4F|
+|5|0x66|
+|6|0x6D|
+|7|0x7D|
+|8|0x27|
+|9|0X7F|
+|A|0X67|
+|B|0X77|
+|C|0x7c|
+|D|0x39|
+|E|0X5e|
+|F|0x79|
+| |0x71|
+
 ## 更改範本
 ```C
 /* Define shift register pins used for seven segment display */
@@ -27,7 +47,7 @@ const byte SEGMENT_SELECT[] = {0xFE,0xFD,0xFB,0xF7};
 byte displaybuf[4];
 void bufshift(byte dir, byte databyte)//dir=0:shift left, dir=1:shift right
 {
-  if(dir == 0)
+  if(dir == 0) //更改左右移
   {
     for (int j=0; j<3; j++)
     {
