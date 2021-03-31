@@ -1,4 +1,5 @@
 # Q2-1.ino
+### BTN1 最右方(3) 顯示1 <br> BTN2 最右方(2) 顯示2 <br> BTN3 最右方(1) 顯示0 <br> BTN4 最右方(0) 顯示2
 ```C
 /* Define shift register pins used for seven segment display */
 #define LATCH_DIO D15   
