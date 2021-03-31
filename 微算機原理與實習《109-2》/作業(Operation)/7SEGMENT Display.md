@@ -291,6 +291,10 @@ void show7seg()
   }
 }
 ```
+## (3)類似前一小題，學號顯示由左方依序往右顯示，如以下順序2 , 12 ,012 ,E012, 0E01, 80E0, 080E, 4080, 2408, .....以上題目請說明附上程式碼及說明， 成果則以照片說明，
+```C
+
+```
 ## 更改範本
 ```C
 /* Define shift register pins used for seven segment display */
