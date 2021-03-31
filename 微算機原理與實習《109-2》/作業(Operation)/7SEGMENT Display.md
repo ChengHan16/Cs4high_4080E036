@@ -7,7 +7,6 @@ ___
 | | |
 |-|-|
 |0|0x3F|
-## C
 ```C
 /* Define shift register pins used for seven segment display */
 /*https://swf.com.tw/?p=715*/
