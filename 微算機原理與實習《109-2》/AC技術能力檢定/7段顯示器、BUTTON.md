@@ -1,4 +1,4 @@
-# 在七段顯示器上顯示 8 而由右移至左(重複)
+## 在七段顯示器上顯示 8 而由右移至左(重複)
 ```C
 /* Define shift register pins used for seven segment display */
 
@@ -47,7 +47,7 @@ shiftOut(DATA_DIO, CLK_DIO, MSBFIRST, SEGMENT_SELECT[Segment] );
 digitalWrite(LATCH_DIO,HIGH);
 }
 ```
-# 在七段顯示器上從左而右顯示 0~9
+## 在七段顯示器上從左而右顯示 0~9
 ```C
 /* Define shift register pins used for seven segment display */
 #define LATCH_DIO D15   
@@ -94,7 +94,7 @@ digitalWrite(LATCH_DIO,HIGH);
 }
 ```
 # Q2-1.ino
-### 在7段顯示器上 分別用 BUTTON 按下後顯示 2 | 0 | 2 | 1 <> BTN1 最右方(3) 顯示1 <br> BTN2 最右方(2) 顯示2 <br> BTN3 最右方(1) 顯示0 <br> BTN4 最右方(0) 顯示2
+## 在7段顯示器上 分別用 BUTTON 按下後顯示 2 | 0 | 2 | 1 <> BTN1 最右方(3) 顯示1 <br> BTN2 最右方(2) 顯示2 <br> BTN3 最右方(1) 顯示0 <br> BTN4 最右方(0) 顯示2
 ```C
 /* Define shift register pins used for seven segment display */
 #define LATCH_DIO D15   
@@ -150,7 +150,7 @@ digitalWrite(LATCH_DIO,HIGH);
 }
 ```
 # Q2-2.ino
-### 按按鈕後共同顯示 2021
+## 按按鈕後共同顯示 2021
 ```C
 /* Define shift register pins used for seven segment display */
 #define LATCH_DIO D15   
