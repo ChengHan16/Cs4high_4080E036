@@ -84,7 +84,7 @@ urlretrieve(url,'Congestus_con.jpg')
 ```
 # 質問
 > ### Error：AttributeError: module 'urllib' has no attribute 'urlretrieve'
->> ### Urlretrieve 的 Python3 寫法 `https://oxygentw.net/blog/computer/urlretrieve-python3/`
+>> ### `https://oxygentw.net/blog/computer/urlretrieve-python3/`
 > ### Error：SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
 >> ### `http://jasonyychiu.blogspot.com/2019/10/python-syntaxerror-unicode-error.html`
 > ### Error：`urllib.urlretrieve` urllib.urlretrieve file python 3.3 
