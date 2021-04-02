@@ -22,3 +22,13 @@ ___
 8. Do you think that you are healthy?
 ```
 ___
+```
+1. What do you know about American culture? 
+2. Have you ever tried Japanese food? Do you like it? 
+3. What's your favorite holiday? How do you celebrate it? 
+4. Which Chinese food can you make?
+5. Would you like to live in another country for a year? Why or why not? 
+6. Which country would you like to visit? Why? 
+7. Which second foreign language do you want to learn? Why?
+8. Which country have you ever visited? Do you wan to visit it again?
+```
