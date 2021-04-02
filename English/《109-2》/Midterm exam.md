@@ -9,3 +9,16 @@
 7. What will you be doing tomorrow at 10:00 am? 
 8. What were you doing at 9:00 pm yesterday?'
 ```
+___
+
+```
+1. What should you do if you have a sore throat? 
+2. How often do you exercise? What kinds of exercise do you prefer? 
+3. When was the last time you got hurt? What happened? 
+4. What's something that makes you feel dizzy? 
+5. Have you ever tried to lose weight or gain weight? 
+6. How do you feel when you have a fever? 
+7. Is school stressful for you? Why or why not? 
+8. Do you think that you are healthy?
+```
+___
