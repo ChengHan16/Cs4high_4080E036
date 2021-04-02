@@ -99,6 +99,10 @@ ___
 >> ### `https://www.learncodewithmike.com/2020/09/download-images-using-python.html`
 > ### 痞克邦 dangerlover9403.pixnet.net
 >> ### `https://dangerlover9403.pixnet.net/blog/post/207823890-%5Bpython%5D-day14---python-%E5%BE%9E%E7%B6%B2%E8%B7%AF%E6%8A%93%E5%9C%96%E7%89%87`
+> ### Python 爬蟲-爬取大量圖片
+>> ### `https://medium.com/mr-wang/python-%E7%88%AC%E8%9F%B2%E6%8A%93%E5%8F%96%E5%9C%96%E7%89%87-ad1783fd401e`
+> ### python爬蟲實戰-下載圖片
+>> ### `https://scriptwine.com/ireck/2018/08/05/python%E7%88%AC%E8%9F%B2%E5%AF%A6%E6%88%B0-%E4%B8%8B%E8%BC%89%E5%9C%96%E7%89%87`
 ___
 # 📝メモ
 > ### Python 影像處理套件 PIL `https://ithelp.ithome.com.tw/articles/10226578`
