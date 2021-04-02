@@ -84,13 +84,13 @@ urlretrieve(url,'Congestus_con.jpg')
 ```
 # 質問
 ## Error：AttributeError: module 'urllib' has no attribute 'urlretrieve'
->> ### `https://oxygentw.net/blog/computer/urlretrieve-python3/`
+> ### `https://oxygentw.net/blog/computer/urlretrieve-python3/`
 ## Error：SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
->> ### `http://jasonyychiu.blogspot.com/2019/10/python-syntaxerror-unicode-error.html`
+> ### `http://jasonyychiu.blogspot.com/2019/10/python-syntaxerror-unicode-error.html`
 ## Error：`urllib.urlretrieve` urllib.urlretrieve file python 3.3 
->> ### `https://stackoverflow.com/questions/21171718/urllib-urlretrieve-file-python-3-3`
+> ### `https://stackoverflow.com/questions/21171718/urllib-urlretrieve-file-python-3-3`
 ## Error：AttributeError: 'module' object has no attribute 'urlopen'
->> ### `https://stackoverflow.com/questions/3969726/attributeerror-module-object-has-no-attribute-urlopen`
+> ### `https://stackoverflow.com/questions/3969726/attributeerror-module-object-has-no-attribute-urlopen`
 ___
 # 參考資料
 > ### [Python+爬蟲] 下載網頁單張圖片
