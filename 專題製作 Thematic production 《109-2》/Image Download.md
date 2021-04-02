@@ -91,7 +91,7 @@ urlretrieve(url,'Congestus_con.jpg')
 >> `https://stackoverflow.com/questions/21171718/urllib-urlretrieve-file-python-3-3`
 ___
 # 參考資料
-### `https://jennaweng0621.pixnet.net/blog/post/404383372-%5Bpython%2B%E7%88%AC%E8%9F%B2%5D-%E4%B8%8B%E8%BC%89%E7%B6%B2%E9%A0%81%E7%9A%84%E5%9C%96%E7%89%87`
+`https://jennaweng0621.pixnet.net/blog/post/404383372-%5Bpython%2B%E7%88%AC%E8%9F%B2%5D-%E4%B8%8B%E8%BC%89%E7%B6%B2%E9%A0%81%E7%9A%84%E5%9C%96%E7%89%87`
 ___
 # 📝メモ
 > ### Python 影像處理套件 PIL `https://ithelp.ithome.com.tw/articles/10226578`
