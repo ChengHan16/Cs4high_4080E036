@@ -82,3 +82,10 @@ if not os.path.isdir(saveDir):
 url = "https://www.jkforum.net/thread-13478848-1-1.html"
 urlretrieve(url,'Congestus_con.jpg')
 ```
+# 質問
+> ### Error：AttributeError: module 'urllib' has no attribute 'urlretrieve'
+>> ### Urlretrieve 的 Python3 寫法 `https://oxygentw.net/blog/computer/urlretrieve-python3/`
+___
+# 📝メモ
+> ### Python 影像處理套件 PIL `https://ithelp.ithome.com.tw/articles/10226578`
+> ### 
