@@ -87,9 +87,9 @@ urlretrieve(url,'Congestus_con.jpg')
 >> ### `https://oxygentw.net/blog/computer/urlretrieve-python3/`
 ## Error：SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
 >> ### `http://jasonyychiu.blogspot.com/2019/10/python-syntaxerror-unicode-error.html`
-> ## Error：`urllib.urlretrieve` urllib.urlretrieve file python 3.3 
+## Error：`urllib.urlretrieve` urllib.urlretrieve file python 3.3 
 >> ### `https://stackoverflow.com/questions/21171718/urllib-urlretrieve-file-python-3-3`
-> ## Error：AttributeError: 'module' object has no attribute 'urlopen'
+## Error：AttributeError: 'module' object has no attribute 'urlopen'
 >> ### `https://stackoverflow.com/questions/3969726/attributeerror-module-object-has-no-attribute-urlopen`
 ___
 # 參考資料
