@@ -50,7 +50,7 @@ img = requests.get(url)
 with open(saveDir+'Congests_con.jpg,'wb') as f:
     f.write(img.content)
 ```
-```
+```python
 import requests
 from urllib.request import urlretrieve
 import os
