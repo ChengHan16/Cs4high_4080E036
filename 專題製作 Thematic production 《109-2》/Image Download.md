@@ -50,3 +50,17 @@ img = requests.get(url)
 with open(saveDir+'Congests_con.jpg,'wb') as f:
     f.write(img.content)
 ```
+```
+import requests
+from urllib.request import urlretrieve
+import os
+
+'''
+saveDir = "./images"
+if not os.path.isdir(saveDir):
+    os.mkdir(saveDir)
+'''
+
+url = "https://www.jkforum.net/thread-13478848-1-1.html"
+urlretrieve(url,'Congestus_con.jpg')
+```
