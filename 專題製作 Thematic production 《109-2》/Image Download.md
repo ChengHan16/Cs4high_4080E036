@@ -8,6 +8,24 @@ from bs4 import BeautifulSoup
 import requests
 import os
 ```
+# 下載單張圖片 (ホームページのイメージの住所で)
+```python
+import requests
+from urllib.request import urlretrieve
+import os
+
+
+saveDir = "./images"
+if not os.path.isdir(saveDir):
+    os.mkdir(saveDir)
+
+url = "https://www.mymypic.net/data/attachment/forum/202104/01/19564705x4sar445kb72xa.jpg"
+urlretrieve(url,saveDir + 'Congestus_con.jpg')
+
+url = "https://www.mymypic.net/data/attachment/forum/202104/01/1956447qdkf68fqqzdm2qi.jpg"
+urlretrieve(url,saveDir + 'Congestus_con1.jpg')
+```
+
 # ノート
 ```python
 import requests
