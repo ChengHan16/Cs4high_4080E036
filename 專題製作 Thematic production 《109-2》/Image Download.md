@@ -83,9 +83,9 @@ url = "https://www.jkforum.net/thread-13478848-1-1.html"
 urlretrieve(url,'Congestus_con.jpg')
 ```
 # 質問
-> ## Error：AttributeError: module 'urllib' has no attribute 'urlretrieve'
+## Error：AttributeError: module 'urllib' has no attribute 'urlretrieve'
 >> ### `https://oxygentw.net/blog/computer/urlretrieve-python3/`
-> ## Error：SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+## Error：SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
 >> ### `http://jasonyychiu.blogspot.com/2019/10/python-syntaxerror-unicode-error.html`
 > ## Error：`urllib.urlretrieve` urllib.urlretrieve file python 3.3 
 >> ### `https://stackoverflow.com/questions/21171718/urllib-urlretrieve-file-python-3-3`
