@@ -37,3 +37,16 @@ for link in links:
 	urlretrieve(link,local) #link是下載的網址 local是儲存圖片的檔案位址
 	x+=1
 ```
+```python
+import requests
+import os
+
+saveDir = "./images"
+if not os.path.isdir(saveDir):
+    os.mkdir(saveDir)
+
+url = "https://www.jkforum.net/thread-13478848-1-1.html"
+img = requests.get(url)
+with open(saveDir+'Congests_con.jpg,'wb') as f:
+    f.write(img.content)
+```
