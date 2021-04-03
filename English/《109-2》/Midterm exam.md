@@ -42,21 +42,21 @@ ___
 
 |#|Vocabulary|Page|
 |-|---------|-----|
-|1|daily|p.8|
-|2|normally|p.8|
-|3|sleepy|p.8|
-|4|energy|p.8|
-|5|awake|p.8|
-|6|regret|p.8|
-|7|alarm|p.8|
-|8|quarter|p.8|
-|9|pilot|p.8|
-|10|uniform|p.8|
-|11|cereal|p.8|
-|12|toast|p.8|
-|13|depend on|p.8|
-|14|almost|p.8|
-|15|routine|p.8|
+|1|virus|p.20|
+|2|sick|p.20|
+|3|fault|p.20|
+|4|cheek|p.21|
+|5|forehead|p.21|
+|6|elbow|p.21|
+|7|thigh|p.21|
+|8|stressful|p.22|
+|9|weight|p.22|
+|10|junk|p.22|
+|11|allergy|p.23|
+|12|swallow|p.23|
+|13|itch|p.23|
+|14|dizzy|p.23|
+|15|nauseous|p.23|
 
 ## Part 1 Conversation
 ```
