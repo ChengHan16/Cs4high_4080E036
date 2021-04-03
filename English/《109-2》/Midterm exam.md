@@ -3,41 +3,23 @@
 # 朗讀 20% と 問與答30%
 ___
 # Unit 1 Daily life
-|#|Vocabulary|Page|
-|-|---------|-----|
-|1|daily|p.8|
-|2|normally|p.8|
-|3|sleepy|p.8|
-|4|energy|p.8|
-|5|awake|p.8|
-|6|regret|p.8|
-|7|alarm|p.8|
-|8|quarter|p.9|
-|9|pilot|p.10|
-|10|uniform|p.10|
-|11|cereal|p.13|
-|12|toast|p.13|
-|13|depend on|p.13|
-|14|almost|p.13|
-|15|routine|p.13|
-
-```
-1.日常
-2.一般
-3.困倦
-4.活力
-5.甦醒
-6.後悔
-7.警報
-8.四分之一
-9.飛行員
-10.制服
-11.穀物
-12.吐司
-13.取決於
-14.幾乎
-15.常規
-```
+|#|Vocabulary|詞彙|Page|
+|-|---------|---|-----|
+|1|daily|日常|p.8|
+|2|normally|一般|p.8|
+|3|sleepy|困倦|p.8|
+|4|energy|活力|p.8|
+|5|awake|甦醒|p.8|
+|6|regret|後悔|p.8|
+|7|alarm|警報|p.8|
+|8|quarter|四分之一、一刻|p.9|
+|9|pilot|飛行員|p.10|
+|10|uniform|制服|p.10|
+|11|cereal|穀物|p.13|
+|12|toast|吐司|p.13|
+|13|depend on|取決於|p.13|
+|14|almost|幾乎|p.13|
+|15|routine|常規|p.13|
 ___
 ```
 1. What do you usually have for breakfast? Why do you have them? 
