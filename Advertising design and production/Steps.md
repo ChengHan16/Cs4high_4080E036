@@ -23,18 +23,19 @@ ___
 >> ### 網大檔案下載
 >>> ### Ｎew Project
 >>>> ### 拉取檔案進Import(command + I)
-## スタート
-> ### Command Ｋ <br>
-> ### Ｍ 標記 <br>
-> ### Shift + M <br>
-> ### Shift + Command + M <br>
-> ### 檔案拉進 New ltem （資料欄列第4個）
->> ### Automate To Sequence  
->> ### Find
->> ### New Bin
->> ### New ltem
->> ### Clear(Delete)
-
+___
+# スタート
+> ## Command Ｋ <br>
+> ## Ｍ 標記 <br>
+> ## Shift + M <br>
+> ## Shift + Command + M <br>
+> ## 檔案拉進 New ltem （資料欄列第4個）
+>> ## Automate To Sequence  
+>> ## Find
+>> ## New Bin
+>> ## New ltem
+>> ## Clear(Delete)
+___
 # 片段拉長
 > ### Selection Tool(V) <br>
 > ### Track Select Forward Tool(A) <br>
