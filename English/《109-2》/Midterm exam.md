@@ -1,4 +1,4 @@
-###
+#　Unit 1 Daily Life
 ```
 1. What do you usually have for breakfast? Why do you have them? 
 2. What time do you wake up on weekdays and weekends? 
@@ -20,7 +20,21 @@
 8.您昨天晚上9:00在做什麼？
 ```
 ___
-
+# Unit 3 Sickness & Health
+## Part 1 Conversation
+```
+Ellie: Trevor, how are you doing? I havent seen you for a while.
+Trevor: Hey, Ellie. Yeah, I've been really sick for the last few days.
+Ellie: Oh, no, are you OK? I heard there was a virus going around. My mom was sick.
+Trevor: I guess I had that. I had a headache, a runny nose, and a bad stomach.
+Ellie: Oh, thats horrible. Are you feeling better now?
+Trevor: A little bit. I have an exam today, so I had to come in.
+Ellie: If you feel really sick, just tell your teacher. I'm sure she ll understand .
+Trevor: She wont. My teacher is Miss Ander s on. She hates sick people.
+Ellie: I know her. Shes super fit, isn t she? She exercises every d ay.
+Trevor: And she’ s never sick. She ll say it s my fault! It s so unfair.
+```
+## Part 2 Respond to questions
 ```
 1. What should you do if you have a sore throat? 
 2. How often do you exercise? What kinds of exercise do you prefer? 
@@ -42,6 +56,7 @@ ___
 8.您認為自己健康嗎？
 ```
 ___
+# Unit 5 Around the World
 ```
 1. What do you know about American culture? 
 2. Have you ever tried Japanese food? Do you like it? 
