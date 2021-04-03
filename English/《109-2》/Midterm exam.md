@@ -17,9 +17,6 @@
 |14|almost|p.8|
 |15|routine|p.8|
 ___
-
-
-# Unit 1 Daily Life
 ```
 1. What do you usually have for breakfast? Why do you have them? 
 2. What time do you wake up on weekdays and weekends? 
