@@ -147,6 +147,24 @@ ___
 |13|creamy|p.39|
 |14|bitter-tasting|p.39|
 |15|public|p.39|
+
+```
+1.大陸
+2.穆斯林
+3.基督教
+4.盛宴
+5.慶祝
+6.首都
+7.開機
+8.常見的
+9.本國的
+10.重大的
+11.贊助人
+12.象徵
+13.奶油狀
+14.苦味
+15.民眾
+```
 ```
 1. What do you know about American culture? 
 2. Have you ever tried Japanese food? Do you like it? 
