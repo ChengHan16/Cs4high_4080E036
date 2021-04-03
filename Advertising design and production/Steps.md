@@ -1,9 +1,26 @@
- >## Adobe Creative Cloud Cleaner Tool
+>## Adobe Creative Cloud Cleaner Tool
 >> ## Adobe id Credentials
 
 >> #### `User：apple`
 >> #### `パスワード：apple`
+___
+> ## Adobe 切換英文
+>> ## Windows：`Ctrl+F12`
+>> ## MAC：`Command + Fn + F12`
+>>> ## Console(控制台) `Debug Database View`
+>>> ## ApplicationLanguage 後面更改成所要語言
+>>> ## 繁體中文 `zh-TW`
+>>> ## 英文 `en-US`
+>>> ## 日文 `ja-JP`
+>>> ## 前面小寫加橫槓後面則為大寫
+> ## ApplicationLanguageBilingual 則是要不要切成雙語言
+> ## 要的話就勾選，接著會由false轉變成 true 表示要 
+> ## 變成這樣  ☑ ture
+> ## 如果只想要純中文的話就不要勾選 
+> ## false設定完之後重新啟動
 
+
+___
 ## Steps
 > ##  Pr 開啟
 >>### 網大檔案下載
@@ -67,3 +84,8 @@
 ___
 # Ai
 > ### 拖移 option 上拉
+___
+# 參考資料
+## 語言切換
+> ### `https://yearn8070.pixnet.net/blog/post/35805796-premiere-pro-%E8%AA%9E%E8%A8%80%E8%BD%89%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87---%E8%8B%B1%E8%AA%9E%EF%BC%8C%E5%A6%82%E4%BD%95%E8%A8%AD%E5%AE%9A`
+```
