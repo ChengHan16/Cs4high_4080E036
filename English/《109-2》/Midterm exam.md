@@ -76,6 +76,23 @@ ___
 |14|dizzy|p.23|
 |15|nauseous|p.23|
 
+```
+1.病毒
+2.生病的
+3.過錯
+4.臉頰
+5.前額
+6.彎頭
+7.大腿
+8.壓力大的
+9.重量
+10.垃圾
+11.過敏
+12.吞
+13.癢
+14.暈眩的
+15.噁心的
+```
 ## Part 1 Conversation
 ```
 Ellie: Trevor, how are you doing? I havent seen you for a while.
