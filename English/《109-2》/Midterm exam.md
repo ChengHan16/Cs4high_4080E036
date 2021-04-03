@@ -1,3 +1,24 @@
+# Unit 1 Daily life
+|#|Vocabulary|Page|
+|-|---------|-----|
+|1|daily|p.8|
+|2|normally|p.8|
+|3|sleepy|p.8|
+|4|energy|p.8|
+|5|awake|p.8|
+|6|regret|p.8|
+|7|alarm|p.8|
+|8|quarter|p.8|
+|9|pilot|p.8|
+|10|uniform|p.8|
+|11|cereal|p.8|
+|12|toast|p.8|
+|13|depend on|p.8|
+|14|almost|p.8|
+|15|routine|p.8|
+___
+
+
 # Unit 1 Daily Life
 ```
 1. What do you usually have for breakfast? Why do you have them? 
