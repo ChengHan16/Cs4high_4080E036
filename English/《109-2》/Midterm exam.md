@@ -44,41 +44,24 @@ ___
 ___
 # Unit 3 Sickness & Health
 
-|#|Vocabulary|Page|
-|-|---------|-----|
-|1|virus|p.20|
-|2|sick|p.20|
-|3|fault|p.20|
-|4|cheek|p.21|
-|5|forehead|p.21|
-|6|elbow|p.21|
-|7|thigh|p.21|
-|8|stressful|p.22|
-|9|weight|p.22|
-|10|junk|p.22|
-|11|allergy|p.23|
-|12|swallow|p.23|
-|13|itch|p.23|
-|14|dizzy|p.23|
-|15|nauseous|p.23|
+|#|Vocabulary|詞彙|Page|
+|-|---------|-|-----|
+|1|virus|病毒|p.20|
+|2|sick|生病的|p.20|
+|3|fault|過錯|p.20|
+|4|cheek|臉頰|p.21|
+|5|forehead|前額|p.21|
+|6|elbow|彎頭|p.21|
+|7|thigh|大腿|p.21|
+|8|stressful|壓力大的|p.22|
+|9|weight|重量|p.22|
+|10|junk|垃圾|p.22|
+|11|allergy|過敏|p.23|
+|12|swallow|吞|p.23|
+|13|itch|癢|p.23|
+|14|dizzy|暈眩的|p.23|
+|15|nauseous|噁心的|p.23|
 
-```
-1.病毒
-2.生病的
-3.過錯
-4.臉頰
-5.前額
-6.彎頭
-7.大腿
-8.壓力大的
-9.重量
-10.垃圾
-11.過敏
-12.吞
-13.癢
-14.暈眩的
-15.噁心的
-```
 ## Part 1 Conversation
 ```
 Ellie: Trevor, how are you doing? I havent seen you for a while.
