@@ -1,4 +1,4 @@
-#　Unit 1 Daily Life
+# Unit 1 Daily Life
 ```
 1. What do you usually have for breakfast? Why do you have them? 
 2. What time do you wake up on weekdays and weekends? 
