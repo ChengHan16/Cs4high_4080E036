@@ -94,6 +94,24 @@ Trevor: And she’ s never sick. She ll say it s my fault! It s so unfair.
 ```
 ___
 # Unit 5 Around the World
+
+|#|Vocabulary|Page|
+|-|---------|-----|
+|1|continent|p.34|
+|2|Muslim|p.34|
+|3|Christian|p.34|
+|4|feast|p.34|
+|5|celebrate|p.34|
+|6|capital|p.37|
+|7|boot|p.37|
+|8|common|p.37|
+|9|native|p.37|
+|10|major|p.37|
+|11|patron|p.39|
+|12|symbol|p.39|
+|13|creamy|p.39|
+|14|bitter-tasting|p.39|
+|15|public|p.39|
 ```
 1. What do you know about American culture? 
 2. Have you ever tried Japanese food? Do you like it? 
