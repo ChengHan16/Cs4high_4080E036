@@ -37,39 +37,41 @@ ___
 >> ## Clear(Delete)
 ___
 # 片段拉長
-> ### Selection Tool(V) <br>
-> ### Track Select Forward Tool(A) <br>
+> ## Selection Tool(V) <br>
+> ## Track Select Forward Tool(A) <br>
 > # こちら Rate Stretch Tool(R) (第三個) <br> 
-> ### Razor Tool(C) <br>
-> ### Slip Tool(Y) <br>
-> ### Pen Tool(P) <br>
-> ### Hand Tool(H) <br>
-> ### Type Tool(T) <br>
+> ## Razor Tool(C) <br>
+> ## Slip Tool(Y) <br>
+> ## Pen Tool(P) <br>
+> ## Hand Tool(H) <br>
+> ## Type Tool(T) <br>
+___
 # 轉場
-> ### Selection Tool(V) <br>
-> ### Track Select Forward Tool(A) <br>
-> ### Rate Stretch Tool(R) <br>
-> ### Razor Tool(C) <br>
-> ### Slip Tool(Y) <br>
+> ## Selection Tool(V) <br>
+> ## Track Select Forward Tool(A) <br>
+> ## Rate Stretch Tool(R) <br>
+> ## Razor Tool(C) <br>
+> ## Slip Tool(Y) <br>
 > # こちら  Pen Tool(P) <br>
-> ### Hand Tool(H) <br>
-> ### Type Tool(T) <br>
-> ### 在線上點取範圍（下拉），漸滅 <br>
+> ## Hand Tool(H) <br>
+> ## Type Tool(T) <br>
+> ## 在線上點取範圍（下拉），漸滅 <br>
+___
 # 轉場 
-> ### Video transitions(過場)
->> ### Dissolve -> Cross Dissolve
->> ### 以上技術用於慢動作那段
+> ## Video transitions(過場)
+>> ## Dissolve -> Cross Dissolve
+>> ## 以上技術用於慢動作那段
 ___
 # 最後片段處理
->> ### Video Effects
->> ### Blur & Sharpen
->> ### Gaussian Blur
->>> ### 左邊 Effect Controls
->>> ### Boys * Finale.mpg
->>> ### 最下 Gaussian Blur
->>> ### Blurinss 選擇最後結尾點選時間調整  
+> ## Video Effects
+> ## Blur & Sharpen
+> ## Gaussian Blur
+>> ## 左邊 Effect Controls
+>> ## Boys * Finale.mpg
+>> ## 最下 Gaussian Blur
+>> ## Blurinss 選擇最後結尾點選時間調整  
 # 叫出 Effect
-> ### Windows -> Effect (打勾叫出) 
+> ## Windows -> Effect (打勾叫出) 
 ___
 # 暫停
 > ### command + k 裁切
