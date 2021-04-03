@@ -16,6 +16,24 @@
 |13|depend on|p.13|
 |14|almost|p.13|
 |15|routine|p.13|
+
+```
+1.	日常
+2.	一般
+3.	困
+4.	活力
+5.	甦醒
+6.	後悔
+7.	警報
+8.	四分之一
+9.	飛行員
+10.	制服
+11.	穀物
+12.	吐司
+13.	取決於
+14.	幾乎
+15.	常規
+```
 ___
 ```
 1. What do you usually have for breakfast? Why do you have them? 
