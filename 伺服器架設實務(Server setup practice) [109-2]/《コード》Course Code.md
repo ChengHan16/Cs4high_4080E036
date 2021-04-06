@@ -625,3 +625,16 @@ ___
 ```
 # Results(執行結果)
 ![伺服器資料庫2](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/%E4%BC%BA%E6%9C%8D%E5%99%A8%E8%B3%87%E6%96%99%E5%BA%AB2.JPG)
+# Exercise 3.
+## http://127.0.0.1/ksu_select3.html
+## `ksu_select3.html`
+```html
+
+```
+## `ksu_select3.php`
+```php
+
+```
+# Results(執行結果)
+![]()
+
