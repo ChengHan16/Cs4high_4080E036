@@ -629,7 +629,28 @@ ___
 ## http://127.0.0.1/ksu_select3.html
 ## `ksu_select3.html`
 ```html
-
+<!doctype html>
+<html lang="zh_tw">
+<head>
+  <meta charset="utf-8">
+  <title>Hello</title>
+</head>
+<body>
+  <h3> ksu select operation </h3>
+  <!--不對字符編碼 -->    
+  <form enctype="multipart/form-data" method="post"     
+        action="ksu_select3.php">
+    按查詢鍵, 進階查詢 ksu_std_table<br/>
+	<br>
+	<form enctype="multipart/form-data" method="post" 
+	action="ksu_select3.php">
+	學生系別：<input type="text" name="IN" size="3"><br>
+	</form>
+    <br/>
+    <input type="submit" name="sub" value="查詢"/>
+  </form>
+</body>
+</html>
 ```
 ## `ksu_select3.php`
 ```php
