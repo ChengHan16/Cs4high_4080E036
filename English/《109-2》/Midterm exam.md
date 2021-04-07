@@ -32,6 +32,16 @@ ___
 8. What were you doing at 9:00 pm yesterday?'
 ```
 ```
+1. I usually eat toast with milk tea, my habit.
+2. I get up at 6 a.m. on weekdays, and the same on holidays.
+3. Not sleep, play games.
+4. About 5 hours or more, like GITHUB website.
+5. Ride a motorcycle.
+6. Went to exercise with friends
+7. Test writing program
+8. Take a break to listen to music
+```
+```
 1.您通常在早餐時吃什麼？ 你為什麼要有它們？
 2.您在工作日和周末幾點起床？
 3.談論您所做的一件奇怪的事情。 你為什麼要那麼做？
@@ -40,6 +50,16 @@ ___
 6.上週末你去哪兒和誰去了？
 7.您明天上午10:00會做什麼？
 8.您昨天晚上9:00在做什麼？
+```
+```
+我的習慣是我通常將吐司和奶茶一起吃。
+2.我在工作日的早上6點起床，在假期也一樣。
+3.不睡覺，玩遊戲。
+4.大約5個小時或更長時間，例如GITHUB網站。
+5.騎摩托車。
+6.去和朋友一起運動
+7.試題編寫程序
+8.休息聽音樂
 ```
 ___
 # Unit 3 Sickness & Health
