@@ -636,22 +636,23 @@ ___
   <meta charset="utf-8">
   <title>Hello</title>
 </head>
+
 <body>
   <h3> ksu select operation </h3>
   <!--不對字符編碼 -->    
   <form enctype="multipart/form-data" method="post"     
         action="ksu_select3.php">
-    按查詢鍵, 進階查詢 ksu_std_table<br/>
+    按查詢鍵, 進階查詢 ksu_std_table
 	<br>
-	<form enctype="multipart/form-data" method="post" 
-	action="ksu_select3.php">
-	學生系別：<input type="text" name="IN" size="3"><br>
-	</form>
-    <br/>
+	<br>
+	學生系別：<input type="text" name="INfile" size="3">
+	<br>
+	<br>
     <input type="submit" name="sub" value="查詢"/>
   </form>
 </body>
 </html>
+
 ```
 ## `ksu_select3.php`
 ```php
