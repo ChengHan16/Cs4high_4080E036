@@ -52,7 +52,7 @@ ___
 8.您昨天晚上9:00在做什麼？
 ```
 ```
-我的習慣是我通常將吐司和奶茶一起吃。
+1.我的習慣是我通常將吐司和奶茶一起吃。
 2.我在工作日的早上6點起床，在假期也一樣。
 3.不睡覺，玩遊戲。
 4.大約5個小時或更長時間，例如GITHUB網站。
@@ -107,6 +107,16 @@ Trevor: And she’ s never sick. She ll say it s my fault! It s so unfair.
 8. Do you think that you are healthy?
 ```
 ```
+1. Rest and drink plenty of water
+2. Every night, basketball
+3. Last month, caught a cold
+4. When uncomfortable
+5. No, I'm very satisfied with the way it is now
+6. Dizziness and discomfort
+7. Yes, there is a lot of homework and a lot of work
+8. Yes i am healthy
+```
+```
 1.如果喉嚨痛該怎麼辦？
 2.您多久運動一次？ 您喜歡哪種運動？
 3.您最後一次受傷是什麼時候？ 發生了什麼？
@@ -115,6 +125,16 @@ Trevor: And she’ s never sick. She ll say it s my fault! It s so unfair.
 6.發燒時感覺如何？
 7.學校對您有壓力嗎？ 為什麼或者為什麼不？
 8.您認為自己健康嗎？
+```
+```
+1. 休息，多喝水
+2. 每天晚上、藍球
+3. 上個月、感冒了
+4. 不舒服的時候
+5. 沒有、我很滿意現在的樣子 
+6. 頭暈、不舒服
+7. 是的，功課多事情多
+8. 是的，我很健康
 ```
 ___
 # Unit 5 Around the World
