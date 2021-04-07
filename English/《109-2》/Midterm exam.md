@@ -167,6 +167,16 @@ ___
 8. Which country have you ever visited? Do you wan to visit it again?
 ```
 ```
+1. Many religions, many accents
+2. Yes, I like sushi the most
+3. Continuous holidays, rest well
+4. Dumplings, carrotcake (radish cake) I can
+5. Japan, I want to experience it
+6. Japan, interested
+7. Japanese, interested
+8. Japan, yes
+```
+```
 1.您對美國文化了解多少？
 2.您嘗試過日本料理嗎？ 你喜歡它？
 3.您最喜歡的假期是什麼？ 你怎麼樣慶祝呢？
@@ -175,4 +185,14 @@ ___
 6.您想訪問哪個國家？ 為什麼？
 7.您想學習哪種第二外語？ 為什麼？
 8.您去過哪個國家？ 您想再次參觀嗎？
+```
+```
+1. 有很多宗教、很多口音
+2. 有的，最喜歡壽司 
+3. 連續假期，rest well(好好休息)
+4. 餃子、carrotcake(蘿蔔糕) 我會
+5. 日本，想體驗看看
+6. 日本，有興趣
+7. 日文，有興趣
+8. 日本，會的
 ```
