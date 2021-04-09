@@ -242,14 +242,19 @@ ___
 ### >>> `yt.register_on_complete_callback(convert_to_aac)`
 ___
 ## Similarly, if your application requires on-download progress logic, pytube exposes a callback for this as well:
-### >>>  def show_progress_bar(stream, chunk, file_handle, bytes_remaining):
-### >>> # do work
+### >>> `def show_progress_bar(stream, chunk, file_handle, bytes_remaining):`
+### >>> `# do work`
 
 <br>
 
-### >>>  yt.register_on_progress_callback(show_progress_bar)
-```
-```
+### >>> `yt.register_on_progress_callback(show_progress_bar)`
+___
+# ● Command-line interface (CLI)
+## pytube3 ships with a simple CLI interface for downloading videos, playlists, and captions.<br>Let's start with downloading:
+> ## To download the highest resolution progressive stream:
+>> ### >>> `$ pytube https://www.youtube.com/watch?v=9ZmbNXsdSCU`
+> ## To view available streams:
+>> ### `$ pytube https://www.youtube.com/watch?v=9ZmbNXsdSCU --list`
 ___
 # [實作範例](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E5%B0%88%E9%A1%8C%E8%A3%BD%E4%BD%9C%20Thematic%20production%20%E3%80%8A109-2%E3%80%8B/Download%20Youtube%20videos.md)
 # 參考資料
