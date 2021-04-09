@@ -231,6 +231,7 @@ vcodec="vp9" progressive="False" type="video">,
 <Stream: itag="278" mime_type="video/webm" res="144p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 
 <Stream: itag="160" mime_type="video/mp4" res="144p" fps="30fps" vcodec="avc1.4d400b" progressive="False" type="video">]
 ```
+___
 # ● Callbacks
 ## If your application requires post-processing logic, pytube allows you to specify an "on download complete" callback function:
 ### >>> `def convert_to_aac(stream, file_handler):`
@@ -239,7 +240,14 @@ vcodec="vp9" progressive="False" type="video">,
 <br>
 
 ### >>> `yt.register_on_complete_callback(convert_to_aac)`
+___
 ## Similarly, if your application requires on-download progress logic, pytube exposes a callback for this as well:
+### >>>  def show_progress_bar(stream, chunk, file_handle, bytes_remaining):
+### >>> # do work
+
+<br>
+
+### >>>  yt.register_on_progress_callback(show_progress_bar)
 ```
 ```
 ___
