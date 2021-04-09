@@ -169,6 +169,20 @@ print(yt.streams.filter(subtype='mp4'))
 <Stream: itag="160" mime_type="video/mp4" res="144p" fps="30fps" vcodec="avc1.4d400b" progressive="False" type="video">, 
 <Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">
 ```
+# Multiple filters can also be specified:
+## >>> `yt.streams.filter(subtype='mp4', progressive=True)`
+## this can also be expressed as:
+## >>> `yt.streams.filter(subtype='mp4').filter(progressive=True)`
+```python
+from pytube import YouTube
+yt = YouTube('https://www.youtube.com/watch?v=9ZmbNXsdSCU')
+print(yt.streams.filter(subtype='mp4', progressive=True))
+```
+# Results(執行結果)
+```
+<Stream: itag="18" mime_type="video/mp4" res="360p" fps="30fps" vcodec="avc1.42001E" acodec="mp4a.40.2" progressive="True" type="video">, 
+<Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+```
 # [實作範例](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E5%B0%88%E9%A1%8C%E8%A3%BD%E4%BD%9C%20Thematic%20production%20%E3%80%8A109-2%E3%80%8B/Download%20Youtube%20videos.md)
 # 參考資料
 >  ## `https://pypi.org/project/pytube3/`
