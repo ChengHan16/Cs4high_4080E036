@@ -233,10 +233,12 @@ vcodec="vp9" progressive="False" type="video">,
 ```
 # ● Callbacks
 ## If your application requires post-processing logic, pytube allows you to specify an "on download complete" callback function:
-###  >>> `def convert_to_aac(stream, file_handler):`
-###  >>> `return  # do work`
+### >>> `def convert_to_aac(stream, file_handler):`
+### >>> `return  # do work`
+
 <br>
-###  >>> `yt.register_on_complete_callback(convert_to_aac)`
+
+### >>> `yt.register_on_complete_callback(convert_to_aac)`
 ## Similarly, if your application requires on-download progress logic, pytube exposes a callback for this as well:
 ```
 ```
