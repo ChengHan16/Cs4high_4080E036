@@ -307,7 +307,33 @@ optional arguments:
                         best resolutionRuns the command line program ffmpeg to
                         combine the audio and video
 ```
+```python
+from pytube import YouTube
+yt = YouTube('https://www.youtube.com/watch?v=9ZmbNXsdSCU')
+print('視頻標題：',yt.title)
+print('縮略圖：',yt.thumbnail_url)
+print('視頻說明：',yt.description)
+print('視頻長度/秒',yt.length)
+print('------------------------------------------------------------------------------------------------')
+print(yt.streams.all())
+print('漸進流')
+print(yt.streams.filter(progressive=True).all())
+print('自適應流')
+print(yt.streams.filter(adaptive=True).all())
+print('自適應流最高清的')
+print('------------------------------------------------------------------------------------------------')
+print('僅列出音頻')
+print(yt.streams.filter(only_audio=True).all())
+print('僅列出MP4')
+print(yt.streams.filter(subtype='mp4').all())
 
+# 特定的目錄下載
+# pl.download_all('/path/to/directory/')
+
+def convert_to_aac(stream, file_handle):
+    print('下載完成：')
+    return  # do work
+```
 ___
 # [實作範例](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E5%B0%88%E9%A1%8C%E8%A3%BD%E4%BD%9C%20Thematic%20production%20%E3%80%8A109-2%E3%80%8B/Download%20Youtube%20videos.md)
 # 參考資料
@@ -317,3 +343,7 @@ ___
 >>  ### `https://python-pytube.readthedocs.io/en/latest/user/playlist.html`
 >  ## Command-line interface (CLI)
 >>  ### `https://python-pytube.readthedocs.io/en/latest/user/cli.html`
+> ## pytube3 中国語版説明
+>> ### `https://zh-hant.hotbak.net/key/Python%E4%B8%8B%E8%BC%89YouTube%E8%A6%96%E9%A0%BBoschahlqsqq%E7%9A%84%E5%80%8B%E4%BA%BA%E7%A9%BA%E9%96%93OSCHI.html`
+>　## python3下載Youtube視頻之pytube
+>> ### `https://www.twblogs.net/a/5baaa5db2b7177781a0e5a25`
