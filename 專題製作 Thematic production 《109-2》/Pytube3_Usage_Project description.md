@@ -231,6 +231,15 @@ vcodec="vp9" progressive="False" type="video">,
 <Stream: itag="278" mime_type="video/webm" res="144p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 
 <Stream: itag="160" mime_type="video/mp4" res="144p" fps="30fps" vcodec="avc1.4d400b" progressive="False" type="video">]
 ```
+# ● Callbacks
+## If your application requires post-processing logic, pytube allows you to specify an "on download complete" callback function:
+###  >>> `def convert_to_aac(stream, file_handler):`
+###  >>> `return  # do work`
+<br>
+###  >>> `yt.register_on_complete_callback(convert_to_aac)`
+## Similarly, if your application requires on-download progress logic, pytube exposes a callback for this as well:
+```
+```
 ___
 # [實作範例](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E5%B0%88%E9%A1%8C%E8%A3%BD%E4%BD%9C%20Thematic%20production%20%E3%80%8A109-2%E3%80%8B/Download%20Youtube%20videos.md)
 # 參考資料
