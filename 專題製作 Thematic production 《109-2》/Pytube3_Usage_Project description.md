@@ -151,7 +151,7 @@ print(yt.streams.filter(only_audio=True))
 <Stream: itag="251" mime_type="audio/webm" abr="160kbps" acodec="opus" progressive="False" type="audio">]
 ```
 ## To list only mp4 streams:
-## >>> `yt.streams.filter(only_audio=True)
+## >>> `yt.streams.filter(only_audio=True)`
 ```python
 from pytube import YouTube
 yt = YouTube('https://www.youtube.com/watch?v=9ZmbNXsdSCU')
