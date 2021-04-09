@@ -255,6 +255,16 @@ ___
 >> ### >>> `$ pytube https://www.youtube.com/watch?v=9ZmbNXsdSCU`
 > ## To view available streams:
 >> ### `$ pytube https://www.youtube.com/watch?v=9ZmbNXsdSCU --list`
+> ## To download a specific stream, use the itag
+>> ### `$ pytube https://www.youtube.com/watch?v=9ZmbNXsdSCU --itag=22`
+> ## To get a list of all subtitles (caption codes)
+>> ### `$ pytube https://www.youtube.com/watch?v=9ZmbNXsdSCU --list-captions`
+> ## To download a specific subtitle (caption code) - in this case the English subtitles (in srt format) - use:
+>> ### `$ pytube https://www.youtube.com/watch?v=9ZmbNXsdSCU -c en`
+> ## It is also possible to just download the audio stream (default AAC/mp4):
+>> ### `$ pytube https://www.youtube.com/watch?v=9ZmbNXsdSCU -a`
+> ## To list all command line options, simply type
+>> ### `$ pytube --help`
 ___
 # [實作範例](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E5%B0%88%E9%A1%8C%E8%A3%BD%E4%BD%9C%20Thematic%20production%20%E3%80%8A109-2%E3%80%8B/Download%20Youtube%20videos.md)
 # 參考資料
