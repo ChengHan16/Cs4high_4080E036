@@ -136,13 +136,38 @@ for video in p.videos:
 ![pytubetest](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/pytubetest4.PNG)
 # This will download the highest progressive stream available (generally 720p) from the given playlist.
 # 次回続けてところ `Filtering`
-# Filtering
+# ● Filtering
 ## Pytube allows you to filter on every property available (see the documentation for the complete list), let's take a look at some of the most useful ones.
 ## To list the audio only streams:
+## >>> `yt.streams.filter(subtype='mp4')`
 ```python
 from pytube import YouTube
 yt = YouTube('https://www.youtube.com/watch?v=9ZmbNXsdSCU')
 print(yt.streams.filter(only_audio=True))
+```
+# Results(執行結果)
+```
+<Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">,
+<Stream: itag="251" mime_type="audio/webm" abr="160kbps" acodec="opus" progressive="False" type="audio">]
+```
+## To list only mp4 streams:
+## >>> `yt.streams.filter(only_audio=True)
+```python
+from pytube import YouTube
+yt = YouTube('https://www.youtube.com/watch?v=9ZmbNXsdSCU')
+print(yt.streams.filter(subtype='mp4'))
+```
+# Results(執行結果)
+```
+<Stream: itag="18" mime_type="video/mp4" res="360p" fps="30fps" vcodec="avc1.42001E" acodec="mp4a.40.2" progressive="True" type="video">, 
+<Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 
+<Stream: itag="137" mime_type="video/mp4" res="1080p" fps="30fps" vcodec="avc1.640028" progressive="False" type="video">, 
+<Stream: itag="136" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.4d400b" progressive="False" type="video">, 
+<Stream: itag="135" mime_type="video/mp4" res="480p" fps="30fps" vcodec="avc1.4d4014" progressive="False" type="video">, 
+<Stream: itag="134" mime_type="video/mp4" res="360p" fps="30fps" vcodec="avc1.4d401e" progressive="False" type="video">, 
+<Stream: itag="133" mime_type="video/mp4" res="240p" fps="30fps" vcodec="avc1.4d400c" progressive="False" type="video">, 
+<Stream: itag="160" mime_type="video/mp4" res="144p" fps="30fps" vcodec="avc1.4d400b" progressive="False" type="video">, 
+<Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">
 ```
 # [實作範例](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E5%B0%88%E9%A1%8C%E8%A3%BD%E4%BD%9C%20Thematic%20production%20%E3%80%8A109-2%E3%80%8B/Download%20Youtube%20videos.md)
 # 參考資料
