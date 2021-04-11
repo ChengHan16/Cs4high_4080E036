@@ -297,7 +297,7 @@ yt.streams.filter(subtype='mp4',resolution="1080p")[0].download()
 ![6.video Download.png](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/5.video%20Download.png)
 ![7.video Download.png](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/6.video%20Download.png)
 ___
-# 使用清單下載1080P影片
+# 使用清單下載1080p影片(尚未結合 FFmpeg)
 ```python
 from pytube import Playlist
 p = Playlist('https://www.youtube.com/watch?v=L_YwM7Zc5aU&list=PL0iQbgfCDqD5eUX5MaklD9JGxAM74skiv')
@@ -305,6 +305,12 @@ for video in p.videos:
     video.streams.filter(subtype='mp4',resolution="1080p")[0].download()
 ```
 ![7.video Download.png](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/7.video%20Download.png)
+# 以下開始使用清單下載 1080p 影片並結合 FFmpeg
+```python
+```
+# Results(執行結果)
+```
+```
 ___
 # 筆記
 > ## subprocess.py 更改資料路徑在：
