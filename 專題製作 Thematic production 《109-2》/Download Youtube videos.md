@@ -367,5 +367,7 @@ ___
 # 待參考資料
 > # 01 用Python下載YOUTUBE影片清單資料 吳老師教學部落格
 >> ### `https://www.youtube.com/watch?v=ac3UPgpJvcU`
+>> ### `https://www.youtube.com/watch?v=FeAIz_BxNjE`
+>> ### `https://www.youtube.com/watch?v=sOMxTIh49gw`
 > # Python 爬蟲細節整理
 >> ### `https://ithelp.ithome.com.tw/articles/10246382`
