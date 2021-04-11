@@ -351,6 +351,7 @@ ___
 >> ### `https://blog.csdn.net/feng_jlin/article/details/82381822`
 > ## bs4.FeatureNotFound: Couldn’t find a tree builder with the features you requested: html_parser. Do you need to install a parser library?
 >>### `https://blog.csdn.net/qq_16546829/article/details/79405605`
+### `https://www.youtube.com/watch?v=ac3UPgpJvcU`
 ___
 # ● Error 待解決：
 ### `UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa8 in position 0: invalid start byte`<br>
