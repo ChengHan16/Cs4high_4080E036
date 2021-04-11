@@ -307,9 +307,27 @@ for video in p.videos:
 ![7.video Download.png](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/7.video%20Download.png)
 # 以下開始使用清單下載 1080p 影片並結合 FFmpeg
 ```python
+import requests
+from bs4 import BeautifulSoup
+html = requests.get("https://www.youtube.com/playlist?list=PL0iQbgfCDqD5eUX5MaklD9JGxAM74skiv")
+#print(html.text)
+
+soup = BeautifulSoup(html.text, "html.parser")
+list1 = soup.find_all("a","yt-simple-endpoint style-scope ytd-playlist-video-renderer")
+#print(list1)
+
+for s in list1:
+    print("標題" + s.text.strip())
+    print("網址" + "https://www.youtube.com/" + s.get("href"))
 ```
 # Results(執行結果)
 ```
+標題：《神魔之塔》冨岡義勇 超極簡單 雙成就 隊長及戰友人類、全水 | 虛偽的羈絆 | 下弦之伍的心願 累 |《MH班長》
+網址：https://www.youtube.com/watch?v=L_YwM7Zc5aU&list=PL0iQbgfCDqD5eUX5MaklD9JGxAM74skiv&index=1
+標題：《神魔之塔》鬼滅之刃 合作抽卡加倍 就是要五隻 加倍真的有感嗎《MH班長》
+網址：https://www.youtube.com/watch?v=9ZmbNXsdSCU&list=PL0iQbgfCDqD5eUX5MaklD9JGxAM74skiv&index=2
+標題：【神魔之塔】GNN介紹！全新鬼來襲！下週兩個新鬼登場！
+網址：https://www.youtube.com/watch?v=iVq9aj77f68&list=PL0iQbgfCDqD5eUX5MaklD9JGxAM74skiv&index=3
 ```
 ___
 # 筆記
@@ -329,6 +347,9 @@ ___
 ### `https://www.itread01.com/content/1545429986.html`<br>
 ### `https://github.com/BtbN/FFmpeg-Builds/releases`
 ### `https://www.programmersought.com/article/17955781692/`
+> ## AttributeError: 'function' object has no attribute 'find_all'
+>> ### `https://blog.csdn.net/feng_jlin/article/details/82381822`
+### `https://blog.csdn.net/qq_16546829/article/details/79405605`
 ___
 # ● Error 待解決：
 ### `UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa8 in position 0: invalid start byte`<br>
