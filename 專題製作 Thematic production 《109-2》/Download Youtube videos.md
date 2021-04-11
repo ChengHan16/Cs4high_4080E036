@@ -347,11 +347,12 @@ ___
 ### `https://www.itread01.com/content/1545429986.html`<br>
 ### `https://github.com/BtbN/FFmpeg-Builds/releases`
 ### `https://www.programmersought.com/article/17955781692/`
+### `https://xken831.pixnet.net/blog/post/460728179-%5Bpython%5D-python-%E5%AE%89%E8%A3%9D%E5%A5%97%E4%BB%B6%E7%9A%84%E6%96%B9%E5%BC%8F`
 > ## AttributeError: 'function' object has no attribute 'find_all'
 >> ### `https://blog.csdn.net/feng_jlin/article/details/82381822`
 > ## bs4.FeatureNotFound: Couldn’t find a tree builder with the features you requested: html_parser. Do you need to install a parser library?
 >>### `https://blog.csdn.net/qq_16546829/article/details/79405605`
-### `https://www.youtube.com/watch?v=ac3UPgpJvcU`
+
 ___
 # ● Error 待解決：
 ### `UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa8 in position 0: invalid start byte`<br>
@@ -362,3 +363,9 @@ ___
 ### `https://www.youtube.com/watch?v=Uc0zriNCtiE`
 ### `https://pypi.org/project/pytube3/`
 ### `https://ithelp.ithome.com.tw/questions/10195383`
+___
+# 待參考資料
+> # 01 用Python下載YOUTUBE影片清單資料 吳老師教學部落格
+>> ### `https://www.youtube.com/watch?v=ac3UPgpJvcU`
+> # Python 爬蟲細節整理
+>> ### `https://ithelp.ithome.com.tw/articles/10246382`
