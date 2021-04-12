@@ -7,13 +7,12 @@
 ### &emsp;&emsp;(Ex.2公尺，傳至基地台後是 八分之一)
 
 ### 有線 --> 
-### "有方向性"
+### &emsp;&emsp;"有方向性"
 ___
 ## CSMA/CD 與 CSMA/CA
-
 ### `https://blog.toright.com/posts/1243/csmacd-%E8%88%87-csmaca-%E4%B9%8B%E9%96%93%E7%9A%84%E5%B7%AE%E7%95%B0.html`
 ___
 ## 7-11 行動通訊系統
 
 ### 第二代
-### CDMA
+### &emsp;CDMA
