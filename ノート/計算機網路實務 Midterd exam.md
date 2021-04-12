@@ -10,7 +10,7 @@
 ### &emsp;&emsp;"有方向性"
 ___
 ## CSMA/CD 與 CSMA/CA
-### `https://blog.toright.com/posts/1243/csmacd-%E8%88%87-csmaca-%E4%B9%8B%E9%96%93%E7%9A%84%E5%B7%AE%E7%95%B0.html`
+ `https://blog.toright.com/posts/1243/csmacd-%E8%88%87-csmaca-%E4%B9%8B%E9%96%93%E7%9A%84%E5%B7%AE%E7%95%B0.html`
 ___
 ## 7-11 行動通訊系統
 
