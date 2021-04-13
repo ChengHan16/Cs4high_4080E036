@@ -196,3 +196,40 @@ ___
 7. 日文，有興趣
 8. 日本，會的
 ```
+___
+
+```
+1. What do you usually have for breakfast? Why do you have them? 
+2. What time do you wake up on weekdays and weekends? 
+3. Talk about one strange thing that you have done. Why did you do it? 
+4. How long do you usually surf the web? What is your favorite website? 
+
+1. I usually eat toast with milk tea, my habit.
+2. I get up at 6 a.m. on weekdays, and the same on holidays.
+3. Not sleep, play games.
+4. About 5 hours or more, like GITHUB website.
+```
+___
+```
+1. What should you do if you have a sore throat? 
+2. How often do you exercise? What kinds of exercise do you prefer? 
+3. When was the last time you got hurt? What happened? 
+4. What's something that makes you feel dizzy? 
+
+1. Rest and drink plenty of water
+2. Every night, basketball
+3. Last month, caught a cold
+4. When uncomfortable
+```
+___
+```
+1. What do you know about American culture? 
+2. Have you ever tried Japanese food? Do you like it? 
+3. What's your favorite holiday? How do you celebrate it? 
+4. Which Chinese food can you make?
+
+1. Many religions, many accents
+2. Yes, I like sushi the most
+3. Continuous holidays, rest well
+4. Dumplings, carrotcake (radish cake) I can
+```
