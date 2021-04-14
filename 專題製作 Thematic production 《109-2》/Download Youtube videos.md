@@ -550,6 +550,8 @@ ___
 > #### `https://blog.csdn.net/qq_16546829/article/details/79405605`
 ## “AttributeError: no attribute 'download” With PyTube
 > #### `https://stackoverflow.com/questions/64906882/attributeerror-no-attribute-download-with-pytube`
+## YouTube影片下載（五）：PyTube3程式庫更新說明
+> ### `https://swf.com.tw/?p=1402`
 ___
 # ● Error 待解決：
 ### `UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa8 in position 0: invalid start byte`<br>
@@ -568,3 +570,6 @@ ___
 >> ### `https://www.youtube.com/watch?v=sOMxTIh49gw`
 > # Python 爬蟲細節整理
 >> ### `https://ithelp.ithome.com.tw/articles/10246382`
+> # Search Results for: YouTube影片下載
+>> ### `https://swf.com.tw/?p=1357&cpage=1#comment-987453`
+>> ### `https://swf.com.tw/?p=1361`
