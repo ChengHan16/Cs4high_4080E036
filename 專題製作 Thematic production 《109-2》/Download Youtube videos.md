@@ -330,6 +330,24 @@ for s in list1:
 標題：【神魔之塔】GNN介紹！全新鬼來襲！下週兩個新鬼登場！
 網址：https://www.youtube.com/watch?v=iVq9aj77f68&list=PL0iQbgfCDqD5eUX5MaklD9JGxAM74skiv&index=3
 ```
+# 使用清單下載高畫質Vedio
+```python
+from pytube import Playlist
+playlist = Playlist('https://www.youtube.com/watch?v=L_YwM7Zc5aU&list=PL0iQbgfCDqD5eUX5MaklD9JGxAM74skiv')
+print('Number of videos in playlist: %s' % len(playlist.video_urls))
+
+# Loop through all videos in the playlist and download them
+for video in playlist.videos:
+    video.streams.get_highest_resolution().download()
+print("全部下載成功！！！")
+
+
+#from pytube import Playlist
+#Playlist("https://www.youtube.com/watch?v=L_YwM7Zc5aU&list=PL0iQbgfCDqD5eUX5MaklD9JGxAM74skiv").download_all()
+#print("全部下載成功！！！")
+```
+# Results(執行結果)
+![vodownload](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/vodownload1.PNG)
 ___
 # 筆記
 > ## subprocess.py 更改資料路徑在：
