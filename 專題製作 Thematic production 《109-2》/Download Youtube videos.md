@@ -376,6 +376,9 @@ ___
 > ### `https://blog.csdn.net/feng_jlin/article/details/82381822`
 ## bs4.FeatureNotFound: Couldn’t find a tree builder with the features you requested: html_parser. Do you need to install a parser library?
 > ### `https://blog.csdn.net/qq_16546829/article/details/79405605`
+## “AttributeError: no attribute 'download” With PyTube
+> ### `https://stackoverflow.com/questions/64906882/attributeerror-no-attribute-download-with-pytube`
+``
 
 ___
 # ● Error 待解決：
