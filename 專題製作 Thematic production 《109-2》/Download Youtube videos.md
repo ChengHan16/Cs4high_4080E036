@@ -340,18 +340,23 @@ ___
 > ### pip install pytube==10.4.1 `https://github.com/pytube/pytube/issues/614` 
 ___
 # ● 問題解決/參考資料/安裝套件：
-### `https://www.ffmpeg.org/`
-### `https://github.com/pytube/pytube/issues/614` 
-### `pip install pytube==10.4.1`
+## FFmpeg Download
+> ### `https://www.ffmpeg.org/`
+## Error: get_ytplayer_config: could not find match for config_patterns
+> ### `https://github.com/pytube/pytube/issues/614` 
+## Error: get_ytplayer_config: could not find match for config_patterns
+> ### `pip install pytube==10.4.1`
 ### `https://zh-tw.coderbridge.com/series/c471d97bb201460ab137c5e4955987df/posts/0baeb8bf25e543ed8462bd742cd1946f`
 ### `https://www.itread01.com/content/1545429986.html`<br>
 ### `https://github.com/BtbN/FFmpeg-Builds/releases`
-### `https://www.programmersought.com/article/17955781692/`
+## AttributeError: ‘str’ object has no attribute ‘decode’ solution
+> ### `https://www.programmersought.com/article/17955781692/`
+# Python pip/pip3 指令集
 ### `https://xken831.pixnet.net/blog/post/460728179-%5Bpython%5D-python-%E5%AE%89%E8%A3%9D%E5%A5%97%E4%BB%B6%E7%9A%84%E6%96%B9%E5%BC%8F`
-> ## AttributeError: 'function' object has no attribute 'find_all'
->> ### `https://blog.csdn.net/feng_jlin/article/details/82381822`
-> ## bs4.FeatureNotFound: Couldn’t find a tree builder with the features you requested: html_parser. Do you need to install a parser library?
->>### `https://blog.csdn.net/qq_16546829/article/details/79405605`
+## AttributeError: 'function' object has no attribute 'find_all'
+> ### `https://blog.csdn.net/feng_jlin/article/details/82381822`
+## bs4.FeatureNotFound: Couldn’t find a tree builder with the features you requested: html_parser. Do you need to install a parser library?
+> ### `https://blog.csdn.net/qq_16546829/article/details/79405605`
 
 ___
 # ● Error 待解決：
