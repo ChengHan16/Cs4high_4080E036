@@ -305,7 +305,7 @@ for video in p.videos:
     video.streams.filter(subtype='mp4',resolution="1080p")[0].download()
 ```
 ![7.video Download.png](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/7.video%20Download.png)
-# 以下開始使用清單下載 1080p 影片並結合 FFmpeg
+# 抓取清單影片標題及URL
 ```python
 import requests
 from bs4 import BeautifulSoup
@@ -320,6 +320,7 @@ for s in list1:
     print("標題" + s.text.strip())
     print("網址" + "https://www.youtube.com/" + s.get("href"))
 ```
+# 以下開始使用清單下載 1080p 影片並結合 FFmpeg
 # Results(執行結果)
 ```
 標題：《神魔之塔》冨岡義勇 超極簡單 雙成就 隊長及戰友人類、全水 | 虛偽的羈絆 | 下弦之伍的心願 累 |《MH班長》
