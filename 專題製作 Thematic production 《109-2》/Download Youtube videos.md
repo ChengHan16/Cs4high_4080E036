@@ -370,7 +370,7 @@ ___
 ### `https://github.com/BtbN/FFmpeg-Builds/releases`
 ## AttributeError: ‘str’ object has no attribute ‘decode’ solution
 > ### `https://www.programmersought.com/article/17955781692/`
-# Python pip/pip3 指令集
+## Python pip/pip3 指令集
 > ### `https://xken831.pixnet.net/blog/post/460728179-%5Bpython%5D-python-%E5%AE%89%E8%A3%9D%E5%A5%97%E4%BB%B6%E7%9A%84%E6%96%B9%E5%BC%8F`
 ## AttributeError: 'function' object has no attribute 'find_all'
 > ### `https://blog.csdn.net/feng_jlin/article/details/82381822`
