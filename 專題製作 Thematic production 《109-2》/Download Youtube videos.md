@@ -378,8 +378,6 @@ ___
 > #### `https://blog.csdn.net/qq_16546829/article/details/79405605`
 ## “AttributeError: no attribute 'download” With PyTube
 > #### `https://stackoverflow.com/questions/64906882/attributeerror-no-attribute-download-with-pytube`
-``
-
 ___
 # ● Error 待解決：
 ### `UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa8 in position 0: invalid start byte`<br>
