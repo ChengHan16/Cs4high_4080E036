@@ -106,4 +106,5 @@ ____
 # 完整去背
 > ### Ultra Key > Opacity 工具 > Mask 套件 <br> 用套件圈出每片段的去背效果
 ＿＿＿
-
+# 使用資料
+`https://www.pexels.com/search/videos/shine/`
