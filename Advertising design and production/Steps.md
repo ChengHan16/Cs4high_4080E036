@@ -96,3 +96,7 @@ ___
 >> ### Track Matte Key 拉進特效
 >>> ### Viedeo2 > Matte Luma 
 ___
+# 特效結合
+> ## 右鍵 or (ctrl + 右鍵)
+> ## Nest 
+___
