@@ -103,3 +103,8 @@ ___
 # 去背
 > ### Ultre Key > 主要顏色 Key color
 ____
+# 完整去背
+> ### Ultra Key > Opacity 工具 > Mask 套件 <br> 用套件圈出每片段的去背效果
+＿＿＿
+
+# Ai
