@@ -100,3 +100,6 @@ ___
 > ## 右鍵 or (ctrl + 右鍵)
 > ## Nest 
 ___
+# 去背
+> ### Ultre Key > 主要顏色 Key color
+____
