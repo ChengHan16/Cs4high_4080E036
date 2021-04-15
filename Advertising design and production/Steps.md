@@ -89,3 +89,10 @@ ___
 # 參考資料
 ## 語言切換
 > ### `https://yearn8070.pixnet.net/blog/post/35805796-premiere-pro-%E8%AA%9E%E8%A8%80%E8%BD%89%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87---%E8%8B%B1%E8%AA%9E%EF%BC%8C%E5%A6%82%E4%BD%95%E8%A8%AD%E5%AE%9A`
+___
+# 04-15
+# 遮色片
+> ### Effect
+>> ### Track Matte Key 拉進特效
+>>> ### Viedeo2 > Matte Luma 
+___
