@@ -975,3 +975,26 @@ ___
  echo "為空的有". $row_record . "筆資料"."<br/><br/>";
 ```
 # php 一個等號是指定，2個等號是判斷
+# 俊齊老師指導 Code
+```php
+//使用 mysqli_fetch_array() 取回資料庫資料
+  $row_num=0;
+  $row_empty=0;
+
+ while($row = mysqli_fetch_array($result))
+ {
+   echo "<tr>";
+   echo "<td>" . $row['ksu_std_department'] . "</td>";
+   echo "<td>" . $row['count(1)'] .   "</td>";
+   echo "</tr>";
+   $row_num = $row_num+1;
+   if($row['ksu_std_department'] == ""){
+   # if($row['ksu_std_department'] == null){
+	$row_empty = $row_empty+1;
+	}
+ }
+ 
+ echo "</table>";
+ echo "找到 ". $row_num . " 筆資料"."<br/>";
+ echo $row_empty . " 筆資料為空"."<br/><br/>";
+```
