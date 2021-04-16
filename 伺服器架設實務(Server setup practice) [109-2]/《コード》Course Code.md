@@ -998,3 +998,5 @@ ___
  echo "找到 ". $row_num . " 筆資料"."<br/>";
  echo $row_empty . " 筆資料為空"."<br/><br/>";
 ```
+# Results(執行結果)
+![4.04_16伺服資料庫(俊齊)](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/4.04_16%E4%BC%BA%E6%9C%8D%E8%B3%87%E6%96%99%E5%BA%AB(%E4%BF%8A%E9%BD%8A).PNG)
