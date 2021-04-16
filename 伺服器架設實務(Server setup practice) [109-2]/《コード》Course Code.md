@@ -975,7 +975,7 @@ ___
  echo "為空的有". $row_record . "筆資料"."<br/><br/>";
 ```
 # php 一個等號是指定，2個等號是判斷
-# 俊齊老師指導 Code
+# [俊齊老師指導 Code]()
 ```php
 //使用 mysqli_fetch_array() 取回資料庫資料
   $row_num=0;
