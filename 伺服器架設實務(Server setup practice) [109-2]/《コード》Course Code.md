@@ -830,9 +830,9 @@ ___
 #### echo "<td>" . $row['ksu_std_name'] .   "</td>";
 #### echo "<td>" . $row['ksu_std_age'] . "</td>";
 #### echo "</tr>";
-### $row_num = $row_num+1;
+### `$row_num = $row_num+1;`
 #### }
 #### echo "</table>";
-### echo $row_num . " records found!"."<br/><br/>";
+### `echo $row_num . " records found!"."<br/><br/>";`
 #### ?> 
 ___
