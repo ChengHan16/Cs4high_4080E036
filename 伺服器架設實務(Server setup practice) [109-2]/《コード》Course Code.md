@@ -767,6 +767,7 @@ ___
 </form>
 ```
 # Results(執行結果)
+![1.04_16伺服資料庫](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/1.04_16%E4%BC%BA%E6%9C%8D%E8%B3%87%E6%96%99%E5%BA%AB.PNG)
 ```php
 <?php
  $db_host = "localhost";
@@ -818,3 +819,4 @@ ___
 </form>
 ```
 # Results(執行結果)
+![2.04_16伺服資料庫](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/2.04_16%E4%BC%BA%E6%9C%8D%E8%B3%87%E6%96%99%E5%BA%AB.PNG)
