@@ -830,6 +830,5 @@ ___
 #### ?> 
 
 # Results(執行結果)
-## `$row_num搜尋的筆數` records found!
-## EX. 5 records found!
+## `$row_num搜尋的筆數` records found!<br>EX. 5 records found!
 ___
