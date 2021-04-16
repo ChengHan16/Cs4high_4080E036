@@ -820,3 +820,19 @@ ___
 ```
 # Results(執行結果)
 ![2.04_16伺服資料庫](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/2.04_16%E4%BC%BA%E6%9C%8D%E8%B3%87%E6%96%99%E5%BA%AB.PNG)
+# 編寫段落
+#### `//使用 mysqli_fetch_array() 取回資料庫資料`
+### `$row_num=0;`
+#### while($row = mysqli_fetch_array($result))
+#### {
+#### echo "<tr>";
+#### echo "<td>" . $row['ksu_std_department'] . "</td>";
+#### echo "<td>" . $row['ksu_std_name'] .   "</td>";
+#### echo "<td>" . $row['ksu_std_age'] . "</td>";
+#### echo "</tr>";
+### $row_num = $row_num+1;
+#### }
+#### echo "</table>";
+### echo $row_num . " records found!"."<br/><br/>";
+#### ?> 
+___
