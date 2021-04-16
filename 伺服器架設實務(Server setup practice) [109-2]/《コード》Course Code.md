@@ -822,10 +822,13 @@ ___
 ![2.04_16伺服資料庫](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/2.04_16%E4%BC%BA%E6%9C%8D%E8%B3%87%E6%96%99%E5%BA%AB.PNG)
 # 編寫段落
 #### //使用 mysqli_fetch_array() 取回資料庫資料
-### `$row_num=0;`
+#### `$row_num=0;`
 #### while($row = mysqli_fetch_array($result))<br>{<br>echo "<tr>";<br>echo "<td>" . $row['ksu_std_department'] . "</td>";<br>echo "<td>" . $row['ksu_std_name'] .   "</td>";<br>echo "<td>" . $row['ksu_std_age'] . "</td>";<br>echo "</tr>";<br>
-### `$row_num = $row_num+1;`
+#### `$row_num = $row_num+1;`
 #### }<br>echo "</table>";
-### `echo $row_num . " records found!"."<br/><br/>";`
+#### `echo $row_num . " records found!"."<br/><br/>";`
 #### ?> 
+
+# Results(執行結果)
+## ``$row_num搜尋的筆數` records found!`
 ___
