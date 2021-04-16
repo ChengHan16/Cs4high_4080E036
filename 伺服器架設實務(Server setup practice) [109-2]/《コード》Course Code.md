@@ -893,5 +893,5 @@ ___
 #### `$row_record = $row_record+1;`
 #### }
 #### }
-#### echo "</table>";<br>echo $row_record . " records found!"."<br/><br/>";
+#### echo "</table>";<br>`echo $row_record . " records found!"."<br/><br/>";`
 #### ?> 
