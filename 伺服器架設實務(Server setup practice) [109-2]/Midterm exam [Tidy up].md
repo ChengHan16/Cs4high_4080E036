@@ -151,6 +151,7 @@ ___
 ![Midterm exam Tidy up 2](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/Midterm%20exam%20Tidy%20up%202.JPG)
 ___
 # ● ksu_select4.html + ksu_select4.php
+# 顯示搜尋結果比數
 ## `ksu_select4.html`
 ```html
 <!doctype html>
