@@ -242,6 +242,7 @@ ___
 ![Midterm exam Tidy up 3](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/Midterm%20exam%20Tidy%20up%203.JPG)
 ___
 # ● ksu_select4a.html + ksu_select4a.php
+# 找出有筆資料，為空值得則有幾筆
 ## `ksu_select4a.html`
 ```html
 <!doctype html>
