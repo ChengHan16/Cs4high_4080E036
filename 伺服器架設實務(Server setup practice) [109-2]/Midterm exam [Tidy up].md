@@ -1,6 +1,6 @@
 # Midterm exam [Tidy up]
 > ### 使用 ksu_database-r109.2-1.sql
-> ### ex52-1.php <br> ksu_select3.html +ksu_select3.php <br> ksu_select3a.html +ksu_select3a.php <br> ksu_select4.html +ksu_select4.php <br> ksu_select4a.html +ksu_select4a.php <br> ksu_select6.html +ksu_select6.php
+> ### ex52-1.php <br> ksu_select3.html + ksu_select3.php <br> ksu_select3a.html + ksu_select3a.php <br> ksu_select4.html + ksu_select4.php <br> ksu_select4a.html + ksu_select4a.php <br> ksu_select6.html + ksu_select6.php
 ___
 
 # ● ksu_select3.html + ksu_select3.php
@@ -345,3 +345,13 @@ ___
 # Results(執行結果)
 ![Midterm exam Tidy up html](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/Midterm%20exam%20Tidy%20up%20html.JPG)
 ![Midterm exam Tidy up 4](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/Midterm%20exam%20Tidy%20up%204.JPG)
+___
+# ● ksu_select6.html + ksu_select6.php
+## `ksu_select6.html`
+```html
+
+```
+## `ksu_select6.php`
+```php
+
+```
