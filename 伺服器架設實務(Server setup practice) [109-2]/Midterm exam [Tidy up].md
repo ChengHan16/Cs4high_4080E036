@@ -237,3 +237,5 @@ ___
 ```
 # http://127.0.0.1/ksu_select3.html
 # Results(執行結果)
+![Midterm exam Tidy up html](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/Midterm%20exam%20Tidy%20up%20html.JPG)
+![Midterm exam Tidy up 3](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/Midterm%20exam%20Tidy%20up%203.JPG)
