@@ -71,3 +71,6 @@ ___
 <input type="submit" name="sub" value="返回"/>
 </form>
 ```
+# http://127.0.0.1/ksu_select3.html
+# Results(執行結果)
+![]()
