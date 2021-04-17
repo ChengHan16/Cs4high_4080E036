@@ -407,11 +407,13 @@ ___
  </tr>";
 
  //使用 mysqli_fetch_array() 取回資料庫資料
+ $row_num=0;
  while($row = mysqli_fetch_array($result))
  {
    echo "<tr>";
    echo "<td>" . $row['ksu_std_name'] . "</td>";
    echo "<td>" . $row['ksu_std_grade'] . "</td>";
+   $row_num = $row_num+1;
    if ($row['ksu_std_grade'] < 60) {
       echo '<td style="background-color:yellow">補考</td>';
    } else {
@@ -420,7 +422,7 @@ ___
    echo "</tr>";
  }
  echo "</table>";
- echo "records found!"."<br/><br/>";
+ echo $row_num ." records found!"."<br/><br/>";
 ?> 
 <form enctype="multipart/form-data"  method="post" action="ksu_select3.html">
 <input type="submit" name="sub" value="返回"/>
