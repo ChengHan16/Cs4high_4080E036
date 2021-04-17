@@ -345,9 +345,12 @@ ___
 # Results(執行結果)
 ![Midterm exam Tidy up html](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/Midterm%20exam%20Tidy%20up%20html.JPG)
 ![Midterm exam Tidy up 4](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/Midterm%20exam%20Tidy%20up%204.JPG)
+# php 一個等號是指定，2個等號是判斷
 # 找出有筆資料，有值的為幾筆
 ### 在等號前加上驚嘆號變成`不等於空值的`
-### `if($row['ksu_std_department'] !== ""){ <br> &emsp;&emsp; $row_record = $row_record+1; <br> &emsp;&emsp; }
+### if($row['ksu_std_department'] !== ""){ <br> &emsp;&emsp; $row_record = $row_record+1; <br> &emsp;&emsp; }
+# Results(執行結果)
+![Midterm exam Tidy up 4-1](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/Midterm%20exam%20Tidy%20up%204-1.JPG)
 ___
 # ● ksu_select6.html + ksu_select6.php
 ## `ksu_select6.html`
