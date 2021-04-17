@@ -428,3 +428,7 @@ ___
 <input type="submit" name="sub" value="返回"/>
 </form>
 ```
+![Midterm exam Tidy up 5](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/Midterm%20exam%20Tidy%20up%205.JPG)<br>
+# 無搜尋類別(全部) ![Midterm exam Tidy up 5-1](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/Midterm%20exam%20Tidy%20up%205-1.JPG)
+# 搜尋 IE 科別 ![Midterm exam Tidy up 5-2](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/Midterm%20exam%20Tidy%20up%205-2.JPG)
+# 搜尋 CS 科別 ![Midterm exam Tidy up 5-3](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/Midterm%20exam%20Tidy%20up%205-3.JPG)
