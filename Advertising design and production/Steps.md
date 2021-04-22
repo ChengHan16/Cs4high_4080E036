@@ -109,5 +109,9 @@ ___
 > ## Google Watching tv
 > ## Pixels smoke colorful background 任意 footage
 ___
+# 去背
+> ## 選取 > 主體 > 反轉
+> ## 另存psd 
+___
 # 使用資料
 `https://www.pexels.com/search/videos/shine/`
