@@ -109,9 +109,13 @@ ___
 > ## Google Watching tv
 > ## Pixels smoke colorful background 任意 footage
 ___
-# 去背
+# Ps 去背
 > ## 選取 > 主體 > 反轉
 > ## 另存psd 
 ___
-# 使用資料
+# 無 Ps 去背 
+> ## 在ps內去背
+> ### 效果 Efect Controls > 不透明(Opacity)內的 > 筆 (Free draw bezier)
+___
+# 使用資料 
 `https://www.pexels.com/search/videos/shine/`
