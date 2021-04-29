@@ -2,6 +2,7 @@
 > ## Adobe id Credentials
 > ### `User：apple`
 > ### `パスワード：apple`
+> ## MAC 截圖 `Shift、Command 和4`
 ___
 # Adobe 語言切換
 > ## Windows：`Ctrl+F12`
