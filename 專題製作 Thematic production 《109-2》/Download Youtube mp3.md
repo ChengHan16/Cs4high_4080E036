@@ -1,3 +1,18 @@
+# Test1 `mp4 to mp3 `
+```python
+from moviepy.editor import *
+
+mp4_file = "video.mp4" # " " <--內放影片檔名
+mp3_file = "audio.mp3"
+
+videoClip = VideoFileClip(mp4_file)
+audioclip = videoClip.audio
+audioclip.write_audiofile(mp3_file)
+
+audioclip.close()
+videoClip.close()
+```
+# Test2 `moviepy.editor`
 ```python
 from pytube import YouTube
 
@@ -15,6 +30,44 @@ yt = YouTube(url, on_progress_callback=progress)
 video = yt.streams.first()
 video.download()
 ```
+# Test3 
+```python
+import os
+import subprocess
+
+from pytube import Playlist, YouTube
+
+def run(pl):
+    filepath = input("C:\\Users\\harry\\OneDrive\\桌面\\-#Program-\\Python\\Mp3 Download")
+    # get linked list of links in the playlist
+    links = pl.parse_links()
+    # download each item in the list
+    for l in links:
+        # converts the link to a YouTube object
+        yt = YouTube(l)
+        # takes first stream; since ffmpeg will convert to mp3 anyway
+        music = yt.streams.first()
+        # gets the filename of the first audio stream
+        default_filename = music.default_filename
+        print("Downloading " + default_filename + "...")
+        # downloads first audio stream
+        music.download()
+        # creates mp3 filename for downloaded file
+        new_filename = default_filename[0:-3] + "mp3"
+        print("Converting to mp3....")
+        # converts mp4 audio to mp3 audio
+        subprocess.run(['ffmpeg', '-i', 
+            os.path.join(filepath, default_filename),
+            os.path.join(filepath, new_filename)
+        ])
+    
+    print("Download finished.")
+
+if __name__ == "__main__":
+    url = input("https://www.youtube.com/watch?v=L_YwM7Zc5aU&list=PL0iQbgfCDqD5eUX5MaklD9JGxAM74skiv")
+    pl = url
+    run(pl)
+````
 ___
 # 參考資料
 ## yt-playlist-download
