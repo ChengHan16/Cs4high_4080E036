@@ -74,6 +74,7 @@ ___
 > `https://github.com/modkhi/yt-playlist/blob/master/yt-playlist-download.py`
 ## youtube-mp3-downloader 1.4
 > `https://pypi.org/project/youtube-mp3-downloader/`
+___
 # Error
 ## RegexMatchError: get_ytplayer_config: could not find match for config_patterns
 > `http://www.e-happy.com.tw/indexforum.asp?bid=18822`
@@ -83,12 +84,14 @@ ___
 > `http://www.e-happy.com.tw/indexforum.asp?bid=17370`
 ## SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
 > `http://jasonyychiu.blogspot.com/2019/10/python-syntaxerror-unicode-error.html`
+___
 # ノート
 > `conda create --name mp3Dload python=3.8` <br>
 > `pip install pytube3` <br>
 > `pip install moviepy` <br>
 > `conda activate mp3Dload` <br>
 > `pip install pytube==10.0.0`
+___
 # 其他待整理
 ## python批量讀取資料夾檔案、修改檔案
 > `https://ithelp.ithome.com.tw/articles/10229795`
