@@ -4,3 +4,4 @@
 > `pip install pytube3` <br>
 > `pip install moviepy` <br>
 > `conda activate mp3Dload` <br>
+> `pip install pytube==10.0.0`
