@@ -208,6 +208,11 @@ body {
 ![websitework1](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/websitework1.PNG)
 ![websitework2](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/image/websitework2.PNG)
 ___
+# 參考資料
+## Python Flask Tutorial: Full-Featured Web App Part 2 - Templates
+> `https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=RDCMUCCezIgC97PvUuR4_gbFUs5g`
+
+
 # ノート
 #### `conda create --name websitework1 python=3.8`
 #### `conda activate websitework1`
