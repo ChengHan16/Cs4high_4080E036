@@ -70,10 +70,20 @@ if __name__ == "__main__":
 ````
 ___
 # 參考資料
+## Python Convert Mp4 to Mp3 File Using MoviePy Library Full Project For Beginners
+> `https://www.youtube.com/watch?v=u5x5RZNtOqE`
 ## yt-playlist-download
 > `https://github.com/modkhi/yt-playlist/blob/master/yt-playlist-download.py`
 ## youtube-mp3-downloader 1.4
 > `https://pypi.org/project/youtube-mp3-downloader/`
+## 使用 moviepy 轉換 MP4 成 MP3
+> `https://clay-atlas.com/blog/2019/11/08/python-chinese-packages-pytube-moviepy-download-youtube-convert/`
+## Python(1)--下載Youtube影片成MP3
+> `https://arbu00.blogspot.com/2017/11/python1-youtubemp3.html`<br>`https://github.com/Ashing00/ytpmp3/blob/master/ytbmp3.py`
+## Python爬蟲全網搜尋並下載音樂
+> `https://iter01.com/586013.html`
+## 抓YT音樂影片且轉成mp3 （Python）
+> `https://hackmd.io/@brad84622/Hk_71R7-v`
 ___
 # Error
 ## RegexMatchError: get_ytplayer_config: could not find match for config_patterns
