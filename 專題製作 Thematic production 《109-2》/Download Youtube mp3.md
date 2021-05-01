@@ -21,6 +21,8 @@ ___
 > `http://www.e-happy.com.tw/indexforum.asp?bid=18822`
 ## errors. Mostly "TypeError: show_progress_bar() missing 1 required positional argument: 'bytes_remaining'".
 > `https://stackoverflow.com/questions/62360943/pytube-how-to-add-a-progress-bar`
+## AttributeError: 'NoneType' object has no attribute 'download'
+> `http://www.e-happy.com.tw/indexforum.asp?bid=17370`
 # ノート
 > `conda create --name mp3Dload python=3.8` <br>
 > `pip install pytube3` <br>
