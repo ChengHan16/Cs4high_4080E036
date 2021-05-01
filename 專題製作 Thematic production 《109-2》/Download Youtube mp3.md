@@ -39,6 +39,6 @@ ___
 # 其他待整理
 ## python批量讀取資料夾檔案、修改檔案
 > `https://ithelp.ithome.com.tw/articles/10229795`
-##【python內建模組- os/shutil】用python大量處理電腦上的檔案
+## 【python內建模組- os/shutil】用python大量處理電腦上的檔案
 > `https://ithelp.ithome.com.tw/articles/10229950`
 
