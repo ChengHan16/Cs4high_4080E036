@@ -15,6 +15,11 @@ yt = YouTube(url, on_progress_callback=progress)
 video = yt.streams.first()
 video.download()
 ```
+___
+# Error
+## RegexMatchError: get_ytplayer_config: could not find match for config_patterns
+> `http://www.e-happy.com.tw/indexforum.asp?bid=18822`
+
 # ノート
 > `conda create --name mp3Dload python=3.8` <br>
 > `pip install pytube3` <br>
