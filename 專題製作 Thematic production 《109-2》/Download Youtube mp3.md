@@ -107,4 +107,6 @@ ___
 > `https://ithelp.ithome.com.tw/articles/10229795`
 ## 【python內建模組- os/shutil】用python大量處理電腦上的檔案
 > `https://ithelp.ithome.com.tw/articles/10229950`
-
+## I made a YouTube video/playlist to MP3 converter with the ability to suggest and edit MP3 annotations
+> `https://www.reddit.com/r/Python/comments/gdzqwf/i_made_a_youtube_videoplaylist_to_mp3_converter/`
+> `https://github.com/irahorecka/YouTube2Audio`
