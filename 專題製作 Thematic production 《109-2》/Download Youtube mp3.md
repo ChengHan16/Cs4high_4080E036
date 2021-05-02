@@ -102,6 +102,11 @@ ___
 > `conda activate mp3Dload` <br>
 > `pip install pytube==10.0.0`
 ___
+> `https://stackoverflow.com/questions/54710982/using-pytube-to-download-playlist-from-youtube`
+> `https://www.reddit.com/r/Python/comments/gdzqwf/i_made_a_youtube_videoplaylist_to_mp3_converter/`
+> `https://github.com/irahorecka/YouTube2Audio`
+> `https://medium.com/@chihsuan/pipenv-%E6%9B%B4%E7%B0%A1%E5%96%AE-%E6%9B%B4%E5%BF%AB%E9%80%9F%E7%9A%84-python-%E5%A5%97%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7-135a47e504f4`
+___
 # 其他待整理
 ## python批量讀取資料夾檔案、修改檔案
 > `https://ithelp.ithome.com.tw/articles/10229795`
