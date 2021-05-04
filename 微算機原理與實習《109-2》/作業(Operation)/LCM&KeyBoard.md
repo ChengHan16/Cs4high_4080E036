@@ -55,3 +55,5 @@ void loop(){
   }
 }
 ```
+# 參考資料
+> `http://lihan.shinyo.bixone.com/Arduino/arduino-2015.11.05-2.html`
