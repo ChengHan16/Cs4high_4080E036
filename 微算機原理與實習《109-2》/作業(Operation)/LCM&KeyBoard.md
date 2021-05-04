@@ -27,30 +27,30 @@ void loop(){
   buttonState4 =  digitalRead(BT4);
   if(buttonState1 == LOW){
     lcd.clear();
-    lcd.print("BT1");
-    lcd.setCursor(0,1);
     lcd.print("4080E036");
+    lcd.setCursor(0,1);
+    lcd.print("BT1");
       delay(delay_number);
   } 
   else if (buttonState2 == LOW){
     lcd.clear();
-    lcd.print("BT2");
-    lcd.setCursor(0,1);
     lcd.print("4080E036");
+    lcd.setCursor(0,1);
+    lcd.print("BT2");
       delay(delay_number);
   }
   else if (buttonState3 == LOW){
     lcd.clear();
-    lcd.print("BT3");
-    lcd.setCursor(0,1);
     lcd.print("4080E036");
+    lcd.setCursor(0,1);
+    lcd.print("BT3");
       delay(delay_number);
   }
   else if (buttonState4 == LOW){
     lcd.clear();
-    lcd.print("BT4");
-    lcd.setCursor(0,1);
     lcd.print("4080E036");
+    lcd.setCursor(0,1);
+    lcd.print("BT4");
       delay(delay_number);
   }
 }
