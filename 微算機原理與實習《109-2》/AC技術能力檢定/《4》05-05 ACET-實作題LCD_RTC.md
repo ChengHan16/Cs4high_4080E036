@@ -139,3 +139,5 @@ void alarm()
      RTC.clearalarmst();  
 }
 ```
+# ノート
+### C:\Users\I5302\AppData\Roaming\Arduino15\packages\Corvette\hardware\Corvette-F1-N25\1.6.5\cores\arduino\wiring_shift.c<br>43 行 void shiftOut
