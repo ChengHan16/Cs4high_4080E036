@@ -95,7 +95,7 @@ ___
 ## SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
 > `http://jasonyychiu.blogspot.com/2019/10/python-syntaxerror-unicode-error.html`
 # Error: get_ytplayer_config: could not find match for config_patterns #614
-> `https://github.com/pytube/pytube/issues/614`
+> `https://github.com/pytube/pytube/issues/614` <br>
 > code：`pip install git+https://github.com/nficano/pytube`
 ___
 # ノート
