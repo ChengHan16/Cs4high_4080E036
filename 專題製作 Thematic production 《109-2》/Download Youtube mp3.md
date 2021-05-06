@@ -140,6 +140,7 @@ ___
 ___
 # キーワード
 > `python get folder files`
+> `fnmatch`
 ---
 # 其他待整理
 ## Python 列出目錄中所有檔案教學：os.listdir 與 os.walk
