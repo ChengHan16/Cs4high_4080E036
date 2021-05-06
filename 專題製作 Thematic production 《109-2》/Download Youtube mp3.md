@@ -96,7 +96,7 @@ ___
 > `http://jasonyychiu.blogspot.com/2019/10/python-syntaxerror-unicode-error.html`
 # Error: get_ytplayer_config: could not find match for config_patterns #614
 > `https://github.com/pytube/pytube/issues/614`
-> `pip3 install git+https://github.com/nficano/pytube`
+> code：`pip install git+https://github.com/nficano/pytube`
 ___
 # ノート
 > `conda create --name mp3Dload python=3.8` <br>
