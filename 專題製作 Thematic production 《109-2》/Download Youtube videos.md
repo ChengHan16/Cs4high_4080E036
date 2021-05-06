@@ -568,6 +568,8 @@ ___
 >> ### `https://www.youtube.com/watch?v=ac3UPgpJvcU`
 >> ### `https://www.youtube.com/watch?v=FeAIz_BxNjE`
 >> ### `https://www.youtube.com/watch?v=sOMxTIh49gw`
+>> # 字幕下載
+>> ### `https://toolbxs.com/zh-TW/downloader/youtube_subtitle/search?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dhc0ZDaAZQT0`
 > # Python 爬蟲細節整理
 >> ### `https://ithelp.ithome.com.tw/articles/10246382`
 > # Search Results for: YouTube影片下載
