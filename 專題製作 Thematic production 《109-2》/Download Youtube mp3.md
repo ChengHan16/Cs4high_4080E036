@@ -94,19 +94,6 @@ for fullpath in dirs :
 
         audioclip.close()
         videoClip.close()
-
-
-'''  
-mp4_file = "新冠病毒全球疫情｜更新時間 20210503 1700.mp4" # " " <--內放影片檔名
-mp3_file = "audio.mp3"
-
-videoClip = VideoFileClip(mp4_file)
-audioclip = videoClip.audio
-audioclip.write_audiofile(mp3_file)
-
-audioclip.close()
-videoClip.close()
-'''
 ```
 
 ___
