@@ -9,4 +9,4 @@ ___
 
 ---
 # 0506
-## 調色 Windows --> Workspqces --> color <br>  波形類別(Waveform type) --> 亮度(Luma (轉黑白 <br> 矢量示波器YUV (色盤
+## 調色 `Windows` --> `Workspqces` --> `color` <br>  `波形類別(Waveform type)` --> `亮度(Luma` (轉黑白 <br> `矢量示波器YUV` (色盤
