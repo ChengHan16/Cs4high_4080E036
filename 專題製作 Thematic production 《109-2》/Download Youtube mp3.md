@@ -94,6 +94,9 @@ ___
 > `http://www.e-happy.com.tw/indexforum.asp?bid=17370`
 ## SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
 > `http://jasonyychiu.blogspot.com/2019/10/python-syntaxerror-unicode-error.html`
+# Error: get_ytplayer_config: could not find match for config_patterns #614
+> `https://github.com/pytube/pytube/issues/614`
+> `pip3 install git+https://github.com/nficano/pytube`
 ___
 # ノート
 > `conda create --name mp3Dload python=3.8` <br>
