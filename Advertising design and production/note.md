@@ -6,3 +6,7 @@
 ## 點擊第六項工具 >> 按住不放（選取矩行
 ___
 ## 邊角縮進特效（畫面縮進 <br><br> `Transition >> Linear Wipe`<br><br> 調整（Transition Completion 及 角度（Wipe Angle(Ex.125
+
+---
+# 0506
+## 調色 Windows --> Workspqces --> color <br>  波形類別(Waveform type) --> 亮度(Luma (轉黑白 <br> 矢量示波器YUV (色盤
