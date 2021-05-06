@@ -32,3 +32,13 @@ Tomp3.py
 > `https://www.runoob.com/python/os-listdir.html`
 ### Python 列出目錄中所有檔案教學：os.listdir 與 os.walk
 > `https://blog.gtwang.org/programming/python-list-all-files-in-directory/`
+# ノート
+## 如果目录下有中文目录，打印时遇到乱码解决方法：
+```
+cPath = os.getcwd()
+
+# 如果目录名字为中文 需要转码处理
+uPath = unicode(cPath,'utf-8')
+for fileName in os.listdir(uPath) :
+    print fileName
+```
