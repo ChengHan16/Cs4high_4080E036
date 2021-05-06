@@ -34,7 +34,7 @@ Tomp3.py
 > `https://blog.gtwang.org/programming/python-list-all-files-in-directory/`
 # ノート
 ## 如果目录下有中文目录，打印时遇到乱码解决方法：
-```
+```python
 cPath = os.getcwd()
 
 # 如果目录名字为中文 需要转码处理
