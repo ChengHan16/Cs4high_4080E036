@@ -123,3 +123,40 @@ ___
 ## I made a YouTube video/playlist to MP3 converter with the ability to suggest and edit MP3 annotations
 > `https://www.reddit.com/r/Python/comments/gdzqwf/i_made_a_youtube_videoplaylist_to_mp3_converter/`
 > `https://github.com/irahorecka/YouTube2Audio`
+# ノート
+```python
+from moviepy.editor import *
+import fnmatch
+from os import listdir
+from os.path import isfile
+import os, sys
+
+path = "/4080E000/MyFlask2021/mp3Dload"
+dirs = os.listdir( path )
+
+for fullpath in dirs:
+    if isfile(fullpath) and fnmatch.filter(fullpath,"?.mp4"):
+        print(fullpath)
+        
+        mp4_file = fullpath
+        mp3_file = "audio.mp3"
+
+        videoClip = VideoFileClip(mp4_file)
+        audioclip = videoClip.audio
+        audioclip.write_audiofile(mp3_file)
+
+        audioclip.close()
+        videoClip.close()
+
+
+'''  
+mp4_file = "新冠病毒全球疫情｜更新時間 20210503 1700.mp4" # " " <--內放影片檔名
+mp3_file = "audio.mp3"
+
+videoClip = VideoFileClip(mp4_file)
+audioclip = videoClip.audio
+audioclip.write_audiofile(mp3_file)
+
+audioclip.close()
+videoClip.close()
+```
