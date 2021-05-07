@@ -168,7 +168,7 @@
 </body>
 </html>
 ```
-## `ksu_midterm3.php`
+### `ksu_midterm3.php`
 ```php
 <?php
  $db_host = "localhost";
