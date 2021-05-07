@@ -41,28 +41,112 @@ void loop(){
     lcd.clear();
     lcd.print("4080E036");
     lcd.setCursor(0,1);
-    lcd.print("BT1");
+    lcd.print("SW1");
       delay(delay_number);
   } 
+  else if (buttonState1 == LOW){
+    lcd.clear();
+    lcd.print("4080E036");
+    lcd.setCursor(0,2);
+    lcd.print("SW2");
+      delay(delay_number);
+  }
+  else if (buttonState1 == LOW){
+    lcd.clear();
+    lcd.print("4080E036");
+    lcd.setCursor(0,3);
+    lcd.print("SW3");
+      delay(delay_number);
+  }
+  else if (buttonState1 == LOW){
+    lcd.clear();
+    lcd.print("4080E036");
+    lcd.setCursor(0,4);
+    lcd.print("SW_10");
+      delay(delay_number);
+  }
   else if (buttonState2 == LOW){
     lcd.clear();
     lcd.print("4080E036");
     lcd.setCursor(0,1);
-    lcd.print("BT2");
+    lcd.print("SW4");
+      delay(delay_number);
+  }
+  else if (buttonState2 == LOW){
+    lcd.clear();
+    lcd.print("4080E036");
+    lcd.setCursor(0,2);
+    lcd.print("SW5");
+      delay(delay_number);
+  }
+  else if (buttonState2 == LOW){
+    lcd.clear();
+    lcd.print("4080E036");
+    lcd.setCursor(0,3);
+    lcd.print("SW6");
+      delay(delay_number);
+  }
+  else if (buttonState2 == LOW){
+    lcd.clear();
+    lcd.print("4080E036");
+    lcd.setCursor(0,4);
+    lcd.print("SW_11");
       delay(delay_number);
   }
   else if (buttonState3 == LOW){
     lcd.clear();
     lcd.print("4080E036");
     lcd.setCursor(0,1);
-    lcd.print("BT3");
+    lcd.print("SW7");
+      delay(delay_number);
+  }
+  else if (buttonState3 == LOW){
+    lcd.clear();
+    lcd.print("4080E036");
+    lcd.setCursor(0,2);
+    lcd.print("SW8");
+      delay(delay_number);
+  }
+  else if (buttonState3 == LOW){
+    lcd.clear();
+    lcd.print("4080E036");
+    lcd.setCursor(0,3);
+    lcd.print("SW9");
+      delay(delay_number);
+  }
+  else if (buttonState3 == LOW){
+    lcd.clear();
+    lcd.print("4080E036");
+    lcd.setCursor(0,4);
+    lcd.print("SW_12");
       delay(delay_number);
   }
   else if (buttonState4 == LOW){
     lcd.clear();
     lcd.print("4080E036");
     lcd.setCursor(0,1);
-    lcd.print("BT4");
+    lcd.print("SW16");
+      delay(delay_number);
+  }
+  else if (buttonState4 == LOW){
+    lcd.clear();
+    lcd.print("4080E036");
+    lcd.setCursor(0,2);
+    lcd.print("SW_0");
+      delay(delay_number);
+  }
+  else if (buttonState4 == LOW){
+    lcd.clear();
+    lcd.print("4080E036");
+    lcd.setCursor(0,3);
+    lcd.print("SW_17");
+      delay(delay_number);
+  }
+  else if (buttonState4 == LOW){
+    lcd.clear();
+    lcd.print("4080E036");
+    lcd.setCursor(0,4);
+    lcd.print("SW_13");
       delay(delay_number);
   }
 }
