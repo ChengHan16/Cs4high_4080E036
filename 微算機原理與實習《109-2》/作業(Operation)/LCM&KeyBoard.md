@@ -310,6 +310,11 @@ bool keyscan( )
   return(false);
 }
 ```
+# Results(執行結果)
+![IMG_8448](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E5%BE%AE%E7%AE%97%E6%A9%9F%E5%8E%9F%E7%90%86%E8%88%87%E5%AF%A6%E7%BF%92%E3%80%8A109-2%E3%80%8B/File/Image/IMG_8448.JPG)
+![IMG_8449](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E5%BE%AE%E7%AE%97%E6%A9%9F%E5%8E%9F%E7%90%86%E8%88%87%E5%AF%A6%E7%BF%92%E3%80%8A109-2%E3%80%8B/File/Image/IMG_8449.JPG)
+![IMG_8450](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E5%BE%AE%E7%AE%97%E6%A9%9F%E5%8E%9F%E7%90%86%E8%88%87%E5%AF%A6%E7%BF%92%E3%80%8A109-2%E3%80%8B/File/Image/IMG_8450.JPG)
+![IMG_8451](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E5%BE%AE%E7%AE%97%E6%A9%9F%E5%8E%9F%E7%90%86%E8%88%87%E5%AF%A6%E7%BF%92%E3%80%8A109-2%E3%80%8B/File/Image/IMG_8451.JPG)
 # 參考資料
 > `http://lihan.shinyo.bixone.com/Arduino/arduino-2015.11.05-2.html`
 # ノート
