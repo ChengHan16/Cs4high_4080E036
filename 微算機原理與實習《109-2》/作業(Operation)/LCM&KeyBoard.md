@@ -226,6 +226,9 @@ bool keyscan( )
   return(false);
 }
 ```
+# 參考資料
+> `http://lihan.shinyo.bixone.com/Arduino/arduino-2015.11.05-2.html`
+# ノート
 # 2
 ```C
 #define LATCH_DIO D15 //使移位暫存器的內容輸出到輸出腳位
@@ -755,5 +758,3 @@ bool keyscan( )
     digitalWrite(colPins[c], HIGH);}}
   return(false);}//回傳false，結束keyscan( )
 ```
-# 參考資料
-> `http://lihan.shinyo.bixone.com/Arduino/arduino-2015.11.05-2.html`
