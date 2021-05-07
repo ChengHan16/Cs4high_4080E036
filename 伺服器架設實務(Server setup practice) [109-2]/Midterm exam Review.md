@@ -1,5 +1,6 @@
 # ● 2021-05-07
-## ● 1 <br><br> `ksu_midterm1.html`
+## ● 1 
+### `ksu_midterm1.html`
 ```html
 <!doctype html>
 <html>
@@ -19,7 +20,7 @@
 </body>
 </html>
 ```
-## `ksu_midterm1.php`
+### `ksu_midterm1.php`
 ```php
 <?php
  $db_host = "localhost";
@@ -68,7 +69,8 @@
 <input type="submit" name="sub" value="返回"/>
 </form>
 ```
-## ● 2 <br><br> `ksu_midterm2.html`
+## ● 2 
+### `ksu_midterm2.html`
 ```html
 <!doctype html>
 <html>
@@ -89,7 +91,7 @@
 </body>
 </html>
 ```
-## `ksu_midterm2.php`
+### `ksu_midterm2.php`
 ```php
 <?php
  $db_host = "localhost";
@@ -143,7 +145,8 @@
 <input type="submit" name="sub" value="返回"/>
 </form>
 ```
-## ● 3 <br><br> `ksu_midterm3.html`
+## ● 3 
+### `ksu_midterm3.html`
 ```html
 <!doctype html>
 <html>
