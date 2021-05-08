@@ -5,6 +5,7 @@
 > ### `pip install flask_wtf` <br>
 > ### `pip install email_validator`
 ---
+# ● CODE
 ## ● `app.py`
 ```python
 from flask import Flask, render_template, url_for, flash , redirect
@@ -396,7 +397,7 @@ body {
   </div>
 {% endblock content %}
 ```
-# Results(執行結果)
+# ● Results(執行結果)
 ![WebHomework(1)](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E4%BC%BA%E6%9C%8D%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E3%80%8A109-2%E3%80%8B/file/Homework%202/Image/WebHomework(1).PNG)
 ![WebHomework(2)](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E4%BC%BA%E6%9C%8D%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E3%80%8A109-2%E3%80%8B/file/Homework%202/Image/WebHomework(2).PNG)
 ![WebHomework(3)](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E4%BC%BA%E6%9C%8D%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E3%80%8A109-2%E3%80%8B/file/Homework%202/Image/WebHomework(3).PNG)
