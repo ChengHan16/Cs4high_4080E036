@@ -15,7 +15,11 @@
 ```
 
 ```
-
+# ✰ 執行步驟：
+> ### `set FLASK_APP=app.py`
+> ### `flask run`
+> ### 重新使用時 `ctrl + C`
+> ### 瀏覽器 `ctrl + shift + R `
 ---
 # 參考資料
 ### Python Flask Tutorial: Full-Featured Web App Part 2 - Templates
