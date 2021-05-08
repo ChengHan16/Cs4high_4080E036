@@ -24,7 +24,7 @@
 > ### 瀏覽器 `ctrl + shift + R `
 ---
 # Error
-### Method Not Allowed The method is not allowed for the requested URL
+### Method Not Allowed The method is not allowed for the requested URL (參考資料 23:25
 > `https://stackoverflow.com/questions/39289746/method-not-allowed-the-method-is-not-allowed-for-the-requested-url`
 > `https://stackoverflow.com/questions/20689195/flask-error-method-not-allowed-the-method-is-not-allowed-for-the-requested-url/20689328`
 ---
