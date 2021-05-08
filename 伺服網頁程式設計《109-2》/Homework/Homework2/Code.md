@@ -23,6 +23,11 @@
 > ### 重新使用時 `ctrl + C`
 > ### 瀏覽器 `ctrl + shift + R `
 ---
+# Error
+### Method Not Allowed The method is not allowed for the requested URL
+> `https://stackoverflow.com/questions/39289746/method-not-allowed-the-method-is-not-allowed-for-the-requested-url`
+> `https://stackoverflow.com/questions/20689195/flask-error-method-not-allowed-the-method-is-not-allowed-for-the-requested-url/20689328`
+---
 # 參考資料
 ### Python Flask Tutorial: Full-Featured Web App Part 2 - Templates
 > `https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=RDCMUCCezIgC97PvUuR4_gbFUs5g`
