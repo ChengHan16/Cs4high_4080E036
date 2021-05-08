@@ -2,7 +2,8 @@
 
 > `conda create --name websitework1 python=3.8` <br>
 > `conda activate websitework1`
-
+> `pip install flask_wtf`
+> `pip install email_validator`
 ---
 ## ● `app.py`
 ---
