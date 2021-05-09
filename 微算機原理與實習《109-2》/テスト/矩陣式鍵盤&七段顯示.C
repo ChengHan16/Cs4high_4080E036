@@ -28,7 +28,7 @@ void setup() {
 
 void loop() {
   static int keypressedcount=0;
-  byte keyindex=0; //被按下的按鍵在陣列中的位置
+  byte keyindex=0;
   if(keyscan()==true) 
   {
     keyindex=(Row-1)*4+Col-1;
