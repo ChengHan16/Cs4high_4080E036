@@ -422,5 +422,7 @@ body {
 > `https://stackoverflow.com/questions/20689195/flask-error-method-not-allowed-the-method-is-not-allowed-for-the-requested-url/20689328`
 ---
 # 參考資料
+### Python Flask Tutorial: Full-Featured Web App Part 3 - Forms and User Input
+> `https://www.youtube.com/watch?v=UIJKdCIEXUQ&list=RDCMUCCezIgC97PvUuR4_gbFUs5g&index=1`
 ### Python Flask Tutorial: Full-Featured Web App Part 2 - Templates
 > `https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=RDCMUCCezIgC97PvUuR4_gbFUs5g`
