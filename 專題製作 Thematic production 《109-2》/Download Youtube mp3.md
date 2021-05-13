@@ -95,7 +95,37 @@ for fullpath in dirs :
         audioclip.close()
         videoClip.close()
 ```
+# 整合 
+```python
+from moviepy.editor import *
+import fnmatch
+from os import listdir
+from os.path import isfile
+import os, sys
 
+from pytube import YouTube
+yt = YouTube('https://www.youtube.com/watch?v=-CCEvgr-69s')
+yt.streams.first().download()
+
+path = "/4080E000/MyFlask2021/mp3Dload"
+dirs = os.listdir( path )
+
+for fullpath in dirs :
+    if isfile(fullpath) and fnmatch.fnmatch(fullpath,"*.mp4"):
+        #print(fullpath)
+        
+        mp4_file = fullpath
+        mp3_file = fullpath.split(".")[0] + '.mp3'
+
+        print(mp3_file)
+
+        videoClip = VideoFileClip(mp4_file)
+        audioclip = videoClip.audio
+        audioclip.write_audiofile(mp3_file)
+
+        audioclip.close()
+        videoClip.close()
+```
 ___
 # 參考資料
 ## Python Convert Mp4 to Mp3 File Using MoviePy Library Full Project For Beginners
