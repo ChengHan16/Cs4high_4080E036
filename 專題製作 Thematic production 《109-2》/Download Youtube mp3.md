@@ -183,6 +183,9 @@ ___
 ## I made a YouTube video/playlist to MP3 converter with the ability to suggest and edit MP3 annotations
 > `https://www.reddit.com/r/Python/comments/gdzqwf/i_made_a_youtube_videoplaylist_to_mp3_converter/`
 > `https://github.com/irahorecka/YouTube2Audio`
+## Download a whole YouTube Playlist at one go
+> `https://dev.to/spectrumcetb/download-a-whole-youtube-playlist-at-one-go-3331`
+
 # ノート
 ```python
 from moviepy.editor import *
