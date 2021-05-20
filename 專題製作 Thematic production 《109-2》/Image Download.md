@@ -82,6 +82,17 @@ if not os.path.isdir(saveDir):
 url = "https://www.jkforum.net/thread-13478848-1-1.html"
 urlretrieve(url,'Congestus_con.jpg')
 ```
+# @
+> `https://stackoverflow.com/questions/59066595/urllib-error-httperror-http-error-404-not-found-for-a-link-that-i-can-open-in`
+```python
+import urllib.request
+
+with open("img.jpg", 'wb') as image:
+    Iurl = 'https://i7y3a6q5.stackpathcdn.com/media/14490/%E0%A4%95-%E0%A4%B8-%E0%A4%A8.jpg?width=350&mode=max&animationprocessmode=first'
+    img = urllib.request.urlopen(Iurl)
+    print(f"Fetching url {Iurl}, HTTP Response Code: {img.msg}({img.status})")
+    image.write(img.read())
+```
 # 質問
 ## Error：AttributeError: module 'urllib' has no attribute 'urlretrieve'
 > ### `https://oxygentw.net/blog/computer/urlretrieve-python3/`
