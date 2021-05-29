@@ -1,5 +1,5 @@
 ## 虛擬環境設定
-> conda create --name myflask01 python=3.8
+> conda create --name myflask01 python=3.8 <br>
 > conda activate myflask1
 
 
