@@ -5,3 +5,4 @@
 
 ## 安裝套件
 > pip install flask
+> pip install flask-sqlalchemy
