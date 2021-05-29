@@ -1,6 +1,6 @@
 ## 虛擬環境設定
 > 建立：conda create --name myflask01 python=3.8 <br>
-> 啟動：conda activate myflask1
+> 啟動：conda activate myflask1 <br>
 > 關閉：conda deactivate
 
 ## 安裝套件
