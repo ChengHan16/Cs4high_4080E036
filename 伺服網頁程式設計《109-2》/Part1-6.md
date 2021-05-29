@@ -4,5 +4,8 @@
 > 關閉：conda deactivate
 
 ## 安裝套件
-> pip install flask
-> pip install flask-sqlalchemy
+> pip install flask <br>
+> pip install flask_wtf <br>
+> pip install email_validator <br>
+> pip install email_validator <br>
+> pip install flask-sqlalchemy <br>
