@@ -7,5 +7,4 @@
 > pip install flask <br>
 > pip install flask_wtf <br>
 > pip install email_validator <br>
-> pip install email_validator <br>
 > pip install flask-sqlalchemy <br>
