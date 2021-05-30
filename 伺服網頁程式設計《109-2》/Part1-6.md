@@ -7,8 +7,8 @@
 
 # 🔹 安裝套件
 > #### `(part1)`  pip install flask <br>
-> #### `(part*)`  pip install flask_wtf <br>
-> #### `(part*)`  pip install email_validator <br>
+> #### `(part3)`  pip install flask_wtf <br>
+> #### `(part3)`  pip install email_validator <br>
 > #### `(part4)`  pip install flask-sqlalchemy <br>
 > #### `(part6)`  pip install flask-bcrypt <br>
 > #### `(part6)`  pip install flask-login 
