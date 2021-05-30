@@ -18,6 +18,8 @@
 
 # ❌ Error
 ## ⚠ 發生錯誤訊息檢查對應教學影片 import & pip install 套件有無安裝匯入 <br><br> &emsp;&ensp; 套件都有安裝卻defind時以下操作： <br> &emsp;&ensp; `Ctrl`+`Shift`+`P` <br> &emsp;&ensp; 輸入Python: Select Interpreter <br> &emsp;&ensp; 點選 Python 3.8.10 64-bit('myflask01':conda) <br> &emsp;&ensp; そして Python 3.8.10 64-bit('base':conda) <br> &emsp;&ensp; 続けては Python 3.9.0 64-bit <br> &emsp;&ensp; 最後にまた　Python 3.8.10 64-bit('myflask01':conda)　に選んでください。
+
+## ⚠ from flaskblog import 有誤時確認 flaskblog 資料夾是否建立
 ### `- Error 1` <br> import flask could not be resolved from source pylance
 > https://stackoverflow.com/questions/65694813/import-flask-could-not-be-resolved-from-source-pylance
 ### `✔️- 已解決 Error 1` Flask Tutorial in Visual Studio Code 
