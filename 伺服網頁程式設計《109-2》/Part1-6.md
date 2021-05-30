@@ -6,12 +6,12 @@
 > 關閉：conda deactivate
 
 # 🔹 安裝套件
-> pip install flask &emsp; &emsp; &emsp; &emsp; &ensp; &ensp;`(part1)`<br>
-> pip install flask_wtf <br>
-> pip install email_validator <br>
-> pip install flask-sqlalchemy &ensp;&ensp;`(part4)` <br>
-> pip install flask-bcrypt &emsp; &emsp; &ensp;`(part6)` <br>
-> pip install flask-login &emsp; &emsp; &ensp;&ensp;`(part6)`
+> `(part1)`pip install flask <br>
+> `(part*)`pip install flask_wtf <br>
+> `(part*)`pip install email_validator <br>
+> `(part4)`pip install flask-sqlalchemy <br>
+> `(part6)`pip install flask-bcrypt <br>
+> `(part6)`pip install flask-login 
 
 ## ● part1
 ### [Url_py&html&css&sql]()
