@@ -13,3 +13,7 @@
 
 ## ● part1
 ### [Url_py&html&css&sql]()
+
+## Error
+### import flask could not be resolved from source pylance
+> https://stackoverflow.com/questions/65694813/import-flask-could-not-be-resolved-from-source-pylance
