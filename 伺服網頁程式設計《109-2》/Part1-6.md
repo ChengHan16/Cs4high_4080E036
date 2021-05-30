@@ -1,22 +1,24 @@
 
 
 # 🔹 虛擬環境設定
-> 建立：conda create --name myflask01 python=3.8 <br>
-> 啟動：conda activate myflask01 <br>
-> 關閉：conda deactivate
+> #### 建立：conda create --name myflask01 python=3.8 <br>
+> #### 啟動：conda activate myflask01 <br>
+> #### 關閉：conda deactivate
 
 # 🔹 安裝套件
-> `(part1)`pip install flask <br>
-> `(part*)`pip install flask_wtf <br>
-> `(part*)`pip install email_validator <br>
-> `(part4)`pip install flask-sqlalchemy <br>
-> `(part6)`pip install flask-bcrypt <br>
-> `(part6)`pip install flask-login 
+> #### `(part1)`  pip install flask <br>
+> #### `(part*)`  pip install flask_wtf <br>
+> #### `(part*)`  pip install email_validator <br>
+> #### `(part4)`  pip install flask-sqlalchemy <br>
+> #### `(part6)`  pip install flask-bcrypt <br>
+> #### `(part6)`  pip install flask-login 
 
 ## ● part1
 ### [Url_py&html&css&sql]()
 
 # ❌ Error
+### ⚠
+### 發生錯誤訊息檢查對應教學影片 import & pip install 套件有無安裝匯入
 ### `- Error 1` <br> import flask could not be resolved from source pylance
 > https://stackoverflow.com/questions/65694813/import-flask-could-not-be-resolved-from-source-pylance
 ### `✔️- 已解決 Error 1` Flask Tutorial in Visual Studio Code 
