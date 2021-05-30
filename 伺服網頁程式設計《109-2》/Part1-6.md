@@ -17,8 +17,7 @@
 ### [Url_py&html&css&sql]()
 
 # ❌ Error
-### ⚠
-### 發生錯誤訊息檢查對應教學影片 import & pip install 套件有無安裝匯入
+## ⚠ 發生錯誤訊息檢查對應教學影片 import & pip install 套件有無安裝匯入 <br>&emsp;&ensp; 套件都有安裝卻defind時以下操作：
 ### `- Error 1` <br> import flask could not be resolved from source pylance
 > https://stackoverflow.com/questions/65694813/import-flask-could-not-be-resolved-from-source-pylance
 ### `✔️- 已解決 Error 1` Flask Tutorial in Visual Studio Code 
