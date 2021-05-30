@@ -19,6 +19,8 @@
 > https://stackoverflow.com/questions/65694813/import-flask-could-not-be-resolved-from-source-pylance
 ### `✔️- 已解決 Error 1` Flask Tutorial in Visual Studio Code 
 > https://code.visualstudio.com/docs/python/tutorial-flask
+### 詳細操作
+### Open the project folder in VS Code by running code ., or by running VS Code and using the File > Open Folder command. <br> In VS Code, open the Command Palette (View > Command Palette or (Ctrl+Shift+P)). Then select the Python: Select Interpreter command:<br><br>通過運行code .或通過運行 VS Code 並使用文件>打開文件夾命令在 VS Code 中打開項目文件夾。<br>在 VS Code 中，打開命令面板（查看>命令面板或（Ctrl+Shift+P））。然後選擇Python: Select Interpreter命令：
 
 
 
