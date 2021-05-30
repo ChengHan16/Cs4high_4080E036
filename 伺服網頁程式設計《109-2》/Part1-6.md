@@ -29,6 +29,8 @@
 ### 通過運行code .或通過運行 VS Code 並使用文件>打開文件夾命令在 VS Code 中打開項目文件夾。<br>在 VS Code 中，打開命令面板（查看>命令面板或（Ctrl+Shift+P））。然後選擇Python: Select Interpreter命令：
 ---
 # 🔹 參考資料
+### Python Flask Tutorial: Full-Featured Web App Part 6 - User Authentication
+> https://www.youtube.com/watch?v=CSHx6eCkmv0&t=538s
 ### Python Flask Tutorial: Full-Featured Web App Part 7 - User Account and Profile Picture
 > https://www.youtube.com/watch?v=803Ei2Sq-Zs
 
