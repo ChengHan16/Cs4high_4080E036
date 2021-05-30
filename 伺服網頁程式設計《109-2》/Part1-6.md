@@ -11,7 +11,8 @@
 > #### `(part3)`  pip install email_validator <br>
 > #### `(part4)`  pip install flask-sqlalchemy <br>
 > #### `(part6)`  pip install flask-bcrypt <br>
-> #### `(part6)`  pip install flask-login 
+> #### `(part6)`  pip install flask-login <br>
+> #### `(part7)`  pip install Pillow 
 
 ## ● part1
 ### [Url_py&html&css&sql]()
