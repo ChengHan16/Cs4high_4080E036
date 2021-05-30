@@ -14,9 +14,11 @@
 ## ● part1
 ### [Url_py&html&css&sql]()
 
-# ● Error
-## Error 1
-### import flask could not be resolved from source pylance
+# ❌ Error
+### `- Error 1` <br> import flask could not be resolved from source pylance
 > https://stackoverflow.com/questions/65694813/import-flask-could-not-be-resolved-from-source-pylance
-### <font color=green>Flask Tutorial in Visual Studio Code</font>
+### `✔️- 已解決 Error 1` Flask Tutorial in Visual Studio Code 
 > https://code.visualstudio.com/docs/python/tutorial-flask
+
+
+
