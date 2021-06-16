@@ -12,19 +12,19 @@
 >> - ksu_update+inser1.html + ksu_update+inser1.php
 >> - ksu_ajax_db1.html + ksu_ajax_db1.php
 ---
-# ● Ex1
+# ● ksu_select7.html + ksu_select7.php
 ```php
 
 ```
-## ● Ex1 Results(執行結果)
+## ● ksu_select7.html + ksu_select7.php Results(執行結果)
 ![]()
 
 ---
 
-# ● Ex2
+# ● ksu_select71.html + ksu_select71.php
 ```php
 
 ```
-## ● Ex2 Results(執行結果)
+## ● ksu_select71.html + ksu_select71.php(執行結果)
 ![]()
 ---
