@@ -12,13 +12,7 @@
 >> - ksu_update+inser1.html + ksu_update+inser1.php
 >> - ksu_ajax_db1.html + ksu_ajax_db1.php
 ---
-# ● ksu_select7.html + ksu_select7.php
-```php
-
-```
-## ● ksu_select7.html + ksu_select7.php Results(執行結果)
-![]()
-
+# ● [ksu_select7.html + ksu_select7.php](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%9E%B6%E8%A8%AD%E5%AF%A6%E5%8B%99(Server%20setup%20practice)%20%5B109-2%5D/Final%20exam%20File/ksu_select7.html%20+%20ksu_select7.php.md)
 ---
 
 # ● ksu_select71.html + ksu_select71.php
