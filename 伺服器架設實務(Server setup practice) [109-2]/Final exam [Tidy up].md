@@ -16,6 +16,8 @@
 
 ## - [ksu_select71.html + ksu_select71.php](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%9E%B6%E8%A8%AD%E5%AF%A6%E5%8B%99(Server%20setup%20practice)%20%5B109-2%5D/Final%20exam%20File/ksu_select71.html%20%2B%20ksu_select71.php.md)
 
+## - [ex61-05.php](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%9E%B6%E8%A8%AD%E5%AF%A6%E5%8B%99(Server%20setup%20practice)%20%5B109-2%5D/Final%20exam%20File/ex61-05.php.md)
+
 ## - [ex61-06.php](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%9E%B6%E8%A8%AD%E5%AF%A6%E5%8B%99(Server%20setup%20practice)%20%5B109-2%5D/Final%20exam%20File/ex61-06.php.md)
 
 ## - [ex61-07.php](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%9E%B6%E8%A8%AD%E5%AF%A6%E5%8B%99(Server%20setup%20practice)%20%5B109-2%5D/Final%20exam%20File/ex61-07.php.md)
