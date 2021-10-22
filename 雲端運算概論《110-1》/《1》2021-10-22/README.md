@@ -8,3 +8,4 @@
 >> ### 檢查 pip 指令：cmd -> 輸入 pip 
 ---
 ## 安裝套件：
+pip3 install virtualenv (虛擬環境套件)
