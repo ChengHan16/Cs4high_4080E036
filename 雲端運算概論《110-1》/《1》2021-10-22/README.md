@@ -49,7 +49,7 @@ if __name__ == '__main__':
 ##  ⚠ Error
 > ### • flask 問題
 >> ### 需到延伸模組(Ctrl + Shift + X)下載 python 安裝
->>> ### 而後按下左下角 Python 3.9.6 64-bit ('') 的資訊，按 + Enter interpreter path... 選擇 D:\FLASK2021\4080E036\flask2021\Scripts 內的 Python
+>>> ### 而後按下左下角 Python 3.9.6 64-bit ('') 的資訊，按 + Enter interpreter path... <br> 選擇 D:\FLASK2021\4080E036\flask2021\Scripts 內的 Python
 ---
 ## VScode 切換語言
 > ### https://oranwind.org/vs-code-lang/
