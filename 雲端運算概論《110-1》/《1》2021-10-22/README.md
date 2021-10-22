@@ -34,7 +34,7 @@
 ---
 ##  • Start
  ```py
- from flask import Flask,reander_template,url_for,request
+ from flask import Flask, render_template, url_for, request
 
 app = Flask(__name__)
 
@@ -43,7 +43,7 @@ def home():
     return 'Hello World this a My App'
 
 if __name__ == '__main__':
-    app.run(debug=Ture)
+    app.run(debug=True)
  ```
 ---
 ##  ⚠ Error
