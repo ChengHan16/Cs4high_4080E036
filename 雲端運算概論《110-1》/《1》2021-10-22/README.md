@@ -33,6 +33,7 @@
 >>>> ### 就可以重回 VScode 輸入./4080E036\flask2021\Scripts\activate 開啟虛擬環境
 ---
 ##  • Start
+app.py
  ```py
 rom flask import Flask, render_template, url_for, request
 
