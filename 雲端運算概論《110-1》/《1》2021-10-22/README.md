@@ -9,3 +9,5 @@
 ---
 ## 安裝套件：
 > ### pip3 install virtualenv (虛擬環境套件)
+> ### pip install --upgrade pip (更新虛擬環境版本)
+> ### 切換到資料夾 d: -> cd FLASK2021 -> cd 4080E036 -> <br> .\flask2021\Script\activate (開啟虛擬環境) ->  deactivate (離開虛擬環境)
