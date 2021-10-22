@@ -34,16 +34,56 @@
 ---
 ##  • Start
  ```py
+rom flask import Flask, render_template, url_for, request
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return reander_template('home.html')
+
+if __name__ == '__main__':
+    app.run(debug=Ture)
+ ```
+ ```html
+<!DOETYPE html>
+<html>
+<head>
+	<title>Ml Flask App</title>
+</head>
+<body>
+	<h2>Spam detector For Youtube Comments</h2>
+</body>
+</html>
+ ```
+ • 8:00
+ ```py
  from flask import Flask, render_template, url_for, request
 
 app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'Hello World this a My App'
+    return render_template('home.html')
+
+@app.route('/predict')
+def predict():
+    return render_template('result.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
+ ```
+ result.html
+ ```html
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Results</title>
+</head>
+<body>
+	<h2>Results</h2>
+</body>
+</html>
  ```
 ---
 ##  ⚠ Error
