@@ -16,3 +16,5 @@
 >>>> ### -> 在要安裝虛擬環境的資料夾下打 virtualenv flask2021 
 > ### .\flask2021\Script\activate (開啟虛擬環境) 
 > ### deactivate (離開虛擬環境)
+## 新增資料夾 (在 D 槽)
+> ### project_flask_1022 (名稱)
