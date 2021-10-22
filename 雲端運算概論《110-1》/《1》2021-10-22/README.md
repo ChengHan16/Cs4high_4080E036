@@ -24,5 +24,5 @@
 >>> ### 解決 PowerShell 問題
 >>> ### http://limitedcode.blogspot.com/2016/03/powershell-ps1.html
 >>> ### 到檔案總管 輸入 PowerShell ISE 再輸入 get-executionpolicy (會看到Restricted
->>> ### 接著輸入 set-executionpolicy remotesigned 後按是，再輸入 set-executionpolicy -Scope CurrentUser remotesigned
->>> ###
+>>> ### 接著輸入 set-executionpolicy remotesigned 後按是，再輸入 set-executionpolicy -Scope CurrentUser remotesigned 後按是
+>>> ### 檢查 get-executionpolicy 會出現 RemoteSigned
