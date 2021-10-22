@@ -21,3 +21,5 @@
 ## 開啟 VScode 選擇 project_flask_1022 資料夾
 > ### 開啟終端機 cd ..
 >> ### ./4080E036\flask2021\Scripts\activate
+>>> ### 解決 PowerShell 問題
+>>> ### http://limitedcode.blogspot.com/2016/03/powershell-ps1.html
