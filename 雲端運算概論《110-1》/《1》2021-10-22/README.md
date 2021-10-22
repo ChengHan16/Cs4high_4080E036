@@ -45,6 +45,7 @@ def home():
 if __name__ == '__main__':
     app.run(debug=Ture)
  ```
+ home.html
  ```html
 <!DOETYPE html>
 <html>
@@ -57,6 +58,7 @@ if __name__ == '__main__':
 </html>
  ```
  • 8:00
+ app.py
  ```py
  from flask import Flask, render_template, url_for, request
 
