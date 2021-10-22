@@ -7,6 +7,10 @@
 > ### 安裝完成後測試：檔案總管 -> 上方輸入 cmd -> 檢查 python 有無安裝成功
 > ### 檢查 pip 指令：cmd -> 輸入 pip 
 ---
+## 所有套件：
+> ## pip3 install virtualenv
+> ## pip install Flask
+---
 ## 安裝套件：
 > ### pip3 install virtualenv (虛擬環境套件)
 > ### pip install --upgrade pip (更新虛擬環境版本)
