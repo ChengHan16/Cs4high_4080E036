@@ -8,8 +8,8 @@
 > ### 檢查 pip 指令：cmd -> 輸入 pip 
 ---
 ## 所有套件：
-> ## pip3 install virtualenv
-> ## pip install Flask
+> ### pip3 install virtualenv
+> ### pip install Flask
 ---
 ## 安裝套件：
 > ### pip3 install virtualenv (虛擬環境套件)
@@ -31,6 +31,20 @@
 >>> ### 接著輸入 set-executionpolicy remotesigned 後按是，再輸入 set-executionpolicy -Scope CurrentUser remotesigned 後按是
 >>> ### 檢查 get-executionpolicy 會出現 RemoteSigned
 >>>> ### 就可以重回 VScode 輸入./4080E036\flask2021\Scripts\activate 開啟虛擬環境
+---
+ • Start
+ ```py
+ from flask import Flask,reander_template,url_for,request
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return 'Hello World this a My App'
+
+if __name__ == '__main__':
+    app.run(debug=Ture)
+ ```
 ---
 ## VScode 切換語言
 > ### https://oranwind.org/vs-code-lang/
