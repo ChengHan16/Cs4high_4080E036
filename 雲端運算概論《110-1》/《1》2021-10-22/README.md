@@ -18,3 +18,6 @@
 > ### deactivate (離開虛擬環境)
 ## 新增資料夾 (在 D 槽)
 > ### project_flask_1022 (名稱)
+## 開啟 VScode 
+> ### 開啟終端機 cd ..
+>> ### ./4080E036\flask2021\Scripts\activate
