@@ -32,7 +32,7 @@
 >>> ### 檢查 get-executionpolicy 會出現 RemoteSigned
 >>>> ### 就可以重回 VScode 輸入./4080E036\flask2021\Scripts\activate 開啟虛擬環境
 ---
- • Start
+##  • Start
  ```py
  from flask import Flask,reander_template,url_for,request
 
