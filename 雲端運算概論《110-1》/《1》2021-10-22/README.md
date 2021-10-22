@@ -26,4 +26,7 @@
 >>> ### 到檔案總管 輸入 PowerShell ISE 再輸入 get-executionpolicy (會看到Restricted
 >>> ### 接著輸入 set-executionpolicy remotesigned 後按是，再輸入 set-executionpolicy -Scope CurrentUser remotesigned 後按是
 >>> ### 檢查 get-executionpolicy 會出現 RemoteSigned
->>>> ### 就可以重回 VXcode 輸入./4080E036\flask2021\Scripts\activate 開啟虛擬環境
+>>>> ### 就可以重回 VScode 輸入./4080E036\flask2021\Scripts\activate 開啟虛擬環境
+---
+## VScode 切換語言
+> ### https://oranwind.org/vs-code-lang/
