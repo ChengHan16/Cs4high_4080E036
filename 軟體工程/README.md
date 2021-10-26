@@ -1,1 +1,1 @@
- > http://mgiga.com.tw/TMS
+ > http://mgiga.com.tw/TMS2
