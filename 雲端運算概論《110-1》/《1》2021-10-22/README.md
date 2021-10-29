@@ -46,7 +46,7 @@ def home():
 if __name__ == '__main__':
     app.run(debug=Ture)
  ```
- home.html
+ ### home.html
  ```html
 <!DOETYPE html>
 <html>
