@@ -4,7 +4,11 @@
 ## 本次安裝套件：
 > ### pip3 install pandas
 ---------
-
+## ⚠ Error
+### ModuleNotFoundError: No module named 'pip'
+### > 首先执行  python -m ensurepip
+### >> 然后执行 python -m pip install --upgrade pip  即可更新完毕。
+### >>> url：https://blog.csdn.net/wwangfabei1989/article/details/80107147
 
 
 
