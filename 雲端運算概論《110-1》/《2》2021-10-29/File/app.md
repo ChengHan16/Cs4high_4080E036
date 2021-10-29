@@ -1,3 +1,4 @@
+```py
 from flask import Flask,render_template,url_for,request
 import pandas as pd 
 # pip3 install pandas
@@ -27,3 +28,4 @@ def predict():
 
 if __name__ == '__main__':
     app.run(debug=True)
+```
