@@ -3,6 +3,13 @@
 ---------
 ## 本次安裝套件：
 > ### pip3 install pandas
+> ### pip3 install scikit-learn
+---------
+## 所有套件：
+> ### pip3 install virtualenv
+> ### pip install Flask
+> ### pip3 install pandas
+> ### pip3 install scikit-learn
 ---------
 ## ⚠ Error
 ### ◆ ModuleNotFoundError: No module named 'pip'
