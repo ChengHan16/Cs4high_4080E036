@@ -89,6 +89,22 @@ if __name__ == '__main__':
 </html>
  ```
 ---
+## ◆ 環境設步驟
+> ### 1. 安裝Python 3.9.6 (記得勾選安裝的首頁最下面的 Add Python 3.9 to PATH)
+> ### 2. 安裝VSCode (網大有下載檔案) (安裝完成後先不要開啟)
+> ### 3. PowerShell設定   
+
+> ### 檔案總管 輸入 PowerShell ISE
+> ### set-executionpolicy -Scope CurrentUser remotesigned
+> ### 4. 開啟VSCode   
+
+> ### File ---> Open Folder(開啟專案資料夾) 選擇 D:\FLASK2021\project_flask_1022
+> ### Terminal --> New Terminal
+> ### 安裝虛擬環境軟體 輸入 pip3 install virtualenv
+> ### 建立虛擬環境 輸入 virtualenv venv_flask2021
+> ### 開啟虛擬環境 輸入 .\venv_flask2021\Scripts\activate
+> ### 在虛擬環境下安裝flask套件 輸入 pip3 install flask
+---
 ##  ⚠ Error
 > ### • flask 問題
 >> ### 需到延伸模組(Ctrl + Shift + X)下載 python 安裝
