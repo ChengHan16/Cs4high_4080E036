@@ -1,0 +1,55 @@
+2021-10-19 嵌入式系統與實習
+-----------------------
+
+Ecplicit rules 使用者自訂
+
+Pattern rules 萬用字元
+
+suffix 字尾規則
+
+-----------------------
+(makefile.c)
+
+CROSS_PATH = nds32le-elf-
+CC = $(CROSS_PATH)gcc
+LDFLAGS = -mvh -mcmodel=medium -mcpu=n801
+LDFLAGS += -lm -Tnds32.ld
+CFLAGS = -c -g -mcpu=n801
+SRCS = main.c sidelength.c area_cal.c
+OBJS += $(SRCS:.c=.o)
+
+RightTriangle.adx: $(OBJS)
+	$(CC) $(OBJS) -o RightTriangle.adx $(LDFLAGS)
+%.o:%.c
+	$(CC) $(CFLAGS) $< -o $@
+
+-----------------------
+ CROSS_PATH = /cygdrive/D/NDS_TOOL/nds32le-elf-mculib-v3m/bin/nds32le-elf-gcc
+-----------------------
+disassemble  /m 0x.30004,0x301b98 (叫出組合語言)(0x3001fe
+disassemble  /Loading setion.txt  ,Loading setion.rodata
+-----------------------
+CROSS_PATH = nds32le-elf-
+CC = $(CROSS_PATH)gcc
+LDFLAGS = -mvh -mcmodel=medium -mcpu=n801
+LDFLAGS += -lm -Tnds32.ld
+CFLAGS = -c -g -mcpu=n801
+SRCS = main.c sidelength.c area_cal.c
+OBJS += $(SRCS:.c=.o)
+
+RightTriangle.adx: $(OBJS)
+	$(CC) $(OBJS) -o RightTriangle.adx $(LDFLAGS)
+.c.o:
+	$(CC) $(CFLAGS) $< -o $@
+	
+depend:$(SRCS)
+	$(CC) -M $^ -o $@
+
+-include depend
+	
+	
+	
+	
+
+	
+	
