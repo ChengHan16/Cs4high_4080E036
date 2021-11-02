@@ -1,0 +1,25 @@
+2021-10-19 嵌入式系統與實習
+-----------------------
+testprint.adx:hello.o printtxt.o
+	nds32le-elf-gcc hello.o printtxt.o -lm -mvh -Tnds32.ld -o testprint.adx
+hello.o:hello.c
+	nds32le-elf-gcc -c -g hello.c -o hello.o
+printtxt.o:printtxt.c
+	nds32le-elf-gcc -c -g printtxt.c -o printtxt.o
+-----------------------
+刪除指令：rm *.o *.adx
+檢查時間：ls -la
+-----------------------
+〈printtxt.c〉
+
+#include <stdio.h>
+void printtxt(char *mesg)
+{
+	int i=0;
+	for (i=0; i<5; i++)
+		*puts("2021/10/12 4080E036");*
+	puts(mesg);
+}
+-----------------------
+Homework 3
+ -g  -c -mcpu=n801
