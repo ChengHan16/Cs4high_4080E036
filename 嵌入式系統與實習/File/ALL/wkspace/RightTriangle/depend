@@ -1,0 +1,14 @@
+area_cal.o: area_cal.c \
+ /cygdrive/d/NDS_TOOL/nds32le-elf-mculib-v3m/nds32le-elf/include/math.h \
+ /cygdrive/d/NDS_TOOL/nds32le-elf-mculib-v3m/nds32le-elf/include/sys/reent.h \
+ /cygdrive/d/NDS_TOOL/nds32le-elf-mculib-v3m/nds32le-elf/include/_ansi.h \
+ /cygdrive/d/NDS_TOOL/nds32le-elf-mculib-v3m/nds32le-elf/include/newlib.h \
+ /cygdrive/d/NDS_TOOL/nds32le-elf-mculib-v3m/nds32le-elf/include/sys/config.h \
+ /cygdrive/d/NDS_TOOL/nds32le-elf-mculib-v3m/nds32le-elf/include/machine/ieeefp.h \
+ /cygdrive/d/NDS_TOOL/nds32le-elf-mculib-v3m/nds32le-elf/include/sys/features.h \
+ /cygdrive/d/NDS_TOOL/nds32le-elf-mculib-v3m/lib/gcc/nds32le-elf/4.9.2/include/stddef.h \
+ /cygdrive/d/NDS_TOOL/nds32le-elf-mculib-v3m/nds32le-elf/include/sys/_types.h \
+ /cygdrive/d/NDS_TOOL/nds32le-elf-mculib-v3m/nds32le-elf/include/machine/_types.h \
+ /cygdrive/d/NDS_TOOL/nds32le-elf-mculib-v3m/nds32le-elf/include/machine/_default_types.h \
+ /cygdrive/d/NDS_TOOL/nds32le-elf-mculib-v3m/nds32le-elf/include/sys/lock.h \
+ /cygdrive/d/NDS_TOOL/nds32le-elf-mculib-v3m/nds32le-elf/include/_ansi.h
