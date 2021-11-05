@@ -15,7 +15,13 @@
 >> 4. 在虛擬環境下安裝flask套件 pip3 install flask
 > ### pip install Complete
 ---
-
+---
+## 所有套件：
+> ### pip3 install virtualenv
+> ### pip install Flask
+> ### pip3 install pandas
+> ### pip3 install scikit-learn
+---
 
 
 
