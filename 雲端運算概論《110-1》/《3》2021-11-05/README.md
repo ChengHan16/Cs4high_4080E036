@@ -13,7 +13,7 @@
     2. 建立虛擬環境 virtualenv venv_flask2021
     3. 開啟虛擬環境 .\venv_flask2021\Scripts\activate
     4. 在虛擬環境下安裝flask套件 pip3 install flask
-### pip install Complete ---
+### pip install Complete
 ---
 
 
