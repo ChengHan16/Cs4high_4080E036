@@ -1,6 +1,6 @@
 # 2021-11-05 雲端運算概論
 ## 安裝步驟：
-###  安裝Python 3.9.6 (記得勾選安裝的首頁最下面的 Add Python 3.9 to PATH)
+###  ⚠ 安裝 Python 3.9.6 (記得勾選安裝的首頁最下面的 Add Python 3.9 to PATH)
 ###  PowerShell
     1. get-executionpolicy
     2. set-executionpolicy remotesigned
