@@ -1,3 +1,24 @@
+## 開始安裝套件 (順序篇)
+> ### 1. 安裝虛擬環境軟體 pip3 install virtualenv
+> ### 2. 建立虛擬環境 virtualenv venv_midterm_project_1112
+> ### 3. 開啟虛擬環境 .\venv_midterm_project_1112\Scripts\activate
+> ### 4. 在虛擬環境以下安裝套件
+>> ### pip install Flask  (Flask套件)
+>> ### pip3 install pandas
+>> ### pip3 install scikit-learn
+---
+## 資料夾配置 D：槽
+> static
+>> css  
+>>> style.css
+> templates
+>> home
+>> result
+> venv_midterm_flask (此為虛擬環境自動生成)
+> app.py
+> YoutubeSpamMergedData.csv
+---
+## Code
 ### app.py
 ``` py 
 from flask import Flask,render_template,url_for,request
