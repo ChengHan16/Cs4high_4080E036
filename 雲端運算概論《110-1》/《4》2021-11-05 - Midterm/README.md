@@ -193,3 +193,7 @@ result.html
 	</body>
 </html>
 ```
+## 執行方式
+### 執行 flask.run
+### 隨時更新網頁結果 windows鍵 + R 
+### 關閉伺服器 
