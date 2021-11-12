@@ -8,15 +8,15 @@
 >> ### pip3 install scikit-learn
 ---
 ## 資料夾配置 D：槽
-> static
->> css  
->>> style.css
-> templates
->> home
->> result
-> venv_midterm_flask (此為虛擬環境自動生成)
-> app.py
-> YoutubeSpamMergedData.csv
+> ## static
+>> ## css  
+>>> ## style.css
+> ## templates
+>> ## home.html
+>> ## result.html
+> ## venv_midterm_flask (此為虛擬環境自動生成)
+> ## app.py
+> ## YoutubeSpamMergedData.csv
 ---
 ## Code
 ### app.py
