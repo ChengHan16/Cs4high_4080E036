@@ -85,7 +85,7 @@ def upload():
 if __name__ == '__main__':
     app.run(debug=True)
 ```
-## base
+## base.html
 ```html
 <html lang="en">
 
@@ -121,7 +121,7 @@ if __name__ == '__main__':
 
 </html>
 ```
-## index
+## index.html
 ```html
 {% extends "base.html" %} {% block content %}
 
