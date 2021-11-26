@@ -32,6 +32,8 @@
 > ### pip3 install numpy
 > ### pip3 install keras
 > ### pip3 install tensorflow
+>> ### 在根目錄新增 uploads 的資料夾
+>> ### 執行 flask run
 ## app.py
 ```py
 from __future__ import division, print_function
