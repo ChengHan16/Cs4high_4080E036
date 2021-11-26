@@ -31,6 +31,7 @@
 > ### 環境選擇(資料夾)剛剛下載的 Deployment-Deep-Learning-Model-master 
 > ### pip3 install numpy
 > ### pip3 install keras
+> ### pip3 install tensorflow
 ```py
 from __future__ import division, print_function
 # coding=utf-8
