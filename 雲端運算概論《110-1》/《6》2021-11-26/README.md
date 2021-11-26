@@ -32,6 +32,7 @@
 > ### pip3 install numpy
 > ### pip3 install keras
 > ### pip3 install tensorflow
+> ### pip install pillow
 >> ### 在根目錄新增 uploads 的資料夾
 >> ### 執行 flask run
 ## app.py
