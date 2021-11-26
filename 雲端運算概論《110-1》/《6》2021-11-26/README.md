@@ -32,6 +32,7 @@
 > ### pip3 install numpy
 > ### pip3 install keras
 > ### pip3 install tensorflow
+## app.py
 ```py
 from __future__ import division, print_function
 # coding=utf-8
@@ -55,7 +56,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 # Model saved with Keras model.save()
-#MODEL_PATH = 'models/model_resnet.h5'
+MODEL_PATH = 'models/model_resnet.h5'
 
 # Load your trained model
 #model = load_model(MODEL_PATH)
@@ -66,7 +67,7 @@ app = Flask(__name__)
 # Check https://keras.io/applications/
 from keras.applications.vgg16 import VGG16
 model = VGG16(weights='imagenet')
-#model.save('')
+model.save(MODEL_PATH)
 print('Model loaded. Check http://127.0.0.1:5000/')
 
 
