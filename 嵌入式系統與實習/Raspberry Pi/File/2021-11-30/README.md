@@ -1,3 +1,4 @@
+```
 2021-11-30 Raspberry Pi 物聯網(第三章)
 --------------------------
 三色一體 LED 可接 11、13、15腳位
@@ -14,3 +15,4 @@ sudo usermod -aG root 4080E036
 sudo usermod -aG dialout 4080E036 
 ------- 設定執行時不需再密碼 -------
 sudo nano
+```
