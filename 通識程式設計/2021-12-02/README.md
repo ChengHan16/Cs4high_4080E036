@@ -94,3 +94,37 @@ void loop() {
   delay(250);
 }
 ```
+## 4.超音波 Link LED 燈閃爍 + 伺服馬達做偵測旋轉 + 蜂鳴器控制,小於100時就會叫
+```C
+#include <hcsr04.h>
+#include <Servo.h> 
+#define TRIG_PIN 12
+#define ECHO_PIN 13
+HCSR04 hcsr04(TRIG_PIN, ECHO_PIN, 20, 4000);
+const int ledPin = 9;
+Servo myservo;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode (ledPin,OUTPUT); 
+  pinMode(10,OUTPUT);
+  myservo.attach(8);
+}
+
+void loop() {
+  Serial.println(hcsr04.distanceInMillimeters());
+  if(hcsr04.distanceInMillimeters() > 100){
+    digitalWrite(ledPin,HIGH);
+    myservo.write(0); //旋轉到90度
+    digitalWrite(10,LOW);
+    delay(1000);
+  }
+  else{
+    digitalWrite(ledPin,LOW);
+    myservo.write(180); //旋轉到180度
+    digitalWrite(10,HIGH);
+    delay(1000);
+  }
+  delay(250);
+}
+```
