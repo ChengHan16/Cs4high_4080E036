@@ -128,3 +128,9 @@ void loop() {
   delay(250);
 }
 ```
+● 參考資料
+
+### Servo伺服馬達
+> https://blog.jmaker.com.tw/arduino-servo-sg90/
+### 蜂鳴器
+> https://blog.jmaker.com.tw/arduino-buzzer/
