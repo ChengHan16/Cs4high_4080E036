@@ -2,6 +2,8 @@
 ![超音波接法](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E9%80%9A%E8%AD%98%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/2021-12-02/Img/%E8%B6%85%E9%9F%B3%E6%B3%A2%E6%8E%A5%E6%B3%95.PNG)
 ## 二. LED接法
 ![二. LED接法](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E9%80%9A%E8%AD%98%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/2021-12-02/Img/LED.PNG)
+## Result
+![Result](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/%E9%80%9A%E8%AD%98%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/2021-12-02/Img/%E8%B6%85%E9%9F%B3%E6%B3%A2%E7%B5%90%E6%9E%9C.PNG)
 ## 1.超音波偵測
 ```C
 #include <hcsr04.h>
