@@ -19,8 +19,10 @@
 ## 所有套件：
 > ### pip3 install virtualenv
 > ### pip install Flask
-> ### pip3 install pandas
-> ### pip3 install scikit-learn
+> ### pip3 install numpy
+> ### pip3 install keras
+> ### pip3 install tensorflow
+> ### pip install pillow
 ---
 ## Start
 > ### 新增 ML_on_Flask_1126 資料夾 (D:\FLASK2021\ML_on_Flask_1126)
