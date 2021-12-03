@@ -155,7 +155,7 @@ if __name__ == '__main__':
 
 {% endblock %}
 ```
-## css.cs
+## main.css
 ```css
 .img-preview {
     width: 256px;
