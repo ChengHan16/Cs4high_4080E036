@@ -1,4 +1,18 @@
+### - python 權限問題設定
+```
+錯誤訊息
+Traceback (most recent call last):
+  File "/home/4080E036/Program_ch3/RGBLED/test.py", line 10, in <module>
+    led = RGBLED(11,13,15,mode=0)
+  File "/home/4080E036/Program_ch3/RGBLED/RGBLED.py", line 21, in __init__
+    GPIO.setup(self.__redpin, GPIO.OUT)
+RuntimeError: No access to /dev/mem.  Try running as root!
 
+需再自己使用者設定
+sudo usermod -a -G gpio 使用者帳號
+sudo chown root.gpio /dev/gpiomem
+sudo chmod g+rw /dev/gpiomem
+```
 ### test.py
 ```py
 #! /usr/bin/python3
