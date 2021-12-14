@@ -59,3 +59,20 @@ sudo usermod -a -G gpio 使用者帳號
 sudo chown root.gpio /dev/gpiomem
 sudo chmod g+rw /dev/gpiomem
 ```
+### - su: 驗證失敗
+````
+sudo passwd root
+新 密碼: 0000
+------------------
+連接不到樹莓派？
+先檢查一下主機地址和樹莓派用戶名及密碼是否填寫正確
++ 一般樹莓派買了默認用戶名是pi，密碼是raspberry
++ 主機那裏加上協議如：sftp://192.xxx.xxx.xxx
+也是最重要的一個點，上傳文件給樹莓派時，樹莓派切換至root下
++ 一般樹莓派買來如果沒有開啓過root的話，先設置一下root密碼
+> sudo passwd root
+(一般讓你輸兩次密碼)
+再切入root下，su root 並輸入剛設定的密碼即可
+至此，再次使用filezilla就能上傳樹莓派了~
+```
+> https://www.twblogs.net/a/5ca887b3bd9eee5b1a077c5d
