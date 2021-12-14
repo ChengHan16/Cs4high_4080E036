@@ -1,0 +1,16 @@
+2021-12-14
+------------------
+"PI"是帳號 by 後是密碼
+database "此事名稱"
+
+use mysql;
+
+select user from user;
+ALTER TABLE nowDHT ADD COLUMN LED_COLOR varchar(6) AFTER Humidity;
+-------------------
+http://192.168.2.183/phpinfo.php
+
+cd /var/www
+ls -la
+sudo chmod 777 html
+
