@@ -6,8 +6,8 @@ https://hackmd.io/@ShenTengTu/r1baxV4pQ
 ### Raspberry Pi Address ：192.168.2.183
 
 ### - ASUS AP password
-```ssid = " ASUSLAB ";
-```password = " ASUSASUS ";
+> ssid = " ASUSLAB ";
+> password = " ASUSASUS ";
 ------------------------
 ### - 操作問題
 可以輸入Python的關鍵字，例如print來獲得其相關的幫助。<br> 也可以輸入模組名或主題來獲取幫助資訊。如果要退出幫助資訊，可以按Q鍵。<br> 如果要退出互動式shell的幫助，可以按住Ctrl鍵，然後按一下D鍵，這個組合鍵寫作Ctrl+D。<br> 或者，也可以輸入quit並按下回車鍵來退出。 當用完了Python互動式shell後，只需輸入exit()然後按回車鍵，Python就會退出互動式shell，並回到命令列。 
