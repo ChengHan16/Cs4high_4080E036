@@ -5,8 +5,8 @@ https://hackmd.io/@ShenTengTu/r1baxV4pQ
 
 ### Raspberry Pi Address ：192.168.2.183
 
-### - ASUS AP password
-> ssid = " ASUSLAB ";
+### - ASUS AP Password
+> ssid = " ASUSLAB "; <br><br>
 > password = " ASUSASUS ";
 ------------------------
 ### - 操作問題
