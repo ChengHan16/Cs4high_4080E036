@@ -17,7 +17,7 @@
 ---
 ## [ - Code _程式碼 html & css](https://github.com/ChengHan16/Cs4high_4080E036/tree/master/%E9%9B%B2%E7%AB%AF%E9%81%8B%E7%AE%97%E6%A6%82%E8%AB%96%E3%80%8A110-1%E3%80%8B/%E3%80%8A8%E3%80%8B2021-12-24/Code%20_%E7%A8%8B%E5%BC%8F%E7%A2%BC%20html%20%26%20css)
 
-## jade sqlite chrome 6:33 安裝 jade sqlite chrome <br><br> 
+## 6:33 安裝 jade sqlite chrome <br><br> 
 ![image](https://user-images.githubusercontent.com/55220866/147331973-c84c6590-5d3c-451e-81e4-c7172d1718a0.png)
 
 ## - Result
@@ -25,6 +25,10 @@
 ![image](https://user-images.githubusercontent.com/55220866/147332677-52263b3f-6c8f-43f5-b5a2-61376821dba7.png)
 ![image](https://user-images.githubusercontent.com/55220866/147332835-bdbd00bf-d424-4ec4-b3f2-49a4ad767783.png)
 ![image](https://user-images.githubusercontent.com/55220866/147332715-1a2e89b5-069a-4027-bd90-082eaefc7500.png)
+## 參考資料
+### Uploading Files to a Database in Flask
+> https://www.youtube.com/watch?v=TLgVEBuQURA
+
 ## - Error 
 ### 1. jinja2.exceptions.TemplateNotFound (已解決)
 ```
