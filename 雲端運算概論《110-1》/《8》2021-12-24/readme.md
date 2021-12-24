@@ -22,6 +22,7 @@
 ## - Result
 ![image](https://user-images.githubusercontent.com/55220866/147332769-9f6405c7-d9a7-44ae-bcee-e7cd9e13ab23.png)
 ![image](https://user-images.githubusercontent.com/55220866/147332677-52263b3f-6c8f-43f5-b5a2-61376821dba7.png)
+![image](https://user-images.githubusercontent.com/55220866/147332835-bdbd00bf-d424-4ec4-b3f2-49a4ad767783.png)
 ![image](https://user-images.githubusercontent.com/55220866/147332715-1a2e89b5-069a-4027-bd90-082eaefc7500.png)
 ## - Error 
 ### 1. jinja2.exceptions.TemplateNotFound (已解決)
