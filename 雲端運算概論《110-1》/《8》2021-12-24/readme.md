@@ -8,4 +8,4 @@
 4、app = Flask(__name__, template_folder='templates', static_folder="****",static_url_path="****") 
    在最開始的這句話中，template_folder後面一定要跟上templates；
 ```
-> !(https://blog.csdn.net/shangxiaqiusuo1/article/details/103684463)
+> (https://blog.csdn.net/shangxiaqiusuo1/article/details/103684463)
