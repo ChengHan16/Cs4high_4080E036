@@ -37,8 +37,10 @@ index.html
     </head>
 
     <body>  
+        <h2>Upload file to flask database 12/24</h2>
+        <h2>4080E036 吳承翰</h2>
         <div class="container">
-            <h1>File Input</h1>
+            <h2>File Input</h2>
             <form method="POST" action="/upload" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="inputFile">File input</label>
