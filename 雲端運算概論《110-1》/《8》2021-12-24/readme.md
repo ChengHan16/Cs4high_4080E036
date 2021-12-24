@@ -1,7 +1,7 @@
 # 2021-12-24 雲端運算概論
 
 ###  ⚠ 安裝 Python 3.9.6 (記得勾選安裝的首頁最下面的 Add Python 3.9 to PATH)
-> ###  PowerShell
+> ###  PowerShell ISE
 >> 1. get-executionpolicy
 >> 2. set-executionpolicy remotesigned
 >> 3. set-executionpolicy -Scope CurrentUser remotesigned
