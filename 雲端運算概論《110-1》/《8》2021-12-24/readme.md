@@ -31,6 +31,7 @@
 
 ## - Error 
 ### 1. jinja2.exceptions.TemplateNotFound (已解決)
+### 問題：templates文件夾沒有與py文件在同一目錄
 ```
 1、項目下面是否有templates文件夾，你的html文件是否放進了裡面；
 2、templates文件夾是否和你運行的py文件在同一級目錄；
