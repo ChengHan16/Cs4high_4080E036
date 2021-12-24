@@ -5,8 +5,8 @@
 >> 1. get-executionpolicy (會回傳 Restricted
 >> 2. set-executionpolicy remotesigned
 >> 3. set-executionpolicy -Scope CurrentUser remotesigned
->> 4. get-executionpolicy 
-> ### PowerShell Complete (會回傳 RemoteSigned
+>> 4. get-executionpolicy (會回傳 RemoteSigned
+> ### PowerShell Complete 
 ---
 > ### pip install
 >> 1. 安裝虛擬環境軟體 pip3 install virtualenv  
