@@ -63,7 +63,7 @@ sudo chown root.gpio /dev/gpiomem
 sudo chmod g+rw /dev/gpiomem
 ```
 ### - su: 驗證失敗
-````
+```
 sudo passwd root
 新 密碼: 0000
 ------------------
