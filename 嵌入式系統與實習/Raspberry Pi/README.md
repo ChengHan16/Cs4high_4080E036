@@ -81,6 +81,8 @@ sudo passwd root
 ----
 > https://www.twblogs.net/a/5ca887b3bd9eee5b1a077c5d
 ## Error
-找不到 Adafruit_Sensor.h
+### - 找不到 Adafruit_Sensor.h
+```
 將 https://raw.githubusercontent.com/adafruit/Adafruit_Sensor/master/Adafruit_Sensor.h 檔案放置下位置
 C:\Users\User\Documents\Arduino\libraries\DHT_sensor_library
+```
