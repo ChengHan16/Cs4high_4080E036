@@ -1,0 +1,8 @@
+在Url 打問號前面的是路徑
+問號在後面就是所屬檔案
+---------------------
+show.php
+39 行 select 改 $sql="select * from DHT ;"; 
+
+$sql="select * from DHT ORDER BY time DESC LIMIT 1;";
+------------------------
