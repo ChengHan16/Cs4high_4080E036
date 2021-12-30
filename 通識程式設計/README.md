@@ -66,3 +66,57 @@ void loop() {
   //delay(250);
 }
 ```
+## 整理後 Code 
+```C
+#include <hcsr04.h>
+#include <Servo.h> 
+#define TRIG_PIN 12
+#define ECHO_PIN 13
+#define Si  988
+
+int melody[] = {Si, Si, Si, Si, Si, Si, Si, Si, Si, Si, Si, Si, Si};
+int noteDurations[] = {1,1,2,1,1,2,1,1,1,1,1,1,4};
+
+HCSR04 hcsr04(TRIG_PIN, ECHO_PIN, 20, 4000);
+const int ledPin = 9;
+Servo myservo;
+
+void setup() {
+  Serial.begin(9600);
+  Serial.begin(115200);
+  pinMode (ledPin,OUTPUT); 
+  pinMode(10,OUTPUT);
+  myservo.attach(8);
+}
+
+void loop() {
+  Serial.println(hcsr04.distanceInMillimeters());
+  if(hcsr04.distanceInMillimeters() > 150){
+    Serial.println("目前狀態正常");
+    digitalWrite(ledPin,HIGH);
+    digitalWrite(10,LOW);
+    delay(1000);
+  }
+  else{
+    Serial.println(" --- 危險!!! ---");
+    digitalWrite(ledPin,LOW);
+    myservo.write(180); //旋轉到180度
+    digitalWrite(10,HIGH);
+    
+    for (int thisNote = 0; thisNote < 8; thisNote++) {
+    //計算每個音的長度，4分音符： 1000 / 4，8分音符：1000/8
+    int noteDuration = 1000 / noteDurations[thisNote];
+    tone(9, melody[thisNote], noteDuration);   //tone(PIN腳,音調,拍子)
+    }
+
+    for(int i = 0; i <= 180; i=i+1){
+    myservo.write(i);
+    delay(10);
+    }
+    for(int i = 0; i <= -180; i=i+1){
+    myservo.write(i);
+    delay(10);
+    }
+  }
+}
+```
