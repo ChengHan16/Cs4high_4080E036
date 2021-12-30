@@ -122,3 +122,4 @@ void loop() {
 ```
 ## 參考資料
 > https://blog.jmaker.com.tw/arduino-servo-sg90/
+> http://yehnan.blogspot.com/2013/09/arduinotower-pro-sg90.html
