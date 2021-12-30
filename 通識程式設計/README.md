@@ -120,3 +120,5 @@ void loop() {
   }
 }
 ```
+## 參考資料
+> https://blog.jmaker.com.tw/arduino-servo-sg90/
