@@ -120,6 +120,8 @@ void loop() {
   }
 }
 ```
+![image](https://user-images.githubusercontent.com/55220866/147737307-ac4b5cc2-db5d-4651-ac01-66fd6bf3101a.png)
+
 ## 參考資料
 > https://blog.jmaker.com.tw/arduino-servo-sg90/
 > http://yehnan.blogspot.com/2013/09/arduinotower-pro-sg90.html
