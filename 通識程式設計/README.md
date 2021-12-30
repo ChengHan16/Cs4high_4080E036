@@ -26,6 +26,7 @@ Servo myservo;
 
 void setup() {
   Serial.begin(9600);
+  Serial.begin(115200);
   pinMode (ledPin,OUTPUT); 
   pinMode(10,OUTPUT);
   myservo.attach(8);
@@ -34,12 +35,14 @@ void setup() {
 void loop() {
   Serial.println(hcsr04.distanceInMillimeters());
   if(hcsr04.distanceInMillimeters() > 300){
+    Serial.println("目前狀態正常");
     digitalWrite(ledPin,HIGH);
     //myservo.write(0); //旋轉到90度
     digitalWrite(10,LOW);
     //delay(1000);
   }
   else{
+    Serial.println(" --- 危險!!! ---");
     digitalWrite(ledPin,LOW);
     myservo.write(180); //旋轉到180度
     digitalWrite(10,HIGH);
