@@ -86,3 +86,5 @@ sudo passwd root
 將 https://raw.githubusercontent.com/adafruit/Adafruit_Sensor/master/Adafruit_Sensor.h 檔案放置下位置
 C:\Users\User\Documents\Arduino\libraries\DHT_sensor_library
 ```
+### - winSCP：無權訪問。 錯誤碼：3 伺服器傳回的錯誤訊息：Permission denied（真正解決方案）
+> https://blog.csdn.net/qq_31201781/article/details/78919914
