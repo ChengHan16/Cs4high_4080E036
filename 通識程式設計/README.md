@@ -1,3 +1,5 @@
+> https://docs.google.com/presentation/d/1VZaXIuDwXzkaAS1NrXdMKq2u5tZEOasU/edit?usp=sharing&ouid=110309797215525276113&rtpof=true&sd=true
+
 ## ● 期末報告設計稿
 > ### - 專題名稱：智慧防盜 <br> - 功能及特色 <br>&ensp;&ensp;&ensp;當所設角度低於範圍內時會響起警報，LED 會閃爍，伺服馬    達可做防護或旋轉動作，蜂鳴器會響起。
 > ### - 零件清單
