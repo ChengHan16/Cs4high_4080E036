@@ -219,82 +219,21 @@ void loop() {
 <html>
 <head>
 <meta http-equiv="refresh" content="3">
-<style>
-
-body{
-background: rgb(122,188,255); 
-background: -moz-linear-gradient(top,  rgba(122,188,255,1) 0%, rgba(96,171,248,1) 44%, rgba(64,150,238,1) 100%);
-background: -webkit-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); 
-background: linear-gradient(to bottom,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); 
-}
-
-font{
-font-weight:bold;
-}
-
-input{
-font-size:25px;
-border:0;
-background-color:#003C9D;
-color:#fff;border-radius:10px;
-}
-
-#text{
-    -webkit-text-stroke: 5px white;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th, td {
-  padding: 8px;
-  text-align: left;
-  border-bottom: 1px solid #DDD;
-}
-
-tr:hover {background-color: 	#0080FF;}
-tr:nth-child(odd) {background-color: #E0E0E0;
-}
-
-
-#popUpYes
-    {
-      width: 140px;
-      height: 50px;
-      background-color: #003C9D
-
-      color: white; /* SET COLOR IN WHITE */
-
-            display: inline-flex;
-    justify-content: center; /* center the content horizontally */
-    align-items: center; /* center the content vertically */
-    --padding-x: 1.2em;
-    border-color: transparent;    }
-
-    #popUpYes:hover
-    {
-      background-color: #C4E1FF;
-      color: black; /* SET COLOR IN BLACK */
-    }    
-</style>
 </head>
 <body>
 	<nobr style="font-size:20px;"><font face="Microsoft JhengHei"> 嵌入式系統與實習 - 期末專題</font></nobr> <br>
 	<nobr style="font-size:20px;"><font face="Microsoft JhengHei">4080E036 吳承翰</font></nobr> <br>
-	<nobr style="font-size:20px;color:blue;"><font face="Microsoft JhengHei"> &emsp;• 溫度低於 9 度時顯示 Blue (藍色)</font></nobr><br>
-	<nobr style="font-size:20px;color:#007500;"><font face="Microsoft JhengHei"> &emsp;• 溫度位於 10-25 度時顯示 Green (綠色)</font></nobr><br>
-	<nobr style="font-size:20px;color:red;"><font face="Microsoft JhengHei"> &emsp;• 溫度高於25度時顯示 Red (紅色)</font></nobr> <br><br>
+	<nobr style="font-size:20px;color:blue;"><font face="Microsoft JhengHei"> 溫度低於15</font></nobr><br>
+	<nobr style="font-size:20px;color:#007500;"><font face="Microsoft JhengHei"> 溫度位於 25 Green (綠色)</font></nobr><br>
+	<nobr style="font-size:20px;color:red;"><font face="Microsoft JhengHei"> 溫度高於25</font></nobr> <br><br>
 	
 	<table border=3 bgcolor="White">
 		<tr> 
 			<th>ID</th>
 			<th>溫度</th>
 			<th>濕度</th>
-			<th>LED_COLOR</th>
-			<th>時間</th>
+			<th>顏色</th>
+			<th>Time</th>
 		</tr>
 		<?php
 		date_default_timezone_set("asia/taipei");
