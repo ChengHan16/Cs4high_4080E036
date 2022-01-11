@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+			
+		<title> 嵌入式系統與實習_Final</title>
+	</head>
+
+	<body>
+		<div class="center">
+			<h1 style="font-family: Microsoft JhengHei;"> 4080E036 吳承翰 </h1>
+					
+			<form method="GET" action="AddData.php">
+			
+				<a> 溫度：<input type="text" name="Temp" valign="center"> </a>     <br><br>
+				<a> 濕度：<input type="text" name="Humidity" valign="center"> </a> <br><br>
+				
+				<input type="submit" valign="center" value="送出資料">
+			
+				<input type="button" valign="center" value="查詢資料庫資料" onclick="location.href='http://192.168.2.183/show.php'">
+				<input type="button" valign="center" value="查詢資料庫歷史資料" onclick="location.href='http://192.168.2.183/show2.php'">
+			</form>
+		</div>
+	</body>
+</html>
