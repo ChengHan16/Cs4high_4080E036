@@ -162,4 +162,11 @@ if __name__ == '__main__':
 >>> db.create_all()
 >>> exit()
 ```
+###  jade sqlite chrome 安裝、使用
+> jade sqlite chrome 選擇 Open 
+![image](https://user-images.githubusercontent.com/55220866/149466543-a875a01b-5fd7-412a-8bb2-1083491ba08b.png)
+> 選擇 DB
+![image](https://user-images.githubusercontent.com/55220866/149466615-79051cee-850a-49a4-bf3d-53ece654e80f.png)
+> Result
+![image](https://user-images.githubusercontent.com/55220866/149466713-e9b99112-6deb-4cd6-a8a9-a4a6bc868cd2.png)
 ## Result
