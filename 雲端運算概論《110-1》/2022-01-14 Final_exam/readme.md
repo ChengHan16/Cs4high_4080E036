@@ -155,4 +155,11 @@ if __name__ == '__main__':
     </body>
 </html>
 ```
+### 建立 DB
+```
+>>> python
+>>> from app import db
+>>> db.create_all()
+>>> exit()
+```
 ## Result
