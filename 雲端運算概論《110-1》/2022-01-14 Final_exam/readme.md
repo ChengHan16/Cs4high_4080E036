@@ -170,3 +170,7 @@ if __name__ == '__main__':
 #### Result
 ![image](https://user-images.githubusercontent.com/55220866/149466713-e9b99112-6deb-4cd6-a8a9-a4a6bc868cd2.png)
 ## Result
+![image](https://user-images.githubusercontent.com/55220866/149466862-822a7c3b-e371-46c4-baef-73e73fc583e0.png)
+![image](https://user-images.githubusercontent.com/55220866/149466895-bea73f26-090c-401e-9add-8050d05a399c.png)
+![image](https://user-images.githubusercontent.com/55220866/149466909-b92782f9-ed25-4a15-8768-7b71f2cd1194.png)
+![image](https://user-images.githubusercontent.com/55220866/149466713-e9b99112-6deb-4cd6-a8a9-a4a6bc868cd2.png)
