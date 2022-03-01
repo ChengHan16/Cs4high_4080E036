@@ -1,0 +1,30 @@
+void setup() {
+  pinMode(13,OUTPUT);
+  Serial.begin(9600);
+}
+int time_count=0;
+int LED_status=1;
+char c_rev;
+
+void loop() {
+  if (Serial.available() > 0){
+      c_rev = Serial.read();
+      c_rev = c_rev + 1;
+      Serial.print(c_rev);
+  }
+
+  
+  /*if (LED_status==1){
+    digitalWrite(13,HIGH);
+  }
+  else if(LED_status==-1){
+    digitalWrite(13,LOW);
+  }
+  if (time_count < 25){
+    time_count++;
+  }
+  else{
+    time_count=0; LED_status=-LED_status;
+    delay(20);
+  }*/
+}
