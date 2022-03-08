@@ -73,7 +73,7 @@ void loop() {
 ```
 ![image](https://user-images.githubusercontent.com/55220866/157151745-ab70114e-f86e-4e41-9c00-4c9fc2e7e864.png)
 ---
-### DHT H值只顯示整數
+### DHT Humidity 值只顯示整數
 ```C
 #include "DHT.h"
 
