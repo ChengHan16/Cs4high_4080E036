@@ -1,6 +1,6 @@
 ### Image 圖片大小
 
-|名字	|介紹|  |
+|名字|介紹|  |
 |--|--|--|
 |0|	Normal|	影象被置於 System.Windows.Forms.PictureBox 的左上角。如果影象比包含它的 System.Windows.Forms.PictureBox 大，則該影象將被剪裁掉。|
 |1|	StretchImage|	System.Windows.Forms.PictureBox 中的影象被拉伸或收縮，以適合 System.Windows.Forms.PictureBox的大小。|
