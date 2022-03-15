@@ -138,6 +138,7 @@ namespace P20220307
                     {
                         label3.Text = (Convert.ToInt16(news0) / 10.0).ToString();
                         textBox1.Text = textBox1.Text + news0;
+                        chart1.Series[1].Points.Add(Convert.ToInt16(news0) / 10.0);
                     }
                 }
 
