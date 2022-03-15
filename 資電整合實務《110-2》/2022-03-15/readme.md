@@ -20,3 +20,5 @@ private void button1_Click(object sender, EventArgs e)
             pictureBox1.Image = Resource2.Temp;   
         }
 ```
+### Chart
+![image](https://user-images.githubusercontent.com/55220866/158300826-ff648b4d-6c09-4e76-9678-1a488d7c3090.png)
