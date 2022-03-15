@@ -57,6 +57,9 @@ namespace P20220307
             serialport.Open();
             timer1.Enabled = true;
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            chart1.ChartAreas[0].AxisY.Interval = 10;
+            chart1.ChartAreas[0].AxisY.Maximum = 100;
+            chart1.ChartAreas[0].AxisY.Minimum = 0;
         }
 
         void serialport_datareceived(object sender, SerialDataReceivedEventArgs e)
