@@ -22,3 +22,5 @@ private void button1_Click(object sender, EventArgs e)
 ```
 ### Chart
 ![image](https://user-images.githubusercontent.com/55220866/158300826-ff648b4d-6c09-4e76-9678-1a488d7c3090.png)
+## 參考資料
+> https://www.itread01.com/content/1545288303.html
