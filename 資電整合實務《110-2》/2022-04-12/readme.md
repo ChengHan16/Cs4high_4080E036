@@ -61,11 +61,16 @@ void PHR_sensing(){
   delay(150);
 }
 
+int delay_150ms=0;
 void loop() {
-  delay(2000);
-  T_H_sensing();
-  PHR_sensing();
-  
+  if(delay_150ms>=14){
+    T_H_sensing(); //150-300ms
+    delay_150ms=0;
+  }
+  else
+    delay_150ms++;
+  PHR_sensing(); //150ms
+    
   UART_check();
 }
 
@@ -95,13 +100,23 @@ void UART_check()
           else if((data_in[1]=='0')&&(data_in[2]=='0')&&(data_in[3]=='1'))
           {  digitalWrite(5,HIGH);}
         }
+        else if (data_in[0]=='H')
+        {
+          if ((data_in[1]=='0')&&(data_in[2]=='0'))
+          { 
+            int LED_level=data_in[3]-0x30;
+            if((LED_level <= 9)&&(LED_level >= 0)){
+              analogWrite(5,LED_level*28);
+            }
+          }
+        }
       }
     }        
   }
 }
 
 void data_trans(int data_o,char func)
-{ data[0]='A';  data[1]=func;
+{ data[0]=0x02;  data[1]=func;
   data[2]=(data_o/100)+0x30;
   data[3]=((data_o/10)%10)+0x30;
   data[4]=(data_o%10)+0x30;
