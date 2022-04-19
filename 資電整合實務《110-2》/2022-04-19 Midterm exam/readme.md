@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/55220866/163957834-78a49bba-8e7c-452b-b92e-209481c7fa0e.png)
+![image](https://user-images.githubusercontent.com/55220866/163968781-d465f0b3-99d1-400b-ae0c-609d36ded2c7.png)
 
 ## Arduino
 ```C
