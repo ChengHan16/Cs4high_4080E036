@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/55220866/163957834-78a49bba-8e7c-452b-b92e-209481c7fa0e.png)
+
 ## Arduino
 ```C
 #include <DHT.h>
