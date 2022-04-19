@@ -510,3 +510,19 @@ namespace P20220307
 ### TEMP
 ![image](https://user-images.githubusercontent.com/55220866/163914731-91bbc38e-1c10-492e-9cb2-348e29d351a9.png)
 
+### Setting LED 1 (MINI)
+![image](https://user-images.githubusercontent.com/55220866/163914865-f54c432f-630e-4bda-bb54-c902127d3da4.png)
+
+### Settting LED 2 (MAX)
+![image](https://user-images.githubusercontent.com/55220866/163914894-608e7ae3-8ef4-4bf3-a501-d72c7fb7a711.png)
+
+### light high
+![image](https://user-images.githubusercontent.com/55220866/163914953-a5cd4785-6dfb-42ba-8b9d-e7a769ffaa9f.png)
+
+### light mid
+![image](https://user-images.githubusercontent.com/55220866/163915001-9fa001b2-3e51-4550-8801-aad46f277567.png)
+
+### light black
+![image](https://user-images.githubusercontent.com/55220866/163915019-29ba8d16-53f1-4d68-9e6c-fe97361cda39.png)
+
+
