@@ -24,7 +24,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 // Flag the start sensing and transmit data
 int start_flag=0;
-
+int delaytime = 500;
 void setup() {
   // UART beign with 9600 bps (boud rate)
   Serial.begin(9600);
@@ -157,19 +157,19 @@ void loop() {
       T_H_Sensing(); 
       delay150ms=0;
     }
-    else
+    else{
       delay150ms++;
-      
+      if (LED_status == 1){
+        digitalWrite(5,HIGH);
+        if (delay150ms>=8){
+         digitalWrite(5,LOW);
+        }
+      }
+    }
     PHR_Sensing();
   }
   
   Data_receive(); 
-
-  if (LED_status == 1){
-    digitalWrite(5,HIGH);
-    delay(500);
-    digitalWrite(5,LOW);
-  }
 }
 
 void UART_trans(char func, int data_out)
@@ -301,7 +301,7 @@ namespace P20220307
             char[] charArr = data_out.ToCharArray();
             for (i = 0; i < 5; i++)
                 chk_sum ^= Convert.ToByte(charArr[i]);
-            label7.Text = "Blin king";
+            label7.Text = "Blinking";
             serialport.Write(data_out + ((char)chk_sum).ToString());
             serialport.DiscardOutBuffer();
 
