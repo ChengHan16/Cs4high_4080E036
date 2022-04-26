@@ -1,0 +1,72 @@
+D:\Cyrus\P20220307\P20220307\bin\Debug\P20220307.exe.config
+D:\Cyrus\P20220307\P20220307\bin\Debug\P20220307.exe
+D:\Cyrus\P20220307\P20220307\bin\Debug\P20220307.pdb
+D:\Cyrus\P20220307\P20220307\obj\Debug\P20220307.Form1.resources
+D:\Cyrus\P20220307\P20220307\obj\Debug\P20220307.Properties.Resources.resources
+D:\Cyrus\P20220307\P20220307\obj\Debug\P20220307.csproj.GenerateResource.Cache
+D:\Cyrus\P20220307\P20220307\obj\Debug\P20220307.exe
+D:\Cyrus\P20220307\P20220307\obj\Debug\P20220307.pdb
+D:\Cyrus\P20220307\P20220307\obj\Debug\P20220307.csprojResolveAssemblyReference.cache
+C:\Users\I3301\Downloads\P20220307 (2)\P20220307\P20220307\bin\Debug\P20220307.exe.config
+C:\Users\I3301\Downloads\P20220307 (2)\P20220307\P20220307\bin\Debug\P20220307.exe
+C:\Users\I3301\Downloads\P20220307 (2)\P20220307\P20220307\bin\Debug\P20220307.pdb
+C:\Users\I3301\Downloads\P20220307 (2)\P20220307\P20220307\obj\Debug\P20220307.Form1.resources
+C:\Users\I3301\Downloads\P20220307 (2)\P20220307\P20220307\obj\Debug\P20220307.Properties.Resources.resources
+C:\Users\I3301\Downloads\P20220307 (2)\P20220307\P20220307\obj\Debug\P20220307.csproj.GenerateResource.Cache
+C:\Users\I3301\Downloads\P20220307 (2)\P20220307\P20220307\obj\Debug\P20220307.exe
+C:\Users\I3301\Downloads\P20220307 (2)\P20220307\P20220307\obj\Debug\P20220307.pdb
+C:\Users\I3301\Downloads\P20220307\P20220307\P20220307\bin\Debug\P20220307.exe.config
+C:\Users\I3301\Downloads\P20220307\P20220307\P20220307\bin\Debug\P20220307.exe
+C:\Users\I3301\Downloads\P20220307\P20220307\P20220307\bin\Debug\P20220307.pdb
+C:\Users\I3301\Downloads\P20220307\P20220307\P20220307\obj\Debug\P20220307.Form1.resources
+C:\Users\I3301\Downloads\P20220307\P20220307\P20220307\obj\Debug\P20220307.Properties.Resources.resources
+C:\Users\I3301\Downloads\P20220307\P20220307\P20220307\obj\Debug\P20220307.Resource1.resources
+C:\Users\I3301\Downloads\P20220307\P20220307\P20220307\obj\Debug\P20220307.csproj.GenerateResource.Cache
+C:\Users\I3301\Downloads\P20220307\P20220307\P20220307\obj\Debug\P20220307.exe
+C:\Users\I3301\Downloads\P20220307\P20220307\P20220307\obj\Debug\P20220307.pdb
+C:\Users\I3301\Downloads\P20220307 (1)\P20220307\P20220307\bin\Debug\P20220307.exe.config
+C:\Users\I3301\Downloads\P20220307 (1)\P20220307\P20220307\bin\Debug\P20220307.exe
+C:\Users\I3301\Downloads\P20220307 (1)\P20220307\P20220307\bin\Debug\P20220307.pdb
+C:\Users\I3301\Downloads\P20220307 (1)\P20220307\P20220307\obj\Debug\P20220307.Form1.resources
+C:\Users\I3301\Downloads\P20220307 (1)\P20220307\P20220307\obj\Debug\P20220307.Properties.Resources.resources
+C:\Users\I3301\Downloads\P20220307 (1)\P20220307\P20220307\obj\Debug\P20220307.Resource1.resources
+C:\Users\I3301\Downloads\P20220307 (1)\P20220307\P20220307\obj\Debug\P20220307.csproj.GenerateResource.Cache
+C:\Users\I3301\Downloads\P20220307 (1)\P20220307\P20220307\obj\Debug\P20220307.exe
+C:\Users\I3301\Downloads\P20220307 (1)\P20220307\P20220307\obj\Debug\P20220307.pdb
+C:\Users\ksu\Downloads\P20220307\P20220307\P20220307\bin\Debug\P20220307.exe.config
+C:\Users\ksu\Downloads\P20220307\P20220307\P20220307\bin\Debug\P20220307.exe
+C:\Users\ksu\Downloads\P20220307\P20220307\P20220307\bin\Debug\P20220307.pdb
+C:\Users\ksu\Downloads\P20220307\P20220307\P20220307\obj\Debug\P20220307.Form1.resources
+C:\Users\ksu\Downloads\P20220307\P20220307\P20220307\obj\Debug\P20220307.Properties.Resources.resources
+C:\Users\ksu\Downloads\P20220307\P20220307\P20220307\obj\Debug\P20220307.Resource1.resources
+C:\Users\ksu\Downloads\P20220307\P20220307\P20220307\obj\Debug\P20220307.csproj.GenerateResource.Cache
+C:\Users\ksu\Downloads\P20220307\P20220307\P20220307\obj\Debug\P20220307.exe
+C:\Users\ksu\Downloads\P20220307\P20220307\P20220307\obj\Debug\P20220307.pdb
+C:\Users\ksu\Downloads\P20220329\P20220307\P20220307\bin\Debug\P20220307.exe.config
+C:\Users\ksu\Downloads\P20220329\P20220307\P20220307\bin\Debug\P20220307.exe
+C:\Users\ksu\Downloads\P20220329\P20220307\P20220307\bin\Debug\P20220307.pdb
+C:\Users\ksu\Downloads\P20220329\P20220307\P20220307\obj\Debug\P20220307.Form1.resources
+C:\Users\ksu\Downloads\P20220329\P20220307\P20220307\obj\Debug\P20220307.Properties.Resources.resources
+C:\Users\ksu\Downloads\P20220329\P20220307\P20220307\obj\Debug\P20220307.Resource1.resources
+C:\Users\ksu\Downloads\P20220329\P20220307\P20220307\obj\Debug\P20220307.csproj.GenerateResource.Cache
+C:\Users\ksu\Downloads\P20220329\P20220307\P20220307\obj\Debug\P20220307.exe
+C:\Users\ksu\Downloads\P20220329\P20220307\P20220307\obj\Debug\P20220307.pdb
+C:\Users\owner\Downloads\P20220412\P20220307\P20220307\bin\Debug\P20220307.exe.config
+C:\Users\owner\Downloads\P20220412\P20220307\P20220307\bin\Debug\P20220307.exe
+C:\Users\owner\Downloads\P20220412\P20220307\P20220307\bin\Debug\P20220307.pdb
+C:\Users\owner\Downloads\P20220412\P20220307\P20220307\obj\Debug\P20220307.csprojResolveAssemblyReference.cache
+C:\Users\owner\Downloads\P20220412\P20220307\P20220307\obj\Debug\P20220307.Form1.resources
+C:\Users\owner\Downloads\P20220412\P20220307\P20220307\obj\Debug\P20220307.Properties.Resources.resources
+C:\Users\owner\Downloads\P20220412\P20220307\P20220307\obj\Debug\P20220307.Resource1.resources
+C:\Users\owner\Downloads\P20220412\P20220307\P20220307\obj\Debug\P20220307.csproj.GenerateResource.Cache
+C:\Users\owner\Downloads\P20220412\P20220307\P20220307\obj\Debug\P20220307.exe
+C:\Users\owner\Downloads\P20220412\P20220307\P20220307\obj\Debug\P20220307.pdb
+D:\4080E036\110-2 資電整合\2022-04-26\P20220307\P20220307\bin\Debug\P20220307.exe.config
+D:\4080E036\110-2 資電整合\2022-04-26\P20220307\P20220307\bin\Debug\P20220307.exe
+D:\4080E036\110-2 資電整合\2022-04-26\P20220307\P20220307\bin\Debug\P20220307.pdb
+D:\4080E036\110-2 資電整合\2022-04-26\P20220307\P20220307\obj\Debug\P20220307.Form1.resources
+D:\4080E036\110-2 資電整合\2022-04-26\P20220307\P20220307\obj\Debug\P20220307.Properties.Resources.resources
+D:\4080E036\110-2 資電整合\2022-04-26\P20220307\P20220307\obj\Debug\P20220307.Resource1.resources
+D:\4080E036\110-2 資電整合\2022-04-26\P20220307\P20220307\obj\Debug\P20220307.csproj.GenerateResource.Cache
+D:\4080E036\110-2 資電整合\2022-04-26\P20220307\P20220307\obj\Debug\P20220307.exe
+D:\4080E036\110-2 資電整合\2022-04-26\P20220307\P20220307\obj\Debug\P20220307.pdb
