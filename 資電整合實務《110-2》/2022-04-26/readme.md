@@ -6,3 +6,9 @@
 ![image](https://user-images.githubusercontent.com/55220866/165202348-547900f0-e739-45ef-b8fe-65937485b997.png)
 #### 更正圖表值大小
 ![image](https://user-images.githubusercontent.com/55220866/165202532-a4b3a673-0176-4170-83fe-be33eb595106.png)
+#### Blinking 燈閃爍
+![image](https://user-images.githubusercontent.com/55220866/165205801-372d15e5-b561-4025-85fb-d5c0da3959bc.png)
+
+
+
+
