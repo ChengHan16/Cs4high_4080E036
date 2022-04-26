@@ -8,6 +8,9 @@
 ![image](https://user-images.githubusercontent.com/55220866/165202532-a4b3a673-0176-4170-83fe-be33eb595106.png)
 #### Blinking 燈閃爍
 ![image](https://user-images.githubusercontent.com/55220866/165205801-372d15e5-b561-4025-85fb-d5c0da3959bc.png)
+![image](https://user-images.githubusercontent.com/55220866/165212820-0ecb8733-6aa4-4893-bf41-5356fc9d903e.png)
+![image](https://user-images.githubusercontent.com/55220866/165212844-05612796-13d6-442e-8e43-faf888eb4037.png)
+![image](https://user-images.githubusercontent.com/55220866/165212879-97b8a2bf-afe8-4ea9-8b30-8dd048aa8182.png)
 
 
 
