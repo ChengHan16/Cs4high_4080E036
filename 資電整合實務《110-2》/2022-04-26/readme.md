@@ -13,7 +13,7 @@
 ![image](https://user-images.githubusercontent.com/55220866/165212879-97b8a2bf-afe8-4ea9-8b30-8dd048aa8182.png)
 #### Timer1
 ```
-0x05 = f_io/1024, f_io=16MHz | 0x04 = f_io/256
+0x05 = f_io/1024, f_io=16MHz & 0x04 = f_io/256
 0x05：16000000/1024
 0x04：16000000/256 amta /2
 ```
