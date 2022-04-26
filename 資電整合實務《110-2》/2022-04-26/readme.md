@@ -11,7 +11,13 @@
 ![image](https://user-images.githubusercontent.com/55220866/165212820-0ecb8733-6aa4-4893-bf41-5356fc9d903e.png)
 ![image](https://user-images.githubusercontent.com/55220866/165212844-05612796-13d6-442e-8e43-faf888eb4037.png)
 ![image](https://user-images.githubusercontent.com/55220866/165212879-97b8a2bf-afe8-4ea9-8b30-8dd048aa8182.png)
-
+#### Timer1
+```
+0x05 = f_io/1024, f_io=16MHz | 0x04 = f_io/256
+0x05：16000000/1024
+0x04：16000000/256 amta /2
+```
+![image](https://user-images.githubusercontent.com/55220866/165217232-cb6b31e8-721b-434d-98ec-b39768c66f63.png)
 
 
 
