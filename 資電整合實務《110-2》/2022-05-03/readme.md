@@ -72,3 +72,6 @@ void loop() {
 
 }
 ```
+### External_Interrupt.ino
+> https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/
+![image](https://user-images.githubusercontent.com/55220866/166401685-9af0d2db-4f0d-4c57-b06b-deefa10580e6.png)
