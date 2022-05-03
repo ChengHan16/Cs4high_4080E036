@@ -24,7 +24,7 @@
 |4080E023 林*芳 |https://github.com/kaven2816|
 |4080E031 林*翰 |https://github.com/mark283|
 |4080E032 黃*祐 |https://github.com/4080E032/cs4high_4080E032|
-|4080E033 謝*儒 |https://github.com/zero0926/cs4high_4080E033|
+|4080E033 謝*儒 |https://github.com/hololiveDD|
 |4080E034 戴*與 |https://github.com/johnson0181|
 |4080E035 梁*峻 |https://github.com/LemonAiyuJelly|
 |4080E036 吳*翰 |https://github.com/ChengHan16/Cs4high_4080E036|
