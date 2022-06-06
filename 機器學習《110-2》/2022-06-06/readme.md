@@ -4,7 +4,8 @@
 ## ● 練習範例
 > https://www.kaggle.com/code/buddhiniw/breast-cancer-prediction/notebook
 
-![image](https://user-images.githubusercontent.com/55220866/172087678-60ca418c-622c-46de-bc9e-1a55944fe179.png)
+## ● Result
+![#1](https://user-images.githubusercontent.com/55220866/172087678-60ca418c-622c-46de-bc9e-1a55944fe179.png)
 
 ## ● Error
 ### (1) No module named 'sklearn.cross_validation'
