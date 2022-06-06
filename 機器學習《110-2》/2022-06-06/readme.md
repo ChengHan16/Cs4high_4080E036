@@ -1,6 +1,9 @@
 
 ### pip install mpld3
 
+## ● 練習範例
+> https://www.kaggle.com/code/buddhiniw/breast-cancer-prediction/notebook
+
 ## ● Error
 ### (1) No module named 'sklearn.cross_validation'
 ### `from sklearn.model_selection import KFold` <br>
