@@ -3,7 +3,7 @@
 
 ## ● Error
 ### (1) No module named 'sklearn.cross_validation'
-### `from sklearn.model_selection import train_test_split` <br>
+### `from sklearn.model_selection import KFold` <br>
 ![image](https://user-images.githubusercontent.com/55220866/172082966-9bbe571d-e045-48f1-957b-c2480c3f7ff1.png)
 
 參考資料：https://blog.csdn.net/qq_35962520/article/details/85295228
