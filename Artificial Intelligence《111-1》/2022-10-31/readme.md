@@ -1,5 +1,6 @@
 ###
 #### Loading in your own data - Deep Learning basics with Python, TensorFlow and Keras p.2
+ - pip install tensorflow-gpu
  - pip install opencv-python 
  - pip install matplotlib 
  - pip install tqdm
