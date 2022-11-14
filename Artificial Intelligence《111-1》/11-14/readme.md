@@ -16,4 +16,5 @@
 
 
 ### 參考資料
-> https://docs.anaconda.com/anaconda/user-guide/tasks/tensorflow/
+> https://docs.anaconda.com/anaconda/user-guide/tasks/tensorflow/ <br>
+> https://colab.research.google.com/github/lmoroney/mlday-tokyo/blob/master/Lab6-Cats-v-Dogs.ipynb#scrollTo=dn-6c02VmqiN
