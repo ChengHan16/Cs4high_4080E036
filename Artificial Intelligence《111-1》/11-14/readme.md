@@ -1,7 +1,7 @@
 ###
 
 #### 建立虛擬環境
-> conda create -n tf-gpu tensorflow-gpu
+> conda create -n tf-gpu tensorflow-gpu <br>
 > conda activate tf-gpu
 #### 查看虛擬環境  <br>
 > conda env list <br>
