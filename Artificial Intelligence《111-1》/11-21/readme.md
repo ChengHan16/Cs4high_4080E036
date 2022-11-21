@@ -45,3 +45,5 @@ model.save(saved_model_path)
 saved_model_path =os.path.join(DATADIR, "cats_and_dogs.h5")
 model.save(saved_model_path)
 ```
+### 參考資料
+### [TensorFlow Hub.](https://tfhub.dev/)
