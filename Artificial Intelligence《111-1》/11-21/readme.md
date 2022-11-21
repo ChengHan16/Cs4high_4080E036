@@ -19,7 +19,7 @@
  - pip install tqdm
 
 ###
-[第一階段_建模_訓練_測試](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/Artificial%20Intelligence%E3%80%8A111-1%E3%80%8B/11-21/Code_File/AI_1121-Ver.2.ipynb)
+### [第一階段_建模_訓練_測試_Code_File](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/Artificial%20Intelligence%E3%80%8A111-1%E3%80%8B/11-21/Code_File/AI_1121-Ver.2.ipynb)
 ```py
 # Display the model's architecture
 
