@@ -44,6 +44,6 @@ model.save(saved_model_path)
 
 ------------------------------------------------------------
 ### 參考資料
-### [Lab6-Cats-v-Dogs.ipynb](https://colab.research.google.com/github/lmoroney/mlday-tokyo/blob/master/Lab6-Cats-v-Dogs.ipynb#scrollTo=3sd9dQWa23aj)
-### [TensorFlow Hub.](https://tfhub.dev/)
-### [faster_rcnn/openimages_v4/inception_resnet_v2](https://tfhub.dev/google/faster_rcnn/openimages_v4/inception_resnet_v2/1)
+ [Lab6-Cats-v-Dogs.ipynb](https://colab.research.google.com/github/lmoroney/mlday-tokyo/blob/master/Lab6-Cats-v-Dogs.ipynb#scrollTo=3sd9dQWa23aj) <br>
+ [TensorFlow Hub.](https://tfhub.dev/) <br>
+ [faster_rcnn/openimages_v4/inception_resnet_v2](https://tfhub.dev/google/faster_rcnn/openimages_v4/inception_resnet_v2/1) <br>
