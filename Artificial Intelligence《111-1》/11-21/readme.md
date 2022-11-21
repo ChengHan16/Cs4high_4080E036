@@ -1,6 +1,6 @@
 ###
 
-#### 建立虛擬環境
+### 建立虛擬環境
 > conda create -n tf-gpu tensorflow-gpu <br>
 > conda activate tf-gpu
 #### 查看虛擬環境  <br>
@@ -12,10 +12,10 @@
 #### 關閉虛擬環境
 > conda deactivate
 
-#### Install Package
+### Install Package
  - pip install tensorflow-gpu
  - pip install opencv-python 
  - pip install matplotlib 
  - pip install tqdm
 
-####
+###
