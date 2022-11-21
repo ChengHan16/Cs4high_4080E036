@@ -12,7 +12,10 @@
 #### 關閉虛擬環境
 > conda deactivate
 
+#### Install Package
  - pip install tensorflow-gpu
  - pip install opencv-python 
  - pip install matplotlib 
  - pip install tqdm
+
+####
