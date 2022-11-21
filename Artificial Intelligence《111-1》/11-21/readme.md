@@ -45,5 +45,9 @@ model.save(saved_model_path)
 saved_model_path =os.path.join(DATADIR, "cats_and_dogs.h5")
 model.save(saved_model_path)
 ```
+![image](https://user-images.githubusercontent.com/55220866/202994142-268bc6dc-8458-415f-a3e4-0ae08d846815.png)
+
+
 ### 參考資料
 ### [TensorFlow Hub.](https://tfhub.dev/)
+### [faster_rcnn/openimages_v4/inception_resnet_v2](https://tfhub.dev/google/faster_rcnn/openimages_v4/inception_resnet_v2/1)
