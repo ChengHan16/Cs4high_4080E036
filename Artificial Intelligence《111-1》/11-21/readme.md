@@ -45,6 +45,7 @@ model.save(saved_model_path)
 saved_model_path =os.path.join(DATADIR, "cats_and_dogs.h5")
 model.save(saved_model_path)
 ```
+------------------------------------------------------------
 ![image](https://user-images.githubusercontent.com/55220866/202994142-268bc6dc-8458-415f-a3e4-0ae08d846815.png)
 
 
