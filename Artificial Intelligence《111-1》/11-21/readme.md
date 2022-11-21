@@ -38,6 +38,7 @@ saved_model_path =os.path.join(DATADIR, "cats_and_dogs.h5")
 model.save(saved_model_path)
 ```
 ------------------------------------------------------------
+### [模型範例測試使用](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/Artificial%20Intelligence%E3%80%8A111-1%E3%80%8B/11-21/Code_File/Object_detection_Ksu_1121.ipynb)
 ![image](https://user-images.githubusercontent.com/55220866/202994142-268bc6dc-8458-415f-a3e4-0ae08d846815.png)
 
 ------------------------------------------------------------
