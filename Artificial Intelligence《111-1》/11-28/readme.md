@@ -12,9 +12,9 @@
 ------------------------------------------------------------
 ###
 ### [第一階段]()
-![image](https://user-images.githubusercontent.com/55220866/204206004-dbdf08a2-a91a-45df-b207-645c842e081c.png)
-
 ### [第二階段]()
+![image](https://user-images.githubusercontent.com/55220866/204206463-1cf5594c-d4c0-4e9c-b28b-54547b3ddabf.png)
+
 ------------------------------------------------------------
 ### 參考資料
  [Transfer Learning (C3W2L07)](https://www.youtube.com/watch?v=yofjFQddwHE) <br>
