@@ -28,6 +28,9 @@ grace_hopper = tf.keras.utils.get_file('image.jpg','https://storage.googleapis.c
 grace_hopper = Image.open(grace_hopper).resize(IMAGE_SHAPE)
 grace_hopper
 ```
+![image](https://user-images.githubusercontent.com/55220866/204210853-5f40a521-7dff-4d42-85e8-c50105d755e7.png)
+![image](https://user-images.githubusercontent.com/55220866/204210910-9e3bdbc2-0ac1-4ca9-8796-5fa538623209.png)
+
 ------------------------------------------------------------
 ### 參考資料
  [Transfer Learning (C3W2L07)](https://www.youtube.com/watch?v=yofjFQddwHE) <br>
