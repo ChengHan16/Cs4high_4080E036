@@ -1,6 +1,5 @@
 ## Transfer learning
-### [第一階段]()
-### [第二階段]()
+### [ksu_1128_transfer_learning_with_hub.ipynb](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/Artificial%20Intelligence%E3%80%8A111-1%E3%80%8B/11-28/ksu_1128_transfer_learning_with_hub.ipynb)
 ![image](https://user-images.githubusercontent.com/55220866/204206463-1cf5594c-d4c0-4e9c-b28b-54547b3ddabf.png)
 ![image](https://user-images.githubusercontent.com/55220866/204206793-745e0244-c461-4d39-a8a3-b05f0dfc7a75.png)
 Select GPU Mode
