@@ -22,6 +22,11 @@ Select GPU Mode
 classifier = tf.keras.Sequential([
     hub.KerasLayer(classifier_model, input_shape=IMAGE_SHAPE+(3,)) 
 ```
+範例圖更換
+```py
+labels_path = tf.keras.utils.get_file('ImageNetLabels.txt','https://storage.googleapis.com/download.tensorflow.org/data/ImageNetLabels.txt')
+imagenet_labels = np.array(open(labels_path).read().splitlines())
+```
 ------------------------------------------------------------
 ### 參考資料
  [Transfer Learning (C3W2L07)](https://www.youtube.com/watch?v=yofjFQddwHE) <br>
