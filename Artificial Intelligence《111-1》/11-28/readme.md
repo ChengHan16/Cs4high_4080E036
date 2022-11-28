@@ -15,6 +15,5 @@
 ### [第二階段]()
 ------------------------------------------------------------
 ### 參考資料
- [Lab6-Cats-v-Dogs.ipynb](https://colab.research.google.com/github/lmoroney/mlday-tokyo/blob/master/Lab6-Cats-v-Dogs.ipynb#scrollTo=3sd9dQWa23aj) <br>
- [TensorFlow Hub.](https://tfhub.dev/) <br>
- [faster_rcnn/openimages_v4/inception_resnet_v2](https://tfhub.dev/google/faster_rcnn/openimages_v4/inception_resnet_v2/1) <br>
+ [Transfer Learning (C3W2L07)](https://www.youtube.com/watch?v=yofjFQddwHE) <br>
+ []() <br>
