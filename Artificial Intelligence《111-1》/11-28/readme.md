@@ -27,6 +27,7 @@ inception_v3 = "https://tfhub.dev/google/tf2-preview/inception_v3/feature_vector
 
 feature_extractor_model = mobilenet_v2 #@param ["mobilenet_v2", "inception_v3"] {type:"raw"}
 ```
+![image](https://user-images.githubusercontent.com/55220866/204230141-6553a23a-a77f-4c20-9a48-e638a422095a.png)
 
 ------------------------------------------------------------
 ### 參考資料
