@@ -14,7 +14,8 @@
 ### [第一階段]()
 ### [第二階段]()
 ![image](https://user-images.githubusercontent.com/55220866/204206463-1cf5594c-d4c0-4e9c-b28b-54547b3ddabf.png)
-
+![image](https://user-images.githubusercontent.com/55220866/204206793-745e0244-c461-4d39-a8a3-b05f0dfc7a75.png)
+Select GPU Mode
 ------------------------------------------------------------
 ### 參考資料
  [Transfer Learning (C3W2L07)](https://www.youtube.com/watch?v=yofjFQddwHE) <br>
