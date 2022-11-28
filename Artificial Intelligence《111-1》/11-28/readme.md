@@ -20,6 +20,13 @@ grace_hopper
 ![image](https://user-images.githubusercontent.com/55220866/204210853-5f40a521-7dff-4d42-85e8-c50105d755e7.png)
 ![image](https://user-images.githubusercontent.com/55220866/204210910-9e3bdbc2-0ac1-4ca9-8796-5fa538623209.png)
 ### feature_vector 可在最後加上一層做判斷(此為 Transfer learning)
+![image](https://user-images.githubusercontent.com/55220866/204214051-a7ec5ac3-058c-4570-9804-0455d574cc72.png)
+```py
+mobilenet_v2 = "https://tfhub.dev/google/tf2-preview/mobilenet_v2/feature_vector/4"
+inception_v3 = "https://tfhub.dev/google/tf2-preview/inception_v3/feature_vector/4"
+
+feature_extractor_model = mobilenet_v2 #@param ["mobilenet_v2", "inception_v3"] {type:"raw"}
+```
 ------------------------------------------------------------
 ### 參考資料
  [Transfer Learning (C3W2L07)](https://www.youtube.com/watch?v=yofjFQddwHE) <br>
