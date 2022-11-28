@@ -24,8 +24,9 @@ classifier = tf.keras.Sequential([
 ```
 範例圖更換 (URL)
 ```py
-labels_path = tf.keras.utils.get_file('ImageNetLabels.txt','https://storage.googleapis.com/download.tensorflow.org/data/ImageNetLabels.txt')
-imagenet_labels = np.array(open(labels_path).read().splitlines())
+grace_hopper = tf.keras.utils.get_file('image.jpg','https://storage.googleapis.com/download.tensorflow.org/example_images/grace_hopper.jpg')
+grace_hopper = Image.open(grace_hopper).resize(IMAGE_SHAPE)
+grace_hopper
 ```
 ------------------------------------------------------------
 ### 參考資料
