@@ -28,6 +28,7 @@ inception_v3 = "https://tfhub.dev/google/tf2-preview/inception_v3/feature_vector
 
 feature_extractor_model = mobilenet_v2 #@param ["mobilenet_v2", "inception_v3"] {type:"raw"}
 ```
+
 ------------------------------------------------------------
 ### 參考資料
  [Transfer Learning (C3W2L07)](https://www.youtube.com/watch?v=yofjFQddwHE) <br>
