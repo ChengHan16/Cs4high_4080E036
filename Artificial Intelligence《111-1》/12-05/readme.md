@@ -13,7 +13,9 @@ https://www.kaggle.com/datasets/mdwaquarazam/agricultural-crops-image-classifica
 ERROR: Could not find a version that satisfies the requirement tensorflow (from versions: none)
 ERROR: No matching distribution found for tensorflow
 ```
-`pip install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.0-py3-none-any.whl` <br>
+
+指令：`pip install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.0-py3-none-any.whl` <br>
+ 
 參考資料：https://blog.csdn.net/Nire_Yeyu/article/details/104858223
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ### 待練習
