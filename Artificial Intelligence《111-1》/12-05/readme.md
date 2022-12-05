@@ -8,11 +8,9 @@ https://www.kaggle.com/datasets/mdwaquarazam/agricultural-crops-image-classifica
 ![image](https://user-images.githubusercontent.com/55220866/205583716-8c2807d9-d0a8-4afb-90d8-679b64dd57c2.png)
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ### Error
-```
-(venv-All-Project) PS C:\Users\owner\Downloads\1205_AI\py> pip install tensorflow       
-ERROR: Could not find a version that satisfies the requirement tensorflow (from versions: none)
-ERROR: No matching distribution found for tensorflow
-```
+> (venv-All-Project) PS C:\Users\owner\Downloads\1205_AI\py> pip install tensorflow <br>
+> ERROR: Could not find a version that satisfies the requirement tensorflow (from versions: none) <br>
+> ERROR: No matching distribution found for tensorflow <br>
 
 指令：`pip install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.0-py3-none-any.whl` <br>
  
