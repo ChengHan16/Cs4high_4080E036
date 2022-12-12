@@ -3,7 +3,5 @@
  - pip install flask
  - pip install Pillow
  - pip install tensorflow-gpu 
- - pip install 
-
 
 
