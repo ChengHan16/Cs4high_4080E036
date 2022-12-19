@@ -16,10 +16,10 @@
 > ### pip install Complete
 ---
 > ### pip install
->> pip install --upgrade pip
->> pip install Flask
->> pip install Pillow
->> pip install tensorflow-hub
+>> 1. pip install --upgrade pip
+>> 2. pip install Flask
+>> 3. pip install Pillow
+>> 4. pip install tensorflow-hub
 > ### pip install Complete
 ```py
 import os
