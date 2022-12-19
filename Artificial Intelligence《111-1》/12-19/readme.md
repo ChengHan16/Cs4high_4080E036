@@ -22,6 +22,9 @@
 >> 4. pip install tensorflow-hub
 > ### pip install Complete
 
+### Test_1
+![image](https://user-images.githubusercontent.com/55220866/208370841-3e67b78e-28c9-42be-8a49-ddaa68977d5d.png)
+---
 ### 使用自己的模型在 Flask 做辨識
 ### [搭配 12-05 模型製作|雲端壓縮檔匯入解壓縮](https://github.com/ChengHan16/Cs4high_4080E036/tree/master/Artificial%20Intelligence%E3%80%8A111-1%E3%80%8B/12-05)
 ### [訓練自定義模型](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/Artificial%20Intelligence%E3%80%8A111-1%E3%80%8B/12-19/1219_transfer_learning_with_hub.ipynb)
