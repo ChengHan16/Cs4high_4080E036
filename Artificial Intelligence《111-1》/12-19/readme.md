@@ -19,7 +19,8 @@
 >> pip install --upgrade pip
 >> pip install Flask
 >> pip install Pillow
-
+>> pip install tensorflow-hub
+> ### pip install Complete
 ```py
 import os
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '1'
