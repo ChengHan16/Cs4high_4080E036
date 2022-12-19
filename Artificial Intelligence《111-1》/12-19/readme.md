@@ -170,6 +170,26 @@ if __name__ == "__main__":
 ```
 ### 使用自己的模型在 Flask 做辨識
 
+### 模型儲存要點 (加入 activation='softmax')
+
+```py
+num_classes = len(class_names)
+
+model = tf.keras.Sequential([
+  feature_extractor_layer,
+  tf.keras.layers.Dense(num_classes, activation='softmax')
+])
+
+model.summary()
+```
+### 模型儲存名稱不要 .副檔名
+```py
+#————儲存模型到雲端資料夾————
+import os
+DATADIR = os.path.join(MOUNTPOINT, "MyDrive/TF_Models") #MyDrive_我的雲端, TF_Models_資料夾
+saved_model_path = os.path.join(DATADIR,"fruit_model_1219") #cats_and_dogs.h5_模型名稱
+model.save(saved_model_path)
+```
 ### **模型放置位置(fruit_model_1219)**
 ![image](https://user-images.githubusercontent.com/55220866/208368088-8d7cb217-edd2-4369-911a-26d19080a760.png)
 
