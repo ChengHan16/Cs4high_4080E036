@@ -15,6 +15,10 @@
 >> 4. 在虛擬環境下安裝專案所需套件 pip3 install "套件名稱"
 > ### pip install Complete
 ---
+> ### pip install
+>> pip install --upgrade pip
+>> pip install Flask
+>> pip install Pillow
 
 ```py
 import os
