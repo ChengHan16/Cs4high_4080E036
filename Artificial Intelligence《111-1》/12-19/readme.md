@@ -48,6 +48,9 @@ model.save(saved_model_path)
 ### **模型放置位置(fruit_model_1219)**
 ![image](https://user-images.githubusercontent.com/55220866/208368088-8d7cb217-edd2-4369-911a-26d19080a760.png)
 
+### 變換模型使用
+![image](https://user-images.githubusercontent.com/55220866/208369709-1c20b72a-7ff0-4c9e-a1c3-56983bb05403.png)
+
 ### **Result**
 ![image](https://user-images.githubusercontent.com/55220866/208367969-333faa6d-56b5-4d2b-b531-5baa1be21ae3.png)
 ```py
