@@ -170,8 +170,9 @@ if __name__ == "__main__":
 ```
 ### 使用自己的模型在 Flask 做辨識
 
+**模型放置位置(fruit_model_1219)**
 ![image](https://user-images.githubusercontent.com/55220866/208368088-8d7cb217-edd2-4369-911a-26d19080a760.png)
-
+****
 ![image](https://user-images.githubusercontent.com/55220866/208367969-333faa6d-56b5-4d2b-b531-5baa1be21ae3.png)
 ```py
 import os
