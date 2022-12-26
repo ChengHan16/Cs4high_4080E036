@@ -16,7 +16,7 @@
 > ### pip install Complete
 ---
 > ### pip install
->> 1. pip install --upgrade pip
+>> 1. pip install tensorflow
 >> 2. pip install Flask
 >> 3. pip install Pillow
 >> 4. pip install tensorflow-hub
