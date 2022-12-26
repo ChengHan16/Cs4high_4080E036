@@ -21,7 +21,7 @@
 > ### pip install Complete
 ------------------------------------------------------------
 
-### Flask Run
+## [1]Flask Run
 ```py
 import os
 import uuid
@@ -148,4 +148,5 @@ def success():
 if __name__ == "__main__":
     app.run(debug = True)
 ```
+### [1] Result
 ![image](https://user-images.githubusercontent.com/55220866/209514414-e4b75b03-12b2-43ad-95e0-312ca16133ea.png)
