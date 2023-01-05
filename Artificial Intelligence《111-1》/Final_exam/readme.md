@@ -43,7 +43,8 @@
 ### [CPU_Model](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/Artificial%20Intelligence%E3%80%8A111-1%E3%80%8B/Final_exam/CPU_Model.zip)
 
 ### [Flask 網頁執行檔](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/Artificial%20Intelligence%E3%80%8A111-1%E3%80%8B/Final_exam/Ksu_AI_Final_Exam%20111-1.zip)
-### Flask 
+
+### app.py
 ```py
 import os
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '1'
