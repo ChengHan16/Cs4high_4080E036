@@ -25,7 +25,12 @@
 ### Result[4]
 ![image](https://user-images.githubusercontent.com/55220866/210820605-c7f85308-c5c7-4bdb-8d0f-36af94ba3570.png)
 
-
+------
+### 使用圖檔[5]
+![image](https://user-images.githubusercontent.com/55220866/210821374-2d284ae4-bebc-416d-863f-675378a7d0c5.png)
+### [圖5檔連結](https://www.techspot.com/review/2391-intel-core-i7-12700/)
+### Result[5]
+![image](https://user-images.githubusercontent.com/55220866/210821112-9a5df84c-afa4-4bf2-bdf0-2ca2f5e48386.png)
 
 
 
