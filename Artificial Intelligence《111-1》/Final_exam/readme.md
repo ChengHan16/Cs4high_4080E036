@@ -6,7 +6,7 @@
 
 ------
 ###  使用圖檔[2]
-![image](https://user-images.githubusercontent.com/55220866/210818326-245d0f2f-728e-4410-b179-2ff571c1bd06.png)
+![image](https://user-images.githubusercontent.com/55220866/210820386-dc6080c6-dfb6-4d3d-9320-5d66c9bf0af2.png)
 ### [圖2檔連結](https://www.4gamers.com.tw/news/detail/55595/intel-raptor-lake-13th-gen-core-i9-13900k-and-i5-13600k-review)
 ### Result[2]
 ![image](https://user-images.githubusercontent.com/55220866/210817466-c3121226-fa41-4b04-8095-60fda56b1248.png)
