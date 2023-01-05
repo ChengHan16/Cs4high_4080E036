@@ -36,6 +36,11 @@
 ### Result[5]
 ![image](https://user-images.githubusercontent.com/55220866/210821112-9a5df84c-afa4-4bf2-bdf0-2ca2f5e48386.png)
 
+------
+
+### [Google Colab 製作模型](https://github.com/ChengHan16/Cs4high_4080E036/blob/master/Artificial%20Intelligence%E3%80%8A111-1%E3%80%8B/Final_exam/Final_exam_transfer_learning_with_hub.ipynb)
+
+
 ### Flask 
 ```py
 import os
